@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T12:00:05.306913+00:00",
+  "generated_at": "2026-05-22T13:16:37.767073+00:00",
   "source": "steward_out/call-graph.json",
   "violations": [
     {
@@ -13,7 +13,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_apply_decorated_pages",
-      "lineno": 1001,
+      "lineno": 1006,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-001"
     },
@@ -28,7 +28,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_should_compile",
-      "lineno": 1004,
+      "lineno": 1009,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-002"
     },
@@ -43,7 +43,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_compile_page",
-      "lineno": 1013,
+      "lineno": 1018,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-003"
     },
@@ -58,7 +58,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_add_optional_endpoints",
-      "lineno": 1014,
+      "lineno": 1019,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-004"
     },
@@ -73,7 +73,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "add_page",
-      "lineno": 1018,
+      "lineno": 1023,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-005"
     },
@@ -88,7 +88,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_compile_page",
-      "lineno": 1027,
+      "lineno": 1032,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-006"
     },
@@ -103,7 +103,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_write_stateful_pages_marker",
-      "lineno": 1029,
+      "lineno": 1034,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-007"
     },
@@ -118,7 +118,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_write_routes_manifest",
-      "lineno": 1030,
+      "lineno": 1035,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-008"
     },
@@ -133,7 +133,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_add_optional_endpoints",
-      "lineno": 1031,
+      "lineno": 1036,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-009"
     },
@@ -148,7 +148,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_check_routes_conflict",
-      "lineno": 1070,
+      "lineno": 1075,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-010"
     },
@@ -163,7 +163,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_write_stateful_pages_marker",
-      "lineno": 1080,
+      "lineno": 1085,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-011"
     },
@@ -178,7 +178,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_write_routes_manifest",
-      "lineno": 1081,
+      "lineno": 1086,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-012"
     },
@@ -193,7 +193,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_add_optional_endpoints",
-      "lineno": 1082,
+      "lineno": 1087,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-013"
     },
@@ -208,7 +208,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_validate_var_dependencies",
-      "lineno": 1083,
+      "lineno": 1088,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-014"
     },
@@ -223,7 +223,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_setup_sticky_badge",
-      "lineno": 1095,
+      "lineno": 1100,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-015"
     },
@@ -238,7 +238,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_app_root",
-      "lineno": 1125,
+      "lineno": 1130,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-016"
     },
@@ -253,7 +253,7 @@
       "to_file": "reflex/app.py",
       "to_layer": "Entry",
       "to_func": "_get_frontend_packages",
-      "lineno": 1230,
+      "lineno": 1235,
       "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
       "id": "V-017"
     },
@@ -339,7 +339,7 @@
     },
     {
       "type": "layer_violation",
-      "severity": "high",
+      "severity": "warn",
       "confidence": 1.0,
       "known": false,
       "from_file": "reflex/utils/telemetry.py",
@@ -348,7 +348,7 @@
       "to_file": "reflex/vars/datetime.py",
       "to_layer": "Core",
       "to_func": "",
-      "lineno": 11,
+      "lineno": 13,
       "edge_type": "import",
       "message": "Infrastructure \u2192 Core: forbidden direction (reflex/utils/telemetry.py \u2192 reflex/vars/datetime.py)",
       "id": "V-023"
@@ -360,7 +360,7 @@
       "file": "reflex/app.py",
       "layer": "Entry",
       "line_count": 1743,
-      "fan_out": 20,
+      "fan_out": 22,
       "fan_in": 4,
       "violation_edges": 0,
       "flags": [
@@ -385,7 +385,7 @@
       "layer": "Infrastructure",
       "line_count": 909,
       "fan_out": 6,
-      "fan_in": 3,
+      "fan_in": 4,
       "violation_edges": 1,
       "flags": [
         "high_fan_out",
@@ -454,8 +454,8 @@
       "file": "reflex/state.py",
       "layer": "Infrastructure",
       "line_count": 2655,
-      "fan_out": 14,
-      "fan_in": 13,
+      "fan_out": 15,
+      "fan_in": 14,
       "violation_edges": 1,
       "flags": [
         "high_fan_out",
@@ -514,18 +514,19 @@
       "file": "reflex/utils/frontend_skeleton.py",
       "layer": "Infrastructure",
       "line_count": 510,
-      "fan_out": 5,
-      "fan_in": 4,
+      "fan_out": 6,
+      "fan_in": 5,
       "violation_edges": 0,
       "flags": [
-        "high_fan_out"
+        "high_fan_out",
+        "high_fan_in"
       ]
     },
     {
       "file": "reflex/utils/js_runtimes.py",
       "layer": "Infrastructure",
       "line_count": 760,
-      "fan_out": 6,
+      "fan_out": 7,
       "fan_in": 6,
       "violation_edges": 0,
       "flags": [
@@ -584,10 +585,21 @@
       "layer": "Infrastructure",
       "line_count": 453,
       "fan_out": 4,
-      "fan_in": 5,
+      "fan_in": 6,
       "violation_edges": 1,
       "flags": [
         "high_fan_in"
+      ]
+    },
+    {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "layer": "Unknown",
+      "line_count": 331,
+      "fan_out": 5,
+      "fan_in": 1,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out"
       ]
     },
     {
@@ -617,14 +629,15 @@
     "total_violations": 23,
     "unique_boundaries_violated": 7,
     "by_severity": {
-      "high": 23
+      "high": 22,
+      "warn": 1
     },
     "by_type": {
       "layer_violation": 23
     },
-    "hotspots": 22,
+    "hotspots": 23,
     "open_intentional_overrides": 0,
     "opacity_suppressed": 0,
-    "opacity_downgraded": 0
+    "opacity_downgraded": 1
   }
 }

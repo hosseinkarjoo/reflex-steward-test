@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T10:40:28.280166Z",
+  "generated_at": "2026-05-22T13:16:39.449510Z",
   "nodes": {
     "reflex._upload.UploadedFilesHeadersMiddleware": {
       "sensitive": false,
@@ -127,6 +127,11 @@
       "contexts": []
     },
     "reflex.app_mixins.lifespan._get_task_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app_mixins.lifespan.get_lifespan_tasks": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -602,6 +607,11 @@
       "contexts": []
     },
     "reflex.compiler.utils.get_memo_components_dir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.get_page_import_specifier": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -1132,6 +1142,26 @@
       "contexts": []
     },
     "reflex.istate.data.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.data._serialize_reflex_url": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.data.fragment": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.data.from_router_data": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.data.serialize_router_data": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -1746,6 +1776,11 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.model.get_models": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.model.migrate": {
       "sensitive": false,
       "curvature": 0.0,
@@ -2221,11 +2256,6 @@
       "curvature": 0.0,
       "contexts": []
     },
-    "reflex.state.from_router_data": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": []
-    },
     "reflex.state.get_class_substate": {
       "sensitive": false,
       "curvature": 0.0,
@@ -2281,6 +2311,11 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.state.is_user_defined": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.state.reload_state_module": {
       "sensitive": false,
       "curvature": 0.0,
@@ -2292,6 +2327,11 @@
       "contexts": []
     },
     "reflex.state.setup_dynamic_args": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.wrapper": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -2331,32 +2371,12 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.testing.AppHarnessProd._wait_frontend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.testing.AppHarnessProd.stop": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": []
-    },
-    "reflex.testing.SimpleHTTPRequestHandlerCustomErrors.__init__": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": []
-    },
-    "reflex.testing.SimpleHTTPRequestHandlerCustomErrors.send_error": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": []
-    },
-    "reflex.testing.Subdir404TCPServer": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": []
-    },
-    "reflex.testing.Subdir404TCPServer.__init__": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": []
-    },
-    "reflex.testing.__init__": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -2381,17 +2401,17 @@
       "curvature": 0.0,
       "contexts": []
     },
-    "reflex.testing.send_error": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": []
-    },
     "reflex.testing.start": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
     },
     "reflex.testing.stop": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.build._compress_static_output": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -2601,12 +2621,22 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.utils.exec.get_backend_compile_trigger": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.utils.exec.get_changes": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
     },
     "reflex.utils.exec.get_compile_context": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.get_dev_backend_reload_marker": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -2671,6 +2701,11 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.utils.exec.reset_dev_backend_reload_marker": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.utils.exec.run_backend": {
       "sensitive": false,
       "curvature": 0.0,
@@ -2726,12 +2761,22 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.utils.export._time_phase": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.utils.export.export": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
     },
     "reflex.utils.format.format": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.format.format_library_name": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -2816,6 +2861,11 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.utils.frontend_skeleton._copy_if_exists": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.utils.frontend_skeleton._has_reflex_requirement_line": {
       "sensitive": false,
       "curvature": 0.0,
@@ -2831,7 +2881,32 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.utils.frontend_skeleton._read_persisted_package_json": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.utils.frontend_skeleton._update_react_router_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.get_root_lockfile_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.get_root_package_json_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.get_web_lockfile_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.get_web_package_json_path": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -2876,12 +2951,97 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.utils.frontend_skeleton.sync_root_lockfile_to_web": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.sync_root_lockfiles_to_web": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.sync_web_lockfile_to_root": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.sync_web_lockfiles_to_root": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.sync_web_package_json_to_root": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.update_entry_client": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.utils.frontend_skeleton.update_react_router_config": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.utils.js_runtimes._existing_web_package_sections": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._extract_package_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._frontend_packages_cache_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.utils.js_runtimes._get_version_of_executable": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._has_version_specifier": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._install_frontend_packages": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._is_bun_package_manager": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._persisted_lockfile_implies_npm": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._pinned_args_from_constants": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._run_initial_install": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._split_by_version_specifier": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._sync_root_lockfiles_for_frontend_install": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -3107,6 +3267,36 @@
       "contexts": []
     },
     "reflex.utils.path_ops.which": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.precompressed_staticfiles.PrecompressedStaticFiles.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.precompressed_staticfiles.PrecompressedStaticFiles._select_sidecar": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.precompressed_staticfiles.PrecompressedStaticFiles.get_response": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.precompressed_staticfiles.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.precompressed_staticfiles._parse_accept_encoding": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.precompressed_staticfiles.get_response": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -3486,6 +3676,11 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.utils.telemetry.get_init_environment": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.utils.telemetry.get_os": {
       "sensitive": false,
       "curvature": 0.0,
@@ -3506,12 +3701,72 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.utils.telemetry.is_in_virtualenv": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.utils.telemetry.send": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
     },
     "reflex.utils.telemetry.send_error": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting._collect_compile_event_payload": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting._collect_features_used": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting._collect_state_stats": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting._count_components": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting._record_config_attestations": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting._sanitize_exception": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting._storage_feature_for_field": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting._walk_app_features": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting._walk_state_features": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting._walk_states": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry_accounting.record_compile": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -3706,49 +3961,7 @@
       "curvature": 0.0,
       "contexts": []
     },
-    "reflex.app.App._check_routes_conflict": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.default_backend_exception_handler": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._compile": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App.__call__": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.extra_overlay_function": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.default_overlay_component": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
     "reflex.app.App._validate_var_dependencies": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.EventNamespace.__init__": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -3760,19 +3973,25 @@
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.App._setup_sticky_badge": {
+    "reflex.app.App.__call__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_backend_exception_handler": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._add_optional_endpoints": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
       "is_entry": true
     },
     "reflex.app.App._setup_state": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._write_stateful_pages_marker": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -3790,72 +4009,6 @@
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.EventNamespace.link_token_to_sid": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.default_overlay_components": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.health": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App.router": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App.add_page": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._compile_page": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App.modify_state": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._add_optional_endpoints": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._should_compile": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._setup_admin_dash": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._get_frontend_packages": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
     "reflex.app.App._generate_component": {
       "sensitive": false,
       "curvature": 0.0,
@@ -3868,7 +4021,115 @@
       "contexts": [],
       "is_entry": true
     },
+    "reflex.app.App.modify_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
     "reflex.app.App._add_cors": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._check_routes_conflict": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._should_compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.health": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._setup_admin_dash": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.extra_overlay_function": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.EventNamespace.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._get_frontend_package_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.router": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._setup_sticky_badge": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_overlay_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_overlay_components": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._compile_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._get_frontend_packages": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._write_stateful_pages_marker": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.add_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.EventNamespace.link_token_to_sid": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -3876,9 +4137,9 @@
     }
   },
   "stats": {
-    "total": 769,
+    "total": 821,
     "sensitive": 0,
     "high_curvature": 0,
-    "entry_nodes": 28
+    "entry_nodes": 29
   }
 }

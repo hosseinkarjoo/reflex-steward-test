@@ -6,8 +6,8 @@
     "confidence": "high",
     "scope": "project",
     "title": "Violations",
-    "evidence": "high=23",
-    "consequence": "23 high-severity violation(s) affecting architecture integrity",
+    "evidence": "high=22  medium=1",
+    "consequence": "22 high-severity violation(s) affecting architecture integrity",
     "suggested_action": "steward check \u2014 review before merge",
     "source": "violations.json",
     "location": "",
@@ -15,11 +15,11 @@
     "metadata": {
       "counts": {
         "critical": 0,
-        "high": 23,
-        "medium": 0,
+        "high": 22,
+        "medium": 1,
         "low": 0
       },
-      "health_score": 50
+      "health_score": 46
     }
   },
   {
@@ -29,39 +29,39 @@
     "confidence": "medium",
     "scope": "project",
     "title": "Graph Quality",
-    "evidence": "medium confidence  67% internal",
-    "consequence": "591 unresolvable call(s) \u2014 some cross-layer flows may be invisible",
+    "evidence": "medium confidence  68% internal",
+    "consequence": "628 unresolvable call(s) \u2014 some cross-layer flows may be invisible",
     "suggested_action": "add type annotations to dynamic calls to improve resolution",
     "source": "call-graph.json",
     "location": "",
-    "count": 591,
+    "count": 628,
     "metadata": {
-      "resolution_rate": 0.67,
-      "resolved": 1201,
-      "candidates": 1792,
-      "unresolvable": 591
+      "resolution_rate": 0.68,
+      "resolved": 1305,
+      "candidates": 1933,
+      "unresolvable": 628
     }
   },
   {
     "id": "coverage",
     "category": "coverage",
-    "severity": "medium",
+    "severity": "low",
     "confidence": "high",
     "scope": "project",
     "title": "Coverage",
-    "evidence": "28% modules referenced by tests  (19 well \u00b7 14 lightly \u00b7 84 untested)",
-    "consequence": "84/117 modules untested \u2014 most code is unverified",
-    "suggested_action": "prioritize test coverage for Core layer (steward check --show-gaps)",
+    "evidence": "31% modules referenced by tests  (21 well \u00b7 16 lightly \u00b7 82 untested)",
+    "consequence": "82/119 modules untested \u2014 high-risk functions may be unverified",
+    "suggested_action": "add tests for Core layer (steward check --show-gaps)",
     "source": "test-coverage.json",
     "location": "",
-    "count": 84,
+    "count": 82,
     "metadata": {
-      "total": 117,
-      "well": 19,
-      "lightly": 14,
-      "untested": 84,
-      "pct": 28,
-      "core_untested": 20
+      "total": 119,
+      "well": 21,
+      "lightly": 16,
+      "untested": 82,
+      "pct": 31,
+      "core_untested": 19
     }
   },
   {
@@ -81,6 +81,27 @@
       "separation_ratio": 2.9593,
       "drift_flagged": 40,
       "isolated_nodes": 0
+    }
+  },
+  {
+    "id": "opacity",
+    "category": "graph",
+    "severity": "low",
+    "confidence": "high",
+    "scope": "project",
+    "title": "Analysis Coverage",
+    "evidence": "10 graph_opaque  109 solid",
+    "consequence": "10 file(s) use DI/decorators \u2014 call graph may miss some edges. Violations through these files are downgraded to 'warn'.",
+    "suggested_action": "steward enrich --opaque  (optional \u2014 improves call graph accuracy)",
+    "source": "opacity-manifest.json",
+    "location": "",
+    "count": 10,
+    "metadata": {
+      "parse_failed": 0,
+      "graph_opaque": 10,
+      "solid": 109,
+      "total": 119,
+      "enriched": 8
     }
   }
 ]

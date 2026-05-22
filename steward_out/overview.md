@@ -1,7 +1,7 @@
 # reflex
 
 **Version:** unknown  
-**Modules:** 117 across 8 layers (Core, Entry, Infrastructure, Internal, Middleware, Models, Plugins, Routes)
+**Modules:** 119 across 8 layers (Core, Entry, Infrastructure, Internal, Middleware, Models, Plugins, Routes)
 
 ## Architecture
 

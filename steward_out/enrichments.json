@@ -70,7 +70,7 @@
     "file_hash": "sha256:6752124922b4be0cb38045f1025929c4c9aa4e60dae3ac8645ce77e3386215a5",
     "enriched_at": "2026-05-22T07:21:01.205609+00:00",
     "model": "claude-haiku-4-5-20251001",
-    "stale": false,
+    "stale": true,
     "symbols": {
       "chdir": {
         "inferred_layer": "util",
@@ -160,7 +160,7 @@
     "file_hash": "sha256:8574bb62bda47b90c3646fb32afb25d44aee7159fd19310fc2879c3c42dc0734",
     "enriched_at": "2026-05-22T07:21:03.254744+00:00",
     "model": "claude-haiku-4-5-20251001",
-    "stale": false,
+    "stale": true,
     "symbols": {
       "get_package_json_and_hash": {
         "inferred_layer": "util",
@@ -608,7 +608,7 @@
     "file_hash": "sha256:ccc6aae4483392a46a496d66befa32025003cb583c33f29b4af5400b8fa56510",
     "enriched_at": "2026-05-22T07:21:04.996593+00:00",
     "model": "claude-haiku-4-5-20251001",
-    "stale": false,
+    "stale": true,
     "symbols": {
       "_FrozenDictStrStr": {
         "inferred_layer": "model",
@@ -925,7 +925,7 @@
     "file_hash": "sha256:90d937b9310650d72571ac5725decee9c78a6667e092e22a27704a22f4947cbc",
     "enriched_at": "2026-05-22T07:21:07.044083+00:00",
     "model": "claude-haiku-4-5-20251001",
-    "stale": false,
+    "stale": true,
     "symbols": {
       "set_loglevel": {
         "inferred_layer": "config",
