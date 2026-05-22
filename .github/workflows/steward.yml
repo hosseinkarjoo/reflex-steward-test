@@ -47,11 +47,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          steward set-status \
-            --sha ${{ github.event.pull_request.head.sha }} \
-            --state pending \
-            --description "Steward is analysing…" \
-            --context steward/review
+          gh api repos/${{ github.repository }}/statuses/${{ github.event.pull_request.head.sha }} \
+            -f state=pending \
+            -f description="Steward is analysing…" \
+            -f context=steward/review
 
       - name: Build analysis index
         if: github.event.action != 'synchronize'
@@ -179,12 +178,12 @@ jobs:
           except Exception:
               state = 'error'
               desc  = 'Steward analysis error'
+          repo = os.environ.get('GITHUB_REPOSITORY', '')
           sha = os.environ.get('GITHUB_SHA', '')
           subprocess.run([
-              'steward', 'set-status',
-              '--sha', sha,
-              '--state', state,
-              '--description', desc,
-              '--context', 'steward/review',
+              'gh', 'api', 'repos/' + repo + '/statuses/' + sha,
+              '-f', 'state=' + state,
+              '-f', 'description=' + desc,
+              '-f', 'context=steward/review',
           ])
           EOF
