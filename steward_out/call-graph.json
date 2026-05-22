@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-05-22T13:16:36.817963+00:00",
+  "generated_at": "2026-05-22T13:45:05.728068+00:00",
   "source": "steward_out/ast-core.json",
   "layers": {
-    "reflex/constants/custom_components.py": "Internal",
-    "reflex/utils/net.py": "Infrastructure",
-    "reflex/istate/storage.py": "Infrastructure",
-    "reflex/utils/rename.py": "Infrastructure",
-    "reflex/compiler/compiler.py": "Internal",
-    "reflex/style.py": "Core",
-    "reflex/utils/telemetry_accounting.py": "Unknown",
-    "reflex/_upload.py": "Infrastructure",
-    "reflex/utils/build.py": "Infrastructure",
-    "reflex/utils/path_ops.py": "Infrastructure",
-    "reflex/components/component.py": "Core",
-    "reflex/constants/event.py": "Internal",
-    "reflex/components/__init__.py": "Unknown",
-    "reflex/components/props.py": "Core",
-    "reflex/plugins/tailwind_v3.py": "Internal",
-    "reflex/istate/proxy.py": "Infrastructure",
-    "reflex/utils/exceptions.py": "Infrastructure",
-    "reflex/utils/templates.py": "Infrastructure",
-    "reflex/utils/redir.py": "Infrastructure",
-    "reflex/plugins/_screenshot.py": "Internal",
-    "reflex/plugins/sitemap.py": "Internal",
-    "reflex/utils/frontend.py": "Infrastructure",
-    "reflex/utils/compat.py": "Internal",
     "reflex/page.py": "Infrastructure",
-    "reflex/utils/js_runtimes.py": "Infrastructure",
-    "reflex/middleware/hydrate_middleware.py": "Middleware",
-    "reflex/reflex.py": "Infrastructure",
-    "reflex/constants/installer.py": "Internal",
-    "reflex/constants/route.py": "Internal",
-    "reflex/assets.py": "Infrastructure",
-    "reflex/istate/manager/memory.py": "Infrastructure",
-    "reflex/utils/console.py": "Infrastructure",
-    "reflex/__main__.py": "Entry",
-    "reflex/compiler/plugins/__init__.py": "Unknown",
-    "reflex/istate/__init__.py": "Unknown",
-    "reflex/model.py": "Models",
-    "reflex/utils/frontend_skeleton.py": "Infrastructure",
-    "reflex/testing.py": "Infrastructure",
-    "reflex/utils/token_manager.py": "Infrastructure",
-    "reflex/vars/color.py": "Core",
-    "reflex/components/literals.py": "Core",
-    "reflex/istate/wrappers.py": "Middleware",
-    "reflex/middleware/__init__.py": "Unknown",
-    "reflex/components/tags/tagless.py": "Core",
-    "reflex/utils/processes.py": "Infrastructure",
-    "reflex/constants/config.py": "Internal",
-    "reflex/plugins/shared_tailwind.py": "Internal",
-    "reflex/plugins/base.py": "Internal",
-    "reflex/utils/imports.py": "Internal",
-    "reflex/plugins/__init__.py": "Unknown",
-    "reflex/app_mixins/mixin.py": "Infrastructure",
-    "reflex/vars/function.py": "Core",
     "reflex/event.py": "Core",
-    "reflex/compiler/plugins/memoize.py": "Plugins",
-    "reflex/utils/pyi_generator.py": "Internal",
-    "reflex/constants/compiler.py": "Internal",
-    "reflex/utils/format.py": "Infrastructure",
-    "reflex/components/dynamic.py": "Core",
-    "reflex/istate/manager/token.py": "Infrastructure",
-    "reflex/utils/prerequisites.py": "Infrastructure",
-    "reflex/vars/number.py": "Core",
-    "reflex/utils/codespaces.py": "Infrastructure",
-    "reflex/custom_components/custom_components.py": "Internal",
-    "reflex/utils/telemetry.py": "Infrastructure",
-    "reflex/vars/__init__.py": "Unknown",
-    "reflex/constants/state.py": "Internal",
-    "reflex/utils/serializers.py": "Internal",
-    "reflex/app_mixins/lifespan.py": "Infrastructure",
-    "reflex/app.py": "Entry",
-    "reflex/utils/__init__.py": "Unknown",
-    "reflex/vars/base.py": "Core",
-    "reflex/experimental/client_state.py": "Internal",
-    "reflex/constants/base.py": "Internal",
-    "reflex/components/tags/iter_tag.py": "Core",
-    "reflex/__init__.py": "Unknown",
-    "reflex/components/tags/match_tag.py": "Core",
-    "reflex/route.py": "Routes",
-    "reflex/utils/types.py": "Infrastructure",
-    "reflex/app_mixins/__init__.py": "Unknown",
-    "reflex/constants/utils.py": "Internal",
-    "reflex/istate/manager/redis.py": "Infrastructure",
-    "reflex/utils/misc.py": "Infrastructure",
-    "reflex/vars/dep_tracking.py": "Core",
-    "reflex/environment.py": "Core",
-    "reflex/components/tags/tag.py": "Core",
-    "reflex/utils/lazy_loader.py": "Internal",
-    "reflex/compiler/utils.py": "Infrastructure",
-    "reflex/utils/export.py": "Infrastructure",
-    "reflex/constants/__init__.py": "Unknown",
-    "reflex/middleware/middleware.py": "Middleware",
-    "reflex/components/field.py": "Core",
-    "reflex/istate/shared.py": "Infrastructure",
-    "reflex/vars/datetime.py": "Core",
-    "reflex/custom_components/__init__.py": "Unknown",
-    "reflex/config.py": "Internal",
-    "reflex/components/tags/__init__.py": "Unknown",
-    "reflex/istate/manager/__init__.py": "Unknown",
-    "reflex/components/tags/cond_tag.py": "Core",
-    "reflex/state.py": "Infrastructure",
-    "reflex/utils/exec.py": "Infrastructure",
-    "reflex/vars/object.py": "Core",
-    "reflex/app_mixins/middleware.py": "Middleware",
     "reflex/istate/dynamic.py": "Core",
-    "reflex/utils/registry.py": "Infrastructure",
-    "reflex/istate/data.py": "Infrastructure",
-    "reflex/istate/manager/disk.py": "Infrastructure",
-    "reflex/experimental/memo.py": "Internal",
-    "reflex/compiler/__init__.py": "Unknown",
-    "reflex/utils/precompressed_staticfiles.py": "Unknown",
-    "reflex/constants/colors.py": "Internal",
-    "reflex/utils/tasks.py": "Infrastructure",
-    "reflex/vars/sequence.py": "Core",
-    "reflex/compiler/templates.py": "Infrastructure",
-    "reflex/utils/decorator.py": "Internal",
-    "reflex/admin.py": "Internal",
-    "reflex/compiler/plugins/builtin.py": "Plugins",
     "reflex/plugins/tailwind_v4.py": "Internal",
+    "reflex/utils/templates.py": "Infrastructure",
+    "reflex/utils/tasks.py": "Infrastructure",
+    "reflex/plugins/__init__.py": "Unknown",
+    "reflex/compiler/__init__.py": "Unknown",
+    "reflex/plugins/sitemap.py": "Internal",
+    "reflex/__init__.py": "Unknown",
+    "reflex/constants/config.py": "Internal",
+    "reflex/utils/registry.py": "Infrastructure",
+    "reflex/utils/exceptions.py": "Infrastructure",
+    "reflex/app_mixins/middleware.py": "Middleware",
+    "reflex/experimental/__init__.py": "Unknown",
+    "reflex/istate/wrappers.py": "Middleware",
+    "reflex/utils/prerequisites.py": "Infrastructure",
+    "reflex/components/component.py": "Core",
+    "reflex/components/tags/cond_tag.py": "Core",
+    "reflex/plugins/base.py": "Internal",
+    "reflex/utils/exec.py": "Infrastructure",
+    "reflex/components/__init__.py": "Unknown",
+    "reflex/constants/base.py": "Internal",
+    "reflex/istate/manager/token.py": "Infrastructure",
+    "reflex/admin.py": "Internal",
+    "reflex/constants/custom_components.py": "Internal",
+    "reflex/components/tags/iter_tag.py": "Core",
+    "reflex/components/literals.py": "Core",
+    "reflex/utils/serializers.py": "Internal",
+    "reflex/utils/frontend_skeleton.py": "Infrastructure",
+    "reflex/middleware/__init__.py": "Unknown",
+    "reflex/_upload.py": "Infrastructure",
+    "reflex/utils/decorator.py": "Internal",
+    "reflex/compiler/templates.py": "Infrastructure",
+    "reflex/middleware/hydrate_middleware.py": "Middleware",
+    "reflex/utils/redir.py": "Infrastructure",
+    "reflex/utils/console.py": "Infrastructure",
+    "reflex/components/tags/tagless.py": "Core",
+    "reflex/istate/proxy.py": "Infrastructure",
+    "reflex/utils/precompressed_staticfiles.py": "Unknown",
+    "reflex/compiler/plugins/builtin.py": "Plugins",
+    "reflex/constants/utils.py": "Internal",
+    "reflex/custom_components/custom_components.py": "Internal",
+    "reflex/utils/compat.py": "Internal",
+    "reflex/compiler/compiler.py": "Internal",
+    "reflex/middleware/middleware.py": "Middleware",
+    "reflex/utils/token_manager.py": "Infrastructure",
+    "reflex/utils/path_ops.py": "Infrastructure",
+    "reflex/components/field.py": "Core",
+    "reflex/vars/color.py": "Core",
+    "reflex/plugins/shared_tailwind.py": "Internal",
+    "reflex/vars/number.py": "Core",
+    "reflex/plugins/_screenshot.py": "Internal",
+    "reflex/istate/__init__.py": "Unknown",
+    "reflex/testing.py": "Infrastructure",
+    "reflex/utils/build.py": "Infrastructure",
+    "reflex/utils/rename.py": "Infrastructure",
+    "reflex/utils/misc.py": "Infrastructure",
+    "reflex/compiler/plugins/__init__.py": "Unknown",
+    "reflex/components/tags/match_tag.py": "Core",
+    "reflex/vars/dep_tracking.py": "Core",
+    "reflex/assets.py": "Infrastructure",
+    "reflex/utils/pyi_generator.py": "Internal",
+    "reflex/route.py": "Routes",
+    "reflex/istate/manager/redis.py": "Infrastructure",
+    "reflex/compiler/utils.py": "Infrastructure",
+    "reflex/utils/lazy_loader.py": "Internal",
+    "reflex/components/props.py": "Core",
+    "reflex/constants/route.py": "Internal",
+    "reflex/utils/export.py": "Infrastructure",
+    "reflex/utils/frontend.py": "Infrastructure",
+    "reflex/compiler/plugins/memoize.py": "Plugins",
+    "reflex/components/tags/tag.py": "Core",
+    "reflex/experimental/client_state.py": "Internal",
     "reflex/experimental/hooks.py": "Internal",
-    "reflex/experimental/__init__.py": "Unknown"
+    "reflex/utils/imports.py": "Internal",
+    "reflex/app_mixins/mixin.py": "Infrastructure",
+    "reflex/components/tags/__init__.py": "Unknown",
+    "reflex/constants/state.py": "Internal",
+    "reflex/environment.py": "Core",
+    "reflex/style.py": "Core",
+    "reflex/constants/installer.py": "Internal",
+    "reflex/state.py": "Infrastructure",
+    "reflex/experimental/memo.py": "Internal",
+    "reflex/vars/__init__.py": "Unknown",
+    "reflex/utils/net.py": "Infrastructure",
+    "reflex/config.py": "Internal",
+    "reflex/components/dynamic.py": "Core",
+    "reflex/vars/base.py": "Core",
+    "reflex/vars/datetime.py": "Core",
+    "reflex/istate/manager/disk.py": "Infrastructure",
+    "reflex/utils/types.py": "Infrastructure",
+    "reflex/istate/shared.py": "Infrastructure",
+    "reflex/constants/colors.py": "Internal",
+    "reflex/reflex.py": "Infrastructure",
+    "reflex/app_mixins/__init__.py": "Unknown",
+    "reflex/app_mixins/lifespan.py": "Infrastructure",
+    "reflex/istate/manager/memory.py": "Infrastructure",
+    "reflex/constants/event.py": "Internal",
+    "reflex/istate/storage.py": "Infrastructure",
+    "reflex/model.py": "Models",
+    "reflex/custom_components/__init__.py": "Unknown",
+    "reflex/utils/processes.py": "Infrastructure",
+    "reflex/utils/telemetry_accounting.py": "Unknown",
+    "reflex/app.py": "Entry",
+    "reflex/plugins/tailwind_v3.py": "Internal",
+    "reflex/vars/object.py": "Core",
+    "reflex/utils/telemetry.py": "Infrastructure",
+    "reflex/utils/codespaces.py": "Infrastructure",
+    "reflex/istate/data.py": "Infrastructure",
+    "reflex/constants/compiler.py": "Internal",
+    "reflex/vars/function.py": "Core",
+    "reflex/__main__.py": "Entry",
+    "reflex/utils/js_runtimes.py": "Infrastructure",
+    "reflex/utils/format.py": "Infrastructure",
+    "reflex/vars/sequence.py": "Core",
+    "reflex/istate/manager/__init__.py": "Unknown",
+    "reflex/constants/__init__.py": "Unknown",
+    "reflex/utils/__init__.py": "Unknown"
   },
   "edges": [
     {
@@ -79421,411 +79421,11 @@
     }
   ],
   "phantom_summary": {
-    "reflex/constants/custom_components.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/net.py": {
-      "phantom_count": 5,
-      "coverage_confidence": "low"
-    },
-    "reflex/istate/storage.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/rename.py": {
-      "phantom_count": 6,
-      "coverage_confidence": "low"
-    },
-    "reflex/compiler/compiler.py": {
-      "phantom_count": 39,
-      "coverage_confidence": "low"
-    },
-    "reflex/style.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/telemetry_accounting.py": {
-      "phantom_count": 3,
-      "coverage_confidence": "medium"
-    },
-    "reflex/_upload.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/build.py": {
-      "phantom_count": 18,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/path_ops.py": {
-      "phantom_count": 17,
-      "coverage_confidence": "low"
-    },
-    "reflex/components/component.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/constants/event.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/components/__init__.py": {
-      "phantom_count": 1,
-      "coverage_confidence": "low"
-    },
-    "reflex/components/props.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/plugins/tailwind_v3.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/istate/proxy.py": {
-      "phantom_count": 16,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/exceptions.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/templates.py": {
-      "phantom_count": 28,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/redir.py": {
-      "phantom_count": 3,
-      "coverage_confidence": "low"
-    },
-    "reflex/plugins/_screenshot.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/plugins/sitemap.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/frontend.py": {
-      "phantom_count": 4,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/compat.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
     "reflex/page.py": {
       "phantom_count": 1,
       "coverage_confidence": "low"
     },
-    "reflex/utils/js_runtimes.py": {
-      "phantom_count": 17,
-      "coverage_confidence": "medium"
-    },
-    "reflex/middleware/hydrate_middleware.py": {
-      "phantom_count": 1,
-      "coverage_confidence": "medium"
-    },
-    "reflex/reflex.py": {
-      "phantom_count": 26,
-      "coverage_confidence": "low"
-    },
-    "reflex/constants/installer.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/constants/route.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/assets.py": {
-      "phantom_count": 3,
-      "coverage_confidence": "low"
-    },
-    "reflex/istate/manager/memory.py": {
-      "phantom_count": 2,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/console.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/__main__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/compiler/plugins/__init__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/istate/__init__.py": {
-      "phantom_count": 2,
-      "coverage_confidence": "low"
-    },
-    "reflex/model.py": {
-      "phantom_count": 9,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/frontend_skeleton.py": {
-      "phantom_count": 10,
-      "coverage_confidence": "medium"
-    },
-    "reflex/testing.py": {
-      "phantom_count": 27,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/token_manager.py": {
-      "phantom_count": 2,
-      "coverage_confidence": "medium"
-    },
-    "reflex/vars/color.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/components/literals.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/istate/wrappers.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/middleware/__init__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/components/tags/tagless.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/processes.py": {
-      "phantom_count": 11,
-      "coverage_confidence": "medium"
-    },
-    "reflex/constants/config.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/plugins/shared_tailwind.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/plugins/base.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/imports.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/plugins/__init__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/app_mixins/mixin.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/vars/function.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
     "reflex/event.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/compiler/plugins/memoize.py": {
-      "phantom_count": 9,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/pyi_generator.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/constants/compiler.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/format.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/components/dynamic.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/istate/manager/token.py": {
-      "phantom_count": 1,
-      "coverage_confidence": "medium"
-    },
-    "reflex/utils/prerequisites.py": {
-      "phantom_count": 13,
-      "coverage_confidence": "medium"
-    },
-    "reflex/vars/number.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/codespaces.py": {
-      "phantom_count": 2,
-      "coverage_confidence": "low"
-    },
-    "reflex/custom_components/custom_components.py": {
-      "phantom_count": 25,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/telemetry.py": {
-      "phantom_count": 9,
-      "coverage_confidence": "low"
-    },
-    "reflex/vars/__init__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/constants/state.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/serializers.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/app_mixins/lifespan.py": {
-      "phantom_count": 3,
-      "coverage_confidence": "low"
-    },
-    "reflex/app.py": {
-      "phantom_count": 48,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/__init__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/vars/base.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/experimental/client_state.py": {
-      "phantom_count": 29,
-      "coverage_confidence": "low"
-    },
-    "reflex/constants/base.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/components/tags/iter_tag.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/__init__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/components/tags/match_tag.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/route.py": {
-      "phantom_count": 2,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/types.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/app_mixins/__init__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/constants/utils.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/istate/manager/redis.py": {
-      "phantom_count": 15,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/misc.py": {
-      "phantom_count": 2,
-      "coverage_confidence": "low"
-    },
-    "reflex/vars/dep_tracking.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/environment.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/components/tags/tag.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/utils/lazy_loader.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/compiler/utils.py": {
-      "phantom_count": 22,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/export.py": {
-      "phantom_count": 1,
-      "coverage_confidence": "medium"
-    },
-    "reflex/constants/__init__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/middleware/middleware.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/components/field.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/istate/shared.py": {
-      "phantom_count": 17,
-      "coverage_confidence": "low"
-    },
-    "reflex/vars/datetime.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/custom_components/__init__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/config.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/components/tags/__init__.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/istate/manager/__init__.py": {
-      "phantom_count": 7,
-      "coverage_confidence": "low"
-    },
-    "reflex/components/tags/cond_tag.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/state.py": {
-      "phantom_count": 58,
-      "coverage_confidence": "low"
-    },
-    "reflex/utils/exec.py": {
-      "phantom_count": 13,
-      "coverage_confidence": "medium"
-    },
-    "reflex/vars/object.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
-    },
-    "reflex/app_mixins/middleware.py": {
       "phantom_count": 0,
       "coverage_confidence": "high"
     },
@@ -79833,43 +79433,119 @@
       "phantom_count": 0,
       "coverage_confidence": "high"
     },
-    "reflex/utils/registry.py": {
-      "phantom_count": 1,
-      "coverage_confidence": "medium"
-    },
-    "reflex/istate/data.py": {
-      "phantom_count": 27,
-      "coverage_confidence": "low"
-    },
-    "reflex/istate/manager/disk.py": {
-      "phantom_count": 7,
-      "coverage_confidence": "low"
-    },
-    "reflex/experimental/memo.py": {
-      "phantom_count": 30,
-      "coverage_confidence": "low"
-    },
-    "reflex/compiler/__init__.py": {
+    "reflex/plugins/tailwind_v4.py": {
       "phantom_count": 0,
       "coverage_confidence": "high"
     },
-    "reflex/utils/precompressed_staticfiles.py": {
-      "phantom_count": 9,
+    "reflex/utils/templates.py": {
+      "phantom_count": 28,
       "coverage_confidence": "low"
-    },
-    "reflex/constants/colors.py": {
-      "phantom_count": 0,
-      "coverage_confidence": "high"
     },
     "reflex/utils/tasks.py": {
       "phantom_count": 1,
       "coverage_confidence": "low"
     },
-    "reflex/vars/sequence.py": {
+    "reflex/plugins/__init__.py": {
       "phantom_count": 0,
       "coverage_confidence": "high"
     },
-    "reflex/compiler/templates.py": {
+    "reflex/compiler/__init__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/plugins/sitemap.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/__init__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/constants/config.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/registry.py": {
+      "phantom_count": 1,
+      "coverage_confidence": "medium"
+    },
+    "reflex/utils/exceptions.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/app_mixins/middleware.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/experimental/__init__.py": {
+      "phantom_count": 2,
+      "coverage_confidence": "low"
+    },
+    "reflex/istate/wrappers.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/prerequisites.py": {
+      "phantom_count": 13,
+      "coverage_confidence": "medium"
+    },
+    "reflex/components/component.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/components/tags/cond_tag.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/plugins/base.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/exec.py": {
+      "phantom_count": 13,
+      "coverage_confidence": "medium"
+    },
+    "reflex/components/__init__.py": {
+      "phantom_count": 1,
+      "coverage_confidence": "low"
+    },
+    "reflex/constants/base.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/istate/manager/token.py": {
+      "phantom_count": 1,
+      "coverage_confidence": "medium"
+    },
+    "reflex/admin.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/constants/custom_components.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/components/tags/iter_tag.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/components/literals.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/serializers.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/frontend_skeleton.py": {
+      "phantom_count": 10,
+      "coverage_confidence": "medium"
+    },
+    "reflex/middleware/__init__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/_upload.py": {
       "phantom_count": 0,
       "coverage_confidence": "high"
     },
@@ -79877,77 +79553,356 @@
       "phantom_count": 0,
       "coverage_confidence": "high"
     },
-    "reflex/admin.py": {
+    "reflex/compiler/templates.py": {
       "phantom_count": 0,
       "coverage_confidence": "high"
+    },
+    "reflex/middleware/hydrate_middleware.py": {
+      "phantom_count": 1,
+      "coverage_confidence": "medium"
+    },
+    "reflex/utils/redir.py": {
+      "phantom_count": 3,
+      "coverage_confidence": "low"
+    },
+    "reflex/utils/console.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/components/tags/tagless.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/istate/proxy.py": {
+      "phantom_count": 16,
+      "coverage_confidence": "low"
+    },
+    "reflex/utils/precompressed_staticfiles.py": {
+      "phantom_count": 9,
+      "coverage_confidence": "low"
     },
     "reflex/compiler/plugins/builtin.py": {
       "phantom_count": 13,
       "coverage_confidence": "low"
     },
-    "reflex/plugins/tailwind_v4.py": {
+    "reflex/constants/utils.py": {
       "phantom_count": 0,
       "coverage_confidence": "high"
+    },
+    "reflex/custom_components/custom_components.py": {
+      "phantom_count": 25,
+      "coverage_confidence": "low"
+    },
+    "reflex/utils/compat.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/compiler/compiler.py": {
+      "phantom_count": 39,
+      "coverage_confidence": "low"
+    },
+    "reflex/middleware/middleware.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/token_manager.py": {
+      "phantom_count": 2,
+      "coverage_confidence": "medium"
+    },
+    "reflex/utils/path_ops.py": {
+      "phantom_count": 17,
+      "coverage_confidence": "low"
+    },
+    "reflex/components/field.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/vars/color.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/plugins/shared_tailwind.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/vars/number.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/plugins/_screenshot.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/istate/__init__.py": {
+      "phantom_count": 2,
+      "coverage_confidence": "low"
+    },
+    "reflex/testing.py": {
+      "phantom_count": 27,
+      "coverage_confidence": "low"
+    },
+    "reflex/utils/build.py": {
+      "phantom_count": 18,
+      "coverage_confidence": "low"
+    },
+    "reflex/utils/rename.py": {
+      "phantom_count": 6,
+      "coverage_confidence": "low"
+    },
+    "reflex/utils/misc.py": {
+      "phantom_count": 2,
+      "coverage_confidence": "low"
+    },
+    "reflex/compiler/plugins/__init__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/components/tags/match_tag.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/vars/dep_tracking.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/assets.py": {
+      "phantom_count": 3,
+      "coverage_confidence": "low"
+    },
+    "reflex/utils/pyi_generator.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/route.py": {
+      "phantom_count": 2,
+      "coverage_confidence": "low"
+    },
+    "reflex/istate/manager/redis.py": {
+      "phantom_count": 15,
+      "coverage_confidence": "low"
+    },
+    "reflex/compiler/utils.py": {
+      "phantom_count": 22,
+      "coverage_confidence": "low"
+    },
+    "reflex/utils/lazy_loader.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/components/props.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/constants/route.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/export.py": {
+      "phantom_count": 1,
+      "coverage_confidence": "medium"
+    },
+    "reflex/utils/frontend.py": {
+      "phantom_count": 4,
+      "coverage_confidence": "low"
+    },
+    "reflex/compiler/plugins/memoize.py": {
+      "phantom_count": 9,
+      "coverage_confidence": "low"
+    },
+    "reflex/components/tags/tag.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/experimental/client_state.py": {
+      "phantom_count": 29,
+      "coverage_confidence": "low"
     },
     "reflex/experimental/hooks.py": {
       "phantom_count": 11,
       "coverage_confidence": "low"
     },
-    "reflex/experimental/__init__.py": {
+    "reflex/utils/imports.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/app_mixins/mixin.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/components/tags/__init__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/constants/state.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/environment.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/style.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/constants/installer.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/state.py": {
+      "phantom_count": 58,
+      "coverage_confidence": "low"
+    },
+    "reflex/experimental/memo.py": {
+      "phantom_count": 30,
+      "coverage_confidence": "low"
+    },
+    "reflex/vars/__init__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/net.py": {
+      "phantom_count": 5,
+      "coverage_confidence": "low"
+    },
+    "reflex/config.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/components/dynamic.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/vars/base.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/vars/datetime.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/istate/manager/disk.py": {
+      "phantom_count": 7,
+      "coverage_confidence": "low"
+    },
+    "reflex/utils/types.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/istate/shared.py": {
+      "phantom_count": 17,
+      "coverage_confidence": "low"
+    },
+    "reflex/constants/colors.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/reflex.py": {
+      "phantom_count": 26,
+      "coverage_confidence": "low"
+    },
+    "reflex/app_mixins/__init__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/app_mixins/lifespan.py": {
+      "phantom_count": 3,
+      "coverage_confidence": "low"
+    },
+    "reflex/istate/manager/memory.py": {
       "phantom_count": 2,
       "coverage_confidence": "low"
+    },
+    "reflex/constants/event.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/istate/storage.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/model.py": {
+      "phantom_count": 9,
+      "coverage_confidence": "low"
+    },
+    "reflex/custom_components/__init__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/processes.py": {
+      "phantom_count": 11,
+      "coverage_confidence": "medium"
+    },
+    "reflex/utils/telemetry_accounting.py": {
+      "phantom_count": 3,
+      "coverage_confidence": "medium"
+    },
+    "reflex/app.py": {
+      "phantom_count": 48,
+      "coverage_confidence": "low"
+    },
+    "reflex/plugins/tailwind_v3.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/vars/object.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/telemetry.py": {
+      "phantom_count": 9,
+      "coverage_confidence": "low"
+    },
+    "reflex/utils/codespaces.py": {
+      "phantom_count": 2,
+      "coverage_confidence": "low"
+    },
+    "reflex/istate/data.py": {
+      "phantom_count": 27,
+      "coverage_confidence": "low"
+    },
+    "reflex/constants/compiler.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/vars/function.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/__main__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/js_runtimes.py": {
+      "phantom_count": 17,
+      "coverage_confidence": "medium"
+    },
+    "reflex/utils/format.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/vars/sequence.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/istate/manager/__init__.py": {
+      "phantom_count": 7,
+      "coverage_confidence": "low"
+    },
+    "reflex/constants/__init__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
+    },
+    "reflex/utils/__init__.py": {
+      "phantom_count": 0,
+      "coverage_confidence": "high"
     }
   },
   "file_dependencies": {
-    "reflex/constants/custom_components.py": [],
-    "reflex/utils/net.py": [],
-    "reflex/istate/storage.py": [],
-    "reflex/utils/rename.py": [
-      "reflex/utils/misc.py"
-    ],
-    "reflex/compiler/compiler.py": [
-      "reflex/app.py",
-      "reflex/compiler/plugins/builtin.py",
-      "reflex/compiler/templates.py",
-      "reflex/compiler/utils.py",
-      "reflex/experimental/memo.py",
-      "reflex/state.py",
-      "reflex/testing.py",
-      "reflex/utils/console.py",
-      "reflex/utils/exec.py",
-      "reflex/utils/frontend_skeleton.py",
-      "reflex/utils/path_ops.py",
-      "reflex/utils/prerequisites.py"
-    ],
-    "reflex/style.py": [],
-    "reflex/utils/telemetry_accounting.py": [
-      "reflex/app_mixins/lifespan.py",
-      "reflex/model.py",
-      "reflex/route.py",
-      "reflex/state.py",
-      "reflex/utils/telemetry.py"
-    ],
-    "reflex/_upload.py": [],
-    "reflex/utils/build.py": [
-      "reflex/utils/console.py",
-      "reflex/utils/exec.py",
-      "reflex/utils/js_runtimes.py",
-      "reflex/utils/path_ops.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/processes.py"
-    ],
-    "reflex/utils/path_ops.py": [],
-    "reflex/components/component.py": [],
-    "reflex/constants/event.py": [],
-    "reflex/components/__init__.py": [],
-    "reflex/components/props.py": [],
-    "reflex/plugins/tailwind_v3.py": [],
-    "reflex/istate/proxy.py": [
-      "reflex/experimental/memo.py",
-      "reflex/istate/manager/token.py",
-      "reflex/state.py"
-    ],
-    "reflex/utils/exceptions.py": [],
+    "reflex/page.py": [],
+    "reflex/event.py": [],
+    "reflex/istate/dynamic.py": [],
+    "reflex/plugins/tailwind_v4.py": [],
     "reflex/utils/templates.py": [
       "reflex/compiler/templates.py",
       "reflex/utils/console.py",
@@ -79957,110 +79912,26 @@
       "reflex/utils/rename.py",
       "reflex/utils/telemetry.py"
     ],
-    "reflex/utils/redir.py": [],
-    "reflex/plugins/_screenshot.py": [],
+    "reflex/utils/tasks.py": [],
+    "reflex/plugins/__init__.py": [],
+    "reflex/compiler/__init__.py": [],
     "reflex/plugins/sitemap.py": [],
-    "reflex/utils/frontend.py": [
-      "reflex/route.py",
-      "reflex/utils/prerequisites.py"
-    ],
-    "reflex/utils/compat.py": [],
-    "reflex/page.py": [],
-    "reflex/utils/js_runtimes.py": [
-      "reflex/experimental/memo.py",
+    "reflex/__init__.py": [],
+    "reflex/constants/config.py": [],
+    "reflex/utils/registry.py": [
       "reflex/utils/console.py",
-      "reflex/utils/frontend_skeleton.py",
-      "reflex/utils/net.py",
-      "reflex/utils/path_ops.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/processes.py"
+      "reflex/utils/net.py"
     ],
-    "reflex/middleware/hydrate_middleware.py": [
-      "reflex/state.py"
+    "reflex/utils/exceptions.py": [],
+    "reflex/app_mixins/middleware.py": [
+      "reflex/middleware/middleware.py"
     ],
-    "reflex/reflex.py": [
-      "reflex/istate/manager/__init__.py",
-      "reflex/model.py",
-      "reflex/utils/build.py",
-      "reflex/utils/exec.py",
-      "reflex/utils/frontend_skeleton.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/processes.py",
-      "reflex/utils/redir.py",
-      "reflex/utils/rename.py",
-      "reflex/utils/telemetry.py",
-      "reflex/utils/templates.py"
-    ],
-    "reflex/constants/installer.py": [],
-    "reflex/constants/route.py": [],
-    "reflex/assets.py": [],
-    "reflex/istate/manager/memory.py": [],
-    "reflex/utils/console.py": [],
-    "reflex/__main__.py": [],
-    "reflex/compiler/plugins/__init__.py": [],
-    "reflex/istate/__init__.py": [],
-    "reflex/model.py": [
-      "reflex/components/__init__.py"
-    ],
-    "reflex/utils/frontend_skeleton.py": [
-      "reflex/compiler/templates.py",
-      "reflex/compiler/utils.py",
-      "reflex/utils/console.py",
-      "reflex/utils/path_ops.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/registry.py"
-    ],
-    "reflex/testing.py": [
-      "reflex/components/__init__.py",
-      "reflex/experimental/memo.py",
-      "reflex/state.py",
-      "reflex/utils/console.py",
-      "reflex/utils/export.py",
-      "reflex/utils/format.py",
-      "reflex/utils/js_runtimes.py"
-    ],
-    "reflex/utils/token_manager.py": [
-      "reflex/app.py",
-      "reflex/istate/manager/redis.py",
-      "reflex/utils/console.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/tasks.py"
-    ],
-    "reflex/vars/color.py": [],
-    "reflex/components/literals.py": [],
+    "reflex/experimental/__init__.py": [],
     "reflex/istate/wrappers.py": [
       "reflex/istate/manager/__init__.py",
       "reflex/istate/manager/token.py",
       "reflex/istate/proxy.py",
       "reflex/state.py"
-    ],
-    "reflex/middleware/__init__.py": [],
-    "reflex/components/tags/tagless.py": [],
-    "reflex/utils/processes.py": [
-      "reflex/utils/console.py",
-      "reflex/utils/path_ops.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/registry.py",
-      "reflex/utils/telemetry.py"
-    ],
-    "reflex/constants/config.py": [],
-    "reflex/plugins/shared_tailwind.py": [],
-    "reflex/plugins/base.py": [],
-    "reflex/utils/imports.py": [],
-    "reflex/plugins/__init__.py": [],
-    "reflex/app_mixins/mixin.py": [],
-    "reflex/vars/function.py": [],
-    "reflex/event.py": [],
-    "reflex/compiler/plugins/memoize.py": [
-      "reflex/experimental/memo.py"
-    ],
-    "reflex/utils/pyi_generator.py": [],
-    "reflex/constants/compiler.py": [],
-    "reflex/utils/format.py": [],
-    "reflex/components/dynamic.py": [],
-    "reflex/istate/manager/token.py": [
-      "reflex/state.py",
-      "reflex/utils/console.py"
     ],
     "reflex/utils/prerequisites.py": [
       "reflex/app.py",
@@ -80075,26 +79946,238 @@
       "reflex/utils/path_ops.py",
       "reflex/utils/telemetry.py"
     ],
-    "reflex/vars/number.py": [],
-    "reflex/utils/codespaces.py": [],
+    "reflex/components/component.py": [],
+    "reflex/components/tags/cond_tag.py": [],
+    "reflex/plugins/base.py": [],
+    "reflex/utils/exec.py": [
+      "reflex/utils/js_runtimes.py",
+      "reflex/utils/misc.py",
+      "reflex/utils/path_ops.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/processes.py"
+    ],
+    "reflex/components/__init__.py": [],
+    "reflex/constants/base.py": [],
+    "reflex/istate/manager/token.py": [
+      "reflex/state.py",
+      "reflex/utils/console.py"
+    ],
+    "reflex/admin.py": [],
+    "reflex/constants/custom_components.py": [],
+    "reflex/components/tags/iter_tag.py": [],
+    "reflex/components/literals.py": [],
+    "reflex/utils/serializers.py": [],
+    "reflex/utils/frontend_skeleton.py": [
+      "reflex/compiler/templates.py",
+      "reflex/compiler/utils.py",
+      "reflex/utils/console.py",
+      "reflex/utils/path_ops.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/registry.py"
+    ],
+    "reflex/middleware/__init__.py": [],
+    "reflex/_upload.py": [],
+    "reflex/utils/decorator.py": [],
+    "reflex/compiler/templates.py": [],
+    "reflex/middleware/hydrate_middleware.py": [
+      "reflex/state.py"
+    ],
+    "reflex/utils/redir.py": [],
+    "reflex/utils/console.py": [],
+    "reflex/components/tags/tagless.py": [],
+    "reflex/istate/proxy.py": [
+      "reflex/experimental/memo.py",
+      "reflex/istate/manager/token.py",
+      "reflex/state.py"
+    ],
+    "reflex/utils/precompressed_staticfiles.py": [],
+    "reflex/compiler/plugins/builtin.py": [
+      "reflex/compiler/compiler.py",
+      "reflex/compiler/plugins/memoize.py",
+      "reflex/compiler/utils.py"
+    ],
+    "reflex/constants/utils.py": [],
     "reflex/custom_components/custom_components.py": [
       "reflex/reflex.py",
       "reflex/utils/console.py",
       "reflex/utils/exec.py",
       "reflex/utils/frontend_skeleton.py"
     ],
-    "reflex/utils/telemetry.py": [
+    "reflex/utils/compat.py": [],
+    "reflex/compiler/compiler.py": [
+      "reflex/app.py",
+      "reflex/compiler/plugins/builtin.py",
+      "reflex/compiler/templates.py",
+      "reflex/compiler/utils.py",
+      "reflex/experimental/memo.py",
+      "reflex/state.py",
+      "reflex/testing.py",
       "reflex/utils/console.py",
+      "reflex/utils/exec.py",
+      "reflex/utils/frontend_skeleton.py",
+      "reflex/utils/path_ops.py",
+      "reflex/utils/prerequisites.py"
+    ],
+    "reflex/middleware/middleware.py": [],
+    "reflex/utils/token_manager.py": [
+      "reflex/app.py",
+      "reflex/istate/manager/redis.py",
+      "reflex/utils/console.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/tasks.py"
+    ],
+    "reflex/utils/path_ops.py": [],
+    "reflex/components/field.py": [],
+    "reflex/vars/color.py": [],
+    "reflex/plugins/shared_tailwind.py": [],
+    "reflex/vars/number.py": [],
+    "reflex/plugins/_screenshot.py": [],
+    "reflex/istate/__init__.py": [],
+    "reflex/testing.py": [
+      "reflex/components/__init__.py",
+      "reflex/experimental/memo.py",
+      "reflex/state.py",
+      "reflex/utils/console.py",
+      "reflex/utils/export.py",
+      "reflex/utils/format.py",
+      "reflex/utils/js_runtimes.py"
+    ],
+    "reflex/utils/build.py": [
+      "reflex/utils/console.py",
+      "reflex/utils/exec.py",
       "reflex/utils/js_runtimes.py",
+      "reflex/utils/path_ops.py",
       "reflex/utils/prerequisites.py",
       "reflex/utils/processes.py"
     ],
-    "reflex/vars/__init__.py": [],
+    "reflex/utils/rename.py": [
+      "reflex/utils/misc.py"
+    ],
+    "reflex/utils/misc.py": [],
+    "reflex/compiler/plugins/__init__.py": [],
+    "reflex/components/tags/match_tag.py": [],
+    "reflex/vars/dep_tracking.py": [],
+    "reflex/assets.py": [],
+    "reflex/utils/pyi_generator.py": [],
+    "reflex/route.py": [],
+    "reflex/istate/manager/redis.py": [
+      "reflex/experimental/client_state.py",
+      "reflex/state.py",
+      "reflex/utils/tasks.py"
+    ],
+    "reflex/compiler/utils.py": [
+      "reflex/istate/manager/__init__.py",
+      "reflex/istate/storage.py",
+      "reflex/state.py",
+      "reflex/utils/misc.py",
+      "reflex/utils/path_ops.py",
+      "reflex/utils/prerequisites.py"
+    ],
+    "reflex/utils/lazy_loader.py": [],
+    "reflex/components/props.py": [],
+    "reflex/constants/route.py": [],
+    "reflex/utils/export.py": [
+      "reflex/utils/build.py",
+      "reflex/utils/exec.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/telemetry.py"
+    ],
+    "reflex/utils/frontend.py": [
+      "reflex/route.py",
+      "reflex/utils/prerequisites.py"
+    ],
+    "reflex/compiler/plugins/memoize.py": [
+      "reflex/experimental/memo.py"
+    ],
+    "reflex/components/tags/tag.py": [],
+    "reflex/experimental/client_state.py": [
+      "reflex/experimental/memo.py"
+    ],
+    "reflex/experimental/hooks.py": [],
+    "reflex/utils/imports.py": [],
+    "reflex/app_mixins/mixin.py": [],
+    "reflex/components/tags/__init__.py": [],
     "reflex/constants/state.py": [],
-    "reflex/utils/serializers.py": [],
+    "reflex/environment.py": [],
+    "reflex/style.py": [],
+    "reflex/constants/installer.py": [],
+    "reflex/state.py": [
+      "reflex/app.py",
+      "reflex/compiler/compiler.py",
+      "reflex/experimental/__init__.py",
+      "reflex/experimental/memo.py",
+      "reflex/istate/__init__.py",
+      "reflex/istate/data.py",
+      "reflex/istate/manager/__init__.py",
+      "reflex/istate/manager/token.py",
+      "reflex/istate/proxy.py",
+      "reflex/istate/shared.py",
+      "reflex/utils/console.py",
+      "reflex/utils/exec.py",
+      "reflex/utils/format.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/types.py"
+    ],
+    "reflex/experimental/memo.py": [],
+    "reflex/vars/__init__.py": [],
+    "reflex/utils/net.py": [],
+    "reflex/config.py": [],
+    "reflex/components/dynamic.py": [],
+    "reflex/vars/base.py": [],
+    "reflex/vars/datetime.py": [],
+    "reflex/istate/manager/disk.py": [
+      "reflex/state.py",
+      "reflex/utils/console.py",
+      "reflex/utils/misc.py",
+      "reflex/utils/path_ops.py",
+      "reflex/utils/prerequisites.py"
+    ],
+    "reflex/utils/types.py": [],
+    "reflex/istate/shared.py": [
+      "reflex/istate/manager/__init__.py",
+      "reflex/istate/manager/token.py",
+      "reflex/state.py",
+      "reflex/utils/prerequisites.py"
+    ],
+    "reflex/constants/colors.py": [],
+    "reflex/reflex.py": [
+      "reflex/istate/manager/__init__.py",
+      "reflex/model.py",
+      "reflex/utils/build.py",
+      "reflex/utils/exec.py",
+      "reflex/utils/frontend_skeleton.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/processes.py",
+      "reflex/utils/redir.py",
+      "reflex/utils/rename.py",
+      "reflex/utils/telemetry.py",
+      "reflex/utils/templates.py"
+    ],
+    "reflex/app_mixins/__init__.py": [],
     "reflex/app_mixins/lifespan.py": [
       "reflex/experimental/memo.py",
       "reflex/state.py"
+    ],
+    "reflex/istate/manager/memory.py": [],
+    "reflex/constants/event.py": [],
+    "reflex/istate/storage.py": [],
+    "reflex/model.py": [
+      "reflex/components/__init__.py"
+    ],
+    "reflex/custom_components/__init__.py": [],
+    "reflex/utils/processes.py": [
+      "reflex/utils/console.py",
+      "reflex/utils/path_ops.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/registry.py",
+      "reflex/utils/telemetry.py"
+    ],
+    "reflex/utils/telemetry_accounting.py": [
+      "reflex/app_mixins/lifespan.py",
+      "reflex/model.py",
+      "reflex/route.py",
+      "reflex/state.py",
+      "reflex/utils/telemetry.py"
     ],
     "reflex/app.py": [
       "reflex/_upload.py",
@@ -80120,56 +80203,30 @@
       "reflex/utils/telemetry_accounting.py",
       "reflex/utils/token_manager.py"
     ],
-    "reflex/utils/__init__.py": [],
-    "reflex/vars/base.py": [],
-    "reflex/experimental/client_state.py": [
-      "reflex/experimental/memo.py"
-    ],
-    "reflex/constants/base.py": [],
-    "reflex/components/tags/iter_tag.py": [],
-    "reflex/__init__.py": [],
-    "reflex/components/tags/match_tag.py": [],
-    "reflex/route.py": [],
-    "reflex/utils/types.py": [],
-    "reflex/app_mixins/__init__.py": [],
-    "reflex/constants/utils.py": [],
-    "reflex/istate/manager/redis.py": [
-      "reflex/experimental/client_state.py",
-      "reflex/state.py",
-      "reflex/utils/tasks.py"
-    ],
-    "reflex/utils/misc.py": [],
-    "reflex/vars/dep_tracking.py": [],
-    "reflex/environment.py": [],
-    "reflex/components/tags/tag.py": [],
-    "reflex/utils/lazy_loader.py": [],
-    "reflex/compiler/utils.py": [
-      "reflex/istate/manager/__init__.py",
-      "reflex/istate/storage.py",
-      "reflex/state.py",
-      "reflex/utils/misc.py",
-      "reflex/utils/path_ops.py",
-      "reflex/utils/prerequisites.py"
-    ],
-    "reflex/utils/export.py": [
-      "reflex/utils/build.py",
-      "reflex/utils/exec.py",
+    "reflex/plugins/tailwind_v3.py": [],
+    "reflex/vars/object.py": [],
+    "reflex/utils/telemetry.py": [
+      "reflex/utils/console.py",
+      "reflex/utils/js_runtimes.py",
       "reflex/utils/prerequisites.py",
-      "reflex/utils/telemetry.py"
+      "reflex/utils/processes.py"
     ],
-    "reflex/constants/__init__.py": [],
-    "reflex/middleware/middleware.py": [],
-    "reflex/components/field.py": [],
-    "reflex/istate/shared.py": [
-      "reflex/istate/manager/__init__.py",
-      "reflex/istate/manager/token.py",
-      "reflex/state.py",
-      "reflex/utils/prerequisites.py"
+    "reflex/utils/codespaces.py": [],
+    "reflex/istate/data.py": [],
+    "reflex/constants/compiler.py": [],
+    "reflex/vars/function.py": [],
+    "reflex/__main__.py": [],
+    "reflex/utils/js_runtimes.py": [
+      "reflex/experimental/memo.py",
+      "reflex/utils/console.py",
+      "reflex/utils/frontend_skeleton.py",
+      "reflex/utils/net.py",
+      "reflex/utils/path_ops.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/processes.py"
     ],
-    "reflex/vars/datetime.py": [],
-    "reflex/custom_components/__init__.py": [],
-    "reflex/config.py": [],
-    "reflex/components/tags/__init__.py": [],
+    "reflex/utils/format.py": [],
+    "reflex/vars/sequence.py": [],
     "reflex/istate/manager/__init__.py": [
       "reflex/istate/manager/disk.py",
       "reflex/istate/manager/memory.py",
@@ -80179,243 +80236,42 @@
       "reflex/utils/console.py",
       "reflex/utils/prerequisites.py"
     ],
-    "reflex/components/tags/cond_tag.py": [],
-    "reflex/state.py": [
-      "reflex/app.py",
-      "reflex/compiler/compiler.py",
-      "reflex/experimental/__init__.py",
-      "reflex/experimental/memo.py",
-      "reflex/istate/__init__.py",
-      "reflex/istate/data.py",
-      "reflex/istate/manager/__init__.py",
-      "reflex/istate/manager/token.py",
-      "reflex/istate/proxy.py",
-      "reflex/istate/shared.py",
-      "reflex/utils/console.py",
-      "reflex/utils/exec.py",
-      "reflex/utils/format.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/types.py"
-    ],
-    "reflex/utils/exec.py": [
-      "reflex/utils/js_runtimes.py",
-      "reflex/utils/misc.py",
-      "reflex/utils/path_ops.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/processes.py"
-    ],
-    "reflex/vars/object.py": [],
-    "reflex/app_mixins/middleware.py": [
-      "reflex/middleware/middleware.py"
-    ],
-    "reflex/istate/dynamic.py": [],
-    "reflex/utils/registry.py": [
-      "reflex/utils/console.py",
-      "reflex/utils/net.py"
-    ],
-    "reflex/istate/data.py": [],
-    "reflex/istate/manager/disk.py": [
-      "reflex/state.py",
-      "reflex/utils/console.py",
-      "reflex/utils/misc.py",
-      "reflex/utils/path_ops.py",
-      "reflex/utils/prerequisites.py"
-    ],
-    "reflex/experimental/memo.py": [],
-    "reflex/compiler/__init__.py": [],
-    "reflex/utils/precompressed_staticfiles.py": [],
-    "reflex/constants/colors.py": [],
-    "reflex/utils/tasks.py": [],
-    "reflex/vars/sequence.py": [],
-    "reflex/compiler/templates.py": [],
-    "reflex/utils/decorator.py": [],
-    "reflex/admin.py": [],
-    "reflex/compiler/plugins/builtin.py": [
-      "reflex/compiler/compiler.py",
-      "reflex/compiler/plugins/memoize.py",
-      "reflex/compiler/utils.py"
-    ],
-    "reflex/plugins/tailwind_v4.py": [],
-    "reflex/experimental/hooks.py": [],
-    "reflex/experimental/__init__.py": []
+    "reflex/constants/__init__.py": [],
+    "reflex/utils/__init__.py": []
   },
   "file_dependents": {
-    "reflex/constants/custom_components.py": [],
-    "reflex/utils/net.py": [
-      "reflex/utils/js_runtimes.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/registry.py",
-      "reflex/utils/templates.py"
+    "reflex/page.py": [
+      "reflex/utils/prerequisites.py"
     ],
-    "reflex/istate/storage.py": [
-      "reflex/compiler/utils.py"
+    "reflex/event.py": [],
+    "reflex/istate/dynamic.py": [],
+    "reflex/plugins/tailwind_v4.py": [],
+    "reflex/utils/templates.py": [
+      "reflex/reflex.py"
     ],
-    "reflex/utils/rename.py": [
-      "reflex/reflex.py",
-      "reflex/utils/templates.py"
+    "reflex/utils/tasks.py": [
+      "reflex/istate/manager/redis.py",
+      "reflex/utils/token_manager.py"
     ],
-    "reflex/compiler/compiler.py": [
-      "reflex/app.py",
-      "reflex/compiler/plugins/builtin.py",
-      "reflex/state.py"
-    ],
-    "reflex/style.py": [],
-    "reflex/utils/telemetry_accounting.py": [
-      "reflex/app.py"
-    ],
-    "reflex/_upload.py": [
-      "reflex/app.py"
-    ],
-    "reflex/utils/build.py": [
-      "reflex/reflex.py",
-      "reflex/utils/export.py"
-    ],
-    "reflex/utils/path_ops.py": [
-      "reflex/compiler/compiler.py",
-      "reflex/compiler/utils.py",
-      "reflex/istate/manager/disk.py",
-      "reflex/utils/build.py",
-      "reflex/utils/exec.py",
+    "reflex/plugins/__init__.py": [],
+    "reflex/compiler/__init__.py": [],
+    "reflex/plugins/sitemap.py": [],
+    "reflex/__init__.py": [],
+    "reflex/constants/config.py": [],
+    "reflex/utils/registry.py": [
       "reflex/utils/frontend_skeleton.py",
-      "reflex/utils/js_runtimes.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/processes.py",
-      "reflex/utils/templates.py"
-    ],
-    "reflex/components/component.py": [],
-    "reflex/constants/event.py": [],
-    "reflex/components/__init__.py": [
-      "reflex/model.py",
-      "reflex/testing.py"
-    ],
-    "reflex/components/props.py": [],
-    "reflex/plugins/tailwind_v3.py": [],
-    "reflex/istate/proxy.py": [
-      "reflex/istate/wrappers.py",
-      "reflex/state.py"
+      "reflex/utils/processes.py"
     ],
     "reflex/utils/exceptions.py": [
       "reflex/app.py"
     ],
-    "reflex/utils/templates.py": [
-      "reflex/reflex.py"
-    ],
-    "reflex/utils/redir.py": [
-      "reflex/reflex.py",
-      "reflex/utils/templates.py"
-    ],
-    "reflex/plugins/_screenshot.py": [],
-    "reflex/plugins/sitemap.py": [],
-    "reflex/utils/frontend.py": [
+    "reflex/app_mixins/middleware.py": [
       "reflex/app.py"
     ],
-    "reflex/utils/compat.py": [],
-    "reflex/page.py": [
-      "reflex/utils/prerequisites.py"
-    ],
-    "reflex/utils/js_runtimes.py": [
-      "reflex/app.py",
-      "reflex/testing.py",
-      "reflex/utils/build.py",
-      "reflex/utils/exec.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/telemetry.py"
-    ],
-    "reflex/middleware/hydrate_middleware.py": [],
-    "reflex/reflex.py": [
-      "reflex/custom_components/custom_components.py"
-    ],
-    "reflex/constants/installer.py": [],
-    "reflex/constants/route.py": [],
-    "reflex/assets.py": [
-      "reflex/app.py"
-    ],
-    "reflex/istate/manager/memory.py": [
-      "reflex/istate/manager/__init__.py"
-    ],
-    "reflex/utils/console.py": [
-      "reflex/compiler/compiler.py",
-      "reflex/custom_components/custom_components.py",
-      "reflex/istate/manager/__init__.py",
-      "reflex/istate/manager/disk.py",
-      "reflex/istate/manager/token.py",
-      "reflex/state.py",
-      "reflex/testing.py",
-      "reflex/utils/build.py",
-      "reflex/utils/frontend_skeleton.py",
-      "reflex/utils/js_runtimes.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/processes.py",
-      "reflex/utils/registry.py",
-      "reflex/utils/telemetry.py",
-      "reflex/utils/templates.py",
-      "reflex/utils/token_manager.py"
-    ],
-    "reflex/__main__.py": [],
-    "reflex/compiler/plugins/__init__.py": [],
-    "reflex/istate/__init__.py": [
+    "reflex/experimental/__init__.py": [
       "reflex/state.py"
     ],
-    "reflex/model.py": [
-      "reflex/app.py",
-      "reflex/reflex.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/telemetry_accounting.py"
-    ],
-    "reflex/utils/frontend_skeleton.py": [
-      "reflex/compiler/compiler.py",
-      "reflex/custom_components/custom_components.py",
-      "reflex/reflex.py",
-      "reflex/utils/js_runtimes.py",
-      "reflex/utils/prerequisites.py"
-    ],
-    "reflex/testing.py": [
-      "reflex/compiler/compiler.py"
-    ],
-    "reflex/utils/token_manager.py": [
-      "reflex/app.py"
-    ],
-    "reflex/vars/color.py": [],
-    "reflex/components/literals.py": [],
     "reflex/istate/wrappers.py": [],
-    "reflex/middleware/__init__.py": [],
-    "reflex/components/tags/tagless.py": [],
-    "reflex/utils/processes.py": [
-      "reflex/reflex.py",
-      "reflex/utils/build.py",
-      "reflex/utils/exec.py",
-      "reflex/utils/js_runtimes.py",
-      "reflex/utils/telemetry.py"
-    ],
-    "reflex/constants/config.py": [],
-    "reflex/plugins/shared_tailwind.py": [],
-    "reflex/plugins/base.py": [],
-    "reflex/utils/imports.py": [],
-    "reflex/plugins/__init__.py": [],
-    "reflex/app_mixins/mixin.py": [
-      "reflex/app.py"
-    ],
-    "reflex/vars/function.py": [],
-    "reflex/event.py": [],
-    "reflex/compiler/plugins/memoize.py": [
-      "reflex/compiler/plugins/builtin.py"
-    ],
-    "reflex/utils/pyi_generator.py": [],
-    "reflex/constants/compiler.py": [],
-    "reflex/utils/format.py": [
-      "reflex/app.py",
-      "reflex/state.py",
-      "reflex/testing.py"
-    ],
-    "reflex/components/dynamic.py": [],
-    "reflex/istate/manager/token.py": [
-      "reflex/app.py",
-      "reflex/istate/manager/__init__.py",
-      "reflex/istate/proxy.py",
-      "reflex/istate/shared.py",
-      "reflex/istate/wrappers.py",
-      "reflex/state.py"
-    ],
     "reflex/utils/prerequisites.py": [
       "reflex/app.py",
       "reflex/compiler/compiler.py",
@@ -80435,53 +80291,129 @@
       "reflex/utils/telemetry.py",
       "reflex/utils/token_manager.py"
     ],
-    "reflex/vars/number.py": [],
-    "reflex/utils/codespaces.py": [
-      "reflex/app.py"
-    ],
-    "reflex/custom_components/custom_components.py": [],
-    "reflex/utils/telemetry.py": [
-      "reflex/reflex.py",
-      "reflex/utils/export.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/processes.py",
-      "reflex/utils/telemetry_accounting.py",
-      "reflex/utils/templates.py"
-    ],
-    "reflex/vars/__init__.py": [],
-    "reflex/constants/state.py": [],
-    "reflex/utils/serializers.py": [],
-    "reflex/app_mixins/lifespan.py": [
-      "reflex/utils/telemetry_accounting.py"
-    ],
-    "reflex/app.py": [
+    "reflex/components/component.py": [],
+    "reflex/components/tags/cond_tag.py": [],
+    "reflex/plugins/base.py": [],
+    "reflex/utils/exec.py": [
+      "reflex/app.py",
       "reflex/compiler/compiler.py",
+      "reflex/custom_components/custom_components.py",
+      "reflex/reflex.py",
       "reflex/state.py",
-      "reflex/utils/prerequisites.py",
-      "reflex/utils/token_manager.py"
+      "reflex/utils/build.py",
+      "reflex/utils/export.py"
     ],
-    "reflex/utils/__init__.py": [],
-    "reflex/vars/base.py": [],
-    "reflex/experimental/client_state.py": [
-      "reflex/istate/manager/redis.py"
+    "reflex/components/__init__.py": [
+      "reflex/model.py",
+      "reflex/testing.py"
     ],
     "reflex/constants/base.py": [],
-    "reflex/components/tags/iter_tag.py": [],
-    "reflex/__init__.py": [],
-    "reflex/components/tags/match_tag.py": [],
-    "reflex/route.py": [
+    "reflex/istate/manager/token.py": [
       "reflex/app.py",
-      "reflex/utils/frontend.py",
-      "reflex/utils/telemetry_accounting.py"
-    ],
-    "reflex/utils/types.py": [
+      "reflex/istate/manager/__init__.py",
+      "reflex/istate/proxy.py",
+      "reflex/istate/shared.py",
+      "reflex/istate/wrappers.py",
       "reflex/state.py"
     ],
-    "reflex/app_mixins/__init__.py": [],
-    "reflex/constants/utils.py": [],
-    "reflex/istate/manager/redis.py": [
+    "reflex/admin.py": [],
+    "reflex/constants/custom_components.py": [],
+    "reflex/components/tags/iter_tag.py": [],
+    "reflex/components/literals.py": [],
+    "reflex/utils/serializers.py": [],
+    "reflex/utils/frontend_skeleton.py": [
+      "reflex/compiler/compiler.py",
+      "reflex/custom_components/custom_components.py",
+      "reflex/reflex.py",
+      "reflex/utils/js_runtimes.py",
+      "reflex/utils/prerequisites.py"
+    ],
+    "reflex/middleware/__init__.py": [],
+    "reflex/_upload.py": [
+      "reflex/app.py"
+    ],
+    "reflex/utils/decorator.py": [],
+    "reflex/compiler/templates.py": [
+      "reflex/compiler/compiler.py",
+      "reflex/utils/frontend_skeleton.py",
+      "reflex/utils/templates.py"
+    ],
+    "reflex/middleware/hydrate_middleware.py": [],
+    "reflex/utils/redir.py": [
+      "reflex/reflex.py",
+      "reflex/utils/templates.py"
+    ],
+    "reflex/utils/console.py": [
+      "reflex/compiler/compiler.py",
+      "reflex/custom_components/custom_components.py",
       "reflex/istate/manager/__init__.py",
+      "reflex/istate/manager/disk.py",
+      "reflex/istate/manager/token.py",
+      "reflex/state.py",
+      "reflex/testing.py",
+      "reflex/utils/build.py",
+      "reflex/utils/frontend_skeleton.py",
+      "reflex/utils/js_runtimes.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/processes.py",
+      "reflex/utils/registry.py",
+      "reflex/utils/telemetry.py",
+      "reflex/utils/templates.py",
       "reflex/utils/token_manager.py"
+    ],
+    "reflex/components/tags/tagless.py": [],
+    "reflex/istate/proxy.py": [
+      "reflex/istate/wrappers.py",
+      "reflex/state.py"
+    ],
+    "reflex/utils/precompressed_staticfiles.py": [],
+    "reflex/compiler/plugins/builtin.py": [
+      "reflex/compiler/compiler.py"
+    ],
+    "reflex/constants/utils.py": [],
+    "reflex/custom_components/custom_components.py": [],
+    "reflex/utils/compat.py": [],
+    "reflex/compiler/compiler.py": [
+      "reflex/app.py",
+      "reflex/compiler/plugins/builtin.py",
+      "reflex/state.py"
+    ],
+    "reflex/middleware/middleware.py": [
+      "reflex/app_mixins/middleware.py"
+    ],
+    "reflex/utils/token_manager.py": [
+      "reflex/app.py"
+    ],
+    "reflex/utils/path_ops.py": [
+      "reflex/compiler/compiler.py",
+      "reflex/compiler/utils.py",
+      "reflex/istate/manager/disk.py",
+      "reflex/utils/build.py",
+      "reflex/utils/exec.py",
+      "reflex/utils/frontend_skeleton.py",
+      "reflex/utils/js_runtimes.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/processes.py",
+      "reflex/utils/templates.py"
+    ],
+    "reflex/components/field.py": [],
+    "reflex/vars/color.py": [],
+    "reflex/plugins/shared_tailwind.py": [],
+    "reflex/vars/number.py": [],
+    "reflex/plugins/_screenshot.py": [],
+    "reflex/istate/__init__.py": [
+      "reflex/state.py"
+    ],
+    "reflex/testing.py": [
+      "reflex/compiler/compiler.py"
+    ],
+    "reflex/utils/build.py": [
+      "reflex/reflex.py",
+      "reflex/utils/export.py"
+    ],
+    "reflex/utils/rename.py": [
+      "reflex/reflex.py",
+      "reflex/utils/templates.py"
     ],
     "reflex/utils/misc.py": [
       "reflex/app.py",
@@ -80491,40 +80423,54 @@
       "reflex/utils/prerequisites.py",
       "reflex/utils/rename.py"
     ],
+    "reflex/compiler/plugins/__init__.py": [],
+    "reflex/components/tags/match_tag.py": [],
     "reflex/vars/dep_tracking.py": [],
-    "reflex/environment.py": [],
-    "reflex/components/tags/tag.py": [],
-    "reflex/utils/lazy_loader.py": [],
+    "reflex/assets.py": [
+      "reflex/app.py"
+    ],
+    "reflex/utils/pyi_generator.py": [],
+    "reflex/route.py": [
+      "reflex/app.py",
+      "reflex/utils/frontend.py",
+      "reflex/utils/telemetry_accounting.py"
+    ],
+    "reflex/istate/manager/redis.py": [
+      "reflex/istate/manager/__init__.py",
+      "reflex/utils/token_manager.py"
+    ],
     "reflex/compiler/utils.py": [
       "reflex/app.py",
       "reflex/compiler/compiler.py",
       "reflex/compiler/plugins/builtin.py",
       "reflex/utils/frontend_skeleton.py"
     ],
+    "reflex/utils/lazy_loader.py": [],
+    "reflex/components/props.py": [],
+    "reflex/constants/route.py": [],
     "reflex/utils/export.py": [
       "reflex/testing.py"
     ],
-    "reflex/constants/__init__.py": [],
-    "reflex/middleware/middleware.py": [
-      "reflex/app_mixins/middleware.py"
+    "reflex/utils/frontend.py": [
+      "reflex/app.py"
     ],
-    "reflex/components/field.py": [],
-    "reflex/istate/shared.py": [
-      "reflex/istate/manager/__init__.py",
-      "reflex/state.py"
+    "reflex/compiler/plugins/memoize.py": [
+      "reflex/compiler/plugins/builtin.py"
     ],
-    "reflex/vars/datetime.py": [],
-    "reflex/custom_components/__init__.py": [],
-    "reflex/config.py": [],
+    "reflex/components/tags/tag.py": [],
+    "reflex/experimental/client_state.py": [
+      "reflex/istate/manager/redis.py"
+    ],
+    "reflex/experimental/hooks.py": [],
+    "reflex/utils/imports.py": [],
+    "reflex/app_mixins/mixin.py": [
+      "reflex/app.py"
+    ],
     "reflex/components/tags/__init__.py": [],
-    "reflex/istate/manager/__init__.py": [
-      "reflex/compiler/utils.py",
-      "reflex/istate/shared.py",
-      "reflex/istate/wrappers.py",
-      "reflex/reflex.py",
-      "reflex/state.py"
-    ],
-    "reflex/components/tags/cond_tag.py": [],
+    "reflex/constants/state.py": [],
+    "reflex/environment.py": [],
+    "reflex/style.py": [],
+    "reflex/constants/installer.py": [],
     "reflex/state.py": [
       "reflex/app.py",
       "reflex/app_mixins/lifespan.py",
@@ -80541,31 +80487,6 @@
       "reflex/utils/prerequisites.py",
       "reflex/utils/telemetry_accounting.py"
     ],
-    "reflex/utils/exec.py": [
-      "reflex/app.py",
-      "reflex/compiler/compiler.py",
-      "reflex/custom_components/custom_components.py",
-      "reflex/reflex.py",
-      "reflex/state.py",
-      "reflex/utils/build.py",
-      "reflex/utils/export.py"
-    ],
-    "reflex/vars/object.py": [],
-    "reflex/app_mixins/middleware.py": [
-      "reflex/app.py"
-    ],
-    "reflex/istate/dynamic.py": [],
-    "reflex/utils/registry.py": [
-      "reflex/utils/frontend_skeleton.py",
-      "reflex/utils/processes.py"
-    ],
-    "reflex/istate/data.py": [
-      "reflex/app.py",
-      "reflex/state.py"
-    ],
-    "reflex/istate/manager/disk.py": [
-      "reflex/istate/manager/__init__.py"
-    ],
     "reflex/experimental/memo.py": [
       "reflex/app.py",
       "reflex/app_mixins/lifespan.py",
@@ -80577,29 +80498,108 @@
       "reflex/testing.py",
       "reflex/utils/js_runtimes.py"
     ],
-    "reflex/compiler/__init__.py": [],
-    "reflex/utils/precompressed_staticfiles.py": [],
-    "reflex/constants/colors.py": [],
-    "reflex/utils/tasks.py": [
-      "reflex/istate/manager/redis.py",
-      "reflex/utils/token_manager.py"
-    ],
-    "reflex/vars/sequence.py": [],
-    "reflex/compiler/templates.py": [
-      "reflex/compiler/compiler.py",
-      "reflex/utils/frontend_skeleton.py",
+    "reflex/vars/__init__.py": [],
+    "reflex/utils/net.py": [
+      "reflex/utils/js_runtimes.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/registry.py",
       "reflex/utils/templates.py"
     ],
-    "reflex/utils/decorator.py": [],
-    "reflex/admin.py": [],
-    "reflex/compiler/plugins/builtin.py": [
-      "reflex/compiler/compiler.py"
+    "reflex/config.py": [],
+    "reflex/components/dynamic.py": [],
+    "reflex/vars/base.py": [],
+    "reflex/vars/datetime.py": [],
+    "reflex/istate/manager/disk.py": [
+      "reflex/istate/manager/__init__.py"
     ],
-    "reflex/plugins/tailwind_v4.py": [],
-    "reflex/experimental/hooks.py": [],
-    "reflex/experimental/__init__.py": [
+    "reflex/utils/types.py": [
       "reflex/state.py"
-    ]
+    ],
+    "reflex/istate/shared.py": [
+      "reflex/istate/manager/__init__.py",
+      "reflex/state.py"
+    ],
+    "reflex/constants/colors.py": [],
+    "reflex/reflex.py": [
+      "reflex/custom_components/custom_components.py"
+    ],
+    "reflex/app_mixins/__init__.py": [],
+    "reflex/app_mixins/lifespan.py": [
+      "reflex/utils/telemetry_accounting.py"
+    ],
+    "reflex/istate/manager/memory.py": [
+      "reflex/istate/manager/__init__.py"
+    ],
+    "reflex/constants/event.py": [],
+    "reflex/istate/storage.py": [
+      "reflex/compiler/utils.py"
+    ],
+    "reflex/model.py": [
+      "reflex/app.py",
+      "reflex/reflex.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/telemetry_accounting.py"
+    ],
+    "reflex/custom_components/__init__.py": [],
+    "reflex/utils/processes.py": [
+      "reflex/reflex.py",
+      "reflex/utils/build.py",
+      "reflex/utils/exec.py",
+      "reflex/utils/js_runtimes.py",
+      "reflex/utils/telemetry.py"
+    ],
+    "reflex/utils/telemetry_accounting.py": [
+      "reflex/app.py"
+    ],
+    "reflex/app.py": [
+      "reflex/compiler/compiler.py",
+      "reflex/state.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/token_manager.py"
+    ],
+    "reflex/plugins/tailwind_v3.py": [],
+    "reflex/vars/object.py": [],
+    "reflex/utils/telemetry.py": [
+      "reflex/reflex.py",
+      "reflex/utils/export.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/processes.py",
+      "reflex/utils/telemetry_accounting.py",
+      "reflex/utils/templates.py"
+    ],
+    "reflex/utils/codespaces.py": [
+      "reflex/app.py"
+    ],
+    "reflex/istate/data.py": [
+      "reflex/app.py",
+      "reflex/state.py"
+    ],
+    "reflex/constants/compiler.py": [],
+    "reflex/vars/function.py": [],
+    "reflex/__main__.py": [],
+    "reflex/utils/js_runtimes.py": [
+      "reflex/app.py",
+      "reflex/testing.py",
+      "reflex/utils/build.py",
+      "reflex/utils/exec.py",
+      "reflex/utils/prerequisites.py",
+      "reflex/utils/telemetry.py"
+    ],
+    "reflex/utils/format.py": [
+      "reflex/app.py",
+      "reflex/state.py",
+      "reflex/testing.py"
+    ],
+    "reflex/vars/sequence.py": [],
+    "reflex/istate/manager/__init__.py": [
+      "reflex/compiler/utils.py",
+      "reflex/istate/shared.py",
+      "reflex/istate/wrappers.py",
+      "reflex/reflex.py",
+      "reflex/state.py"
+    ],
+    "reflex/constants/__init__.py": [],
+    "reflex/utils/__init__.py": []
   },
   "stats": {
     "total_calls": 5343,

@@ -71,15 +71,15 @@
     "confidence": "high",
     "scope": "project",
     "title": "Layer Geometry",
-    "evidence": "sep=2.96  40 drifted",
+    "evidence": "sep=2.78  44 drifted",
     "consequence": "layer boundaries are geometrically clean",
     "suggested_action": "",
     "source": "hyperbolic-coords.json",
     "location": "",
-    "count": 40,
+    "count": 44,
     "metadata": {
-      "separation_ratio": 2.9593,
-      "drift_flagged": 40,
+      "separation_ratio": 2.7773,
+      "drift_flagged": 44,
       "isolated_nodes": 0
     }
   },
@@ -101,7 +101,7 @@
       "graph_opaque": 10,
       "solid": 109,
       "total": 119,
-      "enriched": 8
+      "enriched": 4
     }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T13:16:38.357944+00:00",
+  "generated_at": "2026-05-22T13:45:06.091951+00:00",
   "project_name": "reflex",
   "health_score": 46,
   "natural_path": "clean",
@@ -21,7 +21,7 @@
     "Infrastructure": {
       "file_count": 41,
       "violation_count": 4,
-      "high_risk_count": 143,
+      "high_risk_count": 161,
       "untested_module_count": 17
     },
     "Internal": {
@@ -57,13 +57,13 @@
   },
   "modules": {
     "reflex": {
-      "layer": "Internal",
+      "layer": "Entry",
       "violation_count": 20,
-      "high_risk_count": 48,
+      "high_risk_count": 49,
       "coverage_level": "untested"
     },
     "reflex/app_mixins": {
-      "layer": "Middleware",
+      "layer": "Infrastructure",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
@@ -71,7 +71,7 @@
     "reflex/compiler": {
       "layer": "Infrastructure",
       "violation_count": 18,
-      "high_risk_count": 69,
+      "high_risk_count": 70,
       "coverage_level": "untested"
     },
     "reflex/compiler/plugins": {
@@ -113,7 +113,7 @@
     "reflex/istate": {
       "layer": "Infrastructure",
       "violation_count": 1,
-      "high_risk_count": 0,
+      "high_risk_count": 2,
       "coverage_level": "untested"
     },
     "reflex/istate/manager": {
@@ -135,9 +135,9 @@
       "coverage_level": "untested"
     },
     "reflex/utils": {
-      "layer": "Internal",
+      "layer": "Infrastructure",
       "violation_count": 2,
-      "high_risk_count": 94,
+      "high_risk_count": 119,
       "coverage_level": "untested"
     },
     "reflex/vars": {
@@ -148,11 +148,6 @@
     }
   },
   "alerts": [
-    {
-      "type": "coverage_gap",
-      "severity": "high",
-      "message": "reflex (Internal) is untested"
-    },
     {
       "type": "coverage_gap",
       "severity": "high",
@@ -186,17 +181,12 @@
     {
       "type": "coverage_gap",
       "severity": "high",
-      "message": "reflex/utils (Internal) is untested"
-    },
-    {
-      "type": "coverage_gap",
-      "severity": "high",
       "message": "reflex/vars (Core) is untested"
     },
     {
       "type": "high_entropy",
       "severity": "medium",
-      "message": "reflex/compiler avg entropy_score=0.72 (>70 nodes)"
+      "message": "reflex/compiler avg entropy_score=0.71 (>71 nodes)"
     }
   ]
 }
