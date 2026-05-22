@@ -166,6 +166,7 @@ jobs:
         if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
           python - <<'EOF'
           import json, subprocess, sys, os
@@ -174,13 +175,13 @@ jobs:
               gr = f.get('gate_result', 'pass')
               n  = len(f.get('violations', []))
               # advisory — always green; Steward comments, never blocks merge
-              state = 'pass'
+              state = 'success'
               desc  = f'Steward review complete ({n} violation(s) — advisory)'
           except Exception:
               state = 'error'
               desc  = 'Steward analysis error'
           repo = os.environ.get('GITHUB_REPOSITORY', '')
-          sha = os.environ.get('GITHUB_SHA', '')
+          sha = os.environ.get('GITHUB_PR_HEAD_SHA', '') or os.environ.get('GITHUB_SHA', '')
           subprocess.run([
               'gh', 'api', 'repos/' + repo + '/statuses/' + sha,
               '-f', 'state=' + state,
