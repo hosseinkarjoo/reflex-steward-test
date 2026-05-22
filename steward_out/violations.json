@@ -1,0 +1,630 @@
+{
+  "generated_at": "2026-05-22T12:00:05.306913+00:00",
+  "source": "steward_out/call-graph.json",
+  "violations": [
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_apply_decorated_pages",
+      "lineno": 1001,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-001"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_should_compile",
+      "lineno": 1004,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-002"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_compile_page",
+      "lineno": 1013,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-003"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_add_optional_endpoints",
+      "lineno": 1014,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-004"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "add_page",
+      "lineno": 1018,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-005"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_compile_page",
+      "lineno": 1027,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-006"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_write_stateful_pages_marker",
+      "lineno": 1029,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-007"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_write_routes_manifest",
+      "lineno": 1030,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-008"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_add_optional_endpoints",
+      "lineno": 1031,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-009"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_check_routes_conflict",
+      "lineno": 1070,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-010"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_write_stateful_pages_marker",
+      "lineno": 1080,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-011"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_write_routes_manifest",
+      "lineno": 1081,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-012"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_add_optional_endpoints",
+      "lineno": 1082,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-013"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_validate_var_dependencies",
+      "lineno": 1083,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-014"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_setup_sticky_badge",
+      "lineno": 1095,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-015"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_app_root",
+      "lineno": 1125,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-016"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 0.75,
+      "known": false,
+      "from_file": "reflex/compiler/compiler.py",
+      "from_layer": "Internal",
+      "from_func": "compile_app",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "_get_frontend_packages",
+      "lineno": 1230,
+      "message": "Internal \u2192 Entry: forbidden direction (reflex/compiler/compiler.py \u2192 reflex/app.py)",
+      "id": "V-017"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 1.0,
+      "known": false,
+      "from_file": "reflex/compiler/utils.py",
+      "from_layer": "Infrastructure",
+      "from_func": "",
+      "to_file": "reflex/vars/datetime.py",
+      "to_layer": "Core",
+      "to_func": "",
+      "lineno": 11,
+      "edge_type": "import",
+      "message": "Infrastructure \u2192 Core: forbidden direction (reflex/compiler/utils.py \u2192 reflex/vars/datetime.py)",
+      "id": "V-018"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 1.0,
+      "known": false,
+      "from_file": "reflex/middleware/hydrate_middleware.py",
+      "from_layer": "Middleware",
+      "from_func": "",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "",
+      "lineno": 15,
+      "edge_type": "import",
+      "message": "Middleware \u2192 Entry: forbidden direction (reflex/middleware/hydrate_middleware.py \u2192 reflex/app.py)",
+      "id": "V-019"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 1.0,
+      "known": false,
+      "from_file": "reflex/middleware/middleware.py",
+      "from_layer": "Middleware",
+      "from_func": "",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "",
+      "lineno": 13,
+      "edge_type": "import",
+      "message": "Middleware \u2192 Entry: forbidden direction (reflex/middleware/middleware.py \u2192 reflex/app.py)",
+      "id": "V-020"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 1.0,
+      "known": false,
+      "from_file": "reflex/state.py",
+      "from_layer": "Infrastructure",
+      "from_func": "",
+      "to_file": "reflex/istate/dynamic.py",
+      "to_layer": "Core",
+      "to_func": "",
+      "lineno": 70,
+      "edge_type": "import",
+      "message": "Infrastructure \u2192 Core: forbidden direction (reflex/state.py \u2192 reflex/istate/dynamic.py)",
+      "id": "V-021"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 1.0,
+      "known": false,
+      "from_file": "reflex/utils/prerequisites.py",
+      "from_layer": "Infrastructure",
+      "from_func": "",
+      "to_file": "reflex/vars/datetime.py",
+      "to_layer": "Core",
+      "to_func": "",
+      "lineno": 14,
+      "edge_type": "import",
+      "message": "Infrastructure \u2192 Core: forbidden direction (reflex/utils/prerequisites.py \u2192 reflex/vars/datetime.py)",
+      "id": "V-022"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 1.0,
+      "known": false,
+      "from_file": "reflex/utils/telemetry.py",
+      "from_layer": "Infrastructure",
+      "from_func": "",
+      "to_file": "reflex/vars/datetime.py",
+      "to_layer": "Core",
+      "to_func": "",
+      "lineno": 11,
+      "edge_type": "import",
+      "message": "Infrastructure \u2192 Core: forbidden direction (reflex/utils/telemetry.py \u2192 reflex/vars/datetime.py)",
+      "id": "V-023"
+    }
+  ],
+  "known_bad_paths": {},
+  "coupling_hotspots": [
+    {
+      "file": "reflex/app.py",
+      "layer": "Entry",
+      "line_count": 1743,
+      "fan_out": 20,
+      "fan_in": 4,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out",
+        "god_file"
+      ]
+    },
+    {
+      "file": "reflex/compiler/compiler.py",
+      "layer": "Internal",
+      "line_count": 1288,
+      "fan_out": 12,
+      "fan_in": 3,
+      "violation_edges": 17,
+      "flags": [
+        "high_fan_out",
+        "god_file"
+      ]
+    },
+    {
+      "file": "reflex/compiler/utils.py",
+      "layer": "Infrastructure",
+      "line_count": 909,
+      "fan_out": 6,
+      "fan_in": 3,
+      "violation_edges": 1,
+      "flags": [
+        "high_fan_out",
+        "god_file"
+      ]
+    },
+    {
+      "file": "reflex/experimental/memo.py",
+      "layer": "Internal",
+      "line_count": 1160,
+      "fan_out": 0,
+      "fan_in": 9,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_in",
+        "god_file"
+      ]
+    },
+    {
+      "file": "reflex/istate/manager/__init__.py",
+      "layer": "Unknown",
+      "line_count": 274,
+      "fan_out": 7,
+      "fan_in": 5,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out",
+        "high_fan_in"
+      ]
+    },
+    {
+      "file": "reflex/istate/manager/disk.py",
+      "layer": "Infrastructure",
+      "line_count": 387,
+      "fan_out": 5,
+      "fan_in": 1,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out"
+      ]
+    },
+    {
+      "file": "reflex/istate/manager/token.py",
+      "layer": "Infrastructure",
+      "line_count": 244,
+      "fan_out": 2,
+      "fan_in": 6,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_in"
+      ]
+    },
+    {
+      "file": "reflex/reflex.py",
+      "layer": "Infrastructure",
+      "line_count": 948,
+      "fan_out": 11,
+      "fan_in": 1,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out",
+        "god_file"
+      ]
+    },
+    {
+      "file": "reflex/state.py",
+      "layer": "Infrastructure",
+      "line_count": 2655,
+      "fan_out": 14,
+      "fan_in": 13,
+      "violation_edges": 1,
+      "flags": [
+        "high_fan_out",
+        "high_fan_in",
+        "god_file"
+      ]
+    },
+    {
+      "file": "reflex/testing.py",
+      "layer": "Infrastructure",
+      "line_count": 918,
+      "fan_out": 7,
+      "fan_in": 1,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out",
+        "god_file"
+      ]
+    },
+    {
+      "file": "reflex/utils/build.py",
+      "layer": "Infrastructure",
+      "line_count": 334,
+      "fan_out": 6,
+      "fan_in": 2,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out"
+      ]
+    },
+    {
+      "file": "reflex/utils/console.py",
+      "layer": "Infrastructure",
+      "line_count": 4,
+      "fan_out": 0,
+      "fan_in": 16,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_in"
+      ]
+    },
+    {
+      "file": "reflex/utils/exec.py",
+      "layer": "Infrastructure",
+      "line_count": 831,
+      "fan_out": 5,
+      "fan_in": 7,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out",
+        "high_fan_in",
+        "god_file"
+      ]
+    },
+    {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "layer": "Infrastructure",
+      "line_count": 510,
+      "fan_out": 5,
+      "fan_in": 4,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out"
+      ]
+    },
+    {
+      "file": "reflex/utils/js_runtimes.py",
+      "layer": "Infrastructure",
+      "line_count": 760,
+      "fan_out": 6,
+      "fan_in": 6,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out",
+        "high_fan_in"
+      ]
+    },
+    {
+      "file": "reflex/utils/misc.py",
+      "layer": "Infrastructure",
+      "line_count": 133,
+      "fan_out": 0,
+      "fan_in": 6,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_in"
+      ]
+    },
+    {
+      "file": "reflex/utils/path_ops.py",
+      "layer": "Infrastructure",
+      "line_count": 320,
+      "fan_out": 0,
+      "fan_in": 10,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_in"
+      ]
+    },
+    {
+      "file": "reflex/utils/prerequisites.py",
+      "layer": "Infrastructure",
+      "line_count": 711,
+      "fan_out": 11,
+      "fan_in": 17,
+      "violation_edges": 1,
+      "flags": [
+        "high_fan_out",
+        "high_fan_in"
+      ]
+    },
+    {
+      "file": "reflex/utils/processes.py",
+      "layer": "Infrastructure",
+      "line_count": 556,
+      "fan_out": 5,
+      "fan_in": 5,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out",
+        "high_fan_in"
+      ]
+    },
+    {
+      "file": "reflex/utils/telemetry.py",
+      "layer": "Infrastructure",
+      "line_count": 453,
+      "fan_out": 4,
+      "fan_in": 5,
+      "violation_edges": 1,
+      "flags": [
+        "high_fan_in"
+      ]
+    },
+    {
+      "file": "reflex/utils/templates.py",
+      "layer": "Infrastructure",
+      "line_count": 445,
+      "fan_out": 7,
+      "fan_in": 1,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out"
+      ]
+    },
+    {
+      "file": "reflex/utils/token_manager.py",
+      "layer": "Infrastructure",
+      "line_count": 463,
+      "fan_out": 5,
+      "fan_in": 1,
+      "violation_edges": 0,
+      "flags": [
+        "high_fan_out"
+      ]
+    }
+  ],
+  "summary": {
+    "total_violations": 23,
+    "unique_boundaries_violated": 7,
+    "by_severity": {
+      "high": 23
+    },
+    "by_type": {
+      "layer_violation": 23
+    },
+    "hotspots": 22,
+    "open_intentional_overrides": 0,
+    "opacity_suppressed": 0,
+    "opacity_downgraded": 0
+  }
+}

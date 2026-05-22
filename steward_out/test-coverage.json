@@ -1,0 +1,1846 @@
+{
+  "generated_at": "2026-05-22T10:40:27.963404+00:00",
+  "layout_mode": "configured",
+  "test_dirs": [
+    "tests"
+  ],
+  "ast_source": "steward_out/ast-core.json",
+  "graph_source": "steward_out/call-graph.json",
+  "test_coverage": {
+    "modules": {
+      "reflex/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/__main__.py": {
+        "layer": "Entry",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/_upload.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/admin.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/app.py": {
+        "layer": "Entry",
+        "test_files": [
+          "test_app.py",
+          "test_base_state_processor.py",
+          "test_compilation.py",
+          "test_evaluate.py",
+          "test_health_endpoint.py",
+          "test_hydrate_middleware.py",
+          "test_plugins.py",
+          "test_route.py",
+          "test_sitemap.py",
+          "test_state.py",
+          "test_token_manager.py"
+        ],
+        "test_count": 11,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "App",
+          "ComponentCallable",
+          "EventNamespace",
+          "UnevaluatedPage",
+          "health",
+          "upload"
+        ]
+      },
+      "reflex/app_mixins/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/app_mixins/lifespan.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_lifespan.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "LifespanMixin"
+        ]
+      },
+      "reflex/app_mixins/middleware.py": {
+        "layer": "Middleware",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/app_mixins/mixin.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/assets.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_assets.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "AssetPathStr",
+          "remove_stale_external_asset_symlinks"
+        ]
+      },
+      "reflex/compiler/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/compiler/compiler.py": {
+        "layer": "Internal",
+        "test_files": [
+          "test_compilation.py",
+          "test_memoize_plugin.py"
+        ],
+        "test_count": 2,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "_compile_page",
+          "compile_memo_components"
+        ]
+      },
+      "reflex/compiler/plugins/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/compiler/plugins/builtin.py": {
+        "layer": "Plugins",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/compiler/plugins/memoize.py": {
+        "layer": "Plugins",
+        "test_files": [
+          "test_compilation.py",
+          "test_memoize_plugin.py",
+          "test_plugins.py"
+        ],
+        "test_count": 3,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "MemoizeStatefulPlugin",
+          "_should_memoize"
+        ]
+      },
+      "reflex/compiler/templates.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_compilation.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [],
+        "import_only": true
+      },
+      "reflex/compiler/utils.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_component.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "compile_custom_component"
+        ]
+      },
+      "reflex/components/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/component.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/dynamic.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/field.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/literals.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/props.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/tags/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/tags/cond_tag.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/tags/iter_tag.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/tags/match_tag.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/tags/tag.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/components/tags/tagless.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/config.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/base.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/colors.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/compiler.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/config.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/custom_components.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/event.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/installer.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/route.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/state.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/constants/utils.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/custom_components/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/custom_components/custom_components.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/environment.py": {
+        "layer": "Core",
+        "test_files": [
+          "test_app.py",
+          "test_config.py",
+          "test_connection_banner.py",
+          "test_state.py",
+          "test_utils.py",
+          "test_var.py"
+        ],
+        "test_count": 6,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "EnvVar",
+          "PerformanceMode",
+          "env_var",
+          "environment",
+          "interpret_boolean_env",
+          "interpret_enum_env",
+          "interpret_int_env"
+        ]
+      },
+      "reflex/event.py": {
+        "layer": "Core",
+        "test_files": [
+          "test_base_state_processor.py",
+          "test_context.py",
+          "test_event_processor.py",
+          "test_registry.py"
+        ],
+        "test_count": 4,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "Event",
+          "EventHandler"
+        ]
+      },
+      "reflex/experimental/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/experimental/client_state.py": {
+        "layer": "Internal",
+        "test_files": [
+          "test_memoize_plugin.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "ClientStateVar"
+        ]
+      },
+      "reflex/experimental/hooks.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/experimental/memo.py": {
+        "layer": "Internal",
+        "test_files": [
+          "test_memo.py",
+          "test_memoize_plugin.py",
+          "test_testing.py"
+        ],
+        "test_count": 3,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "EXPERIMENTAL_MEMOS",
+          "ExperimentalMemoComponent",
+          "ExperimentalMemoComponentDefinition",
+          "ExperimentalMemoFunctionDefinition",
+          "create_passthrough_component_memo"
+        ]
+      },
+      "reflex/istate/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/istate/data.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_state.py",
+          "test_token_manager.py"
+        ],
+        "test_count": 2,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "HeaderData",
+          "RouterData",
+          "_FrozenDictStrStr"
+        ]
+      },
+      "reflex/istate/dynamic.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/istate/manager/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/istate/manager/disk.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_app.py",
+          "test_state.py"
+        ],
+        "test_count": 2,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "StateManagerDisk"
+        ]
+      },
+      "reflex/istate/manager/memory.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_app.py",
+          "test_base_state_processor.py",
+          "test_context.py",
+          "test_event_processing.py",
+          "test_expiration.py",
+          "test_memory_state_manager_expiration.py",
+          "test_state.py"
+        ],
+        "test_count": 7,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "StateManagerMemory"
+        ]
+      },
+      "reflex/istate/manager/redis.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_app.py",
+          "test_connection_banner.py",
+          "test_linked_state.py",
+          "test_redis.py",
+          "test_state.py",
+          "test_state_tree.py",
+          "in_docker_test_script.sh (smoke)"
+        ],
+        "test_count": 6,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "StateManagerRedis"
+        ]
+      },
+      "reflex/istate/manager/token.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_app.py",
+          "test_expiration.py",
+          "test_lifespan.py",
+          "test_linked_state.py",
+          "test_redis.py",
+          "test_state.py",
+          "test_state_tree.py",
+          "test_token.py"
+        ],
+        "test_count": 8,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "BaseStateToken",
+          "StateToken"
+        ]
+      },
+      "reflex/istate/proxy.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_proxy.py",
+          "test_state.py"
+        ],
+        "test_count": 2,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "MutableProxy",
+          "StateProxy"
+        ]
+      },
+      "reflex/istate/shared.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/istate/storage.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/istate/wrappers.py": {
+        "layer": "Middleware",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/middleware/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/middleware/hydrate_middleware.py": {
+        "layer": "Middleware",
+        "test_files": [
+          "test_hydrate_middleware.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "HydrateMiddleware"
+        ]
+      },
+      "reflex/middleware/middleware.py": {
+        "layer": "Middleware",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/model.py": {
+        "layer": "Models",
+        "test_files": [
+          "test_app.py",
+          "test_health_endpoint.py",
+          "test_model.py",
+          "test_sqlalchemy.py"
+        ],
+        "test_count": 4,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "Model",
+          "ModelRegistry",
+          "alembic_autogenerate",
+          "alembic_init",
+          "get_db_status",
+          "get_engine",
+          "migrate",
+          "sqla_session"
+        ]
+      },
+      "reflex/page.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_page.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "DECORATED_PAGES",
+          "page"
+        ]
+      },
+      "reflex/plugins/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/plugins/_screenshot.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/plugins/base.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/plugins/shared_tailwind.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/plugins/sitemap.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/plugins/tailwind_v3.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/plugins/tailwind_v4.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/reflex.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_prerequisites.py",
+          "test_testing.py",
+          "in_docker_test_script.sh (smoke)"
+        ],
+        "test_count": 2,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "cli"
+        ]
+      },
+      "reflex/route.py": {
+        "layer": "Routes",
+        "test_files": [
+          "test_frontend.py",
+          "test_route.py"
+        ],
+        "test_count": 2,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "get_route_args",
+          "get_router",
+          "verify_route_validity"
+        ]
+      },
+      "reflex/state.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_app.py",
+          "test_background_task.py",
+          "test_base.py",
+          "test_base_state_processor.py",
+          "test_class_and_component.py",
+          "test_component.py",
+          "test_cond.py",
+          "test_debounce.py",
+          "test_dep_tracking.py",
+          "test_dep_tracking_integration.py",
+          "test_dynamic_components_codegen.py",
+          "test_event.py",
+          "test_expiration.py",
+          "test_foreach.py",
+          "test_html.py",
+          "test_hydrate_middleware.py",
+          "test_match.py",
+          "test_memoize_plugin.py",
+          "test_model.py",
+          "test_props.py",
+          "test_redis.py",
+          "test_registry.py",
+          "test_sqlalchemy.py",
+          "test_state.py",
+          "test_state_tree.py",
+          "test_token.py",
+          "test_token_manager.py",
+          "test_upload.py",
+          "test_utils.py",
+          "test_var.py"
+        ],
+        "test_count": 30,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "BaseState",
+          "ComponentState",
+          "ImmutableMutableProxy",
+          "ImmutableStateError",
+          "MutableProxy",
+          "OnLoadInternalState",
+          "RouterData",
+          "State",
+          "StateUpdate",
+          "_override_base_method",
+          "reload_state_module"
+        ]
+      },
+      "reflex/style.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/testing.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_appearance.py",
+          "test_auto_memo.py",
+          "test_backend_path.py",
+          "test_background_task.py",
+          "test_call_script.py",
+          "test_client_storage.py",
+          "test_component_state.py",
+          "test_computed_vars.py",
+          "test_cond_match.py",
+          "test_connection_banner.py",
+          "test_datetime_operations.py",
+          "test_deploy_url.py",
+          "test_dynamic_components.py",
+          "test_dynamic_routes.py",
+          "test_event_actions.py",
+          "test_event_chain.py",
+          "test_exception_handlers.py",
+          "test_experimental_memo.py",
+          "test_extra_overlay_function.py",
+          "test_form_submit.py",
+          "test_frontend_path.py",
+          "test_icon.py",
+          "test_input.py",
+          "test_large_state.py",
+          "test_lifespan.py",
+          "test_link_hover.py",
+          "test_linked_state.py",
+          "test_login_flow.py",
+          "test_media.py",
+          "test_memo.py",
+          "test_memoize_edge_cases.py",
+          "test_memory_state_manager_expiration.py",
+          "test_navigation.py",
+          "test_node_version.py",
+          "test_prerequisites.py",
+          "test_processes.py",
+          "test_server_side_event.py",
+          "test_shared_state.py",
+          "test_state.py",
+          "test_state_inheritance.py",
+          "test_stateless_app.py",
+          "test_table.py",
+          "test_tailwind.py",
+          "test_testing.py",
+          "test_upload.py",
+          "test_var_operations.py"
+        ],
+        "test_count": 46,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "AppHarness",
+          "AppHarnessProd",
+          "DEFAULT_TIMEOUT",
+          "WebDriver",
+          "chdir"
+        ]
+      },
+      "reflex/utils/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/build.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/codespaces.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/compat.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/console.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/decorator.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/exceptions.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/exec.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/export.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "in_docker_test_script.sh (smoke)"
+        ],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/format.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/frontend.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_frontend.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "ReflexStaticFiles",
+          "_load_routes_manifest"
+        ]
+      },
+      "reflex/utils/frontend_skeleton.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_prerequisites.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "_compile_vite_config",
+          "_update_react_router_config"
+        ]
+      },
+      "reflex/utils/imports.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/js_runtimes.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_node_version.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "get_node_version"
+        ]
+      },
+      "reflex/utils/lazy_loader.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/misc.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/net.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/path_ops.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/prerequisites.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_connection_banner.py",
+          "test_health_endpoint.py",
+          "test_lifespan.py",
+          "test_testing.py"
+        ],
+        "test_count": 4,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "get_app",
+          "get_redis",
+          "get_redis_status"
+        ]
+      },
+      "reflex/utils/processes.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_processes.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "is_process_on_port"
+        ]
+      },
+      "reflex/utils/pyi_generator.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/redir.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/registry.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/rename.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_prerequisites.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "rename_imports_and_app_name"
+        ]
+      },
+      "reflex/utils/serializers.py": {
+        "layer": "Internal",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/tasks.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_tasks.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "ensure_task"
+        ]
+      },
+      "reflex/utils/telemetry.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_prerequisites.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "CpuInfo",
+          "get_cpu_info"
+        ]
+      },
+      "reflex/utils/templates.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/utils/token_manager.py": {
+        "layer": "Infrastructure",
+        "test_files": [
+          "test_connection_banner.py",
+          "test_token_manager.py"
+        ],
+        "test_count": 2,
+        "coverage_level": "well_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "LocalTokenManager",
+          "RedisTokenManager",
+          "SocketRecord",
+          "TokenManager"
+        ]
+      },
+      "reflex/utils/types.py": {
+        "layer": "Infrastructure",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/vars/__init__.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/vars/base.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/vars/color.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/vars/datetime.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/vars/dep_tracking.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/vars/function.py": {
+        "layer": "Core",
+        "test_files": [
+          "in_docker_test_script.sh (smoke)"
+        ],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/vars/number.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/vars/object.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
+      "reflex/vars/sequence.py": {
+        "layer": "Core",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      }
+    },
+    "checks_coverage": {
+      "tested": [],
+      "untested": [],
+      "tested_count": 0,
+      "untested_count": 0,
+      "coverage_pct": "N/A"
+    },
+    "gaps": [
+      {
+        "module": "reflex/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/__main__.py",
+        "layer": "Entry",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/_upload.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/admin.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/app_mixins/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/app_mixins/middleware.py",
+        "layer": "Middleware",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/app_mixins/mixin.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/compiler/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/compiler/plugins/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/compiler/plugins/builtin.py",
+        "layer": "Plugins",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/component.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/dynamic.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/field.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/literals.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/props.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/tags/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/tags/cond_tag.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/tags/iter_tag.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/tags/match_tag.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/tags/tag.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/components/tags/tagless.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/config.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/base.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/colors.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/compiler.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/config.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/custom_components.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/event.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/installer.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/route.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/state.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/constants/utils.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/custom_components/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/custom_components/custom_components.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/experimental/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/experimental/hooks.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/istate/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/istate/dynamic.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/istate/manager/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/istate/shared.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/istate/storage.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/istate/wrappers.py",
+        "layer": "Middleware",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/middleware/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/middleware/middleware.py",
+        "layer": "Middleware",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/plugins/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/plugins/_screenshot.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/plugins/base.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/plugins/shared_tailwind.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/plugins/sitemap.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/plugins/tailwind_v3.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/plugins/tailwind_v4.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/style.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/build.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/codespaces.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/compat.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/console.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/decorator.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/exceptions.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/exec.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/export.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/format.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/imports.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/lazy_loader.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/misc.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/net.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/path_ops.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/pyi_generator.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/redir.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/registry.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/serializers.py",
+        "layer": "Internal",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/templates.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/utils/types.py",
+        "layer": "Infrastructure",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/vars/__init__.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/vars/base.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/vars/color.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/vars/datetime.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/vars/dep_tracking.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/vars/function.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/vars/number.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/vars/object.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
+        "module": "reflex/vars/sequence.py",
+        "layer": "Core",
+        "level": "untested",
+        "note": "no dedicated test file"
+      }
+    ],
+    "high_risk_low_test": []
+  },
+  "summary": {
+    "modules_total": 117,
+    "well_tested": 19,
+    "lightly_tested": 14,
+    "untested": 84,
+    "checks_tested_pct": "None%",
+    "high_risk_low_test": 0,
+    "by_layer": {
+      "Core": {
+        "total": 22,
+        "well_tested": 2,
+        "lightly_tested": 0,
+        "untested": 20
+      },
+      "Entry": {
+        "total": 2,
+        "well_tested": 1,
+        "lightly_tested": 0,
+        "untested": 1
+      },
+      "Infrastructure": {
+        "total": 41,
+        "well_tested": 11,
+        "lightly_tested": 12,
+        "untested": 18
+      },
+      "Internal": {
+        "total": 29,
+        "well_tested": 2,
+        "lightly_tested": 1,
+        "untested": 26
+      },
+      "Middleware": {
+        "total": 4,
+        "well_tested": 0,
+        "lightly_tested": 1,
+        "untested": 3
+      },
+      "Models": {
+        "total": 1,
+        "well_tested": 1,
+        "lightly_tested": 0,
+        "untested": 0
+      },
+      "Plugins": {
+        "total": 2,
+        "well_tested": 1,
+        "lightly_tested": 0,
+        "untested": 1
+      },
+      "Routes": {
+        "total": 1,
+        "well_tested": 1,
+        "lightly_tested": 0,
+        "untested": 0
+      },
+      "Unknown": {
+        "total": 15,
+        "well_tested": 0,
+        "lightly_tested": 0,
+        "untested": 15
+      }
+    }
+  }
+}

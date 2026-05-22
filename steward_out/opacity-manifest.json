@@ -1,0 +1,1184 @@
+{
+  "generated_at": "2026-05-22T07:20:47.547062+00:00",
+  "phase": "B0",
+  "summary": {
+    "total": 117,
+    "solid": 109,
+    "parse_failed": 0,
+    "graph_opaque": 0,
+    "inferred": 0,
+    "enriched": 8
+  },
+  "files": {
+    "reflex/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 1.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/__main__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/_upload.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/admin.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/app.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.819,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 1,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/app_mixins/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/app_mixins/lifespan.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.8293,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/app_mixins/middleware.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.8333,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/app_mixins/mixin.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/assets.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.9302,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/compiler/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/compiler/compiler.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.6477,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 1,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/compiler/plugins/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/compiler/plugins/builtin.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.9318,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/compiler/plugins/memoize.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.8269,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/compiler/templates.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/compiler/utils.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.8294,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/__init__.py": {
+      "visibility": "enriched",
+      "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.88",
+      "signals": {
+        "unresolved_edge_ratio": 0.875,
+        "dynamic_import_detected": true,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/component.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/dynamic.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/field.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/literals.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/props.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/tags/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/tags/cond_tag.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/tags/iter_tag.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/tags/match_tag.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/tags/tag.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/components/tags/tagless.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/config.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/base.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/colors.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/compiler.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/config.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/custom_components.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/event.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/installer.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/route.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/state.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/constants/utils.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/custom_components/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/custom_components/custom_components.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.5034,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 12,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/environment.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/event.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/experimental/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.8,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/experimental/client_state.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.8286,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/experimental/hooks.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.7368,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/experimental/memo.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.7286,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 1,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.7222,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/data.py": {
+      "visibility": "enriched",
+      "reason": "high decorator fan-out (5) \u00b7 unresolved_edge_ratio=0.94",
+      "signals": {
+        "unresolved_edge_ratio": 0.9403,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 5,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/dynamic.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/manager/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.6296,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/manager/disk.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.89,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/manager/memory.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 1.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/manager/redis.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.9117,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/manager/token.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.6818,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/proxy.py": {
+      "visibility": "enriched",
+      "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.83",
+      "signals": {
+        "unresolved_edge_ratio": 0.8321,
+        "dynamic_import_detected": true,
+        "decorator_fan_out": 2,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/shared.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.797,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 1,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/storage.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.6,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/istate/wrappers.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.4545,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/middleware/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/middleware/hydrate_middleware.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.4286,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/middleware/middleware.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/model.py": {
+      "visibility": "enriched",
+      "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.73",
+      "signals": {
+        "unresolved_edge_ratio": 0.7323,
+        "dynamic_import_detected": true,
+        "decorator_fan_out": 2,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/page.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.6667,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/plugins/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/plugins/_screenshot.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/plugins/base.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/plugins/shared_tailwind.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/plugins/sitemap.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/plugins/tailwind_v3.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/plugins/tailwind_v4.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/reflex.py": {
+      "visibility": "enriched",
+      "reason": "dynamic imports \u00b7 high decorator fan-out (60) \u00b7 unresolved_edge_ratio=0.68",
+      "signals": {
+        "unresolved_edge_ratio": 0.6842,
+        "dynamic_import_detected": true,
+        "decorator_fan_out": 60,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/route.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.8824,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/state.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.8881,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 1,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/style.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/testing.py": {
+      "visibility": "enriched",
+      "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.91",
+      "signals": {
+        "unresolved_edge_ratio": 0.9118,
+        "dynamic_import_detected": true,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/build.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.6932,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/codespaces.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.5556,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 1,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/compat.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/console.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/decorator.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/exceptions.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/exec.py": {
+      "visibility": "enriched",
+      "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.69",
+      "signals": {
+        "unresolved_edge_ratio": 0.6889,
+        "dynamic_import_detected": true,
+        "decorator_fan_out": 1,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/export.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.6842,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/format.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/frontend.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.6667,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/frontend_skeleton.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.5192,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/imports.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/js_runtimes.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.4653,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 2,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/lazy_loader.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/misc.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 1.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 1,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/net.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.7931,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 2,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/path_ops.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.8605,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/prerequisites.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.5933,
+        "dynamic_import_detected": true,
+        "decorator_fan_out": 2,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/processes.py": {
+      "visibility": "enriched",
+      "reason": "high decorator fan-out (3) \u00b7 unresolved_edge_ratio=0.62",
+      "signals": {
+        "unresolved_edge_ratio": 0.6207,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 3,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/pyi_generator.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/redir.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.8,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/registry.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.4,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 2,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/rename.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.9091,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/serializers.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/tasks.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.9444,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/telemetry.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.5753,
+        "dynamic_import_detected": true,
+        "decorator_fan_out": 2,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/templates.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.5403,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/token_manager.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.6941,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/utils/types.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/vars/__init__.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/vars/base.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/vars/color.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/vars/datetime.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/vars/dep_tracking.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/vars/function.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/vars/number.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/vars/object.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    },
+    "reflex/vars/sequence.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.0,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 0,
+        "di_framework_detected": false
+      }
+    }
+  }
+}

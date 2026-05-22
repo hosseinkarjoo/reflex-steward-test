@@ -1,0 +1,86 @@
+[
+  {
+    "id": "violations",
+    "category": "violations",
+    "severity": "high",
+    "confidence": "high",
+    "scope": "project",
+    "title": "Violations",
+    "evidence": "high=23",
+    "consequence": "23 high-severity violation(s) affecting architecture integrity",
+    "suggested_action": "steward check \u2014 review before merge",
+    "source": "violations.json",
+    "location": "",
+    "count": 23,
+    "metadata": {
+      "counts": {
+        "critical": 0,
+        "high": 23,
+        "medium": 0,
+        "low": 0
+      },
+      "health_score": 50
+    }
+  },
+  {
+    "id": "graph_quality",
+    "category": "graph",
+    "severity": "low",
+    "confidence": "medium",
+    "scope": "project",
+    "title": "Graph Quality",
+    "evidence": "medium confidence  67% internal",
+    "consequence": "591 unresolvable call(s) \u2014 some cross-layer flows may be invisible",
+    "suggested_action": "add type annotations to dynamic calls to improve resolution",
+    "source": "call-graph.json",
+    "location": "",
+    "count": 591,
+    "metadata": {
+      "resolution_rate": 0.67,
+      "resolved": 1201,
+      "candidates": 1792,
+      "unresolvable": 591
+    }
+  },
+  {
+    "id": "coverage",
+    "category": "coverage",
+    "severity": "medium",
+    "confidence": "high",
+    "scope": "project",
+    "title": "Coverage",
+    "evidence": "28% modules referenced by tests  (19 well \u00b7 14 lightly \u00b7 84 untested)",
+    "consequence": "84/117 modules untested \u2014 most code is unverified",
+    "suggested_action": "prioritize test coverage for Core layer (steward check --show-gaps)",
+    "source": "test-coverage.json",
+    "location": "",
+    "count": 84,
+    "metadata": {
+      "total": 117,
+      "well": 19,
+      "lightly": 14,
+      "untested": 84,
+      "pct": 28,
+      "core_untested": 20
+    }
+  },
+  {
+    "id": "geometry",
+    "category": "geometry",
+    "severity": "ok",
+    "confidence": "high",
+    "scope": "project",
+    "title": "Layer Geometry",
+    "evidence": "sep=2.96  40 drifted",
+    "consequence": "layer boundaries are geometrically clean",
+    "suggested_action": "",
+    "source": "hyperbolic-coords.json",
+    "location": "",
+    "count": 40,
+    "metadata": {
+      "separation_ratio": 2.9593,
+      "drift_flagged": 40,
+      "isolated_nodes": 0
+    }
+  }
+]
