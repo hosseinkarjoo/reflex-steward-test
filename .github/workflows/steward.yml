@@ -86,25 +86,15 @@ jobs:
             --format json > /tmp/steward-findings.json
         continue-on-error: true
 
-      - name: Generate PR comment
+      - name: Post PR review
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          steward pr-comment \
+          steward pr-post-review \
             --input /tmp/steward-findings.json \
-            --output /tmp/steward-comment.md \
-            --with-ai
-
-      - name: Post PR comment
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh pr comment ${{ github.event.pull_request.number }} \
-            --body-file /tmp/steward-comment.md \
-            --edit-last 2>/dev/null || \
-          gh pr comment ${{ github.event.pull_request.number }} \
-            --body-file /tmp/steward-comment.md
+            --pr ${{ github.event.pull_request.number }}
+        continue-on-error: true
       - name: Post inline diff comments
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
