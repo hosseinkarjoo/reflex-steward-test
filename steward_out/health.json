@@ -1,17 +1,31 @@
 {
-  "score": 73,
-  "status": "warn",
-  "breakdown": {
-    "violation_penalty": 20,
-    "coverage_penalty": 0,
-    "pattern_penalty": 7,
-    "geometry_penalty": 0,
-    "violation_counts": {
-      "critical": 0,
-      "high": 230,
-      "warn": 0,
-      "low": 0
-    }
+  "score": 46,
+  "status": "stale",
+  "computed_at": "2026-05-22T13:16:38.243853+00:00",
+  "geometry_enabled": true,
+  "violation_penalty": 25,
+  "coverage_penalty": 9,
+  "pattern_penalty": 10,
+  "geometry_penalty": 0,
+  "violation_counts": {
+    "critical": 0,
+    "high": 22,
+    "medium": 1,
+    "low": 0
   },
-  "generated_at": "2026-05-22T12:00:00.785890+00:00Z"
+  "graph_quality": {
+    "resolved": 1305,
+    "candidates": 1933,
+    "external_ignored": 3410,
+    "unknown_internal": 628,
+    "confidence": "medium",
+    "resolution_rate": 0.68
+  },
+  "parse_error_count": 0,
+  "enrichment_coverage": {
+    "enriched": 8,
+    "stale": 0,
+    "enrichment_coverage_pct": 80.0
+  },
+  "inferred_violations": 0
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T10:40:27.963404+00:00",
+  "generated_at": "2026-05-22T13:16:38.116074+00:00",
   "layout_mode": "configured",
   "test_dirs": [
     "tests"
@@ -183,13 +183,17 @@
       "reflex/compiler/utils.py": {
         "layer": "Infrastructure",
         "test_files": [
-          "test_component.py"
+          "test_compiler_utils.py",
+          "test_component.py",
+          "test_form.py"
         ],
-        "test_count": 1,
-        "coverage_level": "lightly_tested",
+        "test_count": 3,
+        "coverage_level": "well_tested",
         "imported_as": [],
         "functions_referenced": [
-          "compile_custom_component"
+          "_root_only_custom_code",
+          "compile_custom_component",
+          "compile_state"
         ]
       },
       "reflex/components/__init__.py": {
@@ -370,11 +374,15 @@
       },
       "reflex/constants/state.py": {
         "layer": "Internal",
-        "test_files": [],
-        "test_count": 0,
-        "coverage_level": "untested",
+        "test_files": [
+          "test_compiler_utils.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
         "imported_as": [],
-        "functions_referenced": []
+        "functions_referenced": [
+          "FIELD_MARKER"
+        ]
       },
       "reflex/constants/utils.py": {
         "layer": "Internal",
@@ -496,14 +504,18 @@
       "reflex/istate/data.py": {
         "layer": "Infrastructure",
         "test_files": [
+          "test_app.py",
+          "test_data.py",
           "test_state.py",
           "test_token_manager.py"
         ],
-        "test_count": 2,
+        "test_count": 4,
         "coverage_level": "well_tested",
         "imported_as": [],
         "functions_referenced": [
           "HeaderData",
+          "ReflexURL",
+          "ReflexURLCastedVar",
           "RouterData",
           "_FrozenDictStrStr"
         ]
@@ -617,11 +629,19 @@
       },
       "reflex/istate/storage.py": {
         "layer": "Infrastructure",
-        "test_files": [],
-        "test_count": 0,
-        "coverage_level": "untested",
+        "test_files": [
+          "test_app.py",
+          "test_telemetry_accounting.py",
+          "test_telemetry_compile.py"
+        ],
+        "test_count": 3,
+        "coverage_level": "well_tested",
         "imported_as": [],
-        "functions_referenced": []
+        "functions_referenced": [
+          "Cookie",
+          "LocalStorage",
+          "SessionStorage"
+        ]
       },
       "reflex/istate/wrappers.py": {
         "layer": "Middleware",
@@ -787,6 +807,7 @@
           "test_base.py",
           "test_base_state_processor.py",
           "test_class_and_component.py",
+          "test_compiler_utils.py",
           "test_component.py",
           "test_cond.py",
           "test_debounce.py",
@@ -807,18 +828,20 @@
           "test_sqlalchemy.py",
           "test_state.py",
           "test_state_tree.py",
+          "test_telemetry_accounting.py",
           "test_token.py",
           "test_token_manager.py",
           "test_upload.py",
           "test_utils.py",
           "test_var.py"
         ],
-        "test_count": 30,
+        "test_count": 32,
         "coverage_level": "well_tested",
         "imported_as": [],
         "functions_referenced": [
           "BaseState",
           "ComponentState",
+          "FrontendEventExceptionState",
           "ImmutableMutableProxy",
           "ImmutableStateError",
           "MutableProxy",
@@ -826,6 +849,7 @@
           "RouterData",
           "State",
           "StateUpdate",
+          "UpdateVarsInternalState",
           "_override_base_method",
           "reload_state_module"
         ]
@@ -873,10 +897,13 @@
           "test_memo.py",
           "test_memoize_edge_cases.py",
           "test_memory_state_manager_expiration.py",
+          "test_mount_target.py",
           "test_navigation.py",
           "test_node_version.py",
+          "test_precompressed_frontend.py",
           "test_prerequisites.py",
           "test_processes.py",
+          "test_prod_build_pipeline.py",
           "test_server_side_event.py",
           "test_shared_state.py",
           "test_state.py",
@@ -884,11 +911,13 @@
           "test_stateless_app.py",
           "test_table.py",
           "test_tailwind.py",
+          "test_telemetry_compile.py",
           "test_testing.py",
+          "test_textarea_enter_key_submit.py",
           "test_upload.py",
           "test_var_operations.py"
         ],
-        "test_count": 46,
+        "test_count": 51,
         "coverage_level": "well_tested",
         "imported_as": [],
         "functions_referenced": [
@@ -1059,21 +1088,36 @@
         "imported_as": [],
         "functions_referenced": []
       },
+      "reflex/utils/precompressed_staticfiles.py": {
+        "layer": "Unknown",
+        "test_files": [
+          "test_precompressed_staticfiles.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "PrecompressedStaticFiles"
+        ]
+      },
       "reflex/utils/prerequisites.py": {
         "layer": "Infrastructure",
         "test_files": [
           "test_connection_banner.py",
           "test_health_endpoint.py",
           "test_lifespan.py",
+          "test_mount_target.py",
+          "test_prod_build_pipeline.py",
           "test_testing.py"
         ],
-        "test_count": 4,
+        "test_count": 6,
         "coverage_level": "well_tested",
         "imported_as": [],
         "functions_referenced": [
           "get_app",
           "get_redis",
-          "get_redis_status"
+          "get_redis_status",
+          "get_web_dir"
         ]
       },
       "reflex/utils/processes.py": {
@@ -1157,6 +1201,14 @@
           "get_cpu_info"
         ]
       },
+      "reflex/utils/telemetry_accounting.py": {
+        "layer": "Unknown",
+        "test_files": [],
+        "test_count": 0,
+        "coverage_level": "untested",
+        "imported_as": [],
+        "functions_referenced": []
+      },
       "reflex/utils/templates.py": {
         "layer": "Infrastructure",
         "test_files": [],
@@ -1199,11 +1251,15 @@
       },
       "reflex/vars/base.py": {
         "layer": "Core",
-        "test_files": [],
-        "test_count": 0,
-        "coverage_level": "untested",
+        "test_files": [
+          "test_compiler_utils.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
         "imported_as": [],
-        "functions_referenced": []
+        "functions_referenced": [
+          "computed_var"
+        ]
       },
       "reflex/vars/color.py": {
         "layer": "Core",
@@ -1465,12 +1521,6 @@
         "note": "no dedicated test file"
       },
       {
-        "module": "reflex/constants/state.py",
-        "layer": "Internal",
-        "level": "untested",
-        "note": "no dedicated test file"
-      },
-      {
         "module": "reflex/constants/utils.py",
         "layer": "Internal",
         "level": "untested",
@@ -1520,12 +1570,6 @@
       },
       {
         "module": "reflex/istate/shared.py",
-        "layer": "Infrastructure",
-        "level": "untested",
-        "note": "no dedicated test file"
-      },
-      {
-        "module": "reflex/istate/storage.py",
         "layer": "Infrastructure",
         "level": "untested",
         "note": "no dedicated test file"
@@ -1711,6 +1755,12 @@
         "note": "no dedicated test file"
       },
       {
+        "module": "reflex/utils/telemetry_accounting.py",
+        "layer": "Unknown",
+        "level": "untested",
+        "note": "no dedicated test file"
+      },
+      {
         "module": "reflex/utils/templates.py",
         "layer": "Infrastructure",
         "level": "untested",
@@ -1725,12 +1775,6 @@
       {
         "module": "reflex/vars/__init__.py",
         "layer": "Unknown",
-        "level": "untested",
-        "note": "no dedicated test file"
-      },
-      {
-        "module": "reflex/vars/base.py",
-        "layer": "Core",
         "level": "untested",
         "note": "no dedicated test file"
       },
@@ -1780,18 +1824,18 @@
     "high_risk_low_test": []
   },
   "summary": {
-    "modules_total": 117,
-    "well_tested": 19,
-    "lightly_tested": 14,
-    "untested": 84,
+    "modules_total": 119,
+    "well_tested": 21,
+    "lightly_tested": 16,
+    "untested": 82,
     "checks_tested_pct": "None%",
     "high_risk_low_test": 0,
     "by_layer": {
       "Core": {
         "total": 22,
         "well_tested": 2,
-        "lightly_tested": 0,
-        "untested": 20
+        "lightly_tested": 1,
+        "untested": 19
       },
       "Entry": {
         "total": 2,
@@ -1801,15 +1845,15 @@
       },
       "Infrastructure": {
         "total": 41,
-        "well_tested": 11,
-        "lightly_tested": 12,
-        "untested": 18
+        "well_tested": 13,
+        "lightly_tested": 11,
+        "untested": 17
       },
       "Internal": {
         "total": 29,
         "well_tested": 2,
-        "lightly_tested": 1,
-        "untested": 26
+        "lightly_tested": 2,
+        "untested": 25
       },
       "Middleware": {
         "total": 4,
@@ -1836,10 +1880,10 @@
         "untested": 0
       },
       "Unknown": {
-        "total": 15,
+        "total": 17,
         "well_tested": 0,
-        "lightly_tested": 0,
-        "untested": 15
+        "lightly_tested": 1,
+        "untested": 16
       }
     }
   }

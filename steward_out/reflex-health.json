@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-22T10:40:28.351123+00:00",
+  "generated_at": "2026-05-22T13:16:38.243853+00:00",
   "version": "unknown",
   "overall_status": "fail",
-  "health_score": 50,
+  "health_score": 46,
   "intentional_overrides": [],
   "phases": {
     "ast_core": {
@@ -23,14 +23,14 @@
     },
     "test_coverage": {
       "source": "steward_out/test-coverage.json",
-      "status": "warn"
+      "status": "ok"
     }
   },
   "architecture": {
     "total_violations": 23,
     "critical": 0,
-    "high": 23,
-    "warn": 0,
+    "high": 22,
+    "warn": 1,
     "unique_boundaries": 7,
     "known_bad_paths_detected": [],
     "hotspots": [
@@ -54,6 +54,7 @@
       "reflex/utils/prerequisites.py",
       "reflex/utils/processes.py",
       "reflex/utils/telemetry.py",
+      "reflex/utils/telemetry_accounting.py",
       "reflex/utils/templates.py",
       "reflex/utils/token_manager.py"
     ]
@@ -65,29 +66,29 @@
     "critical_mismatches": []
   },
   "test_coverage": {
-    "modules_total": 117,
-    "modules_untested": 84,
+    "modules_total": 119,
+    "modules_untested": 82,
     "checks_untested": 0,
     "checks_coverage_pct": "N/A",
     "high_risk_low_test": []
   },
   "codebase": {
-    "module_count": 117,
+    "module_count": 119,
     "check_count": 0,
     "command_count": 0,
-    "resolution_rate": "67%",
+    "resolution_rate": "68%",
     "largest_file": {
       "file": "reflex/utils/token_manager.py",
-      "lines": 464
+      "lines": 463
     }
   },
   "graph_quality": {
-    "resolved": 1201,
-    "candidates": 1792,
-    "external_ignored": 3261,
-    "unknown_internal": 591,
+    "resolved": 1305,
+    "candidates": 1933,
+    "external_ignored": 3410,
+    "unknown_internal": 628,
     "confidence": "medium",
-    "resolution_rate": 0.67
+    "resolution_rate": 0.68
   },
   "parse_error_count": 0,
   "recommendations": [
@@ -125,26 +126,39 @@
       "priority": 7,
       "action": "Consider splitting testing.py",
       "reason": "God file with high_fan_out, god_file"
+    },
+    {
+      "priority": 8,
+      "action": "Consider splitting exec.py",
+      "reason": "God file with high_fan_out, high_fan_in, god_file"
     }
   ],
   "architectural_alignment": {
     "natural_path": "clean",
-    "current_score": 0.3401,
+    "current_score": 0.3331,
     "chaos": false,
     "scores": {
       "layered": 0.0,
-      "clean": 0.3401,
-      "hexagonal": 0.2094,
-      "mvc": 0.294
+      "clean": 0.3331,
+      "hexagonal": 0.2107,
+      "mvc": 0.2947
     },
     "hybrid_signals": [
+      {
+        "module": "reflex/utils",
+        "best_fit": "layered",
+        "score": 1.0,
+        "whole_best_fit": "clean",
+        "delta": 0.6669,
+        "note": "reflex/utils is 67pts more layered than the project overall (clean)"
+      },
       {
         "module": "reflex/compiler",
         "best_fit": "mvc",
         "score": 0.963,
         "whole_best_fit": "clean",
-        "delta": 0.6229,
-        "note": "reflex/compiler is 62pts more mvc than the project overall (clean)"
+        "delta": 0.6299,
+        "note": "reflex/compiler is 63pts more mvc than the project overall (clean)"
       }
     ],
     "alignment_drift": null,

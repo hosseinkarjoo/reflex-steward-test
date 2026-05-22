@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T10:40:27.429073+00:00",
+  "generated_at": "2026-05-22T13:16:38.184762+00:00",
   "ast_source": "steward_out/ast-core.json",
   "ast_facts": {
     "version": "unknown",
@@ -8,6 +8,6 @@
     "command_count": 0,
     "command_names": [],
     "phase_functions": [],
-    "module_count": 117
+    "module_count": 119
   }
 }

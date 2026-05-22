@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T10:40:27.160105+00:00",
+  "generated_at": "2026-05-22T13:16:37.687458+00:00",
   "source": "steward_out/call-graph.json",
   "nodes": {
     "reflex._upload.UploadedFilesHeadersMiddleware": {
@@ -21,7 +21,7 @@
     "reflex.app.App.__call__": {
       "file": "reflex/app.py",
       "fan_in": 0,
-      "fan_out": 3,
+      "fan_out": 4,
       "impact_radius": "Low",
       "dependency_depth": 0,
       "depth_risk": "ENTRY"
@@ -69,7 +69,7 @@
     "reflex.app.App._compile": {
       "file": "reflex/app.py",
       "fan_in": 0,
-      "fan_out": 1,
+      "fan_out": 2,
       "impact_radius": "Low",
       "dependency_depth": 0,
       "depth_risk": "ENTRY"
@@ -83,6 +83,14 @@
       "depth_risk": "ENTRY"
     },
     "reflex.app.App._generate_component": {
+      "file": "reflex/app.py",
+      "fan_in": 0,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 0,
+      "depth_risk": "ENTRY"
+    },
+    "reflex.app.App._get_frontend_package_name": {
       "file": "reflex/app.py",
       "fan_in": 0,
       "fan_out": 1,
@@ -415,24 +423,32 @@
       "fan_in": 0,
       "fan_out": 2,
       "impact_radius": "Low",
-      "dependency_depth": null,
-      "depth_risk": "UNREACHABLE"
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
     },
     "reflex.app_mixins.lifespan.LifespanMixin.register_lifespan_task": {
       "file": "reflex/app_mixins/lifespan.py",
       "fan_in": 0,
       "fan_out": 2,
       "impact_radius": "Low",
-      "dependency_depth": null,
-      "depth_risk": "UNREACHABLE"
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
     },
     "reflex.app_mixins.lifespan._get_task_name": {
       "file": "reflex/app_mixins/lifespan.py",
       "fan_in": 2,
       "fan_out": 1,
       "impact_radius": "Low",
-      "dependency_depth": null,
-      "depth_risk": "UNREACHABLE"
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.app_mixins.lifespan.get_lifespan_tasks": {
+      "file": "reflex/app_mixins/lifespan.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
     },
     "reflex.app_mixins.middleware.MiddlewareMixin._postprocess": {
       "file": "reflex/app_mixins/middleware.py",
@@ -669,7 +685,7 @@
     "reflex.compiler.compiler.compile_app": {
       "file": "reflex/compiler/compiler.py",
       "fan_in": 1,
-      "fan_out": 41,
+      "fan_out": 42,
       "impact_radius": "Low",
       "dependency_depth": 1,
       "depth_risk": "HIGH"
@@ -1036,7 +1052,7 @@
     },
     "reflex.compiler.utils._path_to_file_stem": {
       "file": "reflex/compiler/utils.py",
-      "fan_in": 1,
+      "fan_in": 2,
       "fan_out": 1,
       "impact_radius": "Low",
       "dependency_depth": 1,
@@ -1194,6 +1210,14 @@
       "dependency_depth": 1,
       "depth_risk": "HIGH"
     },
+    "reflex.compiler.utils.get_page_import_specifier": {
+      "file": "reflex/compiler/utils.py",
+      "fan_in": 0,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
     "reflex.compiler.utils.get_page_path": {
       "file": "reflex/compiler/utils.py",
       "fan_in": 2,
@@ -1260,7 +1284,7 @@
     },
     "reflex.compiler.utils.write_file": {
       "file": "reflex/compiler/utils.py",
-      "fan_in": 1,
+      "fan_in": 3,
       "fan_out": 0,
       "impact_radius": "Low",
       "dependency_depth": 1,
@@ -1999,48 +2023,80 @@
       "fan_in": 0,
       "fan_out": 1,
       "impact_radius": "Low",
-      "dependency_depth": null,
-      "depth_risk": "UNREACHABLE"
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
     },
     "reflex.istate.data.ReflexURL": {
       "file": "reflex/istate/data.py",
       "fan_in": 1,
       "fan_out": 0,
       "impact_radius": "Low",
-      "dependency_depth": null,
-      "depth_risk": "UNREACHABLE"
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
     },
     "reflex.istate.data.ReflexURL.__new__": {
       "file": "reflex/istate/data.py",
       "fan_in": 0,
       "fan_out": 2,
       "impact_radius": "Low",
-      "dependency_depth": null,
-      "depth_risk": "UNREACHABLE"
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
     },
     "reflex.istate.data.RouterData.from_router_data": {
       "file": "reflex/istate/data.py",
       "fan_in": 0,
       "fan_out": 1,
       "impact_radius": "Low",
-      "dependency_depth": null,
-      "depth_risk": "UNREACHABLE"
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
     },
     "reflex.istate.data._FrozenDictStrStr": {
       "file": "reflex/istate/data.py",
       "fan_in": 2,
       "fan_out": 0,
       "impact_radius": "Low",
-      "dependency_depth": null,
-      "depth_risk": "UNREACHABLE"
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
     },
     "reflex.istate.data.__new__": {
       "file": "reflex/istate/data.py",
       "fan_in": 1,
       "fan_out": 0,
       "impact_radius": "Low",
-      "dependency_depth": null,
-      "depth_risk": "UNREACHABLE"
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.istate.data._serialize_reflex_url": {
+      "file": "reflex/istate/data.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.istate.data.fragment": {
+      "file": "reflex/istate/data.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.istate.data.from_router_data": {
+      "file": "reflex/istate/data.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.istate.data.serialize_router_data": {
+      "file": "reflex/istate/data.py",
+      "fan_in": 0,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
     },
     "reflex.istate.manager.__init__.StateManager._coerce_token": {
       "file": "reflex/istate/manager/__init__.py",
@@ -3018,6 +3074,14 @@
       "dependency_depth": 1,
       "depth_risk": "HIGH"
     },
+    "reflex.model.get_models": {
+      "file": "reflex/model.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
     "reflex.model.migrate": {
       "file": "reflex/model.py",
       "fan_in": 3,
@@ -3236,7 +3300,7 @@
     },
     "reflex.route.get_route_args": {
       "file": "reflex/route.py",
-      "fan_in": 1,
+      "fan_in": 2,
       "fan_out": 1,
       "impact_radius": "Low",
       "dependency_depth": 1,
@@ -3778,14 +3842,6 @@
       "dependency_depth": 1,
       "depth_risk": "HIGH"
     },
-    "reflex.state.from_router_data": {
-      "file": "reflex/state.py",
-      "fan_in": 1,
-      "fan_out": 0,
-      "impact_radius": "Low",
-      "dependency_depth": 1,
-      "depth_risk": "HIGH"
-    },
     "reflex.state.get_class_substate": {
       "file": "reflex/state.py",
       "fan_in": 9,
@@ -3828,7 +3884,7 @@
     },
     "reflex.state.get_parent_state": {
       "file": "reflex/state.py",
-      "fan_in": 2,
+      "fan_in": 3,
       "fan_out": 0,
       "impact_radius": "Low",
       "dependency_depth": 1,
@@ -3852,7 +3908,7 @@
     },
     "reflex.state.get_substates": {
       "file": "reflex/state.py",
-      "fan_in": 6,
+      "fan_in": 7,
       "fan_out": 0,
       "impact_radius": "Medium",
       "dependency_depth": 1,
@@ -3867,6 +3923,14 @@
       "depth_risk": "HIGH"
     },
     "reflex.state.is_serializable": {
+      "file": "reflex/state.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.state.is_user_defined": {
       "file": "reflex/state.py",
       "fan_in": 1,
       "fan_out": 0,
@@ -3894,6 +3958,14 @@
       "file": "reflex/state.py",
       "fan_in": 1,
       "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.state.wrapper": {
+      "file": "reflex/state.py",
+      "fan_in": 0,
+      "fan_out": 1,
       "impact_radius": "Low",
       "dependency_depth": 1,
       "depth_risk": "HIGH"
@@ -3941,7 +4013,7 @@
     "reflex.testing.AppHarnessProd._run_frontend": {
       "file": "reflex/testing.py",
       "fan_in": 0,
-      "fan_out": 2,
+      "fan_out": 1,
       "impact_radius": "Low",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
@@ -3954,50 +4026,18 @@
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
     },
+    "reflex.testing.AppHarnessProd._wait_frontend": {
+      "file": "reflex/testing.py",
+      "fan_in": 0,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
     "reflex.testing.AppHarnessProd.stop": {
       "file": "reflex/testing.py",
       "fan_in": 0,
       "fan_out": 1,
-      "impact_radius": "Low",
-      "dependency_depth": 2,
-      "depth_risk": "MEDIUM"
-    },
-    "reflex.testing.SimpleHTTPRequestHandlerCustomErrors.__init__": {
-      "file": "reflex/testing.py",
-      "fan_in": 0,
-      "fan_out": 1,
-      "impact_radius": "Low",
-      "dependency_depth": 2,
-      "depth_risk": "MEDIUM"
-    },
-    "reflex.testing.SimpleHTTPRequestHandlerCustomErrors.send_error": {
-      "file": "reflex/testing.py",
-      "fan_in": 0,
-      "fan_out": 1,
-      "impact_radius": "Low",
-      "dependency_depth": 2,
-      "depth_risk": "MEDIUM"
-    },
-    "reflex.testing.Subdir404TCPServer": {
-      "file": "reflex/testing.py",
-      "fan_in": 1,
-      "fan_out": 0,
-      "impact_radius": "Low",
-      "dependency_depth": 2,
-      "depth_risk": "MEDIUM"
-    },
-    "reflex.testing.Subdir404TCPServer.__init__": {
-      "file": "reflex/testing.py",
-      "fan_in": 0,
-      "fan_out": 1,
-      "impact_radius": "Low",
-      "dependency_depth": 2,
-      "depth_risk": "MEDIUM"
-    },
-    "reflex.testing.__init__": {
-      "file": "reflex/testing.py",
-      "fan_in": 2,
-      "fan_out": 0,
       "impact_radius": "Low",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
@@ -4020,9 +4060,9 @@
     },
     "reflex.testing.chdir": {
       "file": "reflex/testing.py",
-      "fan_in": 4,
+      "fan_in": 5,
       "fan_out": 0,
-      "impact_radius": "Low",
+      "impact_radius": "Medium",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
     },
@@ -4030,14 +4070,6 @@
       "file": "reflex/testing.py",
       "fan_in": 0,
       "fan_out": 1,
-      "impact_radius": "Low",
-      "dependency_depth": 2,
-      "depth_risk": "MEDIUM"
-    },
-    "reflex.testing.send_error": {
-      "file": "reflex/testing.py",
-      "fan_in": 1,
-      "fan_out": 0,
       "impact_radius": "Low",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
@@ -4057,6 +4089,14 @@
       "impact_radius": "Low",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.build._compress_static_output": {
+      "file": "reflex/utils/build.py",
+      "fan_in": 1,
+      "fan_out": 5,
+      "impact_radius": "Low",
+      "dependency_depth": 4,
+      "depth_risk": "LOW"
     },
     "reflex.utils.build._duplicate_index_html_to_parent_directory": {
       "file": "reflex/utils/build.py",
@@ -4085,7 +4125,7 @@
     "reflex.utils.build.build": {
       "file": "reflex/utils/build.py",
       "fan_in": 2,
-      "fan_out": 9,
+      "fan_out": 10,
       "impact_radius": "Low",
       "dependency_depth": 4,
       "depth_risk": "LOW"
@@ -4180,7 +4220,7 @@
     },
     "reflex.utils.console.debug": {
       "file": "reflex/utils/console.py",
-      "fan_in": 35,
+      "fan_in": 38,
       "fan_out": 0,
       "impact_radius": "High",
       "dependency_depth": 2,
@@ -4196,7 +4236,7 @@
     },
     "reflex.utils.console.error": {
       "file": "reflex/utils/console.py",
-      "fan_in": 36,
+      "fan_in": 38,
       "fan_out": 0,
       "impact_radius": "High",
       "dependency_depth": 2,
@@ -4276,7 +4316,7 @@
     },
     "reflex.utils.console.warn": {
       "file": "reflex/utils/console.py",
-      "fan_in": 14,
+      "fan_in": 15,
       "fan_out": 0,
       "impact_radius": "High",
       "dependency_depth": 2,
@@ -4386,6 +4426,14 @@
       "dependency_depth": 1,
       "depth_risk": "HIGH"
     },
+    "reflex.utils.exec.get_backend_compile_trigger": {
+      "file": "reflex/utils/exec.py",
+      "fan_in": 1,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
     "reflex.utils.exec.get_changes": {
       "file": "reflex/utils/exec.py",
       "fan_in": 1,
@@ -4398,6 +4446,14 @@
       "file": "reflex/utils/exec.py",
       "fan_in": 2,
       "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.exec.get_dev_backend_reload_marker": {
+      "file": "reflex/utils/exec.py",
+      "fan_in": 2,
+      "fan_out": 1,
       "impact_radius": "Low",
       "dependency_depth": 1,
       "depth_risk": "HIGH"
@@ -4498,6 +4554,14 @@
       "dependency_depth": 1,
       "depth_risk": "HIGH"
     },
+    "reflex.utils.exec.reset_dev_backend_reload_marker": {
+      "file": "reflex/utils/exec.py",
+      "fan_in": 2,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
     "reflex.utils.exec.run_backend": {
       "file": "reflex/utils/exec.py",
       "fan_in": 1,
@@ -4533,7 +4597,7 @@
     "reflex.utils.exec.run_granian_backend": {
       "file": "reflex/utils/exec.py",
       "fan_in": 1,
-      "fan_out": 2,
+      "fan_out": 3,
       "impact_radius": "Low",
       "dependency_depth": 1,
       "depth_risk": "HIGH"
@@ -4557,7 +4621,7 @@
     "reflex.utils.exec.run_uvicorn_backend": {
       "file": "reflex/utils/exec.py",
       "fan_in": 1,
-      "fan_out": 2,
+      "fan_out": 3,
       "impact_radius": "Low",
       "dependency_depth": 1,
       "depth_risk": "HIGH"
@@ -4586,10 +4650,18 @@
       "dependency_depth": 1,
       "depth_risk": "HIGH"
     },
+    "reflex.utils.export._time_phase": {
+      "file": "reflex/utils/export.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 3,
+      "depth_risk": "MEDIUM"
+    },
     "reflex.utils.export.export": {
       "file": "reflex/utils/export.py",
       "fan_in": 1,
-      "fan_out": 6,
+      "fan_out": 7,
       "impact_radius": "Low",
       "dependency_depth": 3,
       "depth_risk": "MEDIUM"
@@ -4597,6 +4669,14 @@
     "reflex.utils.format.format": {
       "file": "reflex/utils/format.py",
       "fan_in": 3,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.format.format_library_name": {
+      "file": "reflex/utils/format.py",
+      "fan_in": 1,
       "fan_out": 0,
       "impact_radius": "Low",
       "dependency_depth": 1,
@@ -4717,7 +4797,7 @@
     "reflex.utils.frontend_skeleton._compile_package_json": {
       "file": "reflex/utils/frontend_skeleton.py",
       "fan_in": 1,
-      "fan_out": 1,
+      "fan_out": 2,
       "impact_radius": "Low",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
@@ -4726,6 +4806,14 @@
       "file": "reflex/utils/frontend_skeleton.py",
       "fan_in": 2,
       "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton._copy_if_exists": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 1,
+      "fan_out": 4,
       "impact_radius": "Low",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
@@ -4754,10 +4842,50 @@
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
     },
+    "reflex.utils.frontend_skeleton._read_persisted_package_json": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 1,
+      "fan_out": 2,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
     "reflex.utils.frontend_skeleton._update_react_router_config": {
       "file": "reflex/utils/frontend_skeleton.py",
       "fan_in": 1,
       "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton.get_root_lockfile_path": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 2,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton.get_root_package_json_path": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 2,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton.get_web_lockfile_path": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 3,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton.get_web_package_json_path": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 2,
+      "fan_out": 1,
       "impact_radius": "Low",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
@@ -4821,7 +4949,55 @@
     "reflex.utils.frontend_skeleton.initialize_web_directory": {
       "file": "reflex/utils/frontend_skeleton.py",
       "fan_in": 1,
-      "fan_out": 12,
+      "fan_out": 13,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton.sync_root_lockfile_to_web": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 1,
+      "fan_out": 3,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton.sync_root_lockfiles_to_web": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 2,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton.sync_web_lockfile_to_root": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 1,
+      "fan_out": 5,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton.sync_web_lockfiles_to_root": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 1,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton.sync_web_package_json_to_root": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 1,
+      "fan_out": 5,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.frontend_skeleton.update_entry_client": {
+      "file": "reflex/utils/frontend_skeleton.py",
+      "fan_in": 1,
+      "fan_out": 2,
       "impact_radius": "Low",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
@@ -4829,14 +5005,102 @@
     "reflex.utils.frontend_skeleton.update_react_router_config": {
       "file": "reflex/utils/frontend_skeleton.py",
       "fan_in": 2,
-      "fan_out": 2,
+      "fan_out": 3,
       "impact_radius": "Low",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
     },
+    "reflex.utils.js_runtimes._existing_web_package_sections": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
+      "fan_out": 2,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.js_runtimes._extract_package_name": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.js_runtimes._frontend_packages_cache_path": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
     "reflex.utils.js_runtimes._get_version_of_executable": {
       "file": "reflex/utils/js_runtimes.py",
       "fan_in": 2,
+      "fan_out": 3,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.js_runtimes._has_version_specifier": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.js_runtimes._install_frontend_packages": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
+      "fan_out": 8,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.js_runtimes._is_bun_package_manager": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.js_runtimes._persisted_lockfile_implies_npm": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.js_runtimes._pinned_args_from_constants": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.js_runtimes._run_initial_install": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
+      "fan_out": 6,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.js_runtimes._split_by_version_specifier": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.js_runtimes._sync_root_lockfiles_for_frontend_install": {
+      "file": "reflex/utils/js_runtimes.py",
+      "fan_in": 1,
       "fan_out": 3,
       "impact_radius": "Low",
       "dependency_depth": 1,
@@ -4901,7 +5165,7 @@
     "reflex.utils.js_runtimes.install_frontend_packages": {
       "file": "reflex/utils/js_runtimes.py",
       "fan_in": 1,
-      "fan_out": 3,
+      "fan_out": 5,
       "impact_radius": "Low",
       "dependency_depth": 1,
       "depth_risk": "HIGH"
@@ -4916,7 +5180,7 @@
     },
     "reflex.utils.js_runtimes.npm_escape_hatch": {
       "file": "reflex/utils/js_runtimes.py",
-      "fan_in": 2,
+      "fan_in": 1,
       "fan_out": 0,
       "impact_radius": "Low",
       "dependency_depth": 1,
@@ -5076,9 +5340,9 @@
     },
     "reflex.utils.path_ops.cp": {
       "file": "reflex/utils/path_ops.py",
-      "fan_in": 4,
+      "fan_in": 7,
       "fan_out": 1,
-      "impact_radius": "Low",
+      "impact_radius": "Medium",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
     },
@@ -5092,7 +5356,7 @@
     },
     "reflex.utils.path_ops.get_bun_path": {
       "file": "reflex/utils/path_ops.py",
-      "fan_in": 6,
+      "fan_in": 7,
       "fan_out": 2,
       "impact_radius": "Medium",
       "dependency_depth": 2,
@@ -5108,7 +5372,7 @@
     },
     "reflex.utils.path_ops.get_node_path": {
       "file": "reflex/utils/path_ops.py",
-      "fan_in": 3,
+      "fan_in": 4,
       "fan_out": 1,
       "impact_radius": "Low",
       "dependency_depth": 2,
@@ -5140,9 +5404,9 @@
     },
     "reflex.utils.path_ops.mkdir": {
       "file": "reflex/utils/path_ops.py",
-      "fan_in": 4,
+      "fan_in": 7,
       "fan_out": 1,
-      "impact_radius": "Low",
+      "impact_radius": "Medium",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
     },
@@ -5156,7 +5420,7 @@
     },
     "reflex.utils.path_ops.rm": {
       "file": "reflex/utils/path_ops.py",
-      "fan_in": 6,
+      "fan_in": 8,
       "fan_out": 1,
       "impact_radius": "Medium",
       "dependency_depth": 2,
@@ -5201,6 +5465,54 @@
       "impact_radius": "Medium",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.precompressed_staticfiles.PrecompressedStaticFiles.__init__": {
+      "file": "reflex/utils/precompressed_staticfiles.py",
+      "fan_in": 0,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": null,
+      "depth_risk": "UNREACHABLE"
+    },
+    "reflex.utils.precompressed_staticfiles.PrecompressedStaticFiles._select_sidecar": {
+      "file": "reflex/utils/precompressed_staticfiles.py",
+      "fan_in": 0,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": null,
+      "depth_risk": "UNREACHABLE"
+    },
+    "reflex.utils.precompressed_staticfiles.PrecompressedStaticFiles.get_response": {
+      "file": "reflex/utils/precompressed_staticfiles.py",
+      "fan_in": 0,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": null,
+      "depth_risk": "UNREACHABLE"
+    },
+    "reflex.utils.precompressed_staticfiles.__init__": {
+      "file": "reflex/utils/precompressed_staticfiles.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": null,
+      "depth_risk": "UNREACHABLE"
+    },
+    "reflex.utils.precompressed_staticfiles._parse_accept_encoding": {
+      "file": "reflex/utils/precompressed_staticfiles.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": null,
+      "depth_risk": "UNREACHABLE"
+    },
+    "reflex.utils.precompressed_staticfiles.get_response": {
+      "file": "reflex/utils/precompressed_staticfiles.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": null,
+      "depth_risk": "UNREACHABLE"
     },
     "reflex.utils.prerequisites.AppInfo": {
       "file": "reflex/utils/prerequisites.py",
@@ -5404,7 +5716,7 @@
     },
     "reflex.utils.prerequisites.get_web_dir": {
       "file": "reflex/utils/prerequisites.py",
-      "fan_in": 36,
+      "fan_in": 43,
       "fan_out": 0,
       "impact_radius": "High",
       "dependency_depth": 1,
@@ -5500,7 +5812,7 @@
     },
     "reflex.utils.processes.get_command_with_loglevel": {
       "file": "reflex/utils/processes.py",
-      "fan_in": 1,
+      "fan_in": 2,
       "fan_out": 1,
       "impact_radius": "Low",
       "dependency_depth": 2,
@@ -5532,7 +5844,7 @@
     },
     "reflex.utils.processes.new_process": {
       "file": "reflex/utils/processes.py",
-      "fan_in": 7,
+      "fan_in": 9,
       "fan_out": 3,
       "impact_radius": "Medium",
       "dependency_depth": 2,
@@ -5580,7 +5892,7 @@
     },
     "reflex.utils.processes.show_status": {
       "file": "reflex/utils/processes.py",
-      "fan_in": 1,
+      "fan_in": 2,
       "fan_out": 2,
       "impact_radius": "Low",
       "dependency_depth": 2,
@@ -5802,6 +6114,14 @@
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
     },
+    "reflex.utils.telemetry.get_init_environment": {
+      "file": "reflex/utils/telemetry.py",
+      "fan_in": 1,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
     "reflex.utils.telemetry.get_os": {
       "file": "reflex/utils/telemetry.py",
       "fan_in": 1,
@@ -5834,9 +6154,17 @@
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
     },
+    "reflex.utils.telemetry.is_in_virtualenv": {
+      "file": "reflex/utils/telemetry.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 2,
+      "depth_risk": "MEDIUM"
+    },
     "reflex.utils.telemetry.send": {
       "file": "reflex/utils/telemetry.py",
-      "fan_in": 7,
+      "fan_in": 8,
       "fan_out": 2,
       "impact_radius": "Medium",
       "dependency_depth": 2,
@@ -5849,6 +6177,94 @@
       "impact_radius": "Low",
       "dependency_depth": 2,
       "depth_risk": "MEDIUM"
+    },
+    "reflex.utils.telemetry_accounting._collect_compile_event_payload": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 1,
+      "fan_out": 5,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.telemetry_accounting._collect_features_used": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 1,
+      "fan_out": 4,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.telemetry_accounting._collect_state_stats": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 1,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.telemetry_accounting._count_components": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.telemetry_accounting._record_config_attestations": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.telemetry_accounting._sanitize_exception": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.telemetry_accounting._storage_feature_for_field": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 1,
+      "fan_out": 0,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.telemetry_accounting._walk_app_features": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 1,
+      "fan_out": 2,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.telemetry_accounting._walk_state_features": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 1,
+      "fan_out": 1,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.telemetry_accounting._walk_states": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 2,
+      "fan_out": 3,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
+    },
+    "reflex.utils.telemetry_accounting.record_compile": {
+      "file": "reflex/utils/telemetry_accounting.py",
+      "fan_in": 1,
+      "fan_out": 2,
+      "impact_radius": "Low",
+      "dependency_depth": 1,
+      "depth_risk": "HIGH"
     },
     "reflex.utils.templates.Template": {
       "file": "reflex/utils/templates.py",
@@ -5909,7 +6325,7 @@
     "reflex.utils.templates.initialize_app": {
       "file": "reflex/utils/templates.py",
       "fan_in": 1,
-      "fan_out": 8,
+      "fan_out": 9,
       "impact_radius": "Low",
       "dependency_depth": null,
       "depth_risk": "UNREACHABLE"
@@ -6005,7 +6421,7 @@
     "reflex.utils.token_manager.RedisTokenManager._get_token_owner": {
       "file": "reflex/utils/token_manager.py",
       "fan_in": 0,
-      "fan_out": 2,
+      "fan_out": 1,
       "impact_radius": "Low",
       "dependency_depth": 1,
       "depth_risk": "HIGH"
@@ -6156,10 +6572,10 @@
     }
   },
   "stats": {
-    "total_nodes": 769,
+    "total_nodes": 821,
     "high_impact": 6,
-    "medium_impact": 22,
-    "low_impact": 741,
-    "unreachable_from_entry": 80
+    "medium_impact": 25,
+    "low_impact": 790,
+    "unreachable_from_entry": 77
   }
 }

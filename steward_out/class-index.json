@@ -229,7 +229,9 @@
       "bases": [
         "Component"
       ],
-      "fields": []
+      "fields": [
+        "_wrapped_component_type"
+      ]
     },
     "_ExperimentalMemoFunctionWrapper": {
       "bases": [],
@@ -280,6 +282,22 @@
         "_NetlocResultMixinStr"
       ],
       "fields": []
+    },
+    "ReflexURLVar": {
+      "bases": [
+        "<complex>"
+      ],
+      "fields": []
+    },
+    "ReflexURLCastedVar": {
+      "bases": [
+        "CachedVarOperation",
+        "ReflexURLVar"
+      ],
+      "fields": [
+        "_original",
+        "_default_var_type"
+      ]
     },
     "PageData": {
       "bases": [],
@@ -671,18 +689,6 @@
         "_base_registration_context"
       ]
     },
-    "SimpleHTTPRequestHandlerCustomErrors": {
-      "bases": [
-        "SimpleHTTPRequestHandler"
-      ],
-      "fields": []
-    },
-    "Subdir404TCPServer": {
-      "bases": [
-        "socketserver.TCPServer"
-      ],
-      "fields": []
-    },
     "AppHarnessProd": {
       "bases": [
         "AppHarness"
@@ -715,6 +721,21 @@
   },
   "reflex/utils/frontend.py": {
     "ReflexStaticFiles": {
+      "bases": [
+        "StaticFiles"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/utils/precompressed_staticfiles.py": {
+    "_EncodingFormat": {
+      "bases": [],
+      "fields": [
+        "content_encoding",
+        "suffix"
+      ]
+    },
+    "PrecompressedStaticFiles": {
       "bases": [
         "StaticFiles"
       ],
@@ -775,6 +796,44 @@
       "fields": [
         "event",
         "timestamp"
+      ]
+    }
+  },
+  "reflex/utils/telemetry_accounting.py": {
+    "_StateStats": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "event_handlers_count",
+        "vars_count",
+        "backend_vars_count",
+        "computed_vars_count",
+        "depth_from_root"
+      ]
+    },
+    "_ExceptionInfo": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "type"
+      ]
+    },
+    "_CompileEventProperties": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "plugins_enabled",
+        "plugins_disabled",
+        "pages_count",
+        "component_counts",
+        "states",
+        "features_used",
+        "duration_ms",
+        "trigger",
+        "exception"
       ]
     }
   },

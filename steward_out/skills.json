@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-22T10:40:27.427469+00:00",
+  "generated_at": "2026-05-22T13:16:38.183387+00:00",
   "version": "unknown",
   "command_count": 0,
   "commands": [],
-  "module_count": 117,
+  "module_count": 119,
   "exposed": {
     "reflex/app.py": {
       "layer": "Entry",
