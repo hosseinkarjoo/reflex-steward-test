@@ -77,11 +77,14 @@ jobs:
 
       - name: Run architecture check
         id: steward_check
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           steward pr-check \
             --files ${{ steps.changed.outputs.files }} \
             --pr ${{ github.event.pull_request.number }} \
             --description-file /tmp/steward-pr-body.txt \
+            --full-review \
             --no-refresh \
             --format json > /tmp/steward-findings.json
         continue-on-error: true
