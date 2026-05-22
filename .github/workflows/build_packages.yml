@@ -1,11 +1,6 @@
 name: Build all packages
 
-on:
-  pull_request:
-    branches: [main]
-  push:
-    branches: [main]
-
+on: workflow_dispatch
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.id || github.sha }}
   cancel-in-progress: true
