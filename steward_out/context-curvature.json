@@ -1,0 +1,3884 @@
+{
+  "generated_at": "2026-05-22T10:40:28.280166Z",
+  "nodes": {
+    "reflex._upload.UploadedFilesHeadersMiddleware": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex._upload.upload": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app.EventNamespace": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app.HeaderMiddleware": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app.UnevaluatedPage": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._add_optional_endpoints": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._app_root": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._apply_decorated_pages": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._check_routes_conflict": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._compile_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._get_frontend_packages": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._setup_sticky_badge": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._should_compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._validate_var_dependencies": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._write_routes_manifest": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app._write_stateful_pages_marker": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app.add_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app.emit_update": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app.get_load_events": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app.memoized_badge": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app.reducer": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app_mixins.lifespan.LifespanMixin._run_lifespan_tasks": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app_mixins.lifespan.LifespanMixin.register_lifespan_task": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app_mixins.lifespan._get_task_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app_mixins.middleware.MiddlewareMixin._postprocess": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app_mixins.middleware.add_middleware": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app_mixins.mixin._init_mixin": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.assets.AssetPathStr": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.assets.AssetPathStr.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.assets.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.assets.asset": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.assets.remove_stale_external_asset_symlinks": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._apply_common_imports": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._compile_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._compile_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._compile_contexts": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._compile_document_root": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._compile_memo_components": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._compile_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._compile_root_stylesheet": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._compile_single_memo_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._compile_single_memo_function": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._compile_theme": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._extend_imports_in_place": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._into_component_once": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._memo_component_file_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._memo_component_index_specifier": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._modify_exception": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._normalize_library_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._resolve_app_wrap_components": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._resolve_radix_themes_plugin": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._set_progress_total": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler._validate_stylesheet": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.compile_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.compile_app_root": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.compile_contexts": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.compile_document_root": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.compile_memo_components": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.compile_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.compile_page_from_context": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.compile_root_stylesheet": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.compile_theme": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.compile_unevaluated_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.into_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.memoized_toast_provider": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.purge_web_pages_dir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.compiler.readable_name_from_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.builtin.ApplyStylePlugin": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.builtin.DefaultCollectorPlugin": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.builtin.DefaultPagePlugin": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.builtin.DefaultPagePlugin.eval_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.builtin.default_page_plugins": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.memoize.MemoizeStatefulPlugin": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.memoize.MemoizeStatefulPlugin._build_wrapper": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.memoize.MemoizeStatefulPlugin.enter_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.memoize.MemoizeStatefulPlugin.leave_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.memoize._component_subtree_is_reactive": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.memoize._should_memoize": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.plugins.memoize._subtree_has_reactive_data": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.app_root_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.component_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.context_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.document_root_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.memo_index_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.memo_single_component_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.memo_single_function_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.package_json_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.page_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.rxconfig_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.styles_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.theme_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.templates.vite_config_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._ImportDict": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._app_style": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._apply_component_style_for_compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._apply_root_style": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._compile_client_storage_field": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._compile_client_storage_recursive": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._format_route_part": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._path_to_file_stem": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._root_only_custom_code": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._root_only_dynamic_imports": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._root_only_hooks": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils._sorted_keys": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.add_meta": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.compile_client_storage": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.compile_custom_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.compile_experimental_component_memo": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.compile_experimental_function_memo": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.compile_import_statement": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.compile_imports": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.compile_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.create_document_root": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.create_theme": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.empty_dir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.get_components_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.get_context_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.get_import_dict": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.get_memo_components_dir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.get_page_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.get_root_stylesheet_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.get_theme_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.is_valid_url": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.merge_imports": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.resolve_path_of_web_dir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.save_error": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.validate_imports": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.compiler.utils.write_file": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.components.__init__._AliasLoader": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.components.__init__._ComponentsRedirect.find_spec": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.components.__init__.find_spec": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._collect_details_for_gallery": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._create_package_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._create_readme": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._demo_app_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._get_default_library_name_parts": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._get_file_from_prompt_in_loop": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._init_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._make_pyi_files": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._pip_install_on_demand": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._populate_custom_component_project": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._populate_demo_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._pyproject_toml_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._readme_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._run_build": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._run_commands_in_subprocess": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._source_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._validate_library_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._validate_url_with_protocol_prefix": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components._write_source_and_init_py": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components.build": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components.init": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components.install": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components.set_directory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components.set_loglevel": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.custom_components.custom_components.share_more_detail": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.__init__.ExperimentalNamespace.__getattribute__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.__init__.__getattribute__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.client_state.ClientStateVar.create": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.client_state.ClientStateVar.push": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.client_state.ClientStateVar.retrieve": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.client_state.ClientStateVar.set_value": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.client_state.ClientStateVar.value": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.client_state._client_state_ref": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.client_state._client_state_ref_dict": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.client_state.set": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.hooks._compose_react_imports": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.hooks.const": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.hooks.useCallback": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.hooks.useContext": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.hooks.useRef": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.hooks.useState": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo.ExperimentalMemoComponent._post_init": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo.ExperimentalMemoComponentDefinition": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo.ExperimentalMemoFunctionDefinition": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo.MemoParam": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._ExperimentalMemoComponentWrapper": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._ExperimentalMemoComponentWrapper.__call__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._ExperimentalMemoComponentWrapper.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._ExperimentalMemoComponentWrapper._as_var": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._ExperimentalMemoFunctionWrapper": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._ExperimentalMemoFunctionWrapper.call": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._ExperimentalMemoFunctionWrapper.partial": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._analyze_params": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._annotation_inner_type": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._bind_function_runtime_args": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._children_annotation_is_valid": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._component_import_var": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._create_component_definition": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._create_component_wrapper": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._create_function_definition": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._create_function_wrapper": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._evaluate_memo_function": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._get_children_param": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._get_experimental_memo_component_class": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._get_rest_param": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._imported_function_var": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._is_component_annotation": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._is_component_child": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._is_memo_reregistration": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._is_rest_annotation": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._is_var_annotation": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._lift_rest_props": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._memo_registry_key": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._normalize_component_return": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._placeholder_for_param": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._post_init": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._register_memo_definition": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._rest_placeholder": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._validate_var_return_expr": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo._var_placeholder": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo.call": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo.clear": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo.create_passthrough_component_memo": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo.memo": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo.partial": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.experimental.memo.values": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.__init__._is_picklable": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.__init__.debug_failed_pickles": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.data.HeaderData.from_router_data": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.data.ReflexURL": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.data.ReflexURL.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.data.RouterData.from_router_data": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.data._FrozenDictStrStr": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.data.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.__init__.StateManager._coerce_token": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.__init__.StateManager.create": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.__init__.StateManager.modify_state_with_links": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.__init__.StateManager.state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.__init__.get_state_manager": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.__init__.reset_disk_state_manager": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.__init__.state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.disk.QueueItem": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.disk.StateManagerDisk": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.disk.StateManagerDisk.__post_init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.disk.StateManagerDisk._flush_write_queue": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.disk.StateManagerDisk._process_write_queue": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.disk.StateManagerDisk._purge_expired_states": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.disk.StateManagerDisk.populate_substates": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.disk.StateManagerDisk.set_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.disk.StateManagerDisk.set_state_for_substate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.disk.StateManagerDisk.states_directory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.memory.StateManagerMemory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis._create_lease_break_task": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis._ensure_lock_task": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis._get_populated_states": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis._get_required_state_classes": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis._get_state_cached": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis._lock_waiter": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis._notify_next_waiter": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis._wait_lock": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis.get_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.StateManagerRedis.set_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis._default_lock_expiration": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis._default_oplock_hold_time_ms": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis._enable_keyspace_notifications": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.do_flush": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.redis.lease_breaker": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.token.BaseStateToken": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.token.BaseStateToken.deserialize": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.token.BaseStateToken.from_legacy_token": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.token.BaseStateToken.get_and_reset_touched_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.token.BaseStateToken.serialize": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.token.BaseStateToken.with_cls": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.token.from_legacy_token": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.token.serialize": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.manager.token.with_cls": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.ImmutableMutableProxy": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.ImmutableMutableProxy._mark_dirty": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.MutableProxy": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.MutableProxy.__getattr__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.MutableProxy.__getitem__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.MutableProxy.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.MutableProxy.__iter__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.MutableProxy.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.MutableProxy.__setattr__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.MutableProxy._wrap_recursive": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.ReadOnlyStateProxy": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.ReadOnlyStateProxy.__setattr__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.StateProxy.__aenter__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.StateProxy.__aexit__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.StateProxy.__getattr__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.StateProxy.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.StateProxy.__setattr__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.__getattr__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.__getitem__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.__iter__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.__setattr__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy._mark_dirty": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.is_mutable_type": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.mark_dirty": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.proxy.serialize_mutable_proxy": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.SharedState.__init_subclass__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.SharedStateBaseInternal.__getstate__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.SharedStateBaseInternal._clean": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.SharedStateBaseInternal._collect_shared_token_updates": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.SharedStateBaseInternal._internal_patch_linked_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.SharedStateBaseInternal._mark_dirty": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.SharedStateBaseInternal._modify_linked_states": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.SharedStateBaseInternal._rehydrate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.SharedStateBaseInternal._resolve_linked_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.SharedStateBaseInternal._unlink": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.__getstate__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared.__init_subclass__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared._clean": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared._do_update_other_tokens": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared._mark_dirty": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared._modify_linked_states": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared._patch_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared._resolve_linked_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.shared._update_client": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.storage.Cookie.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.storage.LocalStorage.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.storage.SessionStorage.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.storage.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.storage.options": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.istate.wrappers.get_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.middleware.hydrate_middleware.HydrateMiddleware.preprocess": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.middleware.middleware.postprocess": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.Model.__init_subclass__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.Model.alembic_autogenerate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.Model.alembic_init": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.Model.create_all": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.Model.get_db_engine": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.Model.get_migration_history": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.Model.migrate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model._ClassThatErrorsOnInit.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.__init_subclass__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model._alembic_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model._alembic_render_item": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model._alembic_upgrade": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model._print_db_not_available": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model._safe_db_url_for_logging": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model._warn_about_model_deprecation": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.alembic_autogenerate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.alembic_init": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.asession": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.create_all": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.format_revision": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.get_async_engine": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.get_db_status": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.get_engine": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.get_engine_args": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.get_migration_history": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.migrate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.register": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.session": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.model.sqla_session": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.page.PageNamespace.__new__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.page.clear": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.page.page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex._compile_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex._convert_reflex_loglevel_to_reflex_cli_loglevel": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex._init": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex._run": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex._run_dev": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex._run_prod": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex._skip_compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.db_init": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.deploy": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.export": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.init": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.login": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.logout": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.makemigrations": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.migrate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.rename": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.run": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.status": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.route._add_route_arg": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.route.get_route_args": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.route.get_route_regex": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.route.get_router": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.route.replace_brackets_with_keywords": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.route.route_specificity": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.route.verify_route_validity": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState.__init_subclass__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState.__setattr__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._check_state_size": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._clean": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._create_setvar": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._evaluate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._get_attribute": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._get_potentially_dirty_states": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._get_resolved_delta": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._get_state_from_redis": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._get_var_default": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._init_var": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._init_var_dependency_dicts": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._mark_dirty_computed_vars": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._serialize": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._set_default_value": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._to_schema": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState._update_substate_inherited_vars": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState.add_var": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState.get_delta": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState.get_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState.get_substate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState.get_substates": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState.get_var_value": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.BaseState.setup_dynamic_args": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.ComponentState.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.ComponentState.__init_subclass__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.ComponentState.create": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.EventHandlerSetVar": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.EventHandlerSetVar.__call__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.EventHandlerSetVar.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.FrontendEventExceptionState.handle_frontend_exception": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.OnLoadInternalState.on_load_internal": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.State._get_state_from_redis": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.State.hydrate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.StateUpdate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.StateUpdate.__post_init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.__call__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.__init_subclass__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.__subclasses__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._clean": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._deserialize": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._field_tuple": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._get_potentially_dirty_states": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._get_resolved_delta": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._get_root_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._get_state_from_redis": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._get_was_touched": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._is_user_descriptor": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._no_chain_background_task": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._reset_client_storage": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._resolve_delta": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._serialize": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._serialize_type": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state._split_substate_key": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.arglist_factory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.argsingle_factory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.code_uses_state_contexts": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.computed_var_func": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.dict": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.from_router_data": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.get_class_substate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.get_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.get_delta": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.get_full_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.get_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.get_parent_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.get_root_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.get_substate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.get_substates": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.get_var_for_field": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.is_serializable": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.reload_state_module": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.set_is_hydrated": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.state.setup_dynamic_args": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.AppHarness._initialize_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.AppHarness._reload_state_module": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.AppHarness._start_backend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.AppHarness._start_frontend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.AppHarnessProd._poll_for_servers": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.AppHarnessProd._run_frontend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.AppHarnessProd._start_frontend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.AppHarnessProd.stop": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.SimpleHTTPRequestHandlerCustomErrors.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.SimpleHTTPRequestHandlerCustomErrors.send_error": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.Subdir404TCPServer": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.Subdir404TCPServer.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing._poll_for_servers": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing._shutdown": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.chdir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.consume_frontend_output": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.send_error": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.start": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.testing.stop": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.build._duplicate_index_html_to_parent_directory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.build._looks_like_venv_directory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.build._zip": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.build.build": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.build.set_env_json": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.build.setup_frontend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.build.setup_frontend_prod": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.build.zip_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.codespaces.auth_codespace": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.codespaces.codespaces_auto_redirect": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.codespaces.codespaces_port_forwarding_domain": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.codespaces.is_running_in_codespaces": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.codespaces.redirect_script": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.PoorProgress": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.ask": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.debug": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.deprecate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.error": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.info": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.is_debug": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.log": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.print": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.progress": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.rule": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.set_log_level": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.status": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.timing": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.console.warn": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exceptions.EventDeserializationError": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exceptions.PageValueError": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exceptions.RouteValueError": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exceptions.VarDependencyError": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.Change": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec._get_backend_workers": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec._has_child_file": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec._warn_user_about_uvicorn": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.format_change": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.get_app_file": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.get_app_instance": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.get_app_instance_from_file": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.get_app_module": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.get_changes": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.get_compile_context": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.get_different_packages": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.get_package_json_and_hash": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.get_reload_paths": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.is_excluded_by_default": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.is_in_app_harness": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.is_prod_mode": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.is_testing_env": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.kill": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.notify_app_running": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.notify_backend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.notify_frontend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.output_system_info": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.run_backend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.run_backend_prod": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.run_frontend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.run_frontend_prod": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.run_granian_backend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.run_granian_backend_prod": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.run_process_and_launch_url": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.run_uvicorn_backend": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.run_uvicorn_backend_prod": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.should_prerender_routes": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.exec.should_use_granian": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.export.export": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.format.format": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.format.format_query_params": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.format.format_route": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.format.format_state_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.format.to_kebab_case": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.format.to_snake_case": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend.ReflexStaticFiles": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend.ReflexStaticFiles.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend.ReflexStaticFiles.get_response": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend._frontend_prod_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend._is_html_navigation": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend._load_routes_manifest": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend.get_frontend_mount": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend.get_response": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton._compile_package_json": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton._compile_vite_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton._has_reflex_requirement_line": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton._is_reflex_dependency_spec": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton._read_dependency_file": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton._update_react_router_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.init_reflex_json": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.initialize_bun_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.initialize_gitignore": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.initialize_npmrc": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.initialize_package_json": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.initialize_requirements_txt": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.initialize_vite_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.initialize_web_directory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.frontend_skeleton.update_react_router_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes._get_version_of_executable": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.check_node_version": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.download_and_run": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.get_bun_version": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.get_js_package_executor": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.get_node_version": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.get_nodejs_compatible_package_managers": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.install_bun": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.install_frontend_packages": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.is_outdated_nodejs_installed": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.npm_escape_hatch": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.prefer_npm_over_bun": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.remove_existing_bun_installation": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.validate_bun": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.js_runtimes.validate_frontend_dependencies": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.misc.get_module_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.misc.preload_color_theme": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.misc.run_in_thread": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.misc.with_cwd_in_syspath": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.net._httpx_client": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.net._httpx_local_address_kwarg": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.net._httpx_verify_kwarg": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.net._is_ipv4_supported": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.net._is_ipv6_supported": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.net._should_use_ipv6": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.net._wrap_https_func": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.net.get": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.net.wrapper": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.chmod_rm": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.copy_tree": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.cp": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.find_replace": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.get_bun_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.get_node_bin_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.get_node_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.get_npm_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.ln": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.ls": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.mkdir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.mv": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.rm": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.samefile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.update_directory_tree": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.update_json_file": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.use_system_bun": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.path_ops.which": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.AppInfo": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites._can_colorize": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites._check_app_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites._is_app_compiled_with_same_reflex_version": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites._safe_getenv": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.assert_in_reflex_dir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.check_db_initialized": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.check_db_used": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.check_latest_package_version": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.check_redis_used": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.check_running_mode": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.check_schema_up_to_date": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.compile_or_validate_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.ensure_reflex_installation_id": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_and_validate_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_backend_dir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_compiled_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_or_set_last_reflex_version_check_datetime": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_project_hash": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_redis": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_redis_status": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_redis_sync": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_states_dir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_user_tier": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.get_web_dir": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.initialize_frontend_dependencies": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.initialize_reflex_user_directory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.needs_reinit": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.parse_redis_url": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.set_last_reflex_run_time": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.validate_app_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.prerequisites.windows_check_onedrive_in_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes._can_bind_at_any_port": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes._can_bind_at_port": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.atexit_handler": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.execute_command_and_return_output": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.get_command_with_loglevel": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.get_num_workers": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.handle_port": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.is_process_on_port": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.new_process": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.run_concurrently": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.run_concurrently_context": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.run_process_with_fallbacks": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.show_logs": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.show_progress": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.show_status": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.processes.stream_logs": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.redir.open_browser": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.redir.reflex_build_redirect": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.redir.reflex_templates": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.registry._get_best_registry": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.registry.average_latency": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.registry.get_npm_registry": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.registry.latency": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.rename.process_directory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.rename.rename_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.rename.rename_imports_and_app_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.rename.rename_path_up_tree": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.tasks._run_forever": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.tasks.ensure_task": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.CpuInfo": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry._get_event_defaults": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry._prepare_event": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry._raise_on_missing_project_hash": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry._retrieve_cpu_info": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry._send": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry._send_event": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.async_send": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.format_address_width": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.get_cpu_count": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.get_cpu_info": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.get_detailed_platform_str": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.get_event_defaults": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.get_os": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.get_python_version": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.get_reflex_enterprise_version": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.get_reflex_version": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.send": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.telemetry.send_error": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.Template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.create_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.create_config_init_app_from_remote_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.fetch_app_templates": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.fetch_remote_templates": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.get_init_cli_prompt_options": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.get_release_by_tag": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.initialize_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.initialize_app_directory": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.initialize_default_app": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.prompt_for_template_options": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.templates.validate_and_create_app_using_remote_template": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.LocalTokenManager": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.LocalTokenManager.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.LocalTokenManager.link_token_to_sid": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.LostAndFoundRecord": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.RedisTokenManager": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.RedisTokenManager.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.RedisTokenManager._ensure_socket_record_task": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.RedisTokenManager._get_token_owner": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.RedisTokenManager._subscribe_lost_and_found_updates": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.RedisTokenManager._subscribe_socket_record_updates": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.RedisTokenManager.disconnect_token": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.RedisTokenManager.emit_lost_and_found": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.RedisTokenManager.ensure_lost_and_found_task": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.RedisTokenManager.link_token_to_sid": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.SocketRecord": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.TokenManager.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.TokenManager.create": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager._get_new_token": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.create": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.disconnect_token": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.token_manager.link_token_to_sid": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.types.get_default_value_for_type": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.types.is_backend_base_variable": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.types.is_optional": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.utils.types.is_valid_var_type": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.app.App._check_routes_conflict": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_backend_exception_handler": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.__call__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.extra_overlay_function": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_overlay_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._validate_var_dependencies": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.EventNamespace.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._write_routes_manifest": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._setup_sticky_badge": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._setup_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._write_stateful_pages_marker": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.__post_init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._app_root": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.EventNamespace.link_token_to_sid": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_overlay_components": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.health": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.router": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.add_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._compile_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.modify_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._add_optional_endpoints": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._should_compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._setup_admin_dash": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._get_frontend_packages": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._generate_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.EventNamespace.on_event": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._add_cors": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    }
+  },
+  "stats": {
+    "total": 769,
+    "sensitive": 0,
+    "high_curvature": 0,
+    "entry_nodes": 28
+  }
+}

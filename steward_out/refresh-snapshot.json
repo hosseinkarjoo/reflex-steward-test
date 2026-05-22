@@ -1,0 +1,252 @@
+{
+  "snapshot_at": "2026-05-22T10:40:28.750804+00:00",
+  "violation_fingerprints": [
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/compiler.py||reflex/app.py||layer_violation",
+    "reflex/compiler/utils.py||reflex/vars/datetime.py||layer_violation",
+    "reflex/middleware/hydrate_middleware.py||reflex/app.py||layer_violation",
+    "reflex/middleware/middleware.py||reflex/app.py||layer_violation",
+    "reflex/state.py||reflex/istate/dynamic.py||layer_violation",
+    "reflex/utils/prerequisites.py||reflex/vars/datetime.py||layer_violation",
+    "reflex/utils/telemetry.py||reflex/vars/datetime.py||layer_violation"
+  ],
+  "layer_edge_counts": {
+    "Entry->Infrastructure": 45,
+    "Entry->Internal": 6,
+    "Entry->Entry": 6,
+    "Entry->Middleware": 1,
+    "Entry->Routes": 4,
+    "Entry->Models": 1,
+    "Infrastructure->Infrastructure": 731,
+    "Infrastructure->Internal": 12,
+    "Middleware->Middleware": 1,
+    "Internal->Internal": 137,
+    "Internal->Infrastructure": 124,
+    "Internal->Entry": 17,
+    "Internal->Plugins": 1,
+    "Plugins->Internal": 2,
+    "Plugins->Infrastructure": 1,
+    "Plugins->Plugins": 12,
+    "Infrastructure->Unknown": 17,
+    "Unknown->Unknown": 8,
+    "Unknown->Infrastructure": 10,
+    "Middleware->Unknown": 1,
+    "Middleware->Infrastructure": 9,
+    "Models->Models": 33,
+    "Models->Unknown": 1,
+    "Infrastructure->Models": 11,
+    "Routes->Routes": 6,
+    "Infrastructure->Entry": 3,
+    "Infrastructure->Routes": 1
+  },
+  "unformalized_pairs": [],
+  "atlas_file_patterns": {
+    "reflex/app.py": [
+      "async_awaitable",
+      "bare_except",
+      "concurrent_futures_pool",
+      "external_io_network",
+      "shared_ref_mutation"
+    ],
+    "reflex/app_mixins/lifespan.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/app_mixins/middleware.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/compiler/compiler.py": [
+      "collection_accumulate",
+      "external_io_file",
+      "shared_ref_mutation",
+      "two_pass_batch"
+    ],
+    "reflex/compiler/plugins/builtin.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/compiler/plugins/memoize.py": [
+      "concurrent_futures_pool",
+      "shared_ref_mutation"
+    ],
+    "reflex/compiler/utils.py": [
+      "bare_except",
+      "collection_accumulate",
+      "concurrent_futures_pool",
+      "external_io_file",
+      "external_io_network",
+      "two_pass_batch"
+    ],
+    "reflex/custom_components/custom_components.py": [
+      "external_io_file",
+      "external_io_network",
+      "subprocess_call"
+    ],
+    "reflex/experimental/__init__.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/experimental/client_state.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/experimental/memo.py": [
+      "collection_accumulate",
+      "concurrent_futures_pool"
+    ],
+    "reflex/istate/__init__.py": [
+      "bare_except"
+    ],
+    "reflex/istate/data.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/istate/manager/__init__.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/istate/manager/disk.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/istate/manager/memory.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/istate/manager/redis.py": [
+      "async_awaitable",
+      "concurrent_futures_pool"
+    ],
+    "reflex/istate/proxy.py": [
+      "class_mutable_attr"
+    ],
+    "reflex/istate/shared.py": [
+      "async_awaitable",
+      "bare_except",
+      "collection_accumulate",
+      "concurrent_futures_pool"
+    ],
+    "reflex/istate/wrappers.py": [
+      "async_awaitable"
+    ],
+    "reflex/middleware/hydrate_middleware.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/middleware/middleware.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/model.py": [
+      "bare_except",
+      "class_mutable_attr",
+      "collection_accumulate",
+      "global_state",
+      "lock_absent_global",
+      "shared_ref_mutation"
+    ],
+    "reflex/reflex.py": [
+      "concurrent_futures_pool"
+    ],
+    "reflex/route.py": [
+      "collection_accumulate"
+    ],
+    "reflex/state.py": [
+      "async_awaitable",
+      "bare_except",
+      "collection_accumulate",
+      "concurrent_futures_pool",
+      "shared_ref_mutation",
+      "two_pass_batch"
+    ],
+    "reflex/testing.py": [
+      "async_awaitable",
+      "concurrent_futures_pool"
+    ],
+    "reflex/utils/build.py": [
+      "collection_accumulate",
+      "external_io_file"
+    ],
+    "reflex/utils/exec.py": [
+      "bare_except",
+      "collection_accumulate",
+      "concurrent_futures_pool",
+      "external_io_file",
+      "external_io_network",
+      "global_state",
+      "lock_absent_global"
+    ],
+    "reflex/utils/frontend.py": [
+      "concurrent_futures_pool",
+      "external_io_file"
+    ],
+    "reflex/utils/frontend_skeleton.py": [
+      "external_io_file",
+      "mutable_default_arg"
+    ],
+    "reflex/utils/js_runtimes.py": [
+      "collection_accumulate",
+      "external_io_file",
+      "external_io_network",
+      "shared_ref_mutation"
+    ],
+    "reflex/utils/misc.py": [
+      "async_awaitable"
+    ],
+    "reflex/utils/net.py": [
+      "external_io_network"
+    ],
+    "reflex/utils/path_ops.py": [
+      "external_io_file"
+    ],
+    "reflex/utils/prerequisites.py": [
+      "async_awaitable",
+      "bare_except",
+      "concurrent_futures_pool",
+      "external_io_file",
+      "response_body_unconditional"
+    ],
+    "reflex/utils/processes.py": [
+      "collection_accumulate",
+      "concurrent_futures_pool",
+      "external_io_file",
+      "shared_ref_mutation",
+      "subprocess_call"
+    ],
+    "reflex/utils/redir.py": [
+      "external_io_file"
+    ],
+    "reflex/utils/registry.py": [
+      "external_io_network"
+    ],
+    "reflex/utils/rename.py": [
+      "external_io_file"
+    ],
+    "reflex/utils/tasks.py": [
+      "async_awaitable"
+    ],
+    "reflex/utils/telemetry.py": [
+      "async_awaitable",
+      "bare_except",
+      "collection_accumulate",
+      "concurrent_futures_pool",
+      "external_io_file",
+      "external_io_network"
+    ],
+    "reflex/utils/templates.py": [
+      "bare_except",
+      "collection_accumulate",
+      "external_io_file",
+      "external_io_network",
+      "response_body_unconditional"
+    ],
+    "reflex/utils/token_manager.py": [
+      "concurrent_futures_pool"
+    ]
+  }
+}

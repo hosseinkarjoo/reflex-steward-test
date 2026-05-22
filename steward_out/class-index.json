@@ -1,0 +1,827 @@
+{
+  "reflex/admin.py": {
+    "AdminDash": {
+      "bases": [],
+      "fields": [
+        "models",
+        "view_overrides",
+        "admin"
+      ]
+    }
+  },
+  "reflex/app.py": {
+    "UnevaluatedPage": {
+      "bases": [],
+      "fields": [
+        "component",
+        "route",
+        "title",
+        "description",
+        "image",
+        "on_load",
+        "meta",
+        "context"
+      ]
+    },
+    "App": {
+      "bases": [
+        "MiddlewareMixin",
+        "LifespanMixin"
+      ],
+      "fields": [
+        "theme",
+        "style",
+        "stylesheets",
+        "reset_style",
+        "app_wraps",
+        "extra_app_wraps",
+        "head_components",
+        "sio",
+        "html_lang",
+        "html_custom_attrs",
+        "_unevaluated_pages",
+        "_pages",
+        "_stateful_pages",
+        "_api",
+        "_state",
+        "enable_state",
+        "_state_manager",
+        "_load_events",
+        "admin_dash",
+        "_event_namespace",
+        "_event_processor",
+        "_registration_context",
+        "frontend_exception_handler",
+        "backend_exception_handler",
+        "toaster",
+        "api_transformer"
+      ]
+    },
+    "HeaderMiddleware": {
+      "bases": [],
+      "fields": []
+    },
+    "EventNamespace": {
+      "bases": [
+        "AsyncNamespace"
+      ],
+      "fields": [
+        "app"
+      ]
+    }
+  },
+  "reflex/app_mixins/lifespan.py": {
+    "LifespanMixin": {
+      "bases": [
+        "AppMixin"
+      ],
+      "fields": [
+        "_lifespan_tasks",
+        "_lifespan_tasks_started"
+      ]
+    }
+  },
+  "reflex/app_mixins/middleware.py": {
+    "MiddlewareMixin": {
+      "bases": [
+        "AppMixin"
+      ],
+      "fields": [
+        "_middlewares"
+      ]
+    }
+  },
+  "reflex/app_mixins/mixin.py": {
+    "AppMixin": {
+      "bases": [],
+      "fields": []
+    }
+  },
+  "reflex/assets.py": {
+    "AssetPathStr": {
+      "bases": [
+        "str"
+      ],
+      "fields": [
+        "importable_path"
+      ]
+    }
+  },
+  "reflex/compiler/plugins/builtin.py": {
+    "DefaultPagePlugin": {
+      "bases": [
+        "Plugin"
+      ],
+      "fields": []
+    },
+    "ApplyStylePlugin": {
+      "bases": [
+        "Plugin"
+      ],
+      "fields": [
+        "style"
+      ]
+    },
+    "DefaultCollectorPlugin": {
+      "bases": [
+        "Plugin"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/compiler/plugins/memoize.py": {
+    "MemoizeStatefulPlugin": {
+      "bases": [
+        "Plugin"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/compiler/utils.py": {
+    "_ImportDict": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "lib",
+        "default",
+        "rest"
+      ]
+    }
+  },
+  "reflex/components/__init__.py": {
+    "_AliasLoader": {
+      "bases": [
+        "importlib.abc.Loader"
+      ],
+      "fields": []
+    },
+    "_ComponentsRedirect": {
+      "bases": [
+        "importlib.abc.MetaPathFinder"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/experimental/__init__.py": {
+    "ExperimentalNamespace": {
+      "bases": [
+        "SimpleNamespace"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/experimental/client_state.py": {
+    "ClientStateVar": {
+      "bases": [
+        "Var"
+      ],
+      "fields": [
+        "_setter_name",
+        "_getter_name",
+        "_id_name",
+        "_global_ref"
+      ]
+    }
+  },
+  "reflex/experimental/memo.py": {
+    "MemoParam": {
+      "bases": [],
+      "fields": [
+        "name",
+        "annotation",
+        "kind",
+        "default",
+        "js_prop_name",
+        "placeholder_name",
+        "is_children",
+        "is_rest"
+      ]
+    },
+    "ExperimentalMemoDefinition": {
+      "bases": [],
+      "fields": [
+        "fn",
+        "python_name",
+        "params"
+      ]
+    },
+    "ExperimentalMemoFunctionDefinition": {
+      "bases": [
+        "ExperimentalMemoDefinition"
+      ],
+      "fields": [
+        "function",
+        "imported_var"
+      ]
+    },
+    "ExperimentalMemoComponentDefinition": {
+      "bases": [
+        "ExperimentalMemoDefinition"
+      ],
+      "fields": [
+        "export_name",
+        "component",
+        "passthrough_hole_child"
+      ]
+    },
+    "ExperimentalMemoComponent": {
+      "bases": [
+        "Component"
+      ],
+      "fields": []
+    },
+    "_ExperimentalMemoFunctionWrapper": {
+      "bases": [],
+      "fields": []
+    },
+    "_ExperimentalMemoComponentWrapper": {
+      "bases": [],
+      "fields": []
+    }
+  },
+  "reflex/istate/data.py": {
+    "_FrozenDictStrStr": {
+      "bases": [
+        "<complex>"
+      ],
+      "fields": [
+        "_data"
+      ]
+    },
+    "_HeaderData": {
+      "bases": [],
+      "fields": [
+        "host",
+        "origin",
+        "upgrade",
+        "connection",
+        "cookie",
+        "pragma",
+        "cache_control",
+        "user_agent",
+        "sec_websocket_version",
+        "sec_websocket_key",
+        "sec_websocket_extensions",
+        "accept_encoding",
+        "accept_language",
+        "raw_headers"
+      ]
+    },
+    "HeaderData": {
+      "bases": [
+        "_HeaderData"
+      ],
+      "fields": []
+    },
+    "ReflexURL": {
+      "bases": [
+        "str",
+        "_NetlocResultMixinStr"
+      ],
+      "fields": []
+    },
+    "PageData": {
+      "bases": [],
+      "fields": [
+        "host",
+        "path",
+        "raw_path",
+        "full_path",
+        "full_raw_path",
+        "params"
+      ]
+    },
+    "SessionData": {
+      "bases": [],
+      "fields": [
+        "client_token",
+        "client_ip",
+        "session_id"
+      ]
+    },
+    "RouterData": {
+      "bases": [],
+      "fields": [
+        "session",
+        "headers",
+        "_page",
+        "url",
+        "route_id"
+      ]
+    }
+  },
+  "reflex/istate/manager/__init__.py": {
+    "StateModificationContext": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "event"
+      ]
+    },
+    "StateManager": {
+      "bases": [
+        "ABC"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/istate/manager/disk.py": {
+    "QueueItem": {
+      "bases": [
+        "<complex>"
+      ],
+      "fields": [
+        "token",
+        "state",
+        "timestamp"
+      ]
+    },
+    "StateManagerDisk": {
+      "bases": [
+        "StateManager"
+      ],
+      "fields": [
+        "states",
+        "_state_manager_lock",
+        "_states_locks",
+        "token_expiration",
+        "_token_last_touched",
+        "_write_queue",
+        "_write_queue_task",
+        "_write_debounce_seconds"
+      ]
+    }
+  },
+  "reflex/istate/manager/memory.py": {
+    "StateManagerMemory": {
+      "bases": [
+        "StateManager"
+      ],
+      "fields": [
+        "token_expiration",
+        "states",
+        "_state_manager_lock",
+        "_states_locks",
+        "_token_expires_at",
+        "_expiration_task"
+      ]
+    }
+  },
+  "reflex/istate/manager/redis.py": {
+    "RedisPubSubMessage": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "type",
+        "pattern",
+        "channel",
+        "data"
+      ]
+    },
+    "OplockFound": {
+      "bases": [
+        "Exception"
+      ],
+      "fields": []
+    },
+    "StateManagerRedis": {
+      "bases": [
+        "StateManager"
+      ],
+      "fields": [
+        "redis",
+        "token_expiration",
+        "lock_expiration",
+        "lock_warning_threshold",
+        "oplock_hold_time_ms",
+        "_redis_notify_keyspace_events",
+        "_redis_keyspace_lock_release_events",
+        "_redis_notify_keyspace_events_enabled",
+        "_state_manager_lock",
+        "_oplock_enabled",
+        "_cached_states",
+        "_cached_states_locks",
+        "_local_leases",
+        "_instance_id",
+        "_lock_waiters",
+        "_lock_updates_subscribed",
+        "_lock_task",
+        "_debug_enabled"
+      ]
+    }
+  },
+  "reflex/istate/manager/token.py": {
+    "StateToken": {
+      "bases": [
+        "<complex>"
+      ],
+      "fields": [
+        "ident",
+        "cls"
+      ]
+    },
+    "BaseStateToken": {
+      "bases": [
+        "<complex>"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/istate/proxy.py": {
+    "StateProxy": {
+      "bases": [
+        "wrapt.ObjectProxy"
+      ],
+      "fields": []
+    },
+    "ReadOnlyStateProxy": {
+      "bases": [
+        "StateProxy"
+      ],
+      "fields": []
+    },
+    "MutableProxy": {
+      "bases": [
+        "wrapt.ObjectProxy"
+      ],
+      "fields": [
+        "__dataclass_proxies__"
+      ]
+    },
+    "ImmutableMutableProxy": {
+      "bases": [
+        "MutableProxy"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/istate/shared.py": {
+    "SharedStateBaseInternal": {
+      "bases": [
+        "State"
+      ],
+      "fields": [
+        "_exit_stack",
+        "_held_locks",
+        "_held_locks_lock"
+      ]
+    },
+    "SharedState": {
+      "bases": [
+        "SharedStateBaseInternal"
+      ],
+      "fields": [
+        "_linked_from",
+        "_linked_to",
+        "_previous_dirty_vars"
+      ]
+    }
+  },
+  "reflex/istate/storage.py": {
+    "ClientStorageBase": {
+      "bases": [],
+      "fields": []
+    },
+    "Cookie": {
+      "bases": [
+        "ClientStorageBase",
+        "str"
+      ],
+      "fields": [
+        "name",
+        "path",
+        "max_age",
+        "domain",
+        "secure",
+        "same_site"
+      ]
+    },
+    "LocalStorage": {
+      "bases": [
+        "ClientStorageBase",
+        "str"
+      ],
+      "fields": [
+        "name",
+        "sync"
+      ]
+    },
+    "SessionStorage": {
+      "bases": [
+        "ClientStorageBase",
+        "str"
+      ],
+      "fields": [
+        "name"
+      ]
+    }
+  },
+  "reflex/middleware/hydrate_middleware.py": {
+    "HydrateMiddleware": {
+      "bases": [
+        "Middleware"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/middleware/middleware.py": {
+    "Middleware": {
+      "bases": [
+        "ABC"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/model.py": {
+    "_ClassThatErrorsOnInit": {
+      "bases": [],
+      "fields": []
+    },
+    "ModelRegistry": {
+      "bases": [],
+      "fields": [
+        "models",
+        "_metadata"
+      ]
+    },
+    "Model": {
+      "bases": [
+        "sqlmodel.SQLModel"
+      ],
+      "fields": [
+        "id"
+      ]
+    }
+  },
+  "reflex/page.py": {
+    "PageNamespace": {
+      "bases": [],
+      "fields": []
+    }
+  },
+  "reflex/state.py": {
+    "EventHandlerSetVar": {
+      "bases": [
+        "EventHandler"
+      ],
+      "fields": []
+    },
+    "BaseState": {
+      "bases": [
+        "EvenMoreBasicBaseState"
+      ],
+      "fields": [
+        "vars",
+        "base_vars",
+        "computed_vars",
+        "inherited_vars",
+        "backend_vars",
+        "inherited_backend_vars",
+        "event_handlers",
+        "_var_dependencies",
+        "_always_dirty_computed_vars",
+        "_always_dirty_substates",
+        "_potentially_dirty_states",
+        "parent_state",
+        "substates",
+        "dirty_vars",
+        "dirty_substates",
+        "router_data",
+        "_backend_vars",
+        "router",
+        "_was_touched",
+        "setvar"
+      ]
+    },
+    "State": {
+      "bases": [
+        "BaseState"
+      ],
+      "fields": [
+        "is_hydrated",
+        "_reflex_internal_links"
+      ]
+    },
+    "FrontendEventExceptionState": {
+      "bases": [
+        "State"
+      ],
+      "fields": [
+        "auto_reload_on_errors"
+      ]
+    },
+    "UpdateVarsInternalState": {
+      "bases": [
+        "State"
+      ],
+      "fields": []
+    },
+    "OnLoadInternalState": {
+      "bases": [
+        "State"
+      ],
+      "fields": [
+        "_app_ref"
+      ]
+    },
+    "ComponentState": {
+      "bases": [
+        "State"
+      ],
+      "fields": [
+        "_per_component_state_instance_count"
+      ]
+    },
+    "StateUpdate": {
+      "bases": [],
+      "fields": [
+        "delta",
+        "events",
+        "final"
+      ]
+    }
+  },
+  "reflex/testing.py": {
+    "chdir": {
+      "bases": [
+        "contextlib.AbstractContextManager"
+      ],
+      "fields": []
+    },
+    "AppHarness": {
+      "bases": [],
+      "fields": [
+        "app_name",
+        "app_source",
+        "app_path",
+        "app_module_path",
+        "app_module",
+        "app_instance",
+        "app_asgi",
+        "frontend_process",
+        "frontend_url",
+        "frontend_output_thread",
+        "backend_thread",
+        "backend",
+        "_frontends",
+        "_registry_token",
+        "_base_registration_context"
+      ]
+    },
+    "SimpleHTTPRequestHandlerCustomErrors": {
+      "bases": [
+        "SimpleHTTPRequestHandler"
+      ],
+      "fields": []
+    },
+    "Subdir404TCPServer": {
+      "bases": [
+        "socketserver.TCPServer"
+      ],
+      "fields": []
+    },
+    "AppHarnessProd": {
+      "bases": [
+        "AppHarness"
+      ],
+      "fields": [
+        "frontend_thread",
+        "frontend_server"
+      ]
+    }
+  },
+  "reflex/utils/exec.py": {
+    "PackageJson": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "dependencies",
+        "devDependencies"
+      ]
+    },
+    "Change": {
+      "bases": [
+        "NamedTuple"
+      ],
+      "fields": [
+        "added",
+        "removed"
+      ]
+    }
+  },
+  "reflex/utils/frontend.py": {
+    "ReflexStaticFiles": {
+      "bases": [
+        "StaticFiles"
+      ],
+      "fields": []
+    }
+  },
+  "reflex/utils/prerequisites.py": {
+    "AppInfo": {
+      "bases": [
+        "NamedTuple"
+      ],
+      "fields": [
+        "app",
+        "module"
+      ]
+    }
+  },
+  "reflex/utils/telemetry.py": {
+    "CpuInfo": {
+      "bases": [],
+      "fields": [
+        "manufacturer_id",
+        "model_name",
+        "address_width"
+      ]
+    },
+    "_Properties": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "distinct_id",
+        "distinct_app_id",
+        "user_os",
+        "user_os_detail",
+        "reflex_version",
+        "python_version",
+        "node_version",
+        "bun_version",
+        "reflex_enterprise_version",
+        "cpu_count",
+        "cpu_info"
+      ]
+    },
+    "_DefaultEvent": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "api_key",
+        "properties"
+      ]
+    },
+    "_Event": {
+      "bases": [
+        "_DefaultEvent"
+      ],
+      "fields": [
+        "event",
+        "timestamp"
+      ]
+    }
+  },
+  "reflex/utils/templates.py": {
+    "Template": {
+      "bases": [],
+      "fields": [
+        "name",
+        "description",
+        "code_url"
+      ]
+    }
+  },
+  "reflex/utils/token_manager.py": {
+    "SocketRecord": {
+      "bases": [],
+      "fields": [
+        "instance_id",
+        "sid"
+      ]
+    },
+    "LostAndFoundRecord": {
+      "bases": [],
+      "fields": [
+        "token",
+        "update"
+      ]
+    },
+    "TokenManager": {
+      "bases": [
+        "ABC"
+      ],
+      "fields": []
+    },
+    "LocalTokenManager": {
+      "bases": [
+        "TokenManager"
+      ],
+      "fields": []
+    },
+    "RedisTokenManager": {
+      "bases": [
+        "LocalTokenManager"
+      ],
+      "fields": [
+        "_token_socket_record_prefix"
+      ]
+    }
+  }
+}

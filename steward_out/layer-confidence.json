@@ -1,0 +1,512 @@
+{
+  "reflex/__main__.py": {
+    "layer": "Entry",
+    "confidence": "high",
+    "reason": "filename '__main__.py'"
+  },
+  "reflex/_upload.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/app.py": {
+    "layer": "Entry",
+    "confidence": "high",
+    "reason": "filename 'app.py'"
+  },
+  "reflex/app_mixins/lifespan.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/app_mixins/middleware.py": {
+    "layer": "Middleware",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (filename 'middleware.py')"
+  },
+  "reflex/app_mixins/mixin.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/assets.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/compiler/compiler.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/compiler/plugins/builtin.py": {
+    "layer": "Plugins",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'plugins')"
+  },
+  "reflex/compiler/plugins/memoize.py": {
+    "layer": "Plugins",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'plugins')"
+  },
+  "reflex/compiler/templates.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Output' (filename 'templates.py')"
+  },
+  "reflex/compiler/utils.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (filename 'utils.py')"
+  },
+  "reflex/config.py": {
+    "layer": "Internal",
+    "confidence": "high",
+    "reason": "filename 'config.py'"
+  },
+  "reflex/constants/base.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'constants'"
+  },
+  "reflex/constants/colors.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'constants'"
+  },
+  "reflex/constants/compiler.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'constants'"
+  },
+  "reflex/constants/config.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'constants'"
+  },
+  "reflex/constants/custom_components.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'constants'"
+  },
+  "reflex/constants/event.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'constants'"
+  },
+  "reflex/constants/installer.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'constants'"
+  },
+  "reflex/constants/route.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'constants'"
+  },
+  "reflex/constants/state.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'constants'"
+  },
+  "reflex/constants/utils.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'constants'"
+  },
+  "reflex/custom_components/custom_components.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/event.py": {
+    "layer": "Core",
+    "confidence": "high",
+    "reason": "filename 'event.py'"
+  },
+  "reflex/experimental/client_state.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/experimental/hooks.py": {
+    "layer": "Internal",
+    "confidence": "high",
+    "reason": "filename 'hooks.py'"
+  },
+  "reflex/experimental/memo.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/istate/data.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/istate/manager/disk.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/istate/manager/memory.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/istate/manager/redis.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/istate/manager/token.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/istate/proxy.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/istate/shared.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/istate/storage.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Storage' (filename 'storage.py')"
+  },
+  "reflex/istate/wrappers.py": {
+    "layer": "Middleware",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/middleware/hydrate_middleware.py": {
+    "layer": "Middleware",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'middleware')"
+  },
+  "reflex/middleware/middleware.py": {
+    "layer": "Middleware",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'middleware')"
+  },
+  "reflex/model.py": {
+    "layer": "Models",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Storage' (filename 'model.py')"
+  },
+  "reflex/page.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/plugins/_screenshot.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'plugins'"
+  },
+  "reflex/plugins/base.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'plugins'"
+  },
+  "reflex/plugins/shared_tailwind.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'plugins'"
+  },
+  "reflex/plugins/sitemap.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'plugins'"
+  },
+  "reflex/plugins/tailwind_v3.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'plugins'"
+  },
+  "reflex/plugins/tailwind_v4.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'plugins'"
+  },
+  "reflex/reflex.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/route.py": {
+    "layer": "Routes",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/state.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/testing.py": {
+    "layer": "Infrastructure",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/utils/build.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/codespaces.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/compat.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'utils'"
+  },
+  "reflex/utils/console.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/decorator.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'utils'"
+  },
+  "reflex/utils/exceptions.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/exec.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/export.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/format.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/frontend.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/frontend_skeleton.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/imports.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'utils'"
+  },
+  "reflex/utils/js_runtimes.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/lazy_loader.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'utils'"
+  },
+  "reflex/utils/misc.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/net.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/path_ops.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/prerequisites.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/processes.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/pyi_generator.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'utils'"
+  },
+  "reflex/utils/redir.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/registry.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/rename.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/serializers.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "directory 'utils'"
+  },
+  "reflex/utils/tasks.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/telemetry.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/templates.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/token_manager.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/utils/types.py": {
+    "layer": "Infrastructure",
+    "confidence": "low",
+    "reason": "claude override \u2014 heuristic suggested 'Internal' (directory 'utils')"
+  },
+  "reflex/admin.py": {
+    "layer": "Internal",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/components/component.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/components/dynamic.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/components/field.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/components/literals.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/components/props.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/components/tags/cond_tag.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/components/tags/iter_tag.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/components/tags/match_tag.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/components/tags/tag.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/components/tags/tagless.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/environment.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/istate/dynamic.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/style.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/vars/base.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/vars/color.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/vars/datetime.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/vars/dep_tracking.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/vars/function.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/vars/number.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/vars/object.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  },
+  "reflex/vars/sequence.py": {
+    "layer": "Core",
+    "confidence": "medium",
+    "reason": "claude judgment (no heuristic match)"
+  }
+}

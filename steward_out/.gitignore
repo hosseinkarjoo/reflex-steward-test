@@ -1,0 +1,9 @@
+# Runtime / ephemeral — do not commit
+daemon.pid
+daemon.log
+daemon-state.json
+session-state.json
+STATUS
+review-cache/
+findings.json
+last.json

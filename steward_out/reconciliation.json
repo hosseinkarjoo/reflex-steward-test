@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-05-22T10:40:27.429073+00:00",
+  "ast_source": "steward_out/ast-core.json",
+  "ast_facts": {
+    "version": "unknown",
+    "check_count": 0,
+    "check_names": [],
+    "command_count": 0,
+    "command_names": [],
+    "phase_functions": [],
+    "module_count": 117
+  }
+}

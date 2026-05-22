@@ -1,0 +1,1138 @@
+{
+  "reflex/components/__init__.py": {
+    "file_hash": "sha256:03a038eeae606c24cae35b53785be651e4ccda0add6af04bba32a5d8c6552f51",
+    "enriched_at": "2026-05-22T07:21:00.084730+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "stale": false,
+    "symbols": {
+      "_AliasLoader": {
+        "inferred_layer": null,
+        "classification": "util",
+        "confidence": 0.95,
+        "side_effects": [
+          "reads_file"
+        ],
+        "framework_hooks": [
+          "importlib.abc.Loader"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "importlib::import_module",
+            "confidence": "high",
+            "reason": "Dynamically imports target module by name in exec_module method"
+          }
+        ],
+        "notes": "Custom importlib loader that aliases one module name to another; part of import redirection infrastructure"
+      },
+      "_ComponentsRedirect": {
+        "inferred_layer": null,
+        "classification": "util",
+        "confidence": 0.95,
+        "side_effects": [],
+        "framework_hooks": [
+          "importlib.abc.MetaPathFinder"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "importlib.machinery::ModuleSpec",
+            "confidence": "high",
+            "reason": "Creates ModuleSpec objects for redirected imports in find_spec method"
+          }
+        ],
+        "notes": "Meta path finder hook that intercepts imports of reflex.components subpackages and redirects them to target packages"
+      },
+      "__getattr__": {
+        "inferred_layer": null,
+        "classification": "util",
+        "confidence": 0.9,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "lazy_loader::attach",
+            "confidence": "high",
+            "reason": "Delegates to _lazy_getattr function returned from lazy_loader.attach"
+          },
+          {
+            "to": "importlib::import_module",
+            "confidence": "high",
+            "reason": "Dynamically imports subpackage modules from _SUBPACKAGE_TARGETS mapping"
+          }
+        ],
+        "notes": "Module-level __getattr__ that provides lazy loading and fallback to component package imports"
+      }
+    }
+  },
+  "reflex/testing.py": {
+    "file_hash": "sha256:6752124922b4be0cb38045f1025929c4c9aa4e60dae3ac8645ce77e3386215a5",
+    "enriched_at": "2026-05-22T07:21:01.205609+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "stale": false,
+    "symbols": {
+      "chdir": {
+        "inferred_layer": "util",
+        "classification": "util",
+        "confidence": 0.95,
+        "side_effects": [
+          "reads_file"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "pathlib::Path.cwd",
+            "confidence": "high",
+            "reason": "Saves current working directory before changing it"
+          },
+          {
+            "to": "os::chdir",
+            "confidence": "high",
+            "reason": "Changes directory in __enter__ and __exit__ methods"
+          }
+        ],
+        "notes": "Context manager utility for temporary directory changes, borrowed from Python 3.11 stdlib"
+      },
+      "AppHarness": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.88,
+        "side_effects": [
+          "reads_file",
+          "writes_file",
+          "raises_http"
+        ],
+        "framework_hooks": [
+          "uvicorn.Server",
+          "selenium.webdriver"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex.utils::build",
+            "confidence": "medium",
+            "reason": "Imported for app building operations"
+          },
+          {
+            "to": "reflex.utils::processes",
+            "confidence": "medium",
+            "reason": "Imported for subprocess management"
+          },
+          {
+            "to": "reflex.state::reload_state_module",
+            "confidence": "medium",
+            "reason": "Imported for state management in testing"
+          }
+        ],
+        "notes": "Main test harness class that orchestrates in-process reflex app execution with frontend/backend coordination"
+      },
+      "AppHarness.create": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.92,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "re::sub",
+            "confidence": "high",
+            "reason": "Sanitizes app_name by removing non-alphanumeric characters"
+          }
+        ],
+        "notes": "Factory method that creates AppHarness instances with flexible app source specification"
+      },
+      "AppHarness.get_state_name": {
+        "inferred_layer": "service",
+        "classification": "util",
+        "confidence": 0.85,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Derives state name from state class name, likely delegates to reflex.utils"
+      }
+    }
+  },
+  "reflex/utils/exec.py": {
+    "file_hash": "sha256:8574bb62bda47b90c3646fb32afb25d44aee7159fd19310fc2879c3c42dc0734",
+    "enriched_at": "2026-05-22T07:21:03.254744+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "stale": false,
+    "symbols": {
+      "get_package_json_and_hash": {
+        "inferred_layer": "util",
+        "classification": "util",
+        "confidence": 0.95,
+        "side_effects": [
+          "reads_file"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Pure utility function for file I/O and hashing operations."
+      },
+      "PackageJson": {
+        "inferred_layer": "model",
+        "classification": "model",
+        "confidence": 0.9,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "TypedDict defining package.json schema structure."
+      },
+      "Change": {
+        "inferred_layer": "model",
+        "classification": "model",
+        "confidence": 0.9,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "NamedTuple for representing dependency changes."
+      },
+      "format_change": {
+        "inferred_layer": "util",
+        "classification": "util",
+        "confidence": 0.95,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Pure string formatting utility for change display."
+      },
+      "get_different_packages": {
+        "inferred_layer": "util",
+        "classification": "util",
+        "confidence": 0.95,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Pure utility function comparing package.json dictionaries."
+      },
+      "kill": {
+        "inferred_layer": "util",
+        "classification": "util",
+        "confidence": 0.9,
+        "side_effects": [
+          "process_termination"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "psutil.Process",
+            "confidence": "high",
+            "reason": "Dynamic import of psutil library for process management."
+          }
+        ],
+        "notes": "System utility for process termination with dynamic psutil dependency."
+      },
+      "notify_frontend": {
+        "inferred_layer": "util",
+        "classification": "util",
+        "confidence": 0.9,
+        "side_effects": [
+          "writes_stdout"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "reflex_base.utils.console.print",
+            "confidence": "high",
+            "reason": "Console output for user notification."
+          }
+        ],
+        "notes": "Utility function for frontend status notification."
+      },
+      "notify_backend": {
+        "inferred_layer": "util",
+        "classification": "util",
+        "confidence": 0.9,
+        "side_effects": [
+          "writes_stdout"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "reflex_base.config.get_config",
+            "confidence": "high",
+            "reason": "Retrieves backend configuration for host and port."
+          },
+          {
+            "to": "reflex_base.utils.console.print",
+            "confidence": "high",
+            "reason": "Console output for backend status notification."
+          }
+        ],
+        "notes": "Utility function for backend status notification with config dependency."
+      },
+      "run_process_and_launch_url": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.85,
+        "side_effects": [
+          "spawns_subprocess",
+          "reads_file",
+          "writes_stdout"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex.utils.processes",
+            "confidence": "high",
+            "reason": "Dynamic import for process management utilities."
+          },
+          {
+            "to": "reflex.utils.prerequisites.get_web_dir",
+            "confidence": "high",
+            "reason": "Retrieves web directory path for package.json location."
+          },
+          {
+            "to": "get_package_json_and_hash",
+            "confidence": "high",
+            "reason": "Reads and hashes package.json for change detection."
+          }
+        ],
+        "notes": "Service orchestrating frontend process execution with file monitoring and dynamic imports."
+      }
+    }
+  },
+  "reflex/istate/proxy.py": {
+    "file_hash": "sha256:46cb87e1d76faac805cc196e138a0b4d4b82f2b37b00b53ad49ab99c6143d142",
+    "enriched_at": "2026-05-22T07:21:03.353166+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "stale": false,
+    "symbols": {
+      "StateProxy": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.92,
+        "side_effects": [
+          "reads_state",
+          "writes_state",
+          "raises_ImmutableStateError",
+          "acquires_lock",
+          "releases_lock"
+        ],
+        "framework_hooks": [
+          "wrapt.ObjectProxy",
+          "asyncio.Lock",
+          "asyncio.current_task"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex/state.py::State.get_class_substate",
+            "confidence": "high",
+            "reason": "Called in __aenter__ to retrieve substate class from path tuple"
+          },
+          {
+            "to": "reflex/state.py::BaseState.get_state",
+            "confidence": "high",
+            "reason": "Called in __aenter__ to fetch mutable state instance from parent"
+          },
+          {
+            "to": "reflex/state.py::BaseState.get_substate",
+            "confidence": "high",
+            "reason": "Called in __aenter__ to extract substate from full state instance"
+          },
+          {
+            "to": "reflex_base/event/context.py::EventContext.get",
+            "confidence": "high",
+            "reason": "Called to retrieve current event context for token and state_manager access"
+          }
+        ],
+        "notes": "Proxy wrapper for state instances in background tasks; controls mutability via async context manager protocol with lock-based synchronization."
+      },
+      "__init__": {
+        "inferred_layer": null,
+        "classification": "util",
+        "confidence": 0.85,
+        "side_effects": [
+          "initializes_lock",
+          "reads_EventContext"
+        ],
+        "framework_hooks": [
+          "wrapt.ObjectProxy.__init__",
+          "asyncio.Lock"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex_base/event/context.py::EventContext.get",
+            "confidence": "high",
+            "reason": "Called to obtain token for BaseStateToken initialization"
+          }
+        ],
+        "notes": "Constructor initializes proxy state with token, lock, and parent chain tracking."
+      },
+      "_is_mutable": {
+        "inferred_layer": null,
+        "classification": "util",
+        "confidence": 0.88,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Recursive check for mutability status considering parent proxy chain."
+      },
+      "__aenter__": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.9,
+        "side_effects": [
+          "acquires_lock",
+          "modifies_state",
+          "raises_ImmutableStateError",
+          "raises_CancelledError"
+        ],
+        "framework_hooks": [
+          "asyncio.current_task",
+          "asyncio.Lock.acquire"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex/state.py::State.get_class_substate",
+            "confidence": "high",
+            "reason": "Resolves substate class from path tuple for parent state retrieval"
+          },
+          {
+            "to": "reflex_base/event/context.py::EventContext.get",
+            "confidence": "high",
+            "reason": "Obtains state_manager for modify_state_with_links call"
+          }
+        ],
+        "notes": "Async context entry acquires lock, refreshes state from manager, and enables mutability."
+      },
+      "__aexit__": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.88,
+        "side_effects": [
+          "releases_lock",
+          "persists_state",
+          "emits_StateUpdate"
+        ],
+        "framework_hooks": [
+          "asyncio.Lock.release"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [],
+        "notes": "Async context exit releases lock, disables mutability, and triggers state persistence."
+      }
+    }
+  },
+  "reflex/model.py": {
+    "file_hash": "sha256:4540d38a69e342fd7b6b3450dfdf945345f73b93a9d671bc2019e739d1d66e32",
+    "enriched_at": "2026-05-22T07:21:04.279767+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "stale": false,
+    "symbols": {
+      "_safe_db_url_for_logging": {
+        "inferred_layer": null,
+        "classification": "util",
+        "confidence": 0.95,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Pure utility function for sanitizing database URLs for logging purposes."
+      },
+      "_print_db_not_available": {
+        "inferred_layer": null,
+        "classification": "util",
+        "confidence": 0.9,
+        "side_effects": [
+          "raises_http"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Error handler that raises ImportError when database dependencies are missing."
+      },
+      "_ClassThatErrorsOnInit": {
+        "inferred_layer": null,
+        "classification": "util",
+        "confidence": 0.85,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "reflex/model.py::_print_db_not_available",
+            "confidence": "high",
+            "reason": "Called in __init__ to raise ImportError when database not available."
+          }
+        ],
+        "notes": "Placeholder class that errors on instantiation if sqlalchemy is not installed."
+      },
+      "get_engine_args": {
+        "inferred_layer": "config",
+        "classification": "config",
+        "confidence": 0.92,
+        "side_effects": [
+          "reads_file"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "reflex_base/config.py::get_config",
+            "confidence": "high",
+            "reason": "Retrieves configuration to determine database URL and settings."
+          }
+        ],
+        "notes": "Constructs SQLAlchemy engine configuration from environment variables and config."
+      },
+      "get_engine": {
+        "inferred_layer": "repository",
+        "classification": "repository",
+        "confidence": 0.93,
+        "side_effects": [
+          "reads_db",
+          "reads_file"
+        ],
+        "framework_hooks": [
+          "sqlalchemy.engine.create_engine"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex_base/config.py::get_config",
+            "confidence": "high",
+            "reason": "Retrieves database URL from configuration."
+          },
+          {
+            "to": "reflex/model.py::get_engine_args",
+            "confidence": "high",
+            "reason": "Gets engine configuration arguments."
+          }
+        ],
+        "notes": "Singleton factory for SQLAlchemy database engine with caching by URL."
+      },
+      "create_all": {
+        "inferred_layer": "repository",
+        "classification": "repository",
+        "confidence": 0.9,
+        "side_effects": [
+          "writes_db"
+        ],
+        "framework_hooks": [
+          "sqlalchemy.MetaData.create_all"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex/model.py::get_engine",
+            "confidence": "high",
+            "reason": "Obtains engine to create database tables."
+          },
+          {
+            "to": "reflex/model.py::ModelRegistry.get_metadata",
+            "confidence": "high",
+            "reason": "Retrieves metadata for all registered models."
+          }
+        ],
+        "notes": "Creates all database tables from registered model metadata."
+      },
+      "get_async_engine": {
+        "inferred_layer": "repository",
+        "classification": "repository",
+        "confidence": 0.93,
+        "side_effects": [
+          "reads_db",
+          "reads_file"
+        ],
+        "framework_hooks": [
+          "sqlalchemy.ext.asyncio.create_async_engine"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex_base/config.py::get_config",
+            "confidence": "high",
+            "reason": "Retrieves async database URL from configuration."
+          },
+          {
+            "to": "reflex/model.py::get_engine_args",
+            "confidence": "high",
+            "reason": "Gets engine configuration arguments."
+          }
+        ],
+        "notes": "Singleton factory for async SQLAlchemy engine with caching and URL validation."
+      },
+      "sqla_session": {
+        "inferred_layer": "repository",
+        "classification": "repository",
+        "confidence": 0.91,
+        "side_effects": [
+          "reads_db"
+        ],
+        "framework_hooks": [
+          "sqlalchemy.orm.Session"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex/model.py::get_engine",
+            "confidence": "high",
+            "reason": "Obtains engine to create a new session."
+          }
+        ],
+        "notes": "Factory function for creating bare SQLAlchemy ORM sessions."
+      },
+      "ModelRegistry": {
+        "inferred_layer": "repository",
+        "classification": "repository",
+        "confidence": 0.88,
+        "side_effects": [],
+        "framework_hooks": [
+          "sqlalchemy.MetaData"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [],
+        "notes": "Central registry for tracking all SQLModel/SQLAlchemy models and their metadata."
+      }
+    }
+  },
+  "reflex/istate/data.py": {
+    "file_hash": "sha256:ccc6aae4483392a46a496d66befa32025003cb583c33f29b4af5400b8fa56510",
+    "enriched_at": "2026-05-22T07:21:04.996593+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "stale": false,
+    "symbols": {
+      "_FrozenDictStrStr": {
+        "inferred_layer": "model",
+        "classification": "model",
+        "confidence": 0.95,
+        "side_effects": [],
+        "framework_hooks": [
+          "dataclasses.dataclass"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "builtins::dict",
+            "confidence": "high",
+            "reason": "Converts kwargs to sorted dict in __init__"
+          },
+          {
+            "to": "types::MappingProxyType",
+            "confidence": "high",
+            "reason": "Wraps dict in immutable proxy"
+          }
+        ],
+        "notes": "Immutable frozen dict model for string key-value pairs with hash support."
+      },
+      "_HeaderData": {
+        "inferred_layer": "model",
+        "classification": "model",
+        "confidence": 0.98,
+        "side_effects": [],
+        "framework_hooks": [
+          "dataclasses.dataclass"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Base dataclass defining HTTP header field schema with default empty strings."
+      },
+      "HeaderData": {
+        "inferred_layer": "model",
+        "classification": "model",
+        "confidence": 0.95,
+        "side_effects": [],
+        "framework_hooks": [
+          "dataclasses.dataclass"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "reflex_base.utils.format::to_snake_case",
+            "confidence": "high",
+            "reason": "Converts header keys to snake_case for field matching"
+          },
+          {
+            "to": "reflex_base.constants::RouteVar",
+            "confidence": "high",
+            "reason": "Accesses HEADERS and other route variable constants"
+          }
+        ],
+        "notes": "Factory pattern via from_router_data classmethod to construct HeaderData from router dict."
+      },
+      "_serialize_header_data": {
+        "inferred_layer": "util",
+        "classification": "util",
+        "confidence": 0.92,
+        "side_effects": [],
+        "framework_hooks": [
+          "reflex_base.utils.serializers.serializer"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "dataclasses::fields",
+            "confidence": "high",
+            "reason": "Iterates dataclass fields to build serialization dict"
+          }
+        ],
+        "notes": "Serializer decorator converts HeaderData to dict representation."
+      },
+      "serialize_frozen_dict_str_str": {
+        "inferred_layer": "util",
+        "classification": "util",
+        "confidence": 0.92,
+        "side_effects": [],
+        "framework_hooks": [
+          "reflex_base.utils.serializers.serializer"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "builtins::dict",
+            "confidence": "high",
+            "reason": "Converts MappingProxyType to plain dict"
+          }
+        ],
+        "notes": "Serializer decorator for _FrozenDictStrStr to dict conversion."
+      },
+      "ReflexURL": {
+        "inferred_layer": "model",
+        "classification": "model",
+        "confidence": 0.93,
+        "side_effects": [],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "urllib.parse::urlsplit",
+            "confidence": "high",
+            "reason": "Parses URL into components in __new__"
+          },
+          {
+            "to": "urllib.parse::parse_qsl",
+            "confidence": "high",
+            "reason": "Parses query string into key-value pairs"
+          }
+        ],
+        "notes": "Immutable URL model extending str with parsed components as attributes."
+      },
+      "PageData": {
+        "inferred_layer": "model",
+        "classification": "model",
+        "confidence": 0.95,
+        "side_effects": [],
+        "framework_hooks": [
+          "dataclasses.dataclass"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "reflex_base.constants::RouteVar",
+            "confidence": "high",
+            "reason": "Accesses PATH, ORIGIN, HEADERS, QUERY constants"
+          }
+        ],
+        "notes": "Factory pattern via from_router_data to construct PageData from router dict."
+      },
+      "_serialize_page_data": {
+        "inferred_layer": "util",
+        "classification": "util",
+        "confidence": 0.92,
+        "side_effects": [],
+        "framework_hooks": [
+          "reflex_base.utils.serializers.serializer"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "dataclasses::fields",
+            "confidence": "high",
+            "reason": "Iterates dataclass fields to build serialization dict"
+          }
+        ],
+        "notes": "Serializer decorator converts PageData to dict representation."
+      },
+      "SessionData": {
+        "inferred_layer": "model",
+        "classification": "model",
+        "confidence": 0.95,
+        "side_effects": [],
+        "framework_hooks": [
+          "dataclasses.dataclass"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "reflex_base.constants::RouteVar",
+            "confidence": "high",
+            "reason": "Accesses CLIENT_TOKEN, CLIENT_IP, SESSION_ID constants"
+          }
+        ],
+        "notes": "Factory pattern via from_router_data to construct SessionData from router dict."
+      }
+    }
+  },
+  "reflex/utils/processes.py": {
+    "file_hash": "sha256:9b227358ae868c63793335d94a44fc04b67cfbc7db303a36b4a4a22163e379ad",
+    "enriched_at": "2026-05-22T07:21:05.300032+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "stale": false,
+    "symbols": {
+      "kill": {
+        "inferred_layer": null,
+        "classification": "util",
+        "confidence": 0.95,
+        "side_effects": [
+          "process_termination"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Low-level OS process termination utility with no dependencies."
+      },
+      "get_num_workers": {
+        "inferred_layer": "config",
+        "classification": "config",
+        "confidence": 0.88,
+        "side_effects": [
+          "reads_config",
+          "reads_redis",
+          "raises_system_exit"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "reflex_base.config::get_config",
+            "confidence": "high",
+            "reason": "Retrieves transport configuration to determine worker count strategy."
+          },
+          {
+            "to": "reflex.utils.prerequisites::get_redis_sync",
+            "confidence": "high",
+            "reason": "Checks Redis availability for polling transport mode."
+          }
+        ],
+        "notes": "Configuration-driven worker pool sizing with Redis health check dependency."
+      },
+      "_can_bind_at_port": {
+        "inferred_layer": null,
+        "classification": "validator",
+        "confidence": 0.92,
+        "side_effects": [
+          "reads_socket",
+          "platform_specific"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Port availability validator using socket binding test; platform-aware (Windows vs Unix)."
+      },
+      "_can_bind_at_any_port": {
+        "inferred_layer": null,
+        "classification": "validator",
+        "confidence": 0.9,
+        "side_effects": [
+          "reads_socket"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Checks if address family supports any port binding; helper for port availability detection."
+      },
+      "is_process_on_port": {
+        "inferred_layer": null,
+        "classification": "validator",
+        "confidence": 0.93,
+        "side_effects": [
+          "reads_socket"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "reflex/utils/processes.py::_can_bind_at_port",
+            "confidence": "high",
+            "reason": "Delegates port occupancy check to socket binding validator."
+          }
+        ],
+        "notes": "Multi-family port occupancy detector; abstracts socket-level binding checks."
+      },
+      "handle_port": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.85,
+        "side_effects": [
+          "reads_socket",
+          "reads_config",
+          "raises_system_exit",
+          "console_output"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateless",
+        "inferred_calls": [
+          {
+            "to": "reflex/utils/processes.py::_can_bind_at_any_port",
+            "confidence": "high",
+            "reason": "Filters available address families before port conflict detection."
+          },
+          {
+            "to": "reflex/utils/processes.py::is_process_on_port",
+            "confidence": "high",
+            "reason": "Checks port availability and auto-increments if needed."
+          }
+        ],
+        "notes": "Port allocation orchestrator with auto-increment fallback and network validation; high decorator fan-out (console.debug, console.error, console.info)."
+      },
+      "new_process": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.82,
+        "side_effects": [
+          "spawns_subprocess",
+          "reads_file",
+          "reads_env",
+          "console_output"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex.utils.prerequisites::get_npm_registry",
+            "confidence": "medium",
+            "reason": "Likely used to configure npm environment for subprocess execution."
+          },
+          {
+            "to": "reflex.utils.path_ops",
+            "confidence": "medium",
+            "reason": "Path normalization for subprocess arguments."
+          }
+        ],
+        "notes": "Subprocess factory with dual return types (Popen/CompletedProcess); high decorator fan-out via overload pattern (3 decorators); unresolved edge ratio 0.62 due to truncated implementation."
+      }
+    }
+  },
+  "reflex/reflex.py": {
+    "file_hash": "sha256:90d937b9310650d72571ac5725decee9c78a6667e092e22a27704a22f4947cbc",
+    "enriched_at": "2026-05-22T07:21:07.044083+00:00",
+    "model": "claude-haiku-4-5-20251001",
+    "stale": false,
+    "symbols": {
+      "set_loglevel": {
+        "inferred_layer": "config",
+        "classification": "validator",
+        "confidence": 0.85,
+        "side_effects": [
+          "mutates_global_state"
+        ],
+        "framework_hooks": [
+          "click.callback"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex_base/constants.py::LogLevel.from_string",
+            "confidence": "high",
+            "reason": "Parses string value to LogLevel enum"
+          },
+          {
+            "to": "reflex_base/utils/console.py::set_log_level",
+            "confidence": "high",
+            "reason": "Sets global console log level"
+          }
+        ],
+        "notes": "Click callback that validates and applies log level configuration globally"
+      },
+      "cli": {
+        "inferred_layer": "request_handler",
+        "classification": "request_handler",
+        "confidence": 0.9,
+        "side_effects": [],
+        "framework_hooks": [
+          "click.group",
+          "click.version_option"
+        ],
+        "mutation_profile": "stateless",
+        "inferred_calls": [],
+        "notes": "Root Click command group serving as CLI entry point"
+      },
+      "_init": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.8,
+        "side_effects": [
+          "writes_file",
+          "reads_file",
+          "executes_subprocess"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex/utils/exec.py::output_system_info",
+            "confidence": "high",
+            "reason": "Outputs system diagnostics at initialization start"
+          },
+          {
+            "to": "reflex/utils/redir.py::reflex_build_redirect",
+            "confidence": "high",
+            "reason": "Redirects to AI-based app generation when --ai flag set"
+          },
+          {
+            "to": "reflex/utils/prerequisites.py::validate_app_name",
+            "confidence": "high",
+            "reason": "Validates app name format and constraints"
+          },
+          {
+            "to": "reflex/utils/prerequisites.py::check_latest_package_version",
+            "confidence": "high",
+            "reason": "Checks for package updates"
+          },
+          {
+            "to": "reflex/utils/prerequisites.py::initialize_reflex_user_directory",
+            "confidence": "high",
+            "reason": "Creates user-level Reflex configuration directory"
+          },
+          {
+            "to": "reflex/utils/prerequisites.py::ensure_reflex_installation_id",
+            "confidence": "high",
+            "reason": "Generates or retrieves installation identifier"
+          },
+          {
+            "to": "reflex/utils/prerequisites.py::initialize_frontend_dependencies",
+            "confidence": "high",
+            "reason": "Sets up Node.js and frontend toolchain"
+          },
+          {
+            "to": "reflex/utils/templates.py::initialize_app",
+            "confidence": "high",
+            "reason": "Creates app scaffold from template"
+          },
+          {
+            "to": "reflex/utils/frontend_skeleton.py::initialize_gitignore",
+            "confidence": "high",
+            "reason": "Creates .gitignore file"
+          },
+          {
+            "to": "reflex/utils/frontend_skeleton.py::initialize_requirements_txt",
+            "confidence": "high",
+            "reason": "Creates or updates requirements.txt"
+          }
+        ],
+        "notes": "Orchestrates multi-step app initialization with file I/O and prerequisite validation"
+      },
+      "init": {
+        "inferred_layer": "request_handler",
+        "classification": "request_handler",
+        "confidence": 0.9,
+        "side_effects": [
+          "writes_file",
+          "reads_file",
+          "executes_subprocess"
+        ],
+        "framework_hooks": [
+          "click.command",
+          "click.option"
+        ],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex/reflex.py::_init",
+            "confidence": "high",
+            "reason": "Delegates to internal initialization implementation"
+          }
+        ],
+        "notes": "Click command wrapper exposing _init as CLI subcommand with argument parsing"
+      },
+      "_compile_app": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.8,
+        "side_effects": [
+          "executes_subprocess",
+          "reads_file",
+          "writes_file"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex/utils/prerequisites.py::compile_or_validate_app",
+            "confidence": "high",
+            "reason": "Compiles app schema and validates configuration"
+          },
+          {
+            "to": "reflex/utils/exec.py::should_prerender_routes",
+            "confidence": "high",
+            "reason": "Determines if static route prerendering is enabled"
+          },
+          {
+            "to": "reflex/utils/exec.py::should_use_granian",
+            "confidence": "high",
+            "reason": "Checks if Granian ASGI server should be used"
+          }
+        ],
+        "notes": "Compiles app in isolated process when using Granian to avoid import conflicts"
+      },
+      "_run_dev": {
+        "inferred_layer": "service",
+        "classification": "service",
+        "confidence": 0.85,
+        "side_effects": [
+          "executes_subprocess",
+          "reads_file",
+          "mutates_global_state"
+        ],
+        "framework_hooks": [],
+        "mutation_profile": "stateful",
+        "inferred_calls": [
+          {
+            "to": "reflex_base/config.py::get_config",
+            "confidence": "high",
+            "reason": "Retrieves application configuration"
+          },
+          {
+            "to": "reflex/utils/build.py::setup_frontend",
+            "confidence": "high",
+            "reason": "Prepares frontend build artifacts"
+          },
+          {
+            "to": "reflex/utils/exec.py::run_frontend",
+            "confidence": "high",
+            "reason": "Starts frontend development server"
+          },
+          {
+            "to": "reflex/utils/exec.py::run_backend",
+            "confidence": "high",
+            "reason": "Starts backend development server"
+          },
+          {
+            "to": "reflex/utils/telemetry.py::send",
+            "confidence": "high",
+            "reason": "Sends telemetry event for run-dev command"
+          },
+          {
+            "to": "reflex/utils/processes.py::atexit_handler",
+            "confidence": "high",
+            "reason": "Registers cleanup handler for graceful shutdown"
+          },
+          {
+            "to": "reflex/utils/processes.py::run_concurrently_context",
+            "confidence": "high",
+            "reason": "Manages concurrent execution of frontend and backend"
+          }
+        ],
+        "notes": "Orchestrates development server startup with concurrent process management and telemetry"
+      }
+    }
+  }
+}
