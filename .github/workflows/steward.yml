@@ -52,16 +52,16 @@ jobs:
             -f description="Steward is analysing…" \
             -f context=steward/review
 
+      - name: Validate index integrity
+        run: steward validate --ci
+        # Checks committed steward_out/ artifacts are intact before rebuild touches them.
+        # Fails if any artifact is missing, corrupt, or tampered with.
+
       - name: Build analysis index
         id: rebuild
         run: steward rebuild --analysis-only
-        # Runs AST, call graph, and dense map only (~15s). No test coverage in CI.
+        # Incremental update on top of committed steward_out/ (~5s).
         # For coverage data: run steward rebuild on a separate schedule.
-
-      - name: Validate index integrity
-        if: steps.rebuild.outcome == 'success'
-        run: steward validate --ci
-        # Fails the job if any output artifact is missing, corrupt, or structurally invalid.
 
       - name: Compute changed files
         id: changed
