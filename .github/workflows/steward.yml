@@ -39,9 +39,9 @@ jobs:
 
       - name: Install Steward
         env:
-          STEWARD_TOKEN: ${{ secrets.STEWARD_TOKEN }}
+          steward_token: ${{ secrets.steward_token }}
         run: |
-          pip install --no-cache-dir "steward[ai] @ git+https://${STEWARD_TOKEN}@github.com/karjoo-devs/steward.git@main"
+          pip install --no-cache-dir "steward[ai] @ git+https://${steward_token}@github.com/karjoo-devs/steward.git@main"
 
       - name: Set pending status
         env:
@@ -85,6 +85,10 @@ jobs:
             --pr ${{ github.event.pull_request.number }} \
             --description-file /tmp/steward-pr-body.txt \
             --full-review \
+<<<<<<< Updated upstream
+=======
+            --deep \
+>>>>>>> Stashed changes
             --no-refresh \
             --format json > /tmp/steward-findings.json
         continue-on-error: true
