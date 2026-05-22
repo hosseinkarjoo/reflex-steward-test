@@ -85,10 +85,7 @@ jobs:
             --pr ${{ github.event.pull_request.number }} \
             --description-file /tmp/steward-pr-body.txt \
             --full-review \
-<<<<<<< Updated upstream
-=======
             --deep \
->>>>>>> Stashed changes
             --no-refresh \
             --format json > /tmp/steward-findings.json
         continue-on-error: true
