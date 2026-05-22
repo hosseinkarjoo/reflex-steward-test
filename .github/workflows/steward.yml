@@ -132,15 +132,6 @@ jobs:
             --new-findings /tmp/steward-findings.json \
             --sha ${{ github.event.pull_request.head.sha }}
         continue-on-error: true
-      - name: Post GitHub review
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          steward gh-review \
-            --pr ${{ github.event.pull_request.number }} \
-            --input /tmp/steward-findings.json \
-            --mode advisory
-        continue-on-error: true
       - name: Enforce gate result
         run: |
           python - <<'EOF'
