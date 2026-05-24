@@ -1,0 +1,4 @@
+# steward_out/ belongs at the repo root, not inside .steward/
+steward_out/
+*.pyc
+__pycache__/

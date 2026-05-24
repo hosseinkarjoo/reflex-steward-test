@@ -573,7 +573,7 @@
   },
   "tests/units/utils/test_frontend.py": {
     "hash": "sha256:2cc79f0e80e05ab5565ae703798ca24778c59c77036f990f5e9bb577b7c0919a",
-    "mtime": 1779455193.6191797
+    "mtime": 1779457505.4530394
   },
   "tests/units/utils/test_processes.py": {
     "hash": "sha256:9627180f829a0b00637096624e461e737e529011e9f38b454d08396322358ced",
@@ -1481,7 +1481,7 @@
   },
   "packages/reflex-base/src/reflex_base/constants/base.py": {
     "hash": "sha256:db1fe05d8df4c8eb80cbda4fff424b586e2eb57627ca5e0909482d468d3edaeb",
-    "mtime": 1779455193.6171217
+    "mtime": 1779457505.4510572
   },
   "packages/reflex-base/src/reflex_base/constants/state.py": {
     "hash": "sha256:8d895a7db4af0dfb18eef1e3aa253d605891f1687df4671b3bb85e9ca78ef3c8",
@@ -2765,7 +2765,7 @@
   },
   "reflex/app.py": {
     "hash": "sha256:6f2fefa196a0edd07565e3dc70818f68e41aa6d684b7b150a420a8e600eaec9c",
-    "mtime": 1779455193.617739
+    "mtime": 1779457505.4517136
   },
   "reflex/_upload.py": {
     "hash": "sha256:7c5038343bb664eb76cd9f5752da2c19ff2227ba547f49d0fce94982e95d45eb",
@@ -3041,7 +3041,7 @@
   },
   "reflex/utils/exec.py": {
     "hash": "sha256:dde180509fe2684a56c265d5a49d62189df754e4fa62aeb7b89736b9123736e5",
-    "mtime": 1779455193.6187613
+    "mtime": 1779457505.4526606
   },
   "reflex/utils/serializers.py": {
     "hash": "sha256:4fec045376622fc6c8bb7f61b3f67f5d31adb88c5338ef600027a4a1406a7578",
@@ -3053,7 +3053,7 @@
   },
   "reflex/utils/frontend.py": {
     "hash": "sha256:46545267cdca80882f1463fe65e34ac6f51765e4434d11625bb153a2c5e443f9",
-    "mtime": 1779455193.619052
+    "mtime": 1779457505.4529235
   },
   "reflex/utils/__init__.py": {
     "hash": "sha256:cbe0072a2450021936a0092f9fb5bc7115536552badb97dff2d4f0bd9b4eed2e",
@@ -3169,7 +3169,7 @@
   },
   "reflex/compiler/compiler.py": {
     "hash": "sha256:2d00466d1d03595a33ddc109d98cf2859329b9593bdfa07477217751a587d277",
-    "mtime": 1779455193.6181529
+    "mtime": 1779457505.4521346
   },
   "reflex/compiler/__init__.py": {
     "hash": "sha256:afc8ea9834857f4f6257694794d85f73d5eb4cb8cdc5f0cdc0f625c52e1c9871",
