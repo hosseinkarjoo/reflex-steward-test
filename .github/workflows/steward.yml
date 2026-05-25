@@ -100,6 +100,16 @@ jobs:
             --pr ${{ github.event.pull_request.number }}
         continue-on-error: true
 
+      - name: Post polished summary
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          steward pr-polish \
+            --input /tmp/steward-findings.json \
+            --pr ${{ github.event.pull_request.number }}
+        continue-on-error: true
+
       - name: Apply override directives
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
