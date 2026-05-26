@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "steward": {
+      "command": "/opt/homebrew/bin/steward-mcp",
+      "args": [],
+      "env": {
+        "STEWARD_CONFIG": "/Users/hosseinkarjoe/steward-test/reflex/steward.toml"
+      }
+    }
+  }
+}

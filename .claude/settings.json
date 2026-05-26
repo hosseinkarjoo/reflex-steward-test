@@ -1,0 +1,39 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh -c 'f=\"${CLAUDE_PROJECT_DIR:-.}/steward_out/STATUS\"; [ -f \"$f\" ] && printf \"[steward pulse] %s\\n\" \"$(cat \"$f\")\" || true'",
+            "timeout": 2000
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import sys,json,subprocess,os\ntry:\n    inp=json.loads(sys.stdin.read())\n    fp=inp.get('file_path') or inp.get('path') or ''\n    if fp:\n        proj=os.environ.get('CLAUDE_PROJECT_DIR','.')\n        rel=os.path.relpath(fp,proj)\n        subprocess.run(['steward','pre-edit-check',rel],cwd=proj,timeout=2,capture_output=True)\nexcept Exception:\n    pass\n\"",
+            "timeout": 2000
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh -c 'steward auto-apply 2>/dev/null || true'",
+            "timeout": 15000
+          }
+        ]
+      }
+    ]
+  }
+}

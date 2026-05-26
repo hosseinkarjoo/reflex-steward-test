@@ -1,0 +1,88 @@
+[
+  {
+    "id": "violations",
+    "category": "violations",
+    "severity": "high",
+    "confidence": "high",
+    "scope": "project",
+    "title": "Violations",
+    "evidence": "high=2",
+    "consequence": "2 high-severity violation(s) affecting architecture integrity",
+    "suggested_action": "steward check \u2014 review before merge",
+    "source": "violations.json",
+    "location": "",
+    "count": 2,
+    "metadata": {
+      "counts": {
+        "critical": 0,
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "health_score": 43
+    }
+  },
+  {
+    "id": "graph_quality",
+    "category": "graph",
+    "severity": "low",
+    "confidence": "medium",
+    "scope": "project",
+    "title": "Graph Quality",
+    "evidence": "medium confidence  67% internal",
+    "consequence": "627 unresolvable call(s) \u2014 some cross-layer flows may be invisible",
+    "suggested_action": "add type annotations to dynamic calls to improve resolution",
+    "source": "call-graph.json",
+    "location": "",
+    "count": 627,
+    "metadata": {
+      "resolution_rate": 0.67,
+      "resolved": 1296,
+      "candidates": 1923,
+      "unresolvable": 627
+    }
+  },
+  {
+    "id": "coverage",
+    "category": "coverage",
+    "severity": "low",
+    "confidence": "high",
+    "scope": "project",
+    "title": "Coverage",
+    "evidence": "30% modules referenced by tests  (20 well \u00b7 16 lightly \u00b7 82 untested)",
+    "consequence": "82/118 modules untested \u2014 high-risk functions may be unverified",
+    "suggested_action": "add tests for Core layer (steward check --show-gaps)",
+    "source": "test-coverage.json",
+    "location": "",
+    "count": 82,
+    "metadata": {
+      "total": 118,
+      "well": 20,
+      "lightly": 16,
+      "untested": 82,
+      "pct": 30,
+      "core_untested": 20
+    }
+  },
+  {
+    "id": "opacity",
+    "category": "graph",
+    "severity": "low",
+    "confidence": "high",
+    "scope": "project",
+    "title": "Analysis Coverage",
+    "evidence": "10 graph_opaque  108 solid",
+    "consequence": "10 file(s) use DI/decorators \u2014 call graph may miss some edges. Violations through these files are downgraded to 'warn'.",
+    "suggested_action": "steward enrich --opaque  (optional \u2014 improves call graph accuracy)",
+    "source": "opacity-manifest.json",
+    "location": "",
+    "count": 10,
+    "metadata": {
+      "parse_failed": 0,
+      "graph_opaque": 10,
+      "solid": 108,
+      "total": 118,
+      "enriched": 0
+    }
+  }
+]
