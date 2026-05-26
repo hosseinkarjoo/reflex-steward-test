@@ -1,0 +1,6 @@
+Project:      reflex
+Version:      unknown
+Generated:    2026-05-22T13:16:38.184326+00:00
+Modules:      119
+Commands:     0
+Layers:       8 (Core, Entry, Infrastructure, Internal, Middleware, Models, Plugins, Routes)

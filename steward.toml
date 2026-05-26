@@ -1,0 +1,92 @@
+# steward.toml — Project configuration (safe to edit manually).
+# Architectural state (layers, rules, overrides) lives in steward-arch.toml — do not edit that file.
+# Schema reference: https://github.com/karjoo-devs/steward-mcp
+# Archetype: layered — General-purpose layered architecture (Entry / Interface / Core / Storage / Output / Internal)
+
+[project]
+schema_version = 1          # steward.toml format version; increment on breaking changes
+name = "reflex"             # project identifier; used in output filenames, e.g. {name}-health.json
+root = "reflex"             # directory scanned for source files (relative to this file)
+policy = "advisory"         # enforce | advisory — enforce raises exit 1 on violations
+test_root = "tests"         # directory scanned for test files
+test_dirs = ["tests"]
+# version_file = "src/reflex/__init__.py"  # optional: file containing __version__ = "x.y.z"
+
+[pr_review]
+# How Steward responds to PR violations.
+# advisory      — always posts a comment, never blocks merge, always green status (default)
+# soft-blocking — blocks on circular deps and Core-layer contamination only
+# blocking      — blocks on all violations listed in [pr_review.hard_blocks]
+#
+# Steward monitors team readiness and suggests when to advance:
+#   → When 90% of PRs are clean over 30 days → suggests mode = "soft-blocking"
+#   → When 50% of baseline debt is resolved   → suggests mode = "blocking"
+# Check current readiness: steward report (see "Adoption Maturity" section)
+mode = "advisory"
+status_check = true              # add GitHub commit status on every PR
+auto_create_tickets = true       # create .steward/tickets/ on overrides and defers
+baseline_mode = true             # only flag violations introduced AFTER baseline snapshot
+
+[pr_review.lead_team]
+# Mention these handles in PR comments when high-risk changes are detected.
+# tag_on triggers: depth_risk_high | bottleneck_modified | health_drop_critical
+# lead_team = "@company/architects"
+# tag_leads_on = ["depth_risk_high", "bottleneck_modified"]
+
+[pr_review.hard_blocks]
+# Violation types that block merge (only active in soft-blocking or blocking mode).
+# In advisory mode these are always warnings regardless of this config.
+circular_dependency = true
+core_layer_contamination = true  # Core → Storage or Core → External direct bypass
+# heat_score_threshold = 0.85    # block if changed file heat_score > this
+
+[pr_review.soft_gates]
+# These violation types always produce warnings only (never block).
+entropy_increase = "warn"
+churn_warning = "warn"
+dead_code_added = "warn"
+missing_abstraction = "warn"
+
+[pr_review.thresholds]
+blast_radius_warn = 10
+blast_radius_block = 20
+heat_score_ai_trigger = 0.7
+intent_parser_min_words = 50     # PR descriptions shorter than this get an "Intent missing" note
+
+[pr_review.weekly_report]
+enabled = true
+post_as = "commit"               # commit | github_issue | email
+# email_to = "cto@company.com"
+
+[daemon]
+enabled = true
+
+[docs]
+# Context hints for Phase 4 doc generators (skills.json, blueprint.json, facts.txt, overview.md).
+# All paths relative to this file. Omitting a key means that aspect won't appear in generated docs.
+# Generators run on every rebuild and write output to steward_out/ — nothing to validate against.
+#
+#   checks_dir        = "src/reflex/checks"          # directory of check modules to count + name
+#   cli_file          = "src/reflex/cli.py"          # file containing cmd_* functions
+#   commands_dir      = "src/reflex/commands"        # directory of additional command modules
+#   orchestrator_file = "src/reflex/orchestrator.py" # file containing pipeline phase functions
+#   pipeline_file     = "src/reflex/pipeline.py"
+#   analyzer_file     = "src/reflex/analyzer.py"
+
+[dynamic_calls]
+# Registers dynamic dispatch patterns the static AST pass cannot see.
+# Prevents false-positive "unresolved call" warnings for REGISTRY[name](...) style dispatch.
+# Example:
+#   "src/reflex/router.py.dispatch" = "REGISTRY[name](...)"
+
+[suppressed_pairs]
+# Permanently silences a specific layer-pair violation across all PR checks.
+# Use this instead of repeated "steward: correct" directives — it is explicit and permanent.
+# Pairs added here are never flagged in any mode (advisory, soft-blocking, or blocking).
+# Only add a pair after the team has reviewed and accepted it as an intentional deviation.
+# Example:
+#   "Entry -> Output" = "accepted — legacy adapter, tracked in backlog"
+
+[geometry]
+"enabled" = "true"
+

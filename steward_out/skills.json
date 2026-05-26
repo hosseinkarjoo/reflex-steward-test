@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-05-22T13:16:38.183387+00:00",
+  "version": "unknown",
+  "command_count": 0,
+  "commands": [],
+  "module_count": 119,
+  "exposed": {
+    "reflex/app.py": {
+      "layer": "Entry",
+      "functions": [
+        "default_frontend_exception_handler",
+        "default_backend_exception_handler",
+        "extra_overlay_function",
+        "default_overlay_component",
+        "default_overlay_components",
+        "default_error_boundary",
+        "modified_send",
+        "context_middleware",
+        "reducer",
+        "memoized_badge",
+        "all_routes",
+        "ping",
+        "health"
+      ]
+    }
+  }
+}

@@ -1,22 +1,6 @@
 name: Auto-release internal packages
 
-on:
-  push:
-    branches: [main]
-    paths:
-      - "packages/reflex-components-internal/**"
-      - "packages/reflex-site-shared/**"
-      - ".github/workflows/auto_release_internal.yml"
-  workflow_dispatch:
-    inputs:
-      package:
-        description: "Package to release"
-        required: true
-        type: choice
-        options:
-          - reflex-components-internal
-          - reflex-site-shared
-
+on: workflow_dispatch
 permissions:
   contents: read
 

@@ -2,14 +2,7 @@ name: integration-node-latest
 permissions:
   contents: read
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
+on: workflow_dispatch
 env:
   REFLEX_TELEMETRY_ENABLED: false
 

@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-05-22T13:16:37.620153+00:00",
+  "layer_count": 9,
+  "scores": {
+    "layered": {
+      "score": 0.0,
+      "cost": 8,
+      "gap_edges": [
+        [
+          "Entry",
+          "Infrastructure"
+        ],
+        [
+          "Entry",
+          "Internal"
+        ],
+        [
+          "Entry",
+          "Middleware"
+        ],
+        [
+          "Entry",
+          "Models"
+        ],
+        [
+          "Entry",
+          "Routes"
+        ],
+        [
+          "Entry",
+          "Unknown"
+        ],
+        [
+          "Infrastructure",
+          "Entry"
+        ],
+        [
+          "Infrastructure",
+          "Internal"
+        ],
+        [
+          "Infrastructure",
+          "Models"
+        ],
+        [
+          "Infrastructure",
+          "Routes"
+        ],
+        [
+          "Infrastructure",
+          "Unknown"
+        ],
+        [
+          "Internal",
+          "Entry"
+        ],
+        [
+          "Internal",
+          "Infrastructure"
+        ],
+        [
+          "Internal",
+          "Plugins"
+        ],
+        [
+          "Middleware",
+          "Infrastructure"
+        ],
+        [
+          "Middleware",
+          "Unknown"
+        ],
+        [
+          "Models",
+          "Unknown"
+        ],
+        [
+          "Plugins",
+          "Infrastructure"
+        ],
+        [
+          "Plugins",
+          "Internal"
+        ],
+        [
+          "Unknown",
+          "Infrastructure"
+        ],
+        [
+          "Unknown",
+          "Models"
+        ],
+        [
+          "Unknown",
+          "Routes"
+        ]
+      ]
+    },
+    "clean": {
+      "score": 0.3331,
+      "cost": 7,
+      "gap_edges": [
+        [
+          "Entry",
+          "Internal"
+        ],
+        [
+          "Infrastructure",
+          "Entry"
+        ],
+        [
+          "Infrastructure",
+          "Internal"
+        ],
+        [
+          "Middleware",
+          "Infrastructure"
+        ],
+        [
+          "Middleware",
+          "Unknown"
+        ],
+        [
+          "Models",
+          "Unknown"
+        ],
+        [
+          "Plugins",
+          "Infrastructure"
+        ],
+        [
+          "Plugins",
+          "Internal"
+        ],
+        [
+          "Unknown",
+          "Infrastructure"
+        ]
+      ]
+    },
+    "hexagonal": {
+      "score": 0.2107,
+      "cost": 0,
+      "gap_edges": []
+    },
+    "mvc": {
+      "score": 0.2947,
+      "cost": 3,
+      "gap_edges": [
+        [
+          "Infrastructure",
+          "Internal"
+        ],
+        [
+          "Internal",
+          "Routes"
+        ]
+      ]
+    }
+  },
+  "natural_path": "clean",
+  "chaos": false,
+  "stabilization_plan": [],
+  "hybrid_signals": [
+    {
+      "module": "reflex/utils",
+      "best_fit": "layered",
+      "score": 1.0,
+      "whole_best_fit": "clean",
+      "delta": 0.6669,
+      "note": "reflex/utils is 67pts more layered than the project overall (clean)"
+    },
+    {
+      "module": "reflex/compiler",
+      "best_fit": "mvc",
+      "score": 0.963,
+      "whole_best_fit": "clean",
+      "delta": 0.6299,
+      "note": "reflex/compiler is 63pts more mvc than the project overall (clean)"
+    }
+  ]
+}

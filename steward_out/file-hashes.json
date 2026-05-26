@@ -1,0 +1,3198 @@
+{
+  "tests/__init__.py": {
+    "hash": "sha256:28ea7ca5a32f833cd2e5cbb28c719d5c180fae822b32c849ce54267e1ddd94dd",
+    "mtime": 1779431788.7181332
+  },
+  "tests/test_node_version.py": {
+    "hash": "sha256:e03eab21df3373ce68a69275297b499e85e1d3b34c4f4162271773e4b2388aad",
+    "mtime": 1779431788.723706
+  },
+  "tests/integration/test_auto_memo.py": {
+    "hash": "sha256:ce857203d69281498f8308f6fab6f36fd8c790bcf950b9b5a392aa058102efd4",
+    "mtime": 1779431788.7194123
+  },
+  "tests/integration/conftest.py": {
+    "hash": "sha256:6c344041bb6ce9896060b64eee0fe2f02998b7bfc916da6e30f5fcbf2c407a76",
+    "mtime": 1779431788.7188585
+  },
+  "tests/integration/test_navigation.py": {
+    "hash": "sha256:7294ca9d0f020e952cbce646888c74fa62eef8409b8cf2e6ff8000428cae263f",
+    "mtime": 1779431788.721768
+  },
+  "tests/integration/test_deploy_url.py": {
+    "hash": "sha256:fdc34604f9e5e05037027a65e13dc39ca28299b4e4b6f6a4f301fd1ed3ffab61",
+    "mtime": 1779431788.7201135
+  },
+  "tests/integration/test_lighthouse.py": {
+    "hash": "sha256:aab00c6c000c09eb8d335c078ba36678839e0e000edfa287bc0b1843ae9064a5",
+    "mtime": 1779451193.373409
+  },
+  "tests/integration/test_linked_state.py": {
+    "hash": "sha256:561a489767de0f43786a1d5c1faf5f03560c717847b8e4dda9b0bb9493ea055c",
+    "mtime": 1779431788.721356
+  },
+  "tests/integration/test_input.py": {
+    "hash": "sha256:ff9a138e4cd96f3154900bf52fe7353f59a365b24dd3a94339869be28dc66076",
+    "mtime": 1779431788.7210238
+  },
+  "tests/integration/test_memory_state_manager_expiration.py": {
+    "hash": "sha256:1c5339d21116345d3cbb2d1d91de40b66d02515d0e454fe62f3774d1e0ccbbd5",
+    "mtime": 1779431788.7217097
+  },
+  "tests/integration/test_form_submit.py": {
+    "hash": "sha256:6a86e1d798b11e80099ec86e8b0063bb70f7089af2d99d5b81df22d71be3922e",
+    "mtime": 1779431788.7208598
+  },
+  "tests/integration/test_var_operations.py": {
+    "hash": "sha256:06f729515e3516e59f7660fca8ee64e132b6503cb2231fade862e9368942a7a4",
+    "mtime": 1779431788.7226775
+  },
+  "tests/integration/test_icon.py": {
+    "hash": "sha256:349a5836b28c91034c29d943cc51dc0ac7de583e2e91f892a12373da8002d29f",
+    "mtime": 1779431788.720934
+  },
+  "tests/integration/test_experimental_memo.py": {
+    "hash": "sha256:bd4be01bbbdd091099cac8a7fcd9d92e216557c6241b2f8473311d39de92cb87",
+    "mtime": 1779431788.7206936
+  },
+  "tests/integration/test_component_state.py": {
+    "hash": "sha256:4309de9d4808153f26e4e8cd7fba2378bab81d56f9835fe38bdb2f6cfe9ccd44",
+    "mtime": 1779431788.7198339
+  },
+  "tests/integration/test_event_actions.py": {
+    "hash": "sha256:ebfde34b9ac35e7e24fb1122a060c6ab69117a31826952b6d06ab6c8254d5bab",
+    "mtime": 1779431788.7204292
+  },
+  "tests/integration/test_computed_vars.py": {
+    "hash": "sha256:386a4e92a9fdbe7172416aaa81f7bf9154907be8bd90390703001312793617a8",
+    "mtime": 1779431788.7199268
+  },
+  "tests/integration/__init__.py": {
+    "hash": "sha256:1077bbc97f37093c02da00cd0c04082bd69bfb99efb375a3dd158a01e7ba9ae3",
+    "mtime": 1779431788.7187946
+  },
+  "tests/integration/test_memo.py": {
+    "hash": "sha256:08d2d97ec1c8b05928070bd9e0a86fd8813c954c46602ff5b15d571be6bc1144",
+    "mtime": 1779431788.7216249
+  },
+  "tests/integration/test_shared_state.py": {
+    "hash": "sha256:c5a94f152c88aaf188ecf5ad92cd059a5a23de68d60535122f8b2e1d6c1960a1",
+    "mtime": 1779431788.7220893
+  },
+  "tests/integration/test_state_inheritance.py": {
+    "hash": "sha256:4e796356a9420e6c15fb800c57a512342ca1a02a1e2335e6ce6eabe9c44008bd",
+    "mtime": 1779431788.7221987
+  },
+  "tests/integration/test_event_chain.py": {
+    "hash": "sha256:dd3828b006ecf4d51c2d2de6cb06d257b340ea9e846c004d46c95abc56c498c2",
+    "mtime": 1779451193.3733335
+  },
+  "tests/integration/test_media.py": {
+    "hash": "sha256:9774d8b9821569cc358990c22e84e142d661dd24226af6933d62548de782de0b",
+    "mtime": 1779431788.7215574
+  },
+  "tests/integration/test_exception_handlers.py": {
+    "hash": "sha256:c063083f94c068390938ca14977a469862b9bb58dc32d353e67671e3748d9333",
+    "mtime": 1779431788.720611
+  },
+  "tests/integration/utils.py": {
+    "hash": "sha256:e592ea65e5b3aa83c0a515663f28bf48fed2a5c96bc4e467242012a361abdf9d",
+    "mtime": 1779451193.3744965
+  },
+  "tests/integration/test_call_script.py": {
+    "hash": "sha256:362f28146ef08e975481f79b48f04ab22044e83fd2841637dc6aae10b3fd143a",
+    "mtime": 1779431788.7196007
+  },
+  "tests/integration/test_server_side_event.py": {
+    "hash": "sha256:c396510932e8cffc0eb5b1b949e11e4d8a3cf1692aa18dbfc16e778599c6c93d",
+    "mtime": 1779431788.722008
+  },
+  "tests/integration/test_prod_build_pipeline.py": {
+    "hash": "sha256:3a2f89306ae63c822fe86967a4abff9534a22dd5f858c207825c3e2408cc7a1e",
+    "mtime": 1779451193.3735662
+  },
+  "tests/integration/test_extra_overlay_function.py": {
+    "hash": "sha256:92ef922764262e9f334a41a9f3851a0cad0f5eb1d36671b069df4873da7c3e84",
+    "mtime": 1779431788.7207592
+  },
+  "tests/integration/test_dynamic_components.py": {
+    "hash": "sha256:1e0e0409df10018f16d0ab0f317f62d582693c19133352580895511416511571",
+    "mtime": 1779431788.7202013
+  },
+  "tests/integration/test_upload.py": {
+    "hash": "sha256:5cb7903eb2dae33f17257a0f33bdcafe0ef8d4399e654c1a2f6225087b3713c8",
+    "mtime": 1779431788.722507
+  },
+  "tests/integration/test_lifespan.py": {
+    "hash": "sha256:fde8787aca8408cd1345d9096bad27fd68d95b00e0d0ba076d3e357c56a6f8bf",
+    "mtime": 1779431788.721185
+  },
+  "tests/integration/test_login_flow.py": {
+    "hash": "sha256:f0cfc85b0b9bc9b76b26bc18dc068f0717500be93fccdd14b9750e8030f2adb7",
+    "mtime": 1779431788.721456
+  },
+  "tests/integration/test_dynamic_routes.py": {
+    "hash": "sha256:41dcd86ab3f27f5145a02216b940d2752f970e38bea60f43f4d6816070ef5012",
+    "mtime": 1779431788.7203178
+  },
+  "tests/integration/test_tailwind.py": {
+    "hash": "sha256:1316bd8a971d602a221da1bb4ae06c197f8e6617435cdd85a9fb50bdb3f19e69",
+    "mtime": 1779451193.3736913
+  },
+  "tests/integration/test_telemetry_compile.py": {
+    "hash": "sha256:19af2beb41e9d6205416505a0ecfbcf6beba794b45b88e17b25992b9fb87e579",
+    "mtime": 1779451193.3737879
+  },
+  "tests/integration/test_precompressed_frontend.py": {
+    "hash": "sha256:4211cacf1f64f69c8df37fc90e7c57b6eb32ed0011e41cb7bc59ed973cbc6b74",
+    "mtime": 1779451193.3734837
+  },
+  "tests/integration/test_background_task.py": {
+    "hash": "sha256:48fbfe789dcee76054b24306628cfb416e5ba4afd65aaafda8ac05541cbc3b22",
+    "mtime": 1779431788.719518
+  },
+  "tests/integration/test_large_state.py": {
+    "hash": "sha256:64acc7c5e74a93303ef2fbbf7466942d7a8a0f59ab79225034daa4added73386",
+    "mtime": 1779431788.7210915
+  },
+  "tests/integration/test_urls.py": {
+    "hash": "sha256:d687627f0d05e20efdf96cbcccf31995cdfef29c12b931b5c705e43510b00bbb",
+    "mtime": 1779431788.7225797
+  },
+  "tests/integration/test_client_storage.py": {
+    "hash": "sha256:2ac78104d64101566e80341abcfcb96325292b325e13dd6cd12ef5dccf470bcc",
+    "mtime": 1779431788.7197268
+  },
+  "tests/integration/lighthouse_utils.py": {
+    "hash": "sha256:422b1118c472d5a29ecf7a98e33d2db456e9a501719cb4d3ac2c21551f825360",
+    "mtime": 1779451193.3731844
+  },
+  "tests/integration/test_connection_banner.py": {
+    "hash": "sha256:992604a3bbc3f47d2b3afe4b2f93bf62f689ccedfb604f507bcb3ce9fbedc8fa",
+    "mtime": 1779431788.720038
+  },
+  "tests/integration/shared/state.py": {
+    "hash": "sha256:f499f6856e757f696194b6dd8509408409f9015f41d1726cc9bd18410f483c86",
+    "mtime": 1779431788.7193534
+  },
+  "tests/integration/tests_playwright/test_link_hover.py": {
+    "hash": "sha256:b416b7e6ff0bb617818d70ba18ee73ad3b2e78e24a1e5972baac0ff8bbb18844",
+    "mtime": 1779451193.3740091
+  },
+  "tests/integration/tests_playwright/test_frontend_path.py": {
+    "hash": "sha256:cf156a7056dc576e4a5701c4f4debdda24eab070d7e1f3d386d2eee6bfb75675",
+    "mtime": 1779451193.3739061
+  },
+  "tests/integration/tests_playwright/test_appearance.py": {
+    "hash": "sha256:2eee46b80ec9dbff6a0a027817cf868fcda626b8b6f5fddaa91d7e7bcb509665",
+    "mtime": 1779431788.7228186
+  },
+  "tests/integration/tests_playwright/test_mount_target.py": {
+    "hash": "sha256:2df3c22e9db9240ad9a3e57ad12fd4e60199aad0af84d1edfc6a68c35c202f4f",
+    "mtime": 1779451193.3742673
+  },
+  "tests/integration/tests_playwright/test_table.py": {
+    "hash": "sha256:5ed404d93c8061f4d36c1ddc64112526e5d1e82d08a3c80d1be0cca6e017ad12",
+    "mtime": 1779431788.7234929
+  },
+  "tests/integration/tests_playwright/test_cond_match.py": {
+    "hash": "sha256:439e18767ef288c99c420e661c0c0706dc9dfae98c8d51dd43e2a051e2c604d2",
+    "mtime": 1779431788.7229903
+  },
+  "tests/integration/tests_playwright/test_textarea_enter_key_submit.py": {
+    "hash": "sha256:c9296ef160f3f8c48abf0461f4003c61c5fd0a612d418baae52ee8e5e6f6f3cd",
+    "mtime": 1779451193.3743324
+  },
+  "tests/integration/tests_playwright/test_datetime_operations.py": {
+    "hash": "sha256:52dec7262ade1cbd09f15570290e22a42df731d937888bbf65e84b83a63ebb15",
+    "mtime": 1779431788.7230465
+  },
+  "tests/integration/tests_playwright/test_memoize_edge_cases.py": {
+    "hash": "sha256:8e28424621fc146ab25e386d738df46256724063114ff7cf5f45a3be4cecd7a0",
+    "mtime": 1779451193.3741717
+  },
+  "tests/integration/tests_playwright/test_stateless_app.py": {
+    "hash": "sha256:1f91540acafb558a69abf3ccb341d8c5a074d97bda899a1f038d0d68135df762",
+    "mtime": 1779431788.7234342
+  },
+  "tests/integration/tests_playwright/test_backend_path.py": {
+    "hash": "sha256:abae92ca5de69b4ba15a7e6769db74ae8540c87244b56a4996c0b50ed534dba7",
+    "mtime": 1779431788.7229333
+  },
+  "tests/units/test_db_config.py": {
+    "hash": "sha256:6c7576dcb03fb3020445fb962b0b63ef106bb0d5f8b145a522023467800605e2",
+    "mtime": 1779431788.7360263
+  },
+  "tests/units/test_attribute_access_type.py": {
+    "hash": "sha256:6012701d9ce9c35b0eec75b93aa54b8fc9c61045f225e8b40dd0328e7533e41b",
+    "mtime": 1779431788.7355556
+  },
+  "tests/units/test_model.py": {
+    "hash": "sha256:8405a71412a729e2bfc1d77455f732ec6f0bba8a0e78110194f8cd60fb51c0d1",
+    "mtime": 1779431788.736825
+  },
+  "tests/units/conftest.py": {
+    "hash": "sha256:0bf00fe94925a6dd1f8e97bcfdd9ace7d468da5755230ca91c591014123fdb22",
+    "mtime": 1779431788.7286184
+  },
+  "tests/units/test_prerequisites.py": {
+    "hash": "sha256:2225ec5fd0c9eb00362937a9eb9a21e832b079a968410227e6d593ce0dff76aa",
+    "mtime": 1779451193.377034
+  },
+  "tests/units/test_lighthouse_utils.py": {
+    "hash": "sha256:b954f2e7fef0d74328d6131b7af7a37e2578904401569b0f1d3531d68f2b6f7a",
+    "mtime": 1779451193.376891
+  },
+  "tests/units/test_state_tree.py": {
+    "hash": "sha256:970e66ace79fb69819e4ba05f017a48dab838104dbf93622e330c4c626c61c09",
+    "mtime": 1779431788.7378163
+  },
+  "tests/units/test_health_endpoint.py": {
+    "hash": "sha256:c1ca669906f9d37f10d5094d1768fcd5eb904dd0ff1cd2f9f5b5a226dacd532b",
+    "mtime": 1779431788.7363265
+  },
+  "tests/units/test_sqlalchemy.py": {
+    "hash": "sha256:82cecefcd536c5ee6fe9aafe7efb90046f1a2526d110c6d0b7dcea6e0cd36e31",
+    "mtime": 1779431788.7371507
+  },
+  "tests/units/test_page.py": {
+    "hash": "sha256:4c4a21fadf9c99bccb506f9e3f9565aa9a2d479f6bf9d152d96f89f1a2b19b5c",
+    "mtime": 1779431788.7368824
+  },
+  "tests/units/__init__.py": {
+    "hash": "sha256:28ea7ca5a32f833cd2e5cbb28c719d5c180fae822b32c849ce54267e1ddd94dd",
+    "mtime": 1779431788.723792
+  },
+  "tests/units/test_state.py": {
+    "hash": "sha256:b8989f609e4696ead6ea0636cc5a15ddb69c6779a32ff0ad576f65b3eee2535b",
+    "mtime": 1779451193.3773427
+  },
+  "tests/units/test_event.py": {
+    "hash": "sha256:85c98f326d3b0646b4a813891a837425dca43a8cac67b8f09b7d64ea800af835",
+    "mtime": 1779451193.3767884
+  },
+  "tests/units/test_config.py": {
+    "hash": "sha256:7f1045480d1cc3049d1b5e47cb9d399fad6ed45838434944e8ffa5ef4f8e055b",
+    "mtime": 1779451193.376498
+  },
+  "tests/units/test_style.py": {
+    "hash": "sha256:b1331d73cf8a2466a941772443f3b47a8c1768d083433a5465f77921767118d7",
+    "mtime": 1779431788.7379053
+  },
+  "tests/units/test_var.py": {
+    "hash": "sha256:db4a66c0dfdd629d33db948e19ee48aefea75ae39afcbe020b1564e62ff9dab0",
+    "mtime": 1779451193.377692
+  },
+  "tests/units/test_route.py": {
+    "hash": "sha256:c06fdae306c05d82ac7be2144b139b5f3f3a4a54d6b3b0a7d8f4ff8a8458f558",
+    "mtime": 1779431788.7370508
+  },
+  "tests/units/test_telemetry.py": {
+    "hash": "sha256:21a73b79ea685c9e8b7c16e8291b5d9dcbb2db3f67ba26ba3d78816b5736a3e0",
+    "mtime": 1779451193.3775322
+  },
+  "tests/units/mock_redis.py": {
+    "hash": "sha256:39662f58c9cb58b80d54bea01b35430022fb77f799c5f93659d16f4f1f13a8d4",
+    "mtime": 1779431788.7299626
+  },
+  "tests/units/test_app.py": {
+    "hash": "sha256:16a9ea215a2f29bf9b6c9ceba095ee87b03d3d63309ff2ffb97cfcf68ba70bc0",
+    "mtime": 1779451193.3763604
+  },
+  "tests/units/test_environment.py": {
+    "hash": "sha256:e3a60f5aeeab6032d0814f433fdcb7774a0c052db6cb3352ff60bac1dc3330c0",
+    "mtime": 1779451193.37664
+  },
+  "tests/units/test_testing.py": {
+    "hash": "sha256:635efc6a6027dfb32fd02c2be0f05f6aaf817b854169ef49cbefd0293cc276eb",
+    "mtime": 1779431788.738109
+  },
+  "tests/units/istate/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7291348
+  },
+  "tests/units/istate/test_proxy.py": {
+    "hash": "sha256:206aaf6addf5594053bebb3b2522982154f06bc2e25d4e86742bdbabf73466a7",
+    "mtime": 1779431788.7296712
+  },
+  "tests/units/istate/test_data.py": {
+    "hash": "sha256:9720a689a501295c4cb3d507c538622f32d39417a544bc0c6d1b49a7c738f514",
+    "mtime": 1779451193.3755798
+  },
+  "tests/units/istate/manager/test_redis.py": {
+    "hash": "sha256:aeff547daf6f44c67b0be920c85fd0eaef984ca4460d680688ccbc367abbc512",
+    "mtime": 1779431788.7294185
+  },
+  "tests/units/istate/manager/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7292132
+  },
+  "tests/units/istate/manager/test_expiration.py": {
+    "hash": "sha256:ac4371532bd70da65d89606b60499da35c37e480d63a5f7dd62328406e3bc720",
+    "mtime": 1779431788.729323
+  },
+  "tests/units/istate/manager/test_token.py": {
+    "hash": "sha256:30bc14ac7ff8495d11b199547c9ab27c406299d3e91bb755e67d51471876b552",
+    "mtime": 1779431788.7295141
+  },
+  "tests/units/middleware/conftest.py": {
+    "hash": "sha256:a9a38933726f1d7f82f8e60df4d0d9ed31c24d3cb946885474ae23f3c35b1e43",
+    "mtime": 1779431788.729805
+  },
+  "tests/units/middleware/test_hydrate_middleware.py": {
+    "hash": "sha256:6f188ca80157970f8e75392a094159282f18221ef6278b9f74be3ff5d9d6a564",
+    "mtime": 1779431788.72987
+  },
+  "tests/units/middleware/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7297344
+  },
+  "tests/units/vars/test_dep_tracking.py": {
+    "hash": "sha256:72d574b4350d0d0f21a62da5af77c3c25e8bd538e82bfe908f841a014aec4edd",
+    "mtime": 1779431788.739778
+  },
+  "tests/units/vars/test_dep_tracking_integration.py": {
+    "hash": "sha256:08b0a5289b74241a9b16c37942be4b0da8bb661ec3f270da2481c0c392bf20eb",
+    "mtime": 1779431788.7401106
+  },
+  "tests/units/vars/test_object.py": {
+    "hash": "sha256:0e0d97aa1c12dc71113461f659030019aabf718123582a5b06cb470649c85d08",
+    "mtime": 1779431788.7401967
+  },
+  "tests/units/vars/test_base.py": {
+    "hash": "sha256:2d6f51c04105f34866136e46e50ed1451c352ea23db45f76683cefdd19ece5e2",
+    "mtime": 1779431788.7396936
+  },
+  "tests/units/experimental/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7289667
+  },
+  "tests/units/experimental/test_memo.py": {
+    "hash": "sha256:67d0ef34a8a6fc172db7b5aff3c95d2cdd35851928c51617a3c319e1fc8abc80",
+    "mtime": 1779431788.7290587
+  },
+  "tests/units/reflex_base/test_registry.py": {
+    "hash": "sha256:d3f90088c62bdf99016014335f455dec4c2834940c031e9d9f2fca3523db73a5",
+    "mtime": 1779431788.7312932
+  },
+  "tests/units/reflex_base/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.730307
+  },
+  "tests/units/reflex_base/context/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7303789
+  },
+  "tests/units/reflex_base/context/test_base.py": {
+    "hash": "sha256:058edd9e81d41443f6f9a04b84b545ae5f8b7fe5f81167308c4fc224db95cbab",
+    "mtime": 1779431788.730447
+  },
+  "tests/units/reflex_base/utils/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7313554
+  },
+  "tests/units/reflex_base/utils/pyi_generator/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7314267
+  },
+  "tests/units/reflex_base/utils/pyi_generator/test_unit.py": {
+    "hash": "sha256:53ccbd5163551f120fde20f5b1a733bb25d47a0502cfeadb652449a09f280288",
+    "mtime": 1779431788.733796
+  },
+  "tests/units/reflex_base/utils/pyi_generator/__main__.py": {
+    "hash": "sha256:91113da264c88dcdfe727fab792ad3c372f1879dc1d88e428a3ee4bf83834521",
+    "mtime": 1779431788.7314925
+  },
+  "tests/units/reflex_base/utils/pyi_generator/test_regression.py": {
+    "hash": "sha256:c2eafef4b612f948da156d60e2ec9eba3190fa6102f8fd74e4697a71eefbd016",
+    "mtime": 1779431788.733697
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/classvar_and_private.py": {
+    "hash": "sha256:8f36e60d9aa266839d94f8b987cd728d85b722a02e9c5df51e5b561d9113c364",
+    "mtime": 1779431788.7316408
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/__init__.py": {
+    "hash": "sha256:f9b855e01c49a06b37724a7f8b13781d4fe0e6b764b8a245dc9fd92636d7750a",
+    "mtime": 1779431788.7315805
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/namespace_component.py": {
+    "hash": "sha256:dad268d40b6846cd7b58113ab6c5bfd0ea06f7374a6202333dedd1171e3cab60",
+    "mtime": 1779431788.731934
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/module_level.py": {
+    "hash": "sha256:8363ada001ce619e03e5dea0b2d37561005d2c0771ca9dee16f789fe50cf208c",
+    "mtime": 1779431788.7318738
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/typed_event_handlers.py": {
+    "hash": "sha256:9aafcb68535dc23b8a7d82e0a5f23856292afe6ee64a2d4db17d30bfeb827cdf",
+    "mtime": 1779431788.732327
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/simple_component.py": {
+    "hash": "sha256:bc658f76423f66ea1ee3fc500c279fc2c9815262943e84eb7c7374451f27ff83",
+    "mtime": 1779431788.7319996
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/custom_create.py": {
+    "hash": "sha256:d6c2c62d8564b28d0f65077590c3ad12757d01fbab04292d99efe2807ce5eb98",
+    "mtime": 1779431788.731697
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/var_types.py": {
+    "hash": "sha256:55ccbdacf75c9c5630a5cf574124561596bcae56014ac136fcc769d68201ee27",
+    "mtime": 1779431788.7323897
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/string_event_annotations.py": {
+    "hash": "sha256:37a6b23ec1f6b4809c20e3a18eaf05bd897f253d5a778cc9ec4bdc1a27d96fe3",
+    "mtime": 1779431788.732116
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/literal_types.py": {
+    "hash": "sha256:a46b8de9e01bc0515cd2664337166d763572f4dbded123115c6927511ba3603f",
+    "mtime": 1779431788.7318141
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/inheritance.py": {
+    "hash": "sha256:39ea2f045706be5dfca2b8b14a1ec32647ddcde9f54a9e14bbc80a9820223e43",
+    "mtime": 1779431788.7317536
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/staticmethod_namespace.py": {
+    "hash": "sha256:54017b3d5386a2e30b7ef61f97c46880ab66939dbefb9fbf0a815ad839dcb60f",
+    "mtime": 1779431788.7320578
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/sub_package/widget.py": {
+    "hash": "sha256:666929105815f8f7f010b6b44f8cdc4c27728cecf8d1700720e9133c68f9d6af",
+    "mtime": 1779431788.7322626
+  },
+  "tests/units/reflex_base/utils/pyi_generator/dataset/sub_package/__init__.py": {
+    "hash": "sha256:7038c44091c598d3a17b97ededb6540f6de320938b271c582fe45e0c2724afb1",
+    "mtime": 1779431788.7322056
+  },
+  "tests/units/reflex_base/event/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7305038
+  },
+  "tests/units/reflex_base/event/test_context.py": {
+    "hash": "sha256:e51ae2d538863b571f9e1bbee52373d7afd5828fd8dd4bea8141ddfabd2f37cc",
+    "mtime": 1779431788.7312074
+  },
+  "tests/units/reflex_base/event/processor/test_timeout.py": {
+    "hash": "sha256:1e18a8a5ee2abc6cfd9ec4e680a5f007baad94e406bd74aeda7d4f1f3a887b2a",
+    "mtime": 1779431788.731147
+  },
+  "tests/units/reflex_base/event/processor/test_future.py": {
+    "hash": "sha256:c2bc166522cbcf439316be952e8bb2455fbfded566cdb6ee0027d459be2608eb",
+    "mtime": 1779431788.7310812
+  },
+  "tests/units/reflex_base/event/processor/test_event_processor.py": {
+    "hash": "sha256:8a13e1449b36a15d75a240108cb278dc9f8cd6582ecdf46a38449d4d0bfc2818",
+    "mtime": 1779431788.7307286
+  },
+  "tests/units/reflex_base/event/processor/test_base_state_processor.py": {
+    "hash": "sha256:93b17fd6e7807f298d2427113eefa8cc721c7302788926f7404fd80896ede3b8",
+    "mtime": 1779431788.7306361
+  },
+  "tests/units/plugins/test_sitemap.py": {
+    "hash": "sha256:fad5eafaac37b0d3e4eaffc75aab9dde356adcda59a572502605ac5e8dfc6835",
+    "mtime": 1779431788.7301779
+  },
+  "tests/units/plugins/test_embed.py": {
+    "hash": "sha256:7d55a0c5c6618b3b9119db19b91d83b5b9be8f5a8e665ca83cb291b033635f3b",
+    "mtime": 1779451193.3757076
+  },
+  "tests/units/plugins/test_tailwind.py": {
+    "hash": "sha256:da24eeb1c9017739f0e4a211893f5e5872e366b5b91cbe01d67d905bce60df98",
+    "mtime": 1779431788.7302458
+  },
+  "tests/units/reflex_cli/conftest.py": {
+    "hash": "sha256:d9f27f1c93e35963e79869672c66fe62ea7a105779321ff9ae0da593680a5a2e",
+    "mtime": 1779431788.7339237
+  },
+  "tests/units/reflex_cli/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7338572
+  },
+  "tests/units/reflex_cli/utils/test_hosting.py": {
+    "hash": "sha256:0b19a8d7cb5cf80c6ef6d46e3405f3183ecee76458f68f3764eed1caabc7e32f",
+    "mtime": 1779451193.3758576
+  },
+  "tests/units/reflex_cli/utils/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7339795
+  },
+  "tests/units/reflex_cli/utils/test_dependency.py": {
+    "hash": "sha256:4332fa6a10769ba8a43c56c3787f2ca1df86df7554770baf9a652d39c15ab16d",
+    "mtime": 1779431788.7340508
+  },
+  "tests/units/reflex_cli/v2/test_apps.py": {
+    "hash": "sha256:3e6518ce7c7f23888833a35a2ed094238d0bfaeaca0b51ae79302a9a3a4c8a6c",
+    "mtime": 1779431788.7343025
+  },
+  "tests/units/reflex_cli/v2/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7341926
+  },
+  "tests/units/reflex_cli/v2/test_gcp.py": {
+    "hash": "sha256:392b9ec13a571b237a9e4859912a5baae2930f0eb742d27e3e0e7cd30ce6c1f8",
+    "mtime": 1779451193.3760848
+  },
+  "tests/units/reflex_cli/v2/test_secrets.py": {
+    "hash": "sha256:36db5022fb3b955f21355ea081f4d1da1080c84b20f8ab52fcca498bb89fe4c4",
+    "mtime": 1779431788.7347496
+  },
+  "tests/units/reflex_cli/v2/test_project.py": {
+    "hash": "sha256:517630cd346e4ae6ab07a1b00b215db0246c21786b014c0fd2562963b0f0c1b0",
+    "mtime": 1779431788.7346444
+  },
+  "tests/units/reflex_cli/v2/test_cli.py": {
+    "hash": "sha256:5c6029965b8208bfca81b78b259efa9f0009a6f26dc97fcc692b851f81ccc592",
+    "mtime": 1779451193.3759875
+  },
+  "tests/units/reflex_cli/v2/test_vmtypes_regions.py": {
+    "hash": "sha256:c0cf4bc0ffa76654bc7be3193f79dd6fef49238c401e8afb43c055496997908c",
+    "mtime": 1779431788.7348409
+  },
+  "tests/units/reflex_cli/v2/test_deployments.py": {
+    "hash": "sha256:fcdaa970b031e7df1852568f6010423f8b08fb278e7f4e050fb3331d2a5512c1",
+    "mtime": 1779431788.734457
+  },
+  "tests/units/app_mixins/test_lifespan.py": {
+    "hash": "sha256:edb5e666e35764f50a444145069ab3d06bfc069de3011a598a005032b7389c60",
+    "mtime": 1779451193.3746076
+  },
+  "tests/units/utils/test_token_manager.py": {
+    "hash": "sha256:8862d2f1e81a7759b6feabbc811338e270cb04a303177323abd77a6dc33fb02a",
+    "mtime": 1779431788.7394052
+  },
+  "tests/units/utils/test_utils.py": {
+    "hash": "sha256:a0c6418e51f29286b3b976056074cb2ec63fcd45e8aee43ee947107a4aaa110c",
+    "mtime": 1779431788.7395823
+  },
+  "tests/units/utils/test_serializers.py": {
+    "hash": "sha256:7e97c21c8f1217c26718d32f210b23f4c0a5beaebd3091d8d2a529925853e91c",
+    "mtime": 1779431788.7390301
+  },
+  "tests/units/utils/test_precompressed_staticfiles.py": {
+    "hash": "sha256:3563bd10dc9a7f094d17baeea93523253e1255c85145b9dd43de31432aaac1b6",
+    "mtime": 1779451193.3782578
+  },
+  "tests/units/utils/test_frontend.py": {
+    "hash": "sha256:2cc79f0e80e05ab5565ae703798ca24778c59c77036f990f5e9bb577b7c0919a",
+    "mtime": 1779457505.4530394
+  },
+  "tests/units/utils/test_processes.py": {
+    "hash": "sha256:9627180f829a0b00637096624e461e737e529011e9f38b454d08396322358ced",
+    "mtime": 1779431788.738925
+  },
+  "tests/units/utils/test_imports.py": {
+    "hash": "sha256:f20ad7a7e2168507722a80fdffc02e94bd1d214f2902aa0795855a0621203e61",
+    "mtime": 1779431788.7387357
+  },
+  "tests/units/utils/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7382965
+  },
+  "tests/units/utils/test_exec.py": {
+    "hash": "sha256:8b78d57ea7fbfdacec3ae5868088184ec09263ac9bde7c45af1ba59169d86543",
+    "mtime": 1779451193.3778617
+  },
+  "tests/units/utils/test_telemetry_accounting.py": {
+    "hash": "sha256:08bd7745a225b81a3a1b5b007568f622dc8468d84607f3c2a5cdf03495ea43a7",
+    "mtime": 1779451193.3785071
+  },
+  "tests/units/utils/test_build.py": {
+    "hash": "sha256:b6710adbdb6218b141f8253f2ca6ee94ce3f916ff844dff1758d939a99e9b3c9",
+    "mtime": 1779451193.377801
+  },
+  "tests/units/utils/test_tasks.py": {
+    "hash": "sha256:c11fe944889ac1a6b65a2f9c396698b3dce1fd2740b1f783fd7ec694cf41066b",
+    "mtime": 1779431788.739149
+  },
+  "tests/units/utils/test_format.py": {
+    "hash": "sha256:5eb1a998b5e5216f935204f0b49980f790fc7061a159554fbf6d10127e10e259",
+    "mtime": 1779451193.3781219
+  },
+  "tests/units/utils/test_export.py": {
+    "hash": "sha256:2db5da4b0faaeb4d397ded552e318efe3decf3716caccffbcdfa0f3fde8aa164",
+    "mtime": 1779451193.3779511
+  },
+  "tests/units/utils/test_streaming_response.py": {
+    "hash": "sha256:1ee9db19549c4e4422a37ee68b2ac0966e7f15a221e08985c047bf1e9cd85282",
+    "mtime": 1779431788.7390904
+  },
+  "tests/units/utils/test_types.py": {
+    "hash": "sha256:b5cb7a85fb332070150d61aa3ad33f992916b53108454deb2273ad867feceae0",
+    "mtime": 1779431788.7394798
+  },
+  "tests/units/utils/test_telemetry_context.py": {
+    "hash": "sha256:33d1e65b3eb119e3255c6722e89c610deb491787bc077e159062babbce043327",
+    "mtime": 1779451193.3786006
+  },
+  "tests/units/components/test_component_future_annotations.py": {
+    "hash": "sha256:65b6c21f02af49b1d112de3f88653d3a7a06d4881928469ca52e96f82727aaf3",
+    "mtime": 1779431788.728113
+  },
+  "tests/units/components/test_props.py": {
+    "hash": "sha256:33bb1352f1ea2010f96d463570de4048fcc24930f7aa6f7594e402b2dd35058d",
+    "mtime": 1779431788.7282786
+  },
+  "tests/units/components/test_component_state.py": {
+    "hash": "sha256:d6d3683aadf3827ff99858448a5e2692a90cf3a1e6c3875c177cd021dd9b8c20",
+    "mtime": 1779431788.7281778
+  },
+  "tests/units/components/__init__.py": {
+    "hash": "sha256:5b09cb8bf2f4247ff933f1aedf81b395a2fb34f180dcddf5fc2e86a791fae726",
+    "mtime": 1779431788.7249632
+  },
+  "tests/units/components/test_component.py": {
+    "hash": "sha256:61d1e50f7b035fc13ebced2a2bff7c336f4e991f577eb2762506dcd9fb617d31",
+    "mtime": 1779451193.3754604
+  },
+  "tests/units/components/test_tag.py": {
+    "hash": "sha256:c61d2d29e49c46973fd7dfd49b346988611e0ee7665ff944de07fbdb94e37857",
+    "mtime": 1779431788.728357
+  },
+  "tests/units/components/forms/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7266626
+  },
+  "tests/units/components/forms/test_form.py": {
+    "hash": "sha256:d3bf1945553970308f712ba68ec5fd12f0c961526ca576c0c2ebdec231c7f237",
+    "mtime": 1779451193.375123
+  },
+  "tests/units/components/core/test_responsive.py": {
+    "hash": "sha256:cedbc66c1f194186d0252d6b3f0dcaede41422b52fe8398ee6043bae610340a9",
+    "mtime": 1779431788.7259102
+  },
+  "tests/units/components/core/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7252252
+  },
+  "tests/units/components/core/test_banner.py": {
+    "hash": "sha256:9b9521fee5b3924e420d4601a08a5c52fc870e6032297e5bf850c201ba66f915",
+    "mtime": 1779431788.7252953
+  },
+  "tests/units/components/core/test_html.py": {
+    "hash": "sha256:c924ed911338ad9a5e83f3866806dc80ce7d9fdf40c8fa45ce9daf3313b21b27",
+    "mtime": 1779431788.7257295
+  },
+  "tests/units/components/core/test_match.py": {
+    "hash": "sha256:4382004c0c3bb295e04933f99e0476a9eb4f33d67551c0ba88c6ce54b5d97249",
+    "mtime": 1779431788.725843
+  },
+  "tests/units/components/core/test_colors.py": {
+    "hash": "sha256:dac7fc709763f759c2317996bfe8fb6ff6653a26dab79f478e7f2c7b38ccef12",
+    "mtime": 1779431788.7253873
+  },
+  "tests/units/components/core/test_debounce.py": {
+    "hash": "sha256:2fab5bfeb780caace910f3bd6a3f888174c7a1cb6ca92ed136266381cba9a52e",
+    "mtime": 1779431788.7255647
+  },
+  "tests/units/components/core/test_foreach.py": {
+    "hash": "sha256:dad593b71312168f1d42609eca6796b56fbc551e37205a4ca31eac4b6b319f86",
+    "mtime": 1779431788.7256649
+  },
+  "tests/units/components/core/test_upload.py": {
+    "hash": "sha256:63f6f7555493e0973a6c74b589973177e579cde25b6efaf9f2c73a966a85b324",
+    "mtime": 1779431788.7260008
+  },
+  "tests/units/components/core/test_cond.py": {
+    "hash": "sha256:110b771755e0f212c5c354fc688d97d6d2c978b30bc4814e5fef807bf4eed6f0",
+    "mtime": 1779431788.7254717
+  },
+  "tests/units/components/markdown/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7272294
+  },
+  "tests/units/components/markdown/test_markdown.py": {
+    "hash": "sha256:97766fbfd2a22d024cb96eeb31af0940d712aab31c1ecf79c283c2703a174adf",
+    "mtime": 1779451193.3752756
+  },
+  "tests/units/components/el/test_svg.py": {
+    "hash": "sha256:d41d00b2a3ae0e5680b6dd4e8edff7660dc032467bc2ad7b04a62d5d86c4696c",
+    "mtime": 1779431788.726596
+  },
+  "tests/units/components/layout/__init__.py": {
+    "hash": "sha256:5bb4f8338a068fcaaf52a00200d9fa968be6c2e2798f0ca51c4daf99ca5e9584",
+    "mtime": 1779431788.7270565
+  },
+  "tests/units/components/datadisplay/conftest.py": {
+    "hash": "sha256:051cbd4e526461e930ddbfc5141a3b1dd47862fdff24f6bb05a8bbe24a132e59",
+    "mtime": 1779431788.726166
+  },
+  "tests/units/components/datadisplay/test_shiki_code.py": {
+    "hash": "sha256:f0b007e7ac0e559d6034904a9b93ce006cabeb6f7b49cc5647bc187f393eac9a",
+    "mtime": 1779431788.7264915
+  },
+  "tests/units/components/datadisplay/test_code.py": {
+    "hash": "sha256:f560b0d427bb3f5124df89ffb74f760379c337d4e8bdc7581423febe49997067",
+    "mtime": 1779431788.7262244
+  },
+  "tests/units/components/datadisplay/__init__.py": {
+    "hash": "sha256:6327fba24c877a549b4a1d21639417eabab8c6cdfb1b0603e294ff7b4fe134e1",
+    "mtime": 1779431788.7261035
+  },
+  "tests/units/components/datadisplay/test_dataeditor.py": {
+    "hash": "sha256:11dad7a0a67fa8959c7a812bcbad6f511a9254eaebcec517e40d956f926c53b3",
+    "mtime": 1779431788.7262878
+  },
+  "tests/units/components/datadisplay/test_datatable.py": {
+    "hash": "sha256:994682847dd302a5f684fde1387ddc99bc9323b51e79608e81f441cc8bbf4ebe",
+    "mtime": 1779431788.726389
+  },
+  "tests/units/components/graphing/test_plotly.py": {
+    "hash": "sha256:f2bc015f44ebc18f29dff84bc4f03dee15426a4f38b685cb560fad7fb02ff455",
+    "mtime": 1779431788.7269025
+  },
+  "tests/units/components/graphing/__init__.py": {
+    "hash": "sha256:50e939350c223151316d26e855dcaa385ed3cf1d84e0c23e970dc1339743385c",
+    "mtime": 1779431788.7268379
+  },
+  "tests/units/components/graphing/test_recharts.py": {
+    "hash": "sha256:db6e9b0d3aa79832b0abd69a33c2320465958f34188759facc7ef63e49a57d33",
+    "mtime": 1779431788.7269602
+  },
+  "tests/units/components/typography/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7284248
+  },
+  "tests/units/components/typography/test_markdown.py": {
+    "hash": "sha256:55e2d3a46164bf058818cc886a407ee1525c9e276732f2ee4fcf78c4b79ebafa",
+    "mtime": 1779431788.7285087
+  },
+  "tests/units/components/radix/test_icon_button.py": {
+    "hash": "sha256:585fc62ac0f1722375d027b46c2ddfafc2c5ac62cf7f763bcb6796f97dbbf193",
+    "mtime": 1779431788.7276797
+  },
+  "tests/units/components/radix/test_layout.py": {
+    "hash": "sha256:77c4ee8fa1a70e8c38531096c1739bf4bc332a88f551b38c589475f43a0dae30",
+    "mtime": 1779431788.727739
+  },
+  "tests/units/components/radix/test_callout.py": {
+    "hash": "sha256:08ffac206c5313fb2c0fb0f4864c1ddb5a9a1072f1d9710f7e7b21c14e6fa389",
+    "mtime": 1779431788.7276185
+  },
+  "tests/units/components/lucide/test_icon.py": {
+    "hash": "sha256:1de8ba13afda1761672ffa1f73169876a48df4a63b58b6b78f4038d350fdd978",
+    "mtime": 1779431788.7271602
+  },
+  "tests/units/components/recharts/test_cartesian.py": {
+    "hash": "sha256:c1662c86762ab6fa044785cc79be062ce07129e5d74b5455de65d8b8ab26ae27",
+    "mtime": 1779431788.7278373
+  },
+  "tests/units/components/recharts/test_polar.py": {
+    "hash": "sha256:dac43912db5bfecc5d9e413efecbab7969ad89769562ee4b9c573430067ab412",
+    "mtime": 1779431788.7278962
+  },
+  "tests/units/components/base/test_link.py": {
+    "hash": "sha256:73ae929c244348e6ab1c5335cfd4ec9bcbc90c5c1abb514b162379e216fb893c",
+    "mtime": 1779431788.725113
+  },
+  "tests/units/components/base/test_script.py": {
+    "hash": "sha256:3c6cc2c96e5e35f09bbb5856a4e90367ff3c4a5e404844bb8d22925691a08aea",
+    "mtime": 1779431788.7251678
+  },
+  "tests/units/components/base/test_bare.py": {
+    "hash": "sha256:4e60c63c9bd4603efd54d5f54f8a2c3ac320c51a5f5153d42443decf28cf69a8",
+    "mtime": 1779431788.7250545
+  },
+  "tests/units/components/media/test_image.py": {
+    "hash": "sha256:e75d7f755e7bb1ef6d35354e5dc9f4c18e907dcc822619594d82fd551968ac0f",
+    "mtime": 1779431788.7275178
+  },
+  "tests/units/components/media/__init__.py": {
+    "hash": "sha256:9515b3531ed6616aae225ffde889a3da8f46dbed0202d763373755584e29eed1",
+    "mtime": 1779431788.7274492
+  },
+  "tests/units/states/upload.py": {
+    "hash": "sha256:492d9d7cd314889b199fcb29039ceec5d10e110078d862c70ebc50bb51961dfc",
+    "mtime": 1779431788.7351053
+  },
+  "tests/units/states/mutation.py": {
+    "hash": "sha256:094f3fa9363af253f33e48fd1befaba4488c41bdc55fdd0375a3d63a822cf7a1",
+    "mtime": 1779431788.7350194
+  },
+  "tests/units/states/__init__.py": {
+    "hash": "sha256:e96d8739e91778d22d961e1683edf6b32ec47d6973dc88e2386cafb72001fa50",
+    "mtime": 1779431788.734943
+  },
+  "tests/units/docgen/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.728687
+  },
+  "tests/units/docgen/test_class_and_component.py": {
+    "hash": "sha256:24b6b98a3931a5c73fe1556ea871582c547d93d0f1351f514dc163345243ff43",
+    "mtime": 1779431788.728796
+  },
+  "tests/units/docgen/test_markdown.py": {
+    "hash": "sha256:aa2d6b0f4d585c97ea95fd937a3e75447b5a8a809157c59d2948d32889be2fab",
+    "mtime": 1779431788.728894
+  },
+  "tests/units/assets/test_assets.py": {
+    "hash": "sha256:460dc1ff467597d786306d6b6ca75c2ef13dd04ed587bb83e31f76e604a57b04",
+    "mtime": 1779431788.7242367
+  },
+  "tests/units/compiler/test_plugins.py": {
+    "hash": "sha256:e9cc58d0d7ff55a8c8befad1b209253e3b3b12bc59749e0896dea8ac7ab50de6",
+    "mtime": 1779431788.7248075
+  },
+  "tests/units/compiler/test_compiler_utils.py": {
+    "hash": "sha256:cf22c3b6d9aa2c4543c4064d6fe10e270b30a57496dc5b0adb8cb1e19f37af09",
+    "mtime": 1779451193.3747272
+  },
+  "tests/units/compiler/test_dynamic_components_codegen.py": {
+    "hash": "sha256:2c7955a62fc568a24ceaf4c1354d6902035cf417d4509458e143bda8c57d748c",
+    "mtime": 1779431788.7245553
+  },
+  "tests/units/compiler/test_compiler.py": {
+    "hash": "sha256:20cb56682d42c4bc77a3080a919987455ab4bc70db199bd3ff3aec4d465ba8af",
+    "mtime": 1779431788.7244163
+  },
+  "tests/units/compiler/__init__.py": {
+    "hash": "sha256:f092088b264520a3391635bc348f9383c84fd46448ff31fd3329b95c5855dfcc",
+    "mtime": 1779431788.7243276
+  },
+  "tests/units/compiler/test_memoize_plugin.py": {
+    "hash": "sha256:08a8396c8dd1bc120cad229b4f85ddf8b43284e0dd3a731998e79ce40e94b7a8",
+    "mtime": 1779451193.3749297
+  },
+  "tests/units/compiler/test_state_js_template.py": {
+    "hash": "sha256:155360444222ae95f0816feed54a53b0d048ed95b6102d2b1e847cbe5f9261b6",
+    "mtime": 1779451193.3750157
+  },
+  "tests/benchmarks/conftest.py": {
+    "hash": "sha256:1300d18f3aedf774e546c221d39264f7a7ca433dde3c9e64783784f9fbe36770",
+    "mtime": 1779431788.7182817
+  },
+  "tests/benchmarks/test_event_processing.py": {
+    "hash": "sha256:2776d124d5deec7fab875d19964cbc617c4fc0a36c755cdb5203ba1e408de2eb",
+    "mtime": 1779431788.7187018
+  },
+  "tests/benchmarks/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.7182043
+  },
+  "tests/benchmarks/test_evaluate.py": {
+    "hash": "sha256:a2b57f74b808fcb817e8e4d8f47ce4d8612c193102071bf644f315d40e400b79",
+    "mtime": 1779431788.7185464
+  },
+  "tests/benchmarks/test_event_creation.py": {
+    "hash": "sha256:a4fcf45b6de4761d52c16b1dcd3842dd16e0dcfaf15816f5a2893ec6177df2cc",
+    "mtime": 1779431788.7186103
+  },
+  "tests/benchmarks/test_compilation.py": {
+    "hash": "sha256:fdf79001c8077d59bcc5d6004b232396cc5c1dedb27168676836d8a557ac78a2",
+    "mtime": 1779431788.718486
+  },
+  "tests/benchmarks/fixtures.py": {
+    "hash": "sha256:748356a00d09fde62308d3b084f80454dcc2eb767b6efb18b86d8f61c2c80dcd",
+    "mtime": 1779431788.718393
+  },
+  "docs/app/rxconfig.py": {
+    "hash": "sha256:edb84a1272952790728bdf45182f204c638b725998e9c565ef3114a613f71b0a",
+    "mtime": 1779451193.357183
+  },
+  "docs/app/tests/conftest.py": {
+    "hash": "sha256:ca00d56f349d6f527f6e41f574286bada16a7eba4b95f28b8e819ab645147a55",
+    "mtime": 1779431788.6156454
+  },
+  "docs/app/tests/test_docgen_double_eval.py": {
+    "hash": "sha256:ba6dd9b584f4da2a74b16188021782ff656f0fec21843121cc00e25cabd12923",
+    "mtime": 1779431788.6159658
+  },
+  "docs/app/tests/test_routes.py": {
+    "hash": "sha256:1c22b1d8c31a78ef9e51440d9258470b580c926b4684a2784b504e173e543bc4",
+    "mtime": 1779431788.6160238
+  },
+  "docs/app/tests/utils.py": {
+    "hash": "sha256:03c77016f9bd5ef058191c24ab1e3448c30a45eaf12e485d4b76c0b7587ada0c",
+    "mtime": 1779431788.6161401
+  },
+  "docs/app/tests/test_breadcrumbs.py": {
+    "hash": "sha256:e18ba8fdf8fa82441a9e1748a5cbabb4e4b7670c6dfe815cad0c9a4ccccd0525",
+    "mtime": 1779451193.3574235
+  },
+  "docs/app/tests/test_urls.py": {
+    "hash": "sha256:6d9b4f992a1c2944d563adbe1b780c58f580487c7dca76791035ff4fcb7099da",
+    "mtime": 1779431788.6160853
+  },
+  "docs/app/tests/test_agent_files.py": {
+    "hash": "sha256:e6cb2172000740d931655d801489076184dd67ed2c0c9947ce5d01dd20d41072",
+    "mtime": 1779451193.3573494
+  },
+  "docs/app/tests/test_doc_links.py": {
+    "hash": "sha256:6171bac3bfc15949fcbadb0f79bac278462771e1571f0293dffe2f43530d4c6f",
+    "mtime": 1779431788.6158955
+  },
+  "docs/app/reflex_docs/models.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.6091201
+  },
+  "docs/app/reflex_docs/whitelist.py": {
+    "hash": "sha256:367c438282ab5fafdcfa05c8cc72836dfecd24f76d2d5a54f1ade3149b1da38f",
+    "mtime": 1779451193.357081
+  },
+  "docs/app/reflex_docs/reflex_docs.py": {
+    "hash": "sha256:e8d264e3b65f707c1425e74969257316da94491213cfbcb493b9109938b02be4",
+    "mtime": 1779431788.612176
+  },
+  "docs/app/reflex_docs/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.6083863
+  },
+  "docs/app/reflex_docs/docgen_pipeline.py": {
+    "hash": "sha256:8b30e0a6b712d1e24e5636625c1ddfb9299f8a2307e9efc5cf3fc743d49bcf60",
+    "mtime": 1779451193.3547537
+  },
+  "docs/app/reflex_docs/utils/http.py": {
+    "hash": "sha256:dd99b5aa9b2b211b70fb9f9dd9131a59f6ae9ba2387c5ccd93ece3f46ffa8759",
+    "mtime": 1779431788.6137521
+  },
+  "docs/app/reflex_docs/components/button.py": {
+    "hash": "sha256:0042dfaa3e7c2c474e05128b7b3976a60751d909271e9cfd85f7d454a63f94a1",
+    "mtime": 1779431788.6085029
+  },
+  "docs/app/reflex_docs/components/hint.py": {
+    "hash": "sha256:48e31297fccbd73d6d0c355f43053224b0a82080062d8d8463a425b008f2dbb5",
+    "mtime": 1779431788.6088858
+  },
+  "docs/app/reflex_docs/components/docpage/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.6085708
+  },
+  "docs/app/reflex_docs/components/docpage/navbar/__init__.py": {
+    "hash": "sha256:c31d8929108379226969361becc43af80f971d89a48a5dee5c9d093fbb42f2c0",
+    "mtime": 1779431788.608686
+  },
+  "docs/app/reflex_docs/components/docpage/navbar/buttons/sidebar.py": {
+    "hash": "sha256:346090be4729b169083c426499e1c58ed04b9e444f28b5f0e6fa6595404aab14",
+    "mtime": 1779451193.354587
+  },
+  "docs/app/reflex_docs/components/webpage/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.6089587
+  },
+  "docs/app/reflex_docs/templates/__init__.py": {
+    "hash": "sha256:275f270524285b60d21c7f61fc7931007bbbe31eb00f09a3f9c6efd03cfd92f6",
+    "mtime": 1779431788.61226
+  },
+  "docs/app/reflex_docs/templates/docpage/feedback_state.py": {
+    "hash": "sha256:a80db05ea909be1d3624e8032b51a1526f28a0a9e4442462324ddd995abd2d58",
+    "mtime": 1779431788.6125467
+  },
+  "docs/app/reflex_docs/templates/docpage/__init__.py": {
+    "hash": "sha256:505cdd3a29d1d692550b75b2c52fd084b20dc32d557577fb8e4bb15d1747cb5e",
+    "mtime": 1779431788.6123464
+  },
+  "docs/app/reflex_docs/templates/docpage/docpage.py": {
+    "hash": "sha256:1460d1784b15d7f99416fc51fd09839ad56102a5eeab99aaaa62ff911c3e7dfa",
+    "mtime": 1779451193.3562868
+  },
+  "docs/app/reflex_docs/templates/docpage/state.py": {
+    "hash": "sha256:c26c6eb452495610fa926032c43a56c65bec3150027cb45911d03f7e2d9fb85d",
+    "mtime": 1779431788.613652
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/sidebar.py": {
+    "hash": "sha256:af770ece14898275a86caa8002884169f3857913eea7130878ee9739307504a1",
+    "mtime": 1779451193.3564975
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/__init__.py": {
+    "hash": "sha256:0ce0d492f14f0c6804af46d414989da230e93a97ee1a582084f2b68a1a28b8f3",
+    "mtime": 1779431788.6126325
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/state.py": {
+    "hash": "sha256:1761b8ae4442651146c7e25f9109658d896216f56bf18f03aeef77100b60db9b",
+    "mtime": 1779451193.3569746
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/sidebar_items/cloud.py": {
+    "hash": "sha256:326f0138be0290f670ffb7189a53a877d502c2002be1b7c2dfe258d84ecd6f34",
+    "mtime": 1779431788.6131265
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/sidebar_items/ai.py": {
+    "hash": "sha256:f1707f0aad6dbd52abf6c34be9d28f7d02c26af9ace2548c425613618f7f7b2a",
+    "mtime": 1779431788.6130705
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/sidebar_items/component_lib.py": {
+    "hash": "sha256:b64a210157d0b84525e80e573f426feb8b36cae995c58eb28dc1454e2019de6f",
+    "mtime": 1779431788.6131902
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/sidebar_items/__init__.py": {
+    "hash": "sha256:7e156cfc0a806b58511eada6f2cea2f8c12d618fba3031f1b54facf3bcdead71",
+    "mtime": 1779431788.6129813
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/sidebar_items/recipes.py": {
+    "hash": "sha256:e65ee69d6723c1f116cfe082410b40ac2f2d28aa586575501f73df451cd2557d",
+    "mtime": 1779431788.613485
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/sidebar_items/learn.py": {
+    "hash": "sha256:d13fc6b55d1eb6f1e0ba551f8069161ff33ca8426745d7707d8ed233ce8a11e0",
+    "mtime": 1779451193.3567564
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/sidebar_items/reference.py": {
+    "hash": "sha256:a2ae6239c33bf42134ec97c88785d000d1c96164022198accd77f51822037ee9",
+    "mtime": 1779451193.3568687
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/sidebar_items/enterprise.py": {
+    "hash": "sha256:75915d3e865332047d4d0c161ea20de1c6b2a5663d65200fa3764ae341829c3e",
+    "mtime": 1779431788.6132777
+  },
+  "docs/app/reflex_docs/templates/docpage/sidebar/sidebar_items/item.py": {
+    "hash": "sha256:674835e9764e6515607688ef07ddf0358733ea85887f48272c2234055f56d649",
+    "mtime": 1779451193.3566232
+  },
+  "docs/app/reflex_docs/views/docs_navbar.py": {
+    "hash": "sha256:cd9f4a76931b7592d4512f3a2bdb948e8b82f6eaa9f915d926b40dcb64b5d526",
+    "mtime": 1779431788.6142077
+  },
+  "docs/app/reflex_docs/views/animated_box.py": {
+    "hash": "sha256:9c565b4ad546f36db64e6910a127bb005cd5bf8e4751c2867cf413fb10b02d09",
+    "mtime": 1779431788.613875
+  },
+  "docs/app/reflex_docs/views/search.py": {
+    "hash": "sha256:4ccbf1732cb7ebddb5469df86cd37407cd7e368304c6170483ab480015caccfa",
+    "mtime": 1779431788.6144514
+  },
+  "docs/app/reflex_docs/views/inkeep.py": {
+    "hash": "sha256:a40bf6bf73d908b6c38e356ea9c1d0591f17f39bc6b18da504f21f59ff54b51a",
+    "mtime": 1779431788.6143909
+  },
+  "docs/app/reflex_docs/views/bottom_section/get_started.py": {
+    "hash": "sha256:510c6d30cefa00612556599b2a13003d06ba11a0d19860d6ebe3b6845f9e019b",
+    "mtime": 1779431788.613974
+  },
+  "docs/app/reflex_docs/views/bottom_section/newsletter.py": {
+    "hash": "sha256:e25bbbf264f359fbd535b769f280c453b18142c6822f51c01a789edfd824e85e",
+    "mtime": 1779431788.6140618
+  },
+  "docs/app/reflex_docs/pages/__init__.py": {
+    "hash": "sha256:8ad6f04bf2c2f0537812898a5232e254c5617c7e71ef83f47b4cfe397ff66e30",
+    "mtime": 1779431788.609234
+  },
+  "docs/app/reflex_docs/pages/library_previews.py": {
+    "hash": "sha256:e58ba31675c495c229793e7d54c97dd95ce6e754f36438bf005535c145ff51c9",
+    "mtime": 1779431788.6120782
+  },
+  "docs/app/reflex_docs/pages/gallery/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.611628
+  },
+  "docs/app/reflex_docs/pages/docs/apiref.py": {
+    "hash": "sha256:a9364a6e77ababbae1cdc9fa75a01dff6929872d3e46b7856df0ca80dd6fdba1",
+    "mtime": 1779431788.6095953
+  },
+  "docs/app/reflex_docs/pages/docs/guide.py": {
+    "hash": "sha256:fc4dc320497185a3db92ee9cacc5bb35a75790c8b0efc8c75d930237889ed4e2",
+    "mtime": 1779431788.6104674
+  },
+  "docs/app/reflex_docs/pages/docs/library.py": {
+    "hash": "sha256:5426bc43548295d22bd9da3bdc8ac7bcb3e7470c2585c5ec3df0f7ceb3a8a6eb",
+    "mtime": 1779431788.6105747
+  },
+  "docs/app/reflex_docs/pages/docs/recipes_overview.py": {
+    "hash": "sha256:5245ffa8f2cda2b70116bd319752b21cdaccb24457ef61b336bd5a513413c4a1",
+    "mtime": 1779431788.6106396
+  },
+  "docs/app/reflex_docs/pages/docs/cloud.py": {
+    "hash": "sha256:3be866bd8a67d51477088587e60aa2ad6056f447dd343c0a5d123faa673cb82c",
+    "mtime": 1779431788.6096578
+  },
+  "docs/app/reflex_docs/pages/docs/__init__.py": {
+    "hash": "sha256:427f8b98f0afb68f90125d15bc8e1cbb8721a3884784b5809196d69eb6f3e45c",
+    "mtime": 1779451193.354969
+  },
+  "docs/app/reflex_docs/pages/docs/cloud_cliref.py": {
+    "hash": "sha256:a2f5c8e9eb41dc5d33f1750d0d9497c8eeca7f653a5c11a51033cd8da9c89c61",
+    "mtime": 1779431788.6097608
+  },
+  "docs/app/reflex_docs/pages/docs/env_vars.py": {
+    "hash": "sha256:856a42b32ee461402b390f19f3fcabd5c72552c2555b34718c1892cfa6324af7",
+    "mtime": 1779431788.6104078
+  },
+  "docs/app/reflex_docs/pages/docs/enterprise.py": {
+    "hash": "sha256:f3a5bf5f38b3cd37f40ed510d94d510487ede22c0f6203f6337b95b902622135",
+    "mtime": 1779431788.6103137
+  },
+  "docs/app/reflex_docs/pages/docs/component.py": {
+    "hash": "sha256:5bb404743d3560679e46b727925c967eeabb588661dd2c0c2c0c22c1183a47a1",
+    "mtime": 1779451193.3551705
+  },
+  "docs/app/reflex_docs/pages/docs/custom_components.py": {
+    "hash": "sha256:467ba0a071483253ecd23cf3903921e92faf2b4f63e5dad31aafc62b8eee7966",
+    "mtime": 1779431788.6102462
+  },
+  "docs/app/reflex_docs/pages/docs/source.py": {
+    "hash": "sha256:b15e86112d5714fff63b04f7f44731f1a6ba07c2207a37d654c201d741542db7",
+    "mtime": 1779431788.610705
+  },
+  "docs/app/reflex_docs/pages/docs/api_reference/plugins.py": {
+    "hash": "sha256:9fce78178014c3260e9b6366fa215c0f870439f7d0a3689c51050ed907e3ecc4",
+    "mtime": 1779431788.6094677
+  },
+  "docs/app/reflex_docs/pages/docs/api_reference/utils.py": {
+    "hash": "sha256:73c668c18cf195cbef240c29054807a697bef1ade13e61a0f89137fc4d9840fd",
+    "mtime": 1779431788.6095297
+  },
+  "docs/app/reflex_docs/pages/integrations/integration_gallery.py": {
+    "hash": "sha256:d2a3a0e7bf2362ee40acea40107c9815ae5e5b67df06f8de52e744df51382839",
+    "mtime": 1779431788.6118286
+  },
+  "docs/app/reflex_docs/pages/integrations/integration_header.py": {
+    "hash": "sha256:83495a0c5ebcaf299c3d1678ee7d4a4530787822014bb6a7b9afafa2be8dc760",
+    "mtime": 1779431788.6118872
+  },
+  "docs/app/reflex_docs/pages/integrations/integration.py": {
+    "hash": "sha256:b3e7d032005380aa1ffdad57fb9acf31cd88bd57ddb42fb507de0ac03e452c9d",
+    "mtime": 1779431788.6117406
+  },
+  "docs/app/reflex_docs/pages/integrations/integration_list.py": {
+    "hash": "sha256:e65971c0890668f0aada8324c51e38642596c2e7a040ff9bfed55597af73a2ee",
+    "mtime": 1779431788.6119466
+  },
+  "docs/app/reflex_docs/pages/integrations/integration_request.py": {
+    "hash": "sha256:81501472a1548a3a11b4d564d9172cf04303674ac1105adc7797ee0a87756e53",
+    "mtime": 1779431788.612008
+  },
+  "docs/app/reflex_docs/pages/docs_landing/__init__.py": {
+    "hash": "sha256:820fc0eaa13f6e7ce24a8f3c5fc9bb671aa0e80521778cc3606965fc6ed78088",
+    "mtime": 1779431788.610811
+  },
+  "docs/app/reflex_docs/pages/docs_landing/views/hosting.py": {
+    "hash": "sha256:6e0dd78f62cee0a7a4926ab21fdf198ae78c295ba449dba9615e44d0d30fe440",
+    "mtime": 1779451193.3559299
+  },
+  "docs/app/reflex_docs/pages/docs_landing/views/divider.py": {
+    "hash": "sha256:27fec2d60acc144529215446ed2eb144567b27345d1d9f648ca8e521218361b1",
+    "mtime": 1779451193.3554456
+  },
+  "docs/app/reflex_docs/pages/docs_landing/views/framework.py": {
+    "hash": "sha256:dbaac0dbed43db79455e110fccb32f154ed4eb844ae06719fa4385cea16ce800",
+    "mtime": 1779451193.3557148
+  },
+  "docs/app/reflex_docs/pages/docs_landing/views/__init__.py": {
+    "hash": "sha256:dd71f3b4190aa32f23b6a37a23183f6487a6b1a927a586684a0128619b88fc32",
+    "mtime": 1779431788.6109161
+  },
+  "docs/app/reflex_docs/pages/docs_landing/views/other.py": {
+    "hash": "sha256:b64d08ac5069f3853b0dcf57816ca4208e5719739e26e72e5d67e2e338c16cca",
+    "mtime": 1779451193.3560224
+  },
+  "docs/app/reflex_docs/pages/docs_landing/views/link_item.py": {
+    "hash": "sha256:212c08220ddd953e86cc16fc4a30144c3f9945a7d39130b42d33c01abb272c3a",
+    "mtime": 1779431788.6114404
+  },
+  "docs/app/reflex_docs/pages/docs_landing/views/ai_builder.py": {
+    "hash": "sha256:0255c85eafd2ec5a2e4e7799c8d7f077b7d7a364a284c08cffa20108cc2b0b72",
+    "mtime": 1779451193.355342
+  },
+  "docs/app/reflex_docs/pages/docs_landing/views/self_hosting.py": {
+    "hash": "sha256:6faca04bddac7b8f755267415634a77d407c8f662cc475bf0a5e0cd6464a8eb4",
+    "mtime": 1779451193.3561168
+  },
+  "docs/app/reflex_docs/pages/docs_landing/views/enterprise.py": {
+    "hash": "sha256:2277a6c8d5ed22a218f493f5ae8a571385854029d4e4220601087e3743b34185",
+    "mtime": 1779451193.3555667
+  },
+  "docs/app/reflex_docs/pages/docs_landing/views/hero.py": {
+    "hash": "sha256:dd6782f3491fb8f7273719473d839712875c8a8dabb41fba2939214efb425b43",
+    "mtime": 1779451193.3558226
+  },
+  "docs/app/scripts/check_doc_links.py": {
+    "hash": "sha256:349087bdef1e7fd05de7a0fca9cf71d1501d86c16d9773cc078037abab6176cb",
+    "mtime": 1779431788.6147614
+  },
+  "docs/app/agent_files/_plugin.py": {
+    "hash": "sha256:f69e2f8cc42daa970a70c233fb591fd485776e108d2531691e89be11a6c577f9",
+    "mtime": 1779451193.353283
+  },
+  "docs/app/agent_files/__init__.py": {
+    "hash": "sha256:7accc305aedbfed78f707d26c815763937024f9b56938fc31180f6f64c08202a",
+    "mtime": 1779431788.6026893
+  },
+  "docs/package/reflex_docs_bundle/__init__.py": {
+    "hash": "sha256:c03d5c8ec6788d5c3fe40fceacdd8af191e7e61f3bc95b101bc520505def0aa7",
+    "mtime": 1779431788.639277
+  },
+  "docs/package/scripts/hatch_build.py": {
+    "hash": "sha256:696f25c10a9b6f41c0ce290a619722ce1483b8de95cf31dd6dac94dff65a9224",
+    "mtime": 1779431788.6393664
+  },
+  "docs/getting_started/__init__.py": {
+    "hash": "sha256:7aefd33be2163d7da21613fa5c5751e643f86d2374a7cc69571e0fc081c9738b",
+    "mtime": 1779431788.62138
+  },
+  "scripts/wait_for_listening_port.py": {
+    "hash": "sha256:b3e8af870912b6b97d6108d8ee22e50939f8d2c3361c9b23a4769c8d9e4edc21",
+    "mtime": 1779451193.372472
+  },
+  "scripts/make_pyi.py": {
+    "hash": "sha256:8db98ebc002946b39e1e4477c79f3cf1370cdaeefd802fcc9d74afbfe7171211",
+    "mtime": 1779451193.3723109
+  },
+  "scripts/__init__.py": {
+    "hash": "sha256:3172b44e06719b2725cb1fc9427d85054cf461d9b02f4fd6b50282fce2bf0931",
+    "mtime": 1779431788.7171593
+  },
+  "scripts/hatch_build.py": {
+    "hash": "sha256:013fe2b6584c1c7a04fa4eb1cd10b60d67e02a53f212d6196fcdb81393830d4f",
+    "mtime": 1779431788.7173898
+  },
+  "scripts/run_lighthouse.py": {
+    "hash": "sha256:a4c0f460a7ae46d477637f03285011957b902451d791c545fca5b6c79b1a8d0d",
+    "mtime": 1779451193.3723738
+  },
+  "packages/hatch-reflex-pyi/src/hatch_reflex_pyi/hooks.py": {
+    "hash": "sha256:7ad0b63e6496cb2376fd58e12a9102223a959591225d52aba7864b2ba78ada47",
+    "mtime": 1779431788.6447241
+  },
+  "packages/hatch-reflex-pyi/src/hatch_reflex_pyi/__init__.py": {
+    "hash": "sha256:4de8158ab0e622ea491c86f29b9218de4c1f3ab2bea64aa923ed23a0ccace09d",
+    "mtime": 1779431788.6446693
+  },
+  "packages/hatch-reflex-pyi/src/hatch_reflex_pyi/plugin.py": {
+    "hash": "sha256:92692d2422d755b16a32fa51739923957b7f2316342db22a05638211ea57916e",
+    "mtime": 1779431788.6447804
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/__init__.py": {
+    "hash": "sha256:a7aba007ef05e40863dd193dd29815088cd21a43be9556ebccb0c9042d327530",
+    "mtime": 1779431788.6977458
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/cli.py": {
+    "hash": "sha256:4ee2cd6edc010d03ef0550b53232d1dab02a17aa29bdf795fce41993fcff1b99",
+    "mtime": 1779431788.6978002
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/deployments.py": {
+    "hash": "sha256:597f17abcdeeb1f183338fd3a834325f4d9792f6baa0e789a17e914653420b47",
+    "mtime": 1779431788.698574
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/core/config.py": {
+    "hash": "sha256:59acdd7a8e8f4e8d1cafe6edb4433ccac58e911627fffc6c704cda993bc1d4bb",
+    "mtime": 1779431788.6984892
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/core/__init__.py": {
+    "hash": "sha256:9854e1107618f7abd6c2edf35c77dad43d27cba461a78dfcdaaf63a128b84e56",
+    "mtime": 1779431788.6981604
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/constants/hosting.py": {
+    "hash": "sha256:78aa79edcf2be6f68db845bd196ca3b69ec762ddfd150ec893a53790c6c1af8b",
+    "mtime": 1779431788.6980782
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/constants/compiler.py": {
+    "hash": "sha256:d0356148c178cb983d6a0b35e6fe47f1477febb58e6a4f7e08a879135fffe5e0",
+    "mtime": 1779431788.69802
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/constants/__init__.py": {
+    "hash": "sha256:44955ec4e4170510950054cd66c1aed06de15f89155d8da8bb708b2e411f5df1",
+    "mtime": 1779431788.6978905
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/constants/base.py": {
+    "hash": "sha256:a40dbb58140fb3cc6197ec948a32915689a4c4af2284ca6a58b8f75d6b8dc720",
+    "mtime": 1779431788.697957
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/utils/console.py": {
+    "hash": "sha256:5c20ac57ae26a6a31814eb25fcab1b39d8e1627e404e266fb5d341b52be13fd4",
+    "mtime": 1779431788.6987536
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/utils/hosting.py": {
+    "hash": "sha256:b3380f9ef72802c55a39c00a81fbf3bae35c4473545248eb58428dec4f1d230b",
+    "mtime": 1779451193.365661
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/utils/__init__.py": {
+    "hash": "sha256:49e333ad251d0b62cc9bee091fca18e71a10e77d930eac4786f773082e5ba3d0",
+    "mtime": 1779431788.6986656
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/utils/dependency.py": {
+    "hash": "sha256:835b3825ed4d670613a97be9791691d84c10198d9c5b2221cacd6af5a7e734ec",
+    "mtime": 1779431788.6988425
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/utils/exceptions.py": {
+    "hash": "sha256:1ad4ad884f2346ff6f5804db61a898dd5c8acf9f849a2da9ab68afbe101bcaa6",
+    "mtime": 1779431788.6989026
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/v2/vmtypes_regions.py": {
+    "hash": "sha256:69fddbb57986e762a8338baf9e7508d5b87421712dc3b2e51ff196c93669f976",
+    "mtime": 1779431788.699862
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/v2/__init__.py": {
+    "hash": "sha256:a7aba007ef05e40863dd193dd29815088cd21a43be9556ebccb0c9042d327530",
+    "mtime": 1779431788.699127
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/v2/apps.py": {
+    "hash": "sha256:bb24a7afc39cfab3e182550ed296a68fcd270c16ec76c71d7ee8e83a19111aa5",
+    "mtime": 1779431788.6992054
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/v2/cli.py": {
+    "hash": "sha256:f147d305aa811904f4d5cedea38ed3bd666baf0400913d49e94ea1e6b1f06f71",
+    "mtime": 1779451193.3658412
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/v2/utils.py": {
+    "hash": "sha256:306a8c0f684a45d0cc692750d004b1448c6464eb54133fc6189674690d884a37",
+    "mtime": 1779431788.6997652
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/v2/secrets.py": {
+    "hash": "sha256:58d8b8f724dc905b1c365fa3616977b51226640fc84b02b0d9b7c0c2dcf17f2b",
+    "mtime": 1779431788.699662
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/v2/deployments.py": {
+    "hash": "sha256:32bf553be27ba699b0e48aa48fc879196a39edd54eb0069d74c00ba493b7bee1",
+    "mtime": 1779451193.3659768
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/v2/gcp.py": {
+    "hash": "sha256:e87e8a7b7ceaf6d385cc121c4c2377edaf5d405c8ffb17200b368117a7e603f8",
+    "mtime": 1779451193.3660712
+  },
+  "packages/reflex-hosting-cli/src/reflex_cli/v2/project.py": {
+    "hash": "sha256:eabbd6b3fed825623a213b154276e3ce7b1df1066b3fc06d4bd37885c242d946",
+    "mtime": 1779431788.6995656
+  },
+  "packages/reflex-base/src/reflex_base/config.py": {
+    "hash": "sha256:027939fa1327aae1455ba88c8304e9d3a8606bce4194f5535f441c098530c347",
+    "mtime": 1779451193.3616705
+  },
+  "packages/reflex-base/src/reflex_base/style.py": {
+    "hash": "sha256:33a2a793aab17d0c8dd206cb75dcf80899eabd3845281d44cb6d87808358a93c",
+    "mtime": 1779431788.6734333
+  },
+  "packages/reflex-base/src/reflex_base/registry.py": {
+    "hash": "sha256:f3da7fd63cb2fb19097fba84d75b63518066e2019e8be399d9f0983e6b2e390d",
+    "mtime": 1779431788.6733115
+  },
+  "packages/reflex-base/src/reflex_base/__init__.py": {
+    "hash": "sha256:3adeaa12cd4e76eb2e48c30dd76d59bf4bf08a05886143a737cb9840622977d4",
+    "mtime": 1779431788.6685576
+  },
+  "packages/reflex-base/src/reflex_base/telemetry_context.py": {
+    "hash": "sha256:a2c609b7c3adb9c671296445d18c991eeea346c5bfb9015c6105adea653c0187",
+    "mtime": 1779451193.3631237
+  },
+  "packages/reflex-base/src/reflex_base/environment.py": {
+    "hash": "sha256:c824a9b73990d48e62682ce7050f683d823696ce41da02529f1c254ff9dee6a4",
+    "mtime": 1779451193.3622706
+  },
+  "packages/reflex-base/src/reflex_base/breakpoints.py": {
+    "hash": "sha256:f167a41d9ebfc139011a657ab7f7c35bcefbd03b9a86a910599b2fdcc2274af1",
+    "mtime": 1779431788.6686242
+  },
+  "packages/reflex-base/src/reflex_base/vars/color.py": {
+    "hash": "sha256:ff9ef297a1ad8c7b8c9f73de4ddc5304f325dcaf48c3df2479e68fe2ba84f44a",
+    "mtime": 1779431788.6763532
+  },
+  "packages/reflex-base/src/reflex_base/vars/object.py": {
+    "hash": "sha256:8f653c7e5a0545bb16efe80595dc21b98526b98950d26bd9c7d0d745604d9276",
+    "mtime": 1779431788.6769104
+  },
+  "packages/reflex-base/src/reflex_base/vars/sequence.py": {
+    "hash": "sha256:a20c2b22fd926eb88a22d344cd2a500ba10c03ddaf6efdd6f8c8045848a7aebc",
+    "mtime": 1779431788.6769993
+  },
+  "packages/reflex-base/src/reflex_base/vars/number.py": {
+    "hash": "sha256:35db8d95450f6c597022338b07e3e0adde32ad5e5677ba33fe90236819d48fcc",
+    "mtime": 1779431788.6767867
+  },
+  "packages/reflex-base/src/reflex_base/vars/__init__.py": {
+    "hash": "sha256:10a99ff32ae2accad4a6858273caa42dae1c34b6e2059b8398781e1777eee70f",
+    "mtime": 1779431788.6760063
+  },
+  "packages/reflex-base/src/reflex_base/vars/datetime.py": {
+    "hash": "sha256:a28c437ab45dbe5945643bf325ae179add4682f10ca548b64daf2e4bef90b00a",
+    "mtime": 1779431788.6764526
+  },
+  "packages/reflex-base/src/reflex_base/vars/base.py": {
+    "hash": "sha256:690d06a8ce146110a80703a058edf29273f523c5c7d40793a754ed342e74a738",
+    "mtime": 1779451193.363361
+  },
+  "packages/reflex-base/src/reflex_base/vars/function.py": {
+    "hash": "sha256:f43250d84b7818902ad1c745f4dd8c39b7f0523875d0e1f45f172dc8dabc9379",
+    "mtime": 1779451193.3636496
+  },
+  "packages/reflex-base/src/reflex_base/vars/dep_tracking.py": {
+    "hash": "sha256:9df1295c5ff54537687229c9d3fca084c06ab55e795269459522deb0d4add0f6",
+    "mtime": 1779431788.6765637
+  },
+  "packages/reflex-base/src/reflex_base/context/__init__.py": {
+    "hash": "sha256:71d4acd96877503c57d291aea97191556fa22c7169998dad46ab6e8c6a2b8861",
+    "mtime": 1779431788.671345
+  },
+  "packages/reflex-base/src/reflex_base/context/base.py": {
+    "hash": "sha256:9799a3e40ad7f8d6b3bfcb0777dff7a543cbf2116f8b17cc3dbc4b3009735f94",
+    "mtime": 1779431788.6714027
+  },
+  "packages/reflex-base/src/reflex_base/plugins/compiler.py": {
+    "hash": "sha256:a46584e776d991931a1316ee6f3503dccda90cc1994e98b2ba82a243ee16abe3",
+    "mtime": 1779431788.6726756
+  },
+  "packages/reflex-base/src/reflex_base/plugins/embed.py": {
+    "hash": "sha256:dcbf112562c824179508c3953c3ee86390e80c9f4b1b21fec55ac181180eb1d9",
+    "mtime": 1779451193.3629005
+  },
+  "packages/reflex-base/src/reflex_base/plugins/sitemap.py": {
+    "hash": "sha256:41c7dcffe0015fca1cf16f2fdccaa715721e27e862f305dab501fb81a0492dd0",
+    "mtime": 1779431788.672981
+  },
+  "packages/reflex-base/src/reflex_base/plugins/__init__.py": {
+    "hash": "sha256:75f93fc93e6347ad019c61f123a82376785e5a81e10e2a057dba17eb0de783f6",
+    "mtime": 1779451193.3626378
+  },
+  "packages/reflex-base/src/reflex_base/plugins/tailwind_v4.py": {
+    "hash": "sha256:6b4179dac7ce5d598a0f867db8842c918452d740e9a070cb3e95a2d035a000cd",
+    "mtime": 1779451193.3630397
+  },
+  "packages/reflex-base/src/reflex_base/plugins/shared_tailwind.py": {
+    "hash": "sha256:86142e723015fbea80d8a16c117728b8e38cbada67aee8062b3ce2a0c84e94e4",
+    "mtime": 1779431788.672884
+  },
+  "packages/reflex-base/src/reflex_base/plugins/tailwind_v3.py": {
+    "hash": "sha256:cdcd36209dd941c39acf9ae28c1831c95f24aff2b84f2e6682d97501680b4d61",
+    "mtime": 1779431788.6730804
+  },
+  "packages/reflex-base/src/reflex_base/plugins/_screenshot.py": {
+    "hash": "sha256:21946099442bc2f7f45b6134081f5914165c376ee902998200f6ab8363cae75a",
+    "mtime": 1779431788.672494
+  },
+  "packages/reflex-base/src/reflex_base/plugins/base.py": {
+    "hash": "sha256:3d424e880fe9285b3d272583bd8fdea00836084382f04c47b32e9c50c4c71c0f",
+    "mtime": 1779451193.362773
+  },
+  "packages/reflex-base/src/reflex_base/constants/event.py": {
+    "hash": "sha256:6bdf85b279a74b490c33086cd154cde39df46f0e84fed89e56df8bbae9536808",
+    "mtime": 1779431788.670988
+  },
+  "packages/reflex-base/src/reflex_base/constants/config.py": {
+    "hash": "sha256:2ec465d20dd8e7a1f9e5da6aca3c78185261f02b415e80a5696af96fbce0b0c0",
+    "mtime": 1779451193.3620179
+  },
+  "packages/reflex-base/src/reflex_base/constants/compiler.py": {
+    "hash": "sha256:bb2f3f608ba4c3d55f1d85e6dda543475637898876bf9c53e2dad50c167c462c",
+    "mtime": 1779451193.361924
+  },
+  "packages/reflex-base/src/reflex_base/constants/route.py": {
+    "hash": "sha256:5018ea6803b1894c650d90926383b62490a12af038319ae1514d04e6b36f29b3",
+    "mtime": 1779431788.6711454
+  },
+  "packages/reflex-base/src/reflex_base/constants/__init__.py": {
+    "hash": "sha256:75967430caa4e6eed67af4012dd479231e6222daec1f73539eede72454e3803a",
+    "mtime": 1779451193.3617876
+  },
+  "packages/reflex-base/src/reflex_base/constants/installer.py": {
+    "hash": "sha256:85d5b5a06c224c941f3425dc7d4096a3476108b38046da0cba0973591d10cbc5",
+    "mtime": 1779451193.3621428
+  },
+  "packages/reflex-base/src/reflex_base/constants/utils.py": {
+    "hash": "sha256:7b50a112f6c77e613f576509bc2494843fea4d500884418fa51252a9d49de8f0",
+    "mtime": 1779431788.671261
+  },
+  "packages/reflex-base/src/reflex_base/constants/custom_components.py": {
+    "hash": "sha256:8e826de0212dd722b2ef0b011fabd8a3bfd0456d0efdf597aeb4dfd15636ab5e",
+    "mtime": 1779431788.6709232
+  },
+  "packages/reflex-base/src/reflex_base/constants/base.py": {
+    "hash": "sha256:db1fe05d8df4c8eb80cbda4fff424b586e2eb57627ca5e0909482d468d3edaeb",
+    "mtime": 1779457505.4510572
+  },
+  "packages/reflex-base/src/reflex_base/constants/state.py": {
+    "hash": "sha256:8d895a7db4af0dfb18eef1e3aa253d605891f1687df4671b3bb85e9ca78ef3c8",
+    "mtime": 1779431788.6712039
+  },
+  "packages/reflex-base/src/reflex_base/constants/colors.py": {
+    "hash": "sha256:c4e536596be9d236112dc20626d6c2c7f78e2cdfdaa05304712467ce0583c8d0",
+    "mtime": 1779431788.6707187
+  },
+  "packages/reflex-base/src/reflex_base/utils/console.py": {
+    "hash": "sha256:be56ad4ce17f5e9679028b98c62d7815aa24d6ed3595de691f15d851d118caaa",
+    "mtime": 1779431788.6740668
+  },
+  "packages/reflex-base/src/reflex_base/utils/lazy_loader.py": {
+    "hash": "sha256:ca5bae8e6e3da5fba5086f93b22fa1f08bc089c92f492e7280f110cff93e20e5",
+    "mtime": 1779431788.6752112
+  },
+  "packages/reflex-base/src/reflex_base/utils/compat.py": {
+    "hash": "sha256:63f49b5c77c86fdf70b22d84ea022e5d820b920fb24601008d7cb6566fb76b8f",
+    "mtime": 1779431788.6739252
+  },
+  "packages/reflex-base/src/reflex_base/utils/streaming_response.py": {
+    "hash": "sha256:8b004b8d4bbfed49e475d271e4cd49ae8806e2336f041e506c128baeae752d97",
+    "mtime": 1779431788.6757777
+  },
+  "packages/reflex-base/src/reflex_base/utils/decorator.py": {
+    "hash": "sha256:7618670d77c261f920f909388b4167ffa2872fa95d988d3a6b8a58bb063e3f55",
+    "mtime": 1779431788.6741354
+  },
+  "packages/reflex-base/src/reflex_base/utils/serializers.py": {
+    "hash": "sha256:2b559406ed70b9c1b3dc9792ea0196617658452daefaaeb8071b1c35cce902c7",
+    "mtime": 1779431788.6756802
+  },
+  "packages/reflex-base/src/reflex_base/utils/__init__.py": {
+    "hash": "sha256:3e7a07f7225e70e65438ed1443fec39075e91860165be6aa798d67711bea34f0",
+    "mtime": 1779431788.6738465
+  },
+  "packages/reflex-base/src/reflex_base/utils/format.py": {
+    "hash": "sha256:d1d35a594b2aa1b91a0e04212dd030231ff5634610efcb508449197e33da2a32",
+    "mtime": 1779431788.6743627
+  },
+  "packages/reflex-base/src/reflex_base/utils/pyi_generator.py": {
+    "hash": "sha256:2d0ed793fb51fe63a05596985ae587037c122a284221f64518e6fdf027929db2",
+    "mtime": 1779431788.6754248
+  },
+  "packages/reflex-base/src/reflex_base/utils/types.py": {
+    "hash": "sha256:c1e2a2e20839917af5ce149cfd009ab40f888dcb897b658fb260f326a61e1f00",
+    "mtime": 1779431788.6758838
+  },
+  "packages/reflex-base/src/reflex_base/utils/imports.py": {
+    "hash": "sha256:4a541f3136c96ac5c7c6ba5c1dd58a3d68886752a7dbeb6e94c177dbf600d9e9",
+    "mtime": 1779431788.6751027
+  },
+  "packages/reflex-base/src/reflex_base/utils/exceptions.py": {
+    "hash": "sha256:8a01c3aec8982c1aec86ebb2ba17302bf9e2d20025f51153a7ee6ec1526f6863",
+    "mtime": 1779431788.674235
+  },
+  "packages/reflex-base/src/reflex_base/components/field.py": {
+    "hash": "sha256:cce2c08cb026ec622b39886a23ba8727a93c96afdcad5eee7f76e8e454291a44",
+    "mtime": 1779431788.6694472
+  },
+  "packages/reflex-base/src/reflex_base/components/memoize_helpers.py": {
+    "hash": "sha256:f6023891ce2603a8ea9a36af37f66f2ebd05d875d1be140da12d8538fd52dd61",
+    "mtime": 1779431788.6696126
+  },
+  "packages/reflex-base/src/reflex_base/components/__init__.py": {
+    "hash": "sha256:16751e751314c6e32b7d87a857b38fb098987284daad7bb0061bb8bddc955676",
+    "mtime": 1779431788.6689534
+  },
+  "packages/reflex-base/src/reflex_base/components/literals.py": {
+    "hash": "sha256:3459b2beea14cc7dd23a8c288e2fda53a5c08ee702dbaad9b1ed2ed584dc6966",
+    "mtime": 1779431788.6695175
+  },
+  "packages/reflex-base/src/reflex_base/components/dynamic.py": {
+    "hash": "sha256:337d4482b9c21fa28aa8064441892550bcbf44cf798198b7fe8bdb44eca9e83f",
+    "mtime": 1779431788.6693513
+  },
+  "packages/reflex-base/src/reflex_base/components/props.py": {
+    "hash": "sha256:51fb4f76413503a14ff675052573f10a8d04c9cf2594f9ff4500709105a990a5",
+    "mtime": 1779431788.6697292
+  },
+  "packages/reflex-base/src/reflex_base/components/component.py": {
+    "hash": "sha256:ab1a248be85396927eb668f6bae455c946204da1dcd29d6985b4630f250f0d24",
+    "mtime": 1779451193.3615127
+  },
+  "packages/reflex-base/src/reflex_base/components/tags/match_tag.py": {
+    "hash": "sha256:01e137a05366a605edccb0a15d100550efff1267f3233818c299139fcd4196af",
+    "mtime": 1779431788.670061
+  },
+  "packages/reflex-base/src/reflex_base/components/tags/tagless.py": {
+    "hash": "sha256:9f040069b3ea489c89836a135cee961e426337c005eed27a15f45848538764a0",
+    "mtime": 1779431788.670213
+  },
+  "packages/reflex-base/src/reflex_base/components/tags/__init__.py": {
+    "hash": "sha256:0c1d201873dd518a6d474cda9856442f108b397a00c7c6d6fb72b71955de52bc",
+    "mtime": 1779431788.669844
+  },
+  "packages/reflex-base/src/reflex_base/components/tags/cond_tag.py": {
+    "hash": "sha256:47394460dc0b83220ef5bbd5da170920efe97aedc595bff1c7b5bf2683bf4af9",
+    "mtime": 1779431788.6699154
+  },
+  "packages/reflex-base/src/reflex_base/components/tags/iter_tag.py": {
+    "hash": "sha256:38a1e2821227b6d642b73c378d85a79ff19fbf13a7718adb61a11d95bffc29dd",
+    "mtime": 1779431788.6699963
+  },
+  "packages/reflex-base/src/reflex_base/components/tags/tag.py": {
+    "hash": "sha256:20160d67b7300c5d5453dddad03517224f94d36b5e0d8e7d0ecf542cc45a0afe",
+    "mtime": 1779431788.6701415
+  },
+  "packages/reflex-base/src/reflex_base/.templates/apps/blank/code/__init__.py": {
+    "hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1779431788.6664782
+  },
+  "packages/reflex-base/src/reflex_base/.templates/apps/blank/code/blank.py": {
+    "hash": "sha256:c2bcbd1375630bbaadb7f833a8d3b2a38299000973572369dee84591c2d998cd",
+    "mtime": 1779431788.6665504
+  },
+  "packages/reflex-base/src/reflex_base/event/__init__.py": {
+    "hash": "sha256:fa1e66277a3d15928acd2e289e820a36505ad11b138c3aa32ff17fd48c79c8ba",
+    "mtime": 1779451193.3625185
+  },
+  "packages/reflex-base/src/reflex_base/event/context.py": {
+    "hash": "sha256:2f62540b9f8728204f38f8c400ad76e174f89c411348df0754cc473edb6eac95",
+    "mtime": 1779431788.671803
+  },
+  "packages/reflex-base/src/reflex_base/event/processor/compat.py": {
+    "hash": "sha256:e14059bddea64fcc8f874b30cbdf22e9f9a17969a75c030f66111af97a600c7c",
+    "mtime": 1779431788.6720665
+  },
+  "packages/reflex-base/src/reflex_base/event/processor/event_processor.py": {
+    "hash": "sha256:23bf7b6c51a66c7946b3ddad790432b4fc389c5aadcbd31fb6bba39c23c9e74b",
+    "mtime": 1779431788.6721723
+  },
+  "packages/reflex-base/src/reflex_base/event/processor/timeout.py": {
+    "hash": "sha256:8ad2c7dc1f1950240993ee6550799dde2fda781592a49f8ee82e379ba926910a",
+    "mtime": 1779431788.6723099
+  },
+  "packages/reflex-base/src/reflex_base/event/processor/__init__.py": {
+    "hash": "sha256:069407ffa4ba5ce0599091f7f1d829937e9cf03490787ef531d49ee5555198e1",
+    "mtime": 1779431788.6718931
+  },
+  "packages/reflex-base/src/reflex_base/event/processor/base_state_processor.py": {
+    "hash": "sha256:8b2427bd419328c73fc4af5ae6e51a6995eae1609a036a02678befd568aef1e8",
+    "mtime": 1779431788.6720018
+  },
+  "packages/reflex-base/src/reflex_base/event/processor/future.py": {
+    "hash": "sha256:1ebe18179025b083e1df943e0d90fbfc73aa7ec8b74b3d7e2ebcca28ab158aee",
+    "mtime": 1779431788.6722496
+  },
+  "packages/reflex-base/src/reflex_base/compiler/__init__.py": {
+    "hash": "sha256:7181b96f02c68d6be1c3d7a60445a2013bd7d1c40afe27ae914f8015ae52171d",
+    "mtime": 1779431788.668726
+  },
+  "packages/reflex-base/src/reflex_base/compiler/templates.py": {
+    "hash": "sha256:4bb87f45324581534f60e6ca83323fbf51a6bc14380a823fdf69a3c11093384f",
+    "mtime": 1779451193.3612285
+  },
+  "packages/reflex-docgen/src/reflex_docgen/__init__.py": {
+    "hash": "sha256:99574c35d4894bee5858b13038ea8526614338e9fca5b89fdc00784f69bb23a6",
+    "mtime": 1779431788.6967106
+  },
+  "packages/reflex-docgen/src/reflex_docgen/_component.py": {
+    "hash": "sha256:aad994e9fe062976e2404080ce054010fab5f6d4cf0915976811678249e0846a",
+    "mtime": 1779431788.6968858
+  },
+  "packages/reflex-docgen/src/reflex_docgen/_class.py": {
+    "hash": "sha256:ac29812445e0602da5169ba2bd0139969bd0b4606975f005ceef22df8921255e",
+    "mtime": 1779431788.696796
+  },
+  "packages/reflex-docgen/src/reflex_docgen/markdown/_types.py": {
+    "hash": "sha256:a442d0749e71b0d848d2c94f6570c5f5030ad2f0aacf2f3965b7b0f06b6895c2",
+    "mtime": 1779431788.6971722
+  },
+  "packages/reflex-docgen/src/reflex_docgen/markdown/__init__.py": {
+    "hash": "sha256:10f73a6983f249603e0bdc23767971ce5a994eafb84ffac2da54313eda8afbc2",
+    "mtime": 1779431788.6969764
+  },
+  "packages/reflex-docgen/src/reflex_docgen/markdown/_parser.py": {
+    "hash": "sha256:fc4ca2491234d558785314918e30a5601d9cab2db2b10a97a02a6bc981dac9f4",
+    "mtime": 1779431788.697075
+  },
+  "packages/reflex-docgen/src/reflex_docgen/markdown/transformer/_base.py": {
+    "hash": "sha256:7121f8b4c01ac602b88a06360beff27984ac8b15196c0d627210650e09aaa234",
+    "mtime": 1779431788.6973474
+  },
+  "packages/reflex-docgen/src/reflex_docgen/markdown/transformer/__init__.py": {
+    "hash": "sha256:7bbd1bedc4f4f2e6a7e8f9105f78f8cfd5ebe88057c5c1f9c72235c33baf8649",
+    "mtime": 1779431788.697264
+  },
+  "packages/reflex-docgen/src/reflex_docgen/markdown/transformer/_markdown.py": {
+    "hash": "sha256:27f02aaa8e828e1a2248f6ea21b10340b55110044c2a0fb68797ea10ae0d347e",
+    "mtime": 1779431788.6974337
+  },
+  "packages/reflex-components-lucide/src/reflex_components_lucide/icon.py": {
+    "hash": "sha256:ca80889f751eadbea61c58246dee9bb2de94712060676a314e0ef52e3adbfe34",
+    "mtime": 1779451193.3649092
+  },
+  "packages/reflex-components-lucide/src/reflex_components_lucide/__init__.py": {
+    "hash": "sha256:1208132b632e40a41e3812ca5be985d156832bdcdd581226bb51ced9dbc765b1",
+    "mtime": 1779431788.687516
+  },
+  "packages/reflex-components-recharts/src/reflex_components_recharts/polar.py": {
+    "hash": "sha256:cdf5d5ced473ef52c09d984630e75bd11604a7c5dbd01b81656f4e2150779ac8",
+    "mtime": 1779431788.6958973
+  },
+  "packages/reflex-components-recharts/src/reflex_components_recharts/charts.py": {
+    "hash": "sha256:28865a3feb6bbc75985a0e56da0363090884f9cd83ef939cceb24e3b96f2d23a",
+    "mtime": 1779431788.695676
+  },
+  "packages/reflex-components-recharts/src/reflex_components_recharts/__init__.py": {
+    "hash": "sha256:a973e36cd24322ab6ca0e79aeba84c5c9de3c25c9594f9fd7fb0852dbd7b337a",
+    "mtime": 1779431788.6953332
+  },
+  "packages/reflex-components-recharts/src/reflex_components_recharts/cartesian.py": {
+    "hash": "sha256:4726a6b850d5556ca75c01e365cbe81a2c5e3bcba8c5f83e9ed4ff74328f9028",
+    "mtime": 1779431788.695465
+  },
+  "packages/reflex-components-recharts/src/reflex_components_recharts/recharts.py": {
+    "hash": "sha256:424d2e21d90fea0ef21f6efeacc7621658b0344a3723d221a307599ddb05551a",
+    "mtime": 1779431788.6959798
+  },
+  "packages/reflex-components-recharts/src/reflex_components_recharts/general.py": {
+    "hash": "sha256:95f3d165a46157536dc4cad61f43af3bd84af69433adae8db004ee09fabc2b06",
+    "mtime": 1779431788.6957877
+  },
+  "packages/reflex-components-sonner/src/reflex_components_sonner/__init__.py": {
+    "hash": "sha256:2ff99d448cbbf9c711192cf954ae89f0ef9cf9ef83d69f715b0dbdfc4aebbc68",
+    "mtime": 1779431788.6962624
+  },
+  "packages/reflex-components-sonner/src/reflex_components_sonner/toast.py": {
+    "hash": "sha256:295bdddff1611007fddd5b4ab3e51a2af9083ef6ba1dfed562769abe3c9a9afd",
+    "mtime": 1779431788.6963694
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/__init__.py": {
+    "hash": "sha256:99fe31d941d20f9b72d0d1afd75fac79b8b3cfe0b31b2b66d68025793f6e2864",
+    "mtime": 1779431788.6890774
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/plugin.py": {
+    "hash": "sha256:ee4b7fde1dfb77a6746f8ecac09128adba58371b9ba5d91234859f8fd91aeef9",
+    "mtime": 1779431788.6892009
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/mappings.py": {
+    "hash": "sha256:7881979fce8de0d123445af5785fcc3fe84a8d7510e5847192cf2f2488b9df7c",
+    "mtime": 1779431788.6891403
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/primitives/drawer.py": {
+    "hash": "sha256:3477afd7ac2225c8f71767c82084ec14caecb6ff5567eedc878dfc4762ffcd82",
+    "mtime": 1779431788.6896977
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/primitives/dialog.py": {
+    "hash": "sha256:533effd6cb51ef925936af554a6a89e76a8898a2bf3abbc4b2636a56d6243cfc",
+    "mtime": 1779431788.689611
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/primitives/__init__.py": {
+    "hash": "sha256:728816d242d2a35e39d12a3e438f4a900256e55247e851129f5faf93f5127043",
+    "mtime": 1779431788.6892948
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/primitives/slider.py": {
+    "hash": "sha256:24d095d1953430e5a121f1f3a6425a1844e12b6723ebbdd124983aff6d2647ce",
+    "mtime": 1779431788.6899738
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/primitives/form.py": {
+    "hash": "sha256:370a67526910033b59622bd9fe3c61d632a5ebeaac677b2f9928fda5a8b44da2",
+    "mtime": 1779431788.6897879
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/primitives/accordion.py": {
+    "hash": "sha256:ee6a1ea564219ded7e74893e7137a327c3cda767d5b75a63f7be5b4376b3392f",
+    "mtime": 1779431788.6893988
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/primitives/progress.py": {
+    "hash": "sha256:0f15d963bc75e756c061062a7e43ed13a682dbd969a9fd084c30dc82daaae62c",
+    "mtime": 1779431788.6898842
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/primitives/base.py": {
+    "hash": "sha256:677cf4dec824d6f472fbec965df8232c4bd7551f2c600d85915a568482f3e3db",
+    "mtime": 1779431788.6894984
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/__init__.py": {
+    "hash": "sha256:af1c895550d2d917a37b1bc12d36f482d41e27af8189548b80aebabfe73c0d5c",
+    "mtime": 1779431788.6900654
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/color_mode.py": {
+    "hash": "sha256:3643d0374ca7b4a915ece84860513521ec6440fbc1b78dba434f866acfd7c89f",
+    "mtime": 1779431788.6902409
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/base.py": {
+    "hash": "sha256:1eda466595544bbbb1f7c86d1841efb4b257d97772f592758a554fc10300ccdd",
+    "mtime": 1779431788.6901424
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/grid.py": {
+    "hash": "sha256:8f68e8828800a187a6e27cd6a278435e2a43d62b66c2c27eccdfb9dd941a53f3",
+    "mtime": 1779431788.6935425
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/box.py": {
+    "hash": "sha256:9b9f460406e6a66b4051ecb6d8610a0e6729bfd1912ec5dc873c122823b38419",
+    "mtime": 1779431788.6932552
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/list.py": {
+    "hash": "sha256:9c63f8356b24763955f3a5e9c694b15c947cf94fccdc1d39e1d61a74301b3d80",
+    "mtime": 1779431788.6936548
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/spacer.py": {
+    "hash": "sha256:b43989e1ff9e1f80adb9689087ef75fbcc429877d3b6d4b0cdc26df92212fd6c",
+    "mtime": 1779431788.6938138
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/center.py": {
+    "hash": "sha256:88d1ac7e8554ad5b5bf931f7b1d395a715101c5fb61935455425ff2a446e4288",
+    "mtime": 1779431788.6933277
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/__init__.py": {
+    "hash": "sha256:044f5a5ba8ed0fd95417fe90911e78b477236da3293a92e1364147b75aa6dd69",
+    "mtime": 1779431788.6931171
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/section.py": {
+    "hash": "sha256:bd8f6e2d95f2b1ac793203bb5be4f8a0a47e05c45cc6091c8c43ff14a9a0fd0e",
+    "mtime": 1779431788.693734
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/container.py": {
+    "hash": "sha256:e13c956e8281bd0a67553a4ce8c89a0371d034449cac4faf73a5b2aa8604fec8",
+    "mtime": 1779431788.693395
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/stack.py": {
+    "hash": "sha256:ff2dd406fee335b25bd0d63deed8a9c8ddc516f4112bbe255c0dd409e679c1f6",
+    "mtime": 1779431788.6938932
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/flex.py": {
+    "hash": "sha256:adfa81ed675699d844b38ec36defe14f1aec192185bea2498782cf7e1c99948a",
+    "mtime": 1779431788.693476
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/layout/base.py": {
+    "hash": "sha256:b01a6a5f0d29d318a0f3813495188c80e4cb3d897e3089841a08cfad84154498",
+    "mtime": 1779431788.6931872
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/separator.py": {
+    "hash": "sha256:6af521fc9587cf9ad4047b7c02949095fcc5b60490469aa2350b7b1734100fc3",
+    "mtime": 1779431788.6922176
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/aspect_ratio.py": {
+    "hash": "sha256:94184e23ab77cf292b0191b2066ea86ef81b59c24a3bf447a4e0eb54d7404deb",
+    "mtime": 1779431788.6904662
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/dropdown_menu.py": {
+    "hash": "sha256:761e4b4bfba99e09d487ce4a4eb4bcc3182f3ebcfd0c8928e6425679a8ab4f69",
+    "mtime": 1779431788.6913512
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/data_list.py": {
+    "hash": "sha256:a48e0dd916d49a859b93896941888251ab18a4e0f4ae47e5a2fd0684e1687770",
+    "mtime": 1779431788.6911893
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/tabs.py": {
+    "hash": "sha256:b3294569990aaa9923b92455edb13e0e2dcef69d1e124b78566e8448b2f5c5b4",
+    "mtime": 1779431788.6927164
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/dialog.py": {
+    "hash": "sha256:775d6df70f6899b29a245853191908ad8fcd3cfba94ac1682ea203d7c3b959d2",
+    "mtime": 1779431788.6912656
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/radio_group.py": {
+    "hash": "sha256:e5bce97babeb8d9072ae772cfd27b1d6169df9f657b62fc0f81a42277fc485e5",
+    "mtime": 1779431788.6919062
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/context_menu.py": {
+    "hash": "sha256:b605f0a60167b2a9a682e70bd7f2e7c2fe309f8977291340e62ad7ee79779ee5",
+    "mtime": 1779431788.6911178
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/skeleton.py": {
+    "hash": "sha256:759280aafa248279b32dff3935443a789e6e0e3710283623807f43bde015df21",
+    "mtime": 1779431788.6922932
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/__init__.py": {
+    "hash": "sha256:80e8a3b1d96e4dfaba5c3069a81a264dd6f485ee44269cc01ffd05f6c3cdc634",
+    "mtime": 1779431788.6903315
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/alert_dialog.py": {
+    "hash": "sha256:4008a30f108cf85ac305152d2d3cc13413fb1df5bd0b8c5ca1fc6e686a264356",
+    "mtime": 1779431788.6904016
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/checkbox_group.py": {
+    "hash": "sha256:6545e0a9f7c51d71d947d462a7afc88531896791f80c8de0d6d5ff8b7c30f17f",
+    "mtime": 1779431788.691025
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/badge.py": {
+    "hash": "sha256:65bbc2aa584702a751fc2906c987c4cecfc9a566268979a86ea6f779108b063d",
+    "mtime": 1779431788.6906009
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/tooltip.py": {
+    "hash": "sha256:de68236b205ed9af23ce55bd339fcf685480e6f128514071433d7cbc6f60c603",
+    "mtime": 1779431788.6930044
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/inset.py": {
+    "hash": "sha256:cd34e350cd88aa5766e5138334e4a89cf9dda1a685b5ef917107e9802665de3c",
+    "mtime": 1779431788.6915424
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/icon_button.py": {
+    "hash": "sha256:fa36e0e34b07dbe5f51b3cf5ad0879292b3e9c3847aaadc84fc649cadca2a8a3",
+    "mtime": 1779431788.6914804
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/avatar.py": {
+    "hash": "sha256:a2d2ca163a9e67a3e6a738e3650e57171995781fdd6b4d130298c99be1923753",
+    "mtime": 1779431788.690543
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/switch.py": {
+    "hash": "sha256:7c8d9f5b13ae364b3ac363319ecbd52f3f0e80cbc1dc21e9f0a51d678d96c2f9",
+    "mtime": 1779431788.6925316
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/card.py": {
+    "hash": "sha256:ca0f79f042d6b385de82b03d6833879a2be5ddf71f7e12a0d01732f49c3ddc46",
+    "mtime": 1779431788.6907728
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/scroll_area.py": {
+    "hash": "sha256:52faf5620eff5c946719f7b9e5d977219c8d1d2cb9b3f3fd1b89faa84f284f94",
+    "mtime": 1779431788.6919682
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/checkbox_cards.py": {
+    "hash": "sha256:287a88e6c9c511075a4f0fe915d13ee0d77a130c4d7d0dc5886309f722bf3810",
+    "mtime": 1779431788.690961
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/slider.py": {
+    "hash": "sha256:9b5ea2f36d8228374ed8e5aadce9265ef05ea129a858fa4e026aeb5401c6daf6",
+    "mtime": 1779431788.692379
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/button.py": {
+    "hash": "sha256:6fa0dada8cdab0b6e5b0d7b0bc2dcbe0140bceeb9ffdb518a08736cfe3e97202",
+    "mtime": 1779431788.6906545
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/text_field.py": {
+    "hash": "sha256:11e18ae608410f20e73266bb41f657e41fcf8ccfcea4c4e5f018372b5340ce85",
+    "mtime": 1779431788.6929073
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/radio.py": {
+    "hash": "sha256:b940a4eb15cc0f3a0da9a0d62ab9ab0d1fa94c44b21eaf8de63dd2a3f8cfc4b5",
+    "mtime": 1779431788.6917615
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/table.py": {
+    "hash": "sha256:2aaae000a797e582d815b541abd49d27e8671a635e2d2b8a94fa4245a09c334e",
+    "mtime": 1779431788.6926117
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/text_area.py": {
+    "hash": "sha256:f5645b35097bd5f13bcac5118254a21a76c02d3926bfc052d21aeef75316850b",
+    "mtime": 1779431788.69281
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/progress.py": {
+    "hash": "sha256:e7b1b425444c5967ede2a5ea1757c0ca9dedbec5eb5511f0085b5348be9b1921",
+    "mtime": 1779431788.6917005
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/hover_card.py": {
+    "hash": "sha256:052b77ddf06591f5e82d16df7f8315e79f5655ad25f01540e03724d5e164b198",
+    "mtime": 1779431788.691418
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/select.py": {
+    "hash": "sha256:4759782c9fa3422a34dc3dba3731c433dd885232ccd17d7a1db769bb705a0055",
+    "mtime": 1779451193.36543
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/popover.py": {
+    "hash": "sha256:b0db1f9d4787590fee4da77631176e29e76e23cb6cdc5c8c444180b21ac198c3",
+    "mtime": 1779431788.6916277
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/segmented_control.py": {
+    "hash": "sha256:bc9c152bf0a386d4f466363025ebc97cf48f0d525ad45b04ef06e641e02d384c",
+    "mtime": 1779431788.6920636
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/callout.py": {
+    "hash": "sha256:596f3c8e95e376418b050f8af5c701b8a329f011376c85dc48a34e5f0014e181",
+    "mtime": 1779431788.6907182
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/radio_cards.py": {
+    "hash": "sha256:b9a00facdc11a18f04db433c48600eaba57fc3d38a71cee9dff802a929c0a9d8",
+    "mtime": 1779431788.6918218
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/spinner.py": {
+    "hash": "sha256:9fd98f1a51f23cbc9239036858be6e3913e98757a390a3e70fa1bc12b3be7940",
+    "mtime": 1779431788.692448
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/components/checkbox.py": {
+    "hash": "sha256:4f46c5139c0cd2ec7a45b3b98da13518c68a3dec444005bff94f24931e10b7b3",
+    "mtime": 1779431788.690893
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/typography/link.py": {
+    "hash": "sha256:32270d95ae1a92a07436e1f74e86ff5ca21130d7ea1303e12148773c10f294ab",
+    "mtime": 1779431788.6944048
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/typography/code.py": {
+    "hash": "sha256:b22ca1a24cd2b3660fec9b877f0dc0b9704c31425e172dc58f4379cdad141cfa",
+    "mtime": 1779431788.6942275
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/typography/__init__.py": {
+    "hash": "sha256:ecf79a9c5ad28a258b760d7a4b72972e90943a837264300868367e1823c4007c",
+    "mtime": 1779431788.6940012
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/typography/heading.py": {
+    "hash": "sha256:b473574d9cf61723318080162ad9e76f78f8b16b326c2136402fc400636e45cd",
+    "mtime": 1779431788.6942954
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/typography/text.py": {
+    "hash": "sha256:ff068bcfb4b6dd5e468f7f2475a4058c68c67e20a2072bcb0250c38411043cc7",
+    "mtime": 1779431788.694473
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/typography/blockquote.py": {
+    "hash": "sha256:69dc43737978a36bfb1400ba6e939389664efe184ccec68c892af924395e239a",
+    "mtime": 1779431788.6941538
+  },
+  "packages/reflex-components-radix/src/reflex_components_radix/themes/typography/base.py": {
+    "hash": "sha256:dde880646b3f975f44ddf13c2a95fbe659521361687ae0f7ca9f38c149c15f4b",
+    "mtime": 1779431788.6940732
+  },
+  "packages/reflex-components-plotly/src/reflex_components_plotly/__init__.py": {
+    "hash": "sha256:bfce69316649f67f2269395a0d10482a7cb5c4302a4b5995e75083f3cade327d",
+    "mtime": 1779431788.6886702
+  },
+  "packages/reflex-components-plotly/src/reflex_components_plotly/plotly.py": {
+    "hash": "sha256:d9b8adc074303433c98ab49e591140b74d1c921d3dd4d53c5e312a855033d363",
+    "mtime": 1779451193.3652744
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/route.py": {
+    "hash": "sha256:e47fe58a6c75bb9ceb3f1d724e7e8bab055df7eb18e2d45c0cea2c2a8cf6fc9d",
+    "mtime": 1779431788.7050648
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/constants.py": {
+    "hash": "sha256:bf800761fa8b76abcf0e659c910786770f6384afcba4bd92e95da3b3c03da8df",
+    "mtime": 1779451193.366802
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/__init__.py": {
+    "hash": "sha256:3138df0a77106040d1b3c17bcb57ed632d875bbfd81993d8797f680fc0d6ac1d",
+    "mtime": 1779431788.7001326
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/integrations.py": {
+    "hash": "sha256:c7abc3dc9ed5ad4b7c3829c174083068474018cd7617e69ac276982b007b14aa",
+    "mtime": 1779431788.7040024
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/gallery/sidebar.py": {
+    "hash": "sha256:79d1a5513c611a3265fa2ed0e54004d9385061e9a47d41b25796d6cd19d8b614",
+    "mtime": 1779431788.7031713
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/gallery/__init__.py": {
+    "hash": "sha256:4af7b03bbecb228e36ba9a5b60bfe22449205e3a6ddd433d750759a87bbb5506",
+    "mtime": 1779431788.702361
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/gallery/r_svg_loader.py": {
+    "hash": "sha256:281db1f11f21c91d0bdba9cf008d9186ed8b4851e1a98ea212db4265460b20f0",
+    "mtime": 1779431788.7030747
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/gallery/apps.py": {
+    "hash": "sha256:ac7897e4bba2d175d8a067738b9bc6fceacb96ea386cee6df386221a478d0a54",
+    "mtime": 1779431788.702452
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/gallery/common.py": {
+    "hash": "sha256:887657647f4c5c8bdc7f6f8c0c94f7b04afbf65a53dc2a60bba33f426a8092c5",
+    "mtime": 1779431788.7025437
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/gallery/gallery.py": {
+    "hash": "sha256:30b15128bfbc74fa537f3bd1aa789bf2ee484d21359cbe3d822dd340771404bb",
+    "mtime": 1779431788.7029796
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/meta/__init__.py": {
+    "hash": "sha256:cc48faff5f83ca05f8e6c600e77ef870d2cca2793350dc1c4ed49e02b1d4b28f",
+    "mtime": 1779431788.704633
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/meta/meta.py": {
+    "hash": "sha256:4914e7c819b69030e9a4db7263e3b61d3b533e93e6152f9b87bbbb2caa0084a6",
+    "mtime": 1779451193.36698
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/utils/md.py": {
+    "hash": "sha256:65e403e8fbafdb2e3c46cc13d1cf0c91c6e1965a1edc3f8b9f15251380d7f91b",
+    "mtime": 1779431788.7062433
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/utils/__init__.py": {
+    "hash": "sha256:6c2ebe32c09517bc4a4ebe3ccfb3b324951e5afa8007b0621de35388ab267bbd",
+    "mtime": 1779431788.7061198
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/utils/docpage.py": {
+    "hash": "sha256:3d9a66fd875d9c12f64ce1c2ebbfc7d536bbdb1f8b88ab9ed95183554921f441",
+    "mtime": 1779431788.706185
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/backend/signup.py": {
+    "hash": "sha256:774d314cb76a8bb4bbd588b4791e257b2fde78f7fd57f28798900f80f23f2de9",
+    "mtime": 1779431788.7003324
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/backend/__init__.py": {
+    "hash": "sha256:f50359df9fb553cbfcc8147295e24c30a51a8e0290c554e8e3db761daed77db5",
+    "mtime": 1779431788.7002177
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/backend/get_blogs.py": {
+    "hash": "sha256:1754090775637f7d7f84980314d14210a3be1ed040464b52b493d88d5b82f68e",
+    "mtime": 1779431788.7002742
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/backend/status.py": {
+    "hash": "sha256:d0af81327314f21bf1dd784e25856d6820aeb51295c884fb27eb0130c0067212",
+    "mtime": 1779431788.7003949
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/styles/__init__.py": {
+    "hash": "sha256:9c70b649bb48105961f64501332c6812c10f3e9010a5b2be87f4c5e78ca36bb2",
+    "mtime": 1779431788.7051497
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/styles/shadows.py": {
+    "hash": "sha256:24f56c5d474ecdda980fc9c6b30171da7d4e0cbecfa6782b6a5933ead2854039",
+    "mtime": 1779431788.7055268
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/styles/styles.py": {
+    "hash": "sha256:04799b7a741952685ba7fdc69054b1be3f142e471acd7475163f4744079738ce",
+    "mtime": 1779431788.7055845
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/styles/fonts.py": {
+    "hash": "sha256:94bf33c6ba23e0e960e9fb9e36becfb03582a63f789da7ef3720f332d75127dc",
+    "mtime": 1779431788.7053485
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/styles/colors.py": {
+    "hash": "sha256:75478f25d8ac1ae3cc79eff06281c4817b4520ac0fa6d777ed530d7f105687ca",
+    "mtime": 1779431788.7052112
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/marquee.py": {
+    "hash": "sha256:3142f40dfd2b95ae1f0ab8063067af24a6cadddec0db3b4435d63c61df19d1d9",
+    "mtime": 1779431788.7020748
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/code_card.py": {
+    "hash": "sha256:8bcfb6ece70759cbdad280cb68cf0e0e83ce2be788128ea20935597925439581",
+    "mtime": 1779431788.7011137
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/patterns.py": {
+    "hash": "sha256:6a897c5f857b968283b234963bfbb60e4eead0321e450d0f8397d28493947061",
+    "mtime": 1779431788.7021568
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/icons.py": {
+    "hash": "sha256:5d2516b02a065e81c444f8de2919c70feb4e75eb86a3fc4346ea0352cbe6a17b",
+    "mtime": 1779451193.3665602
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/__init__.py": {
+    "hash": "sha256:01cd2951a6046d4af89c3e91b453680d6d5f86cbc7f0dfd834e9ad148dba3c70",
+    "mtime": 1779431788.700481
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/docs.py": {
+    "hash": "sha256:5e4d41dea7762298fe6fd6297876131b15666005a7373788c1b3e335b2206bd4",
+    "mtime": 1779431788.7011824
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/marketing_button.py": {
+    "hash": "sha256:e8bd75d8e94e9b8fde4071461e2b94d1108b375bf67d1c4d8b6294b51edabee4",
+    "mtime": 1779451193.3666923
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/server_status.py": {
+    "hash": "sha256:641c4be30e261e4166727387863ea2021f116f74cf5a989ea5c93f31c9f38f5d",
+    "mtime": 1779431788.702216
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/hosting_banner.py": {
+    "hash": "sha256:a75acd61a97b9563cf5f8c62f9e1a0425994f31f43d251446e4ed53cc40b9ffc",
+    "mtime": 1779431788.7012427
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/image_zoom.py": {
+    "hash": "sha256:ae4dcacf358a5ce5b286d0a17a5402f1936dd247693c92a2c5b790c5cf556fa0",
+    "mtime": 1779431788.701956
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/blocks/headings.py": {
+    "hash": "sha256:ae054e13698aa23f8d913d94c2a0f658a04a3ee2107c577d76e21c1f9e911d61",
+    "mtime": 1779431788.7009702
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/blocks/typography.py": {
+    "hash": "sha256:2e2b567471e8edf7b9c9e6d218ad741769173432b2d3c56afbe5db19770c182f",
+    "mtime": 1779431788.701027
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/blocks/flexdown.py": {
+    "hash": "sha256:ed2fee5a12cf0e5d8a829af40d11e216881eb38d6a17945f1f78e93bfe76d46e",
+    "mtime": 1779431788.7008843
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/blocks/collapsible.py": {
+    "hash": "sha256:d678b80d2462486d5fe329adaffa084c5ab0200bb0136edfce1fce12563a19b0",
+    "mtime": 1779431788.700715
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/blocks/code.py": {
+    "hash": "sha256:895dd09e1d3bc02ec35069a67ada052c6719186f9872853eb902b352875872c5",
+    "mtime": 1779431788.7006533
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/blocks/__init__.py": {
+    "hash": "sha256:d6142b4be7b44d7c88b4b4b6ea68182b75269003c652fed2c490e59873ac1a4d",
+    "mtime": 1779431788.700568
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/components/blocks/demo.py": {
+    "hash": "sha256:739b2b6632a7e346bda711fa7492b41e32e9ecb068b98d32b5de316064cd4202",
+    "mtime": 1779431788.7007985
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/lib/route.py": {
+    "hash": "sha256:d2d469d686e454a0409cf8c9f5fd666ea34040eef98568fbc2ef11e01b7ed666",
+    "mtime": 1779431788.7045422
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/lib/__init__.py": {
+    "hash": "sha256:40e5a1c7fef60d0f4dd05cf5fb9c24a11c088114f99d43a6407e66847858328f",
+    "mtime": 1779431788.7040899
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/lib/meta/__init__.py": {
+    "hash": "sha256:cc48faff5f83ca05f8e6c600e77ef870d2cca2793350dc1c4ed49e02b1d4b28f",
+    "mtime": 1779431788.7041829
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/lib/meta/meta.py": {
+    "hash": "sha256:02b5aeee7b4beb5a90dc7e4f7f4d5cdf156b2fc3ffd3365673c5d9502b98ec89",
+    "mtime": 1779431788.7044635
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/templates/marketing_page.py": {
+    "hash": "sha256:93d20a229f573caced236020be10dff29b87453871703f7bb85f177007ebba9d",
+    "mtime": 1779431788.7059736
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/templates/webpage.py": {
+    "hash": "sha256:0d8bdf110b33fd29fa1de14b16c86d8814370c6708a207cd1639b9bc90c30c3b",
+    "mtime": 1779431788.7060313
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/templates/__init__.py": {
+    "hash": "sha256:b01764e82048c1dde26aec29917822750f296d5568f2dbaa0140601142d090c4",
+    "mtime": 1779431788.7058268
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/templates/gallery_app_page.py": {
+    "hash": "sha256:0942c3f3bfbfae13c241597031080488d1e67d9bd519d7042e5907d2ed661d5f",
+    "mtime": 1779431788.7058938
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/telemetry/pixels.py": {
+    "hash": "sha256:5db84bceba4b688994f2c9c1fc844f50e313682cb75e918721eea27d46f846c7",
+    "mtime": 1779431788.7057357
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/telemetry/__init__.py": {
+    "hash": "sha256:a7d2e8400f3885cd79a312e2a78799d4d9f6cbf780a7c3674891ce474932fca3",
+    "mtime": 1779431788.7056766
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/views/cta_card.py": {
+    "hash": "sha256:33e26bcd5143772316b8e59dea560e87ca721fe6e84f5185a665c24b11c39c90",
+    "mtime": 1779451193.367207
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/views/__init__.py": {
+    "hash": "sha256:bc3d2a8b0e03e09ae591661ae9637886a8b239cb8dedbf2bacdda4276b222349",
+    "mtime": 1779431788.7063308
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/views/marketing_navbar.py": {
+    "hash": "sha256:d5eceebcf4e39c4e5308ac65f295eb7456775522ee46ef8560cf0e9fed4a0dac",
+    "mtime": 1779451193.3676758
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/views/workflow_stage.py": {
+    "hash": "sha256:28b04c72058f053af5787ff87cf72ec349cd3a09c6f2940fe1a4a4e99e709db8",
+    "mtime": 1779451193.3679256
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/views/footer.py": {
+    "hash": "sha256:3536c6c7de43efbbd5754f054a7be2cb46bbca230593db6fb493e5f2b66af810",
+    "mtime": 1779451193.367387
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/views/hosting_banner.py": {
+    "hash": "sha256:a5aa337786bc5cff909f20c5881f3825e6d113d76357f33a1bbda65ccfc55c8f",
+    "mtime": 1779451193.3675292
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/views/sidebar/__init__.py": {
+    "hash": "sha256:d2e413da2de5cdc9f693ca8bfdc5cf853900dc41e5fb991480d240f10acd074e",
+    "mtime": 1779451193.3678265
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/pages/__init__.py": {
+    "hash": "sha256:df9aaea4e051852f383f1355faed7b112a84853c4c92e1a361ba3bcaf95bca53",
+    "mtime": 1779431788.7049522
+  },
+  "packages/reflex-site-shared/src/reflex_site_shared/pages/page404.py": {
+    "hash": "sha256:8745671b1e8e452bcc4ddf16b59173d9bef730df922cb62da9dfd620575ac0c5",
+    "mtime": 1779451193.367091
+  },
+  "packages/integrations-docs/src/integrations_docs/__init__.py": {
+    "hash": "sha256:3ce4adcc5f6bd792eeb422cd125a1edfc2966b37417a778cb6285ddaa96ea70d",
+    "mtime": 1779431788.645056
+  },
+  "packages/integrations-docs/src/integrations_docs/docs/__init__.py": {
+    "hash": "sha256:54d8e43e92b2ca554de929a10a9e7a59db2b98e7852b92f350d3e20e65be9feb",
+    "mtime": 1779431788.6451492
+  },
+  "packages/reflex-components-core/src/reflex_components_core/__init__.py": {
+    "hash": "sha256:1ee20e82dfd8cf109d260bf1a88647ad182f0dfcb3437e4d9538c95c9eded7b7",
+    "mtime": 1779431788.677876
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/markdown_component_map.py": {
+    "hash": "sha256:b1e793819d0f905cea817278911abb4735cbc8a322d61e4f897978914e4e18dc",
+    "mtime": 1779431788.6799264
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/window_events.py": {
+    "hash": "sha256:fb858bed7fcd42a801baa7bb34213a02a5a2f55900f70d83037e809e82ba03e6",
+    "mtime": 1779431788.6803753
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/upload.py": {
+    "hash": "sha256:bcdcd11c2b81947aad41d2975bcc11f113fab90de97ca6c8ebbaacf5aa0d90fa",
+    "mtime": 1779431788.6802626
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/auto_scroll.py": {
+    "hash": "sha256:f99a6a354b65f9d9ea2ef93fd1dd1a6cf2a71238c61aecf6bb517314d581ddbd",
+    "mtime": 1779431788.6790092
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/html.py": {
+    "hash": "sha256:2bdd9d682c23107568b62cc78ab679c26f1b4f17bab3596ddf15f21929a3ef93",
+    "mtime": 1779431788.6797712
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/__init__.py": {
+    "hash": "sha256:a3131282427a5be17583e8af3a4f423f0a58a757c439e8a471e81d1803120c27",
+    "mtime": 1779431788.678805
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/sticky.py": {
+    "hash": "sha256:94302cbec4234ccd0cb9b7d4ecfde8a8a7ecf1c8b7e803cb731aabce91ff0683",
+    "mtime": 1779431788.6801486
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/cond.py": {
+    "hash": "sha256:963004fb4002c03592b1c735172ccf3e8357c5fdeaf159a39768fe8cf34971ec",
+    "mtime": 1779431788.6794496
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/foreach.py": {
+    "hash": "sha256:8b39a2a3b15c770b31730b55ace74af7262be031c7f54befa3e1d45f6011130d",
+    "mtime": 1779431788.6796465
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/_upload.py": {
+    "hash": "sha256:203cf0ba418e830b86de15b9d9a01a3d56d2b770ca117f2e6c41f480e733a96d",
+    "mtime": 1779431788.6789234
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/debounce.py": {
+    "hash": "sha256:62195aaf5140a8462fb6418963d2122f3882fe46efac5f575f834c6573187e16",
+    "mtime": 1779431788.6795428
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/clipboard.py": {
+    "hash": "sha256:8496dce1ede09d2023f7649812bfbaf6b9c2c47924e63e7b864666764c8d3daa",
+    "mtime": 1779431788.6792865
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/breakpoints.py": {
+    "hash": "sha256:ec0bb24afc24b5e122b5d420c67e5100e78d3bb57ffd7b371a116f9832d1694f",
+    "mtime": 1779431788.6792026
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/helmet.py": {
+    "hash": "sha256:79d2678b1dacc598efcc3738965c9592aba36afb549a0cab69f7afc187b82691",
+    "mtime": 1779431788.6797066
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/banner.py": {
+    "hash": "sha256:3bd29edbcc9bd8f46fb5b504552f112c1e619afe8eda2353333a91c8d6bc3ed2",
+    "mtime": 1779431788.679126
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/match.py": {
+    "hash": "sha256:6af6af0242087d7764560f2ee0b7e8635932311350c9476a01a706bf5af8617e",
+    "mtime": 1779431788.6800141
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/responsive.py": {
+    "hash": "sha256:e13000ce645362f5046bb9be80583e3abc038fad1fd00a026dfe01b15547b8bb",
+    "mtime": 1779431788.680075
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/colors.py": {
+    "hash": "sha256:002f937d21fba8d38fb750764b97ffe93e78c4db8a8a15c7694553a883f29abd",
+    "mtime": 1779431788.679352
+  },
+  "packages/reflex-components-core/src/reflex_components_core/core/layout/__init__.py": {
+    "hash": "sha256:ce795d65a8ff346b7ca826431bbd063308cc4ec91cbc27ffd8dfc48c2007c1d7",
+    "mtime": 1779431788.6798666
+  },
+  "packages/reflex-components-core/src/reflex_components_core/react_router/__init__.py": {
+    "hash": "sha256:8adb50e251e512c8c39de617383223cf753467c8e3b43eb18d0b9034377630e4",
+    "mtime": 1779431788.6816623
+  },
+  "packages/reflex-components-core/src/reflex_components_core/react_router/dom.py": {
+    "hash": "sha256:9b05cfb9cfc938f50f622e8b3d19c84e628b3bf9b3a598962ff55a1bf0f06c27",
+    "mtime": 1779431788.6817236
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/__init__.py": {
+    "hash": "sha256:69b5d4c0dd517eafcf4afe11a5349c5deafa1b0c1880833dcbd26618287134a2",
+    "mtime": 1779431788.6806514
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/element.py": {
+    "hash": "sha256:7f3842e455e089cf9090f933402d5cbf556084ad237341cd3efbb5b58731e0f7",
+    "mtime": 1779431788.6807177
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/typography.py": {
+    "hash": "sha256:a837d8b92962ea8fd364d80b855a72861990c8f9aea71bbdfc76b763c9ae765c",
+    "mtime": 1779431788.6815712
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/media.py": {
+    "hash": "sha256:ba2bd47c79204a1f3a0362cfb4d670dee224dae3776432b95d346bb9adc39fb3",
+    "mtime": 1779431788.681199
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/metadata.py": {
+    "hash": "sha256:4100280ddfb0fc379b387569ec47d40308a8ee5ab9a929f9d02634051c548be1",
+    "mtime": 1779431788.6812706
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/sectioning.py": {
+    "hash": "sha256:c15911df976de0330729c24de5fd1a8251f5eb1499ccef7e59e7acbfa6d0fc23",
+    "mtime": 1779431788.6814559
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/__init__.py": {
+    "hash": "sha256:4d05a123d086644667b3bb1d99065a3b14f1c0ab2b5c9fad9d46df757636c312",
+    "mtime": 1779431788.6808267
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/other.py": {
+    "hash": "sha256:09dd3197349baf4726fc9e77d3cc6b1100cefd4f627f3a0c61086e35a5077011",
+    "mtime": 1779431788.6813326
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/forms.py": {
+    "hash": "sha256:888f92630082e23ecf7f647a3024cd4f45017740b0b23c0065e2deb908a61821",
+    "mtime": 1779451193.3638005
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/tables.py": {
+    "hash": "sha256:5d7851d172eed5ecbf25ed21c860e39fa3a878c8a850636fa07f49fefddc9d4f",
+    "mtime": 1779431788.681512
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/scripts.py": {
+    "hash": "sha256:8224658499b05d1dfad276a30530f2454277364f848343d2520265383fb1785b",
+    "mtime": 1779431788.6813917
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/base.py": {
+    "hash": "sha256:db665a1e7d36a839f503cab5699a8aa241cc72910590025bfa8c4ce243b79a66",
+    "mtime": 1779431788.6809168
+  },
+  "packages/reflex-components-core/src/reflex_components_core/el/elements/inline.py": {
+    "hash": "sha256:7dd3c0b151bd1f6428aae602a5be8142ab3b7b2171da5e3a4c971ea5bbf7d268",
+    "mtime": 1779431788.681117
+  },
+  "packages/reflex-components-core/src/reflex_components_core/datadisplay/__init__.py": {
+    "hash": "sha256:33f4c254f69e70f73b5ff2281cff114d2cac8e3623a0e2e21aecfab67fb30a24",
+    "mtime": 1779431788.6804788
+  },
+  "packages/reflex-components-core/src/reflex_components_core/datadisplay/logo.py": {
+    "hash": "sha256:a007ad54420cac9995189f8d00b9643adae1048445938833f6204fb49bda6570",
+    "mtime": 1779431788.680552
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/link.py": {
+    "hash": "sha256:5d710602dd24f706563cf481d8285b6c4b76a6f84273d8816afff14539993d5b",
+    "mtime": 1779431788.678497
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/body.py": {
+    "hash": "sha256:7421bfaabf80f01ad6802cc3e9f87f1461ee967d23b916d1c5648ddfec96eb47",
+    "mtime": 1779431788.6781936
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/__init__.py": {
+    "hash": "sha256:3942a443317ff097e9a4bcfb96cffaa282362ce06325e1a87d2ade09e936c5ee",
+    "mtime": 1779431788.677976
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/strict_mode.py": {
+    "hash": "sha256:11a9c797b3376eb837ec35eaab85105de1c25c1e8501c98f3153a221b92b02fc",
+    "mtime": 1779431788.6786947
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/fragment.py": {
+    "hash": "sha256:535881d9446b87cac59540fb5a85c179e9e5f92e0c42023ba426c6651f108f5d",
+    "mtime": 1779431788.678435
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/app_wrap.py": {
+    "hash": "sha256:869ad38cf009e90c52b14bb235587126fcbbbc2d1eac7b7e4557e39e4bcecfce",
+    "mtime": 1779431788.6780434
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/document.py": {
+    "hash": "sha256:b314b96ed0f73cc60a77f07b4e2da212ffbd318d1b65fc92348e276a71c51e5d",
+    "mtime": 1779431788.678257
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/error_boundary.py": {
+    "hash": "sha256:5a6b0e73bdf43404b02571f0260c1f3865e297174e183a526c01824a2469393a",
+    "mtime": 1779431788.678364
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/script.py": {
+    "hash": "sha256:405603e6b1a5549a2a0b49ac3040f7ad7ba711ead357596b891ea58b1c289671",
+    "mtime": 1779431788.6786346
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/bare.py": {
+    "hash": "sha256:e149e6e95366d5ce2d3888ebd47b72351841e03d96b26df7fef553707ee29e53",
+    "mtime": 1779431788.6781347
+  },
+  "packages/reflex-components-core/src/reflex_components_core/base/meta.py": {
+    "hash": "sha256:fea2555f33c0a0c16c29d8a2253e380192488af93ebb5f21ad729bd229acfad3",
+    "mtime": 1779431788.6785684
+  },
+  "packages/reflex-components-dataeditor/src/reflex_components_dataeditor/__init__.py": {
+    "hash": "sha256:a68ddd130fc4850e7c1fa1c14e340d6119c4358bef00d8183ca0ff3a31ba57c0",
+    "mtime": 1779431788.6820028
+  },
+  "packages/reflex-components-dataeditor/src/reflex_components_dataeditor/dataeditor.py": {
+    "hash": "sha256:803861460d7af448e1a5a34010c9a2b0e022b084519838d6f3cf41989a433810",
+    "mtime": 1779431788.6821015
+  },
+  "packages/reflex-components-markdown/src/reflex_components_markdown/__init__.py": {
+    "hash": "sha256:bf4902ef13df3c8f8fc6350c3cea3393486974cdeef883260eaec3a4fa555a66",
+    "mtime": 1779431788.6879168
+  },
+  "packages/reflex-components-markdown/src/reflex_components_markdown/markdown.py": {
+    "hash": "sha256:36610b219b6d362ba01cdcc83da24e0db1bef8ed442469f77ee423141b6706d1",
+    "mtime": 1779451193.365088
+  },
+  "packages/reflex-components-react-player/src/reflex_components_react_player/__init__.py": {
+    "hash": "sha256:d4e4c779992e79f8becc855773f419313060e3f46c1ab31a24776e714b994025",
+    "mtime": 1779431788.694802
+  },
+  "packages/reflex-components-react-player/src/reflex_components_react_player/react_player.py": {
+    "hash": "sha256:5c5d109391ab8d5137c8287b82e4df29c445394776e443e6183180601f857115",
+    "mtime": 1779431788.6949685
+  },
+  "packages/reflex-components-react-player/src/reflex_components_react_player/audio.py": {
+    "hash": "sha256:b297f27492a5c65316a9d01a0682a230f0ae152c7d2fb7348c660dcde6178a48",
+    "mtime": 1779431788.6948667
+  },
+  "packages/reflex-components-react-player/src/reflex_components_react_player/video.py": {
+    "hash": "sha256:7952bdad122bb24df6c873a8e7e70b21c4a86197f07dcfe2782fd5331a7da972",
+    "mtime": 1779431788.6950283
+  },
+  "packages/reflex-components-moment/src/reflex_components_moment/moment.py": {
+    "hash": "sha256:7c19d50fd5c1ed0fbe6b6a0fbcc4f63d5cf6b99647cbc5534dcdfe7e29eaa08f",
+    "mtime": 1779431788.6883874
+  },
+  "packages/reflex-components-moment/src/reflex_components_moment/__init__.py": {
+    "hash": "sha256:8c69d9811062bd82503c870582d2da5c5b5e09e206de0187e400979231209ac2",
+    "mtime": 1779431788.6882823
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/__init__.py": {
+    "hash": "sha256:fafdfa5fb7cb409a178d6cec30efa14afd9a49e1631ccfe9b118820eedbc4090",
+    "mtime": 1779451193.363951
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/__init__.py": {
+    "hash": "sha256:b15887332d1b4f8f4a7c30e374c9194909cd20b8719884664a9e9ad753b541ec",
+    "mtime": 1779431788.6828477
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/lemcal.py": {
+    "hash": "sha256:9e1662def5beb7616dfe9a51db3f408a545bd31c74d8c894cf1e14785e3ee274",
+    "mtime": 1779431788.6831684
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/plain.py": {
+    "hash": "sha256:7a73e7be911eb2cbe8075f5cb6f2e5a97ac42a643fc55568129d8fa7cc280872",
+    "mtime": 1779431788.6832554
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/calcom.py": {
+    "hash": "sha256:b9d94e5a6cbdfdbfcdc0a420e6441d604f0089808630609e8c853fcd56a66994",
+    "mtime": 1779431788.682909
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/demo_form.py": {
+    "hash": "sha256:13aa1f9e5a1f558519b10377a673edd2292eb371e9f3467e2aac160e82ef2c0d",
+    "mtime": 1779451193.3641217
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/intro_form.py": {
+    "hash": "sha256:2001844d1f46ca714e5fe0dce13e5fdafe468b22d14995f0a87931ffb755e3ce",
+    "mtime": 1779431788.6831086
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/telemetry/koala.py": {
+    "hash": "sha256:440c5cc59dbe4d3c56c2e1f29e8db2f4e19bd97894cd7330201c9e236e95ab1c",
+    "mtime": 1779431788.6836362
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/telemetry/unify.py": {
+    "hash": "sha256:d05026780ee9f540df492f7e593cf3236e425076018409dde7c53af8157f6d11",
+    "mtime": 1779431788.6838388
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/telemetry/rb2b.py": {
+    "hash": "sha256:c2d1cdbd222126ca72961c649f822b1b7f269dbf3c90829efb483e8862ab5854",
+    "mtime": 1779431788.683783
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/telemetry/__init__.py": {
+    "hash": "sha256:046851abc1649bf70f218b9fad9e707b3caa7a82402687152b4f4448e49498b2",
+    "mtime": 1779431788.6833482
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/telemetry/google.py": {
+    "hash": "sha256:098fea0689f5308c7595decf3fce6fb7094b4f735534ad08f2cd12e4f41c4100",
+    "mtime": 1779431788.683578
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/telemetry/posthog.py": {
+    "hash": "sha256:8c569860028f42d0245ec0d92ee83e105026bfc855766971b75b36a3ddf5cbc3",
+    "mtime": 1779451193.364254
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/telemetry/default.py": {
+    "hash": "sha256:aa1d6b67e4de6defda6f1e14146ed431df760c62eb4eca77ad022ca3e436393f",
+    "mtime": 1779431788.6835191
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/telemetry/clearbit.py": {
+    "hash": "sha256:95fde17f09924168623ef8841a8e81bb62f4773d3cd16bf3dd8c5c271a7c4047",
+    "mtime": 1779431788.6834042
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/blocks/telemetry/common_room.py": {
+    "hash": "sha256:13593c050bc65fc0e5b6c41f20cf7e3f52ee92bd9ad72f02e7cc00518d14a918",
+    "mtime": 1779431788.6834638
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/utils/twmerge.py": {
+    "hash": "sha256:f050ec77dd3b8788e128a0f90197c47529ea1cfe491fa50700ea0f859c2c785b",
+    "mtime": 1779451193.364741
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/utils/__init__.py": {
+    "hash": "sha256:31b02998fc07ca9507b999a94623f7df739a3bddf1754eeb2fe9dd7350b32586",
+    "mtime": 1779431788.6871858
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/__init__.py": {
+    "hash": "sha256:5ebd46108fd4f594df3b342ffec662fb63373b99736263bf1c3a5fcebe728da2",
+    "mtime": 1779431788.6839373
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/component.py": {
+    "hash": "sha256:13814ef05af67c38e41d3d5e2e34067faf93ff3b4fb08ff5fd76f389ee573afd",
+    "mtime": 1779431788.6868095
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base_ui.py": {
+    "hash": "sha256:6175950e15a83e633db502704b5ffb5d7695913ab39cc32f196071e780d80af0",
+    "mtime": 1779451193.3646367
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/icons/hugeicon.py": {
+    "hash": "sha256:286e144108a9230fe3b1eec6d35217bb936fa55fe61bfe391b9b44ed5530af31",
+    "mtime": 1779431788.6869736
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/icons/__init__.py": {
+    "hash": "sha256:e6dab933efcdc8b421592837e34439042cc603e1b7a05f215a030cc2323144d2",
+    "mtime": 1779431788.6869097
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/icons/simple_icon.py": {
+    "hash": "sha256:4dca864d29be95794d79e6619bdd66b2579d5ee53a6668f7ac0a2c09d8374834",
+    "mtime": 1779431788.6870983
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/icons/others.py": {
+    "hash": "sha256:11c6c96a1164d803b76df4416418dd52edd4397b5d686a5422a227f26fac850d",
+    "mtime": 1779431788.6870384
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/link.py": {
+    "hash": "sha256:91ea5a124a8faf7c5bd4461958b5b363e25a05392d8b77366c251f9e8affb95b",
+    "mtime": 1779431788.6851206
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/toggle.py": {
+    "hash": "sha256:6c968d07b8ca2e9ef37809366b4e12e2d02116e92ec714a9c70724cc32e8b9b0",
+    "mtime": 1779431788.6865454
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/theme_switcher.py": {
+    "hash": "sha256:a4b6012d24954df2d8604ea941698d0a1ebd270ee44b00d40f81cd9562552b0d",
+    "mtime": 1779431788.6864812
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/textarea.py": {
+    "hash": "sha256:78a23ebf4b9fa8dd4563e699ad3f16b72f34df30ba568b53b7c6ca50732406e4",
+    "mtime": 1779431788.6864142
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/drawer.py": {
+    "hash": "sha256:38476fa9be90e54ba0656f48b473e6f135f038977166f8a30fc363305c48c2cc",
+    "mtime": 1779451193.364418
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/tabs.py": {
+    "hash": "sha256:478831154b614cf136082c6edfa4c4ecf1ca0245e80f67ecbeb6d56c5cebf659",
+    "mtime": 1779431788.6863506
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/dialog.py": {
+    "hash": "sha256:9df087a1f5af703a8d2f86f4333875d2e87d97474b094b20b7c0e18604267613",
+    "mtime": 1779431788.6848025
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/context_menu.py": {
+    "hash": "sha256:7790fdaf0d7b060f42a61f62183df2762bbf5e82e8689271ffbd8d204668f3a0",
+    "mtime": 1779431788.6846998
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/skeleton.py": {
+    "hash": "sha256:e03be0082694802e062fa69f33777028384a65a7343c53d957001975470dbc5e",
+    "mtime": 1779431788.6859615
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/collapsible.py": {
+    "hash": "sha256:9d8aeeb7f6cda5ea50f0e66734d5bd17c5476a64cfaf44d743afa2f9e5c56111",
+    "mtime": 1779431788.6846168
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/preview_card.py": {
+    "hash": "sha256:2014f93e22c9843c2b51155881c58768ce0969417c7a9f452ad31e81e3967e82",
+    "mtime": 1779431788.6857421
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/__init__.py": {
+    "hash": "sha256:84a7b72a6461915f46e1b4377f5a71795f68e63c346ba87aca6cdd5d6ab2c610",
+    "mtime": 1779431788.6840308
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/otp_field.py": {
+    "hash": "sha256:59bf50c1857aa072e062558d688c66d1fc9d512728f7077b5c2e854266996306",
+    "mtime": 1779451193.3645272
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/badge.py": {
+    "hash": "sha256:4e8495faeb5dd9c4e78947aa714075452560b11553497b28c2abde9babe91c0d",
+    "mtime": 1779431788.6842537
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/tooltip.py": {
+    "hash": "sha256:35b4d49a56de773595258cf96287d9aa64b603fb9d5b08dca93f5f9968787d45",
+    "mtime": 1779431788.686684
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/avatar.py": {
+    "hash": "sha256:ab7cc09a0c9529a613e53d375496497b229198fd01fa626ede7b0c8ada1d3657",
+    "mtime": 1779431788.684196
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/switch.py": {
+    "hash": "sha256:2e5aace2d4f36ce714e7bf8014b8255da31b38836acff719eb6cedf64031f074",
+    "mtime": 1779431788.686256
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/card.py": {
+    "hash": "sha256:e4025e6153f12595f21abbc344a31f015b15e09c9f0ec7fa1f07826a0ded831a",
+    "mtime": 1779431788.684444
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/scroll_area.py": {
+    "hash": "sha256:f3f6dcea02bbe94f09a406bd1c7f0bfc2cd2051c56d40e0051258547efebccad",
+    "mtime": 1779431788.6858354
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/menu.py": {
+    "hash": "sha256:89a08b3e4b1fe9f03b82958d4efc67050b5397e993f9a9dc7e796d6e3aad452c",
+    "mtime": 1779431788.6852002
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/slider.py": {
+    "hash": "sha256:1a7eacb0516c00a11e872eaac71383008b7e0044f15692f7ac05c9d23cece6fd",
+    "mtime": 1779431788.6861591
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/button.py": {
+    "hash": "sha256:50d6feddbc1d9b81b56eb73bd7bda3e7165393c0e6794e5a42791805e6f38f9c",
+    "mtime": 1779431788.6843414
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/accordion.py": {
+    "hash": "sha256:d4d4d31270f618e7587dbe94602f8355c1d9120ef40dc5f94e42a2857fdc1b31",
+    "mtime": 1779431788.6841185
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/input.py": {
+    "hash": "sha256:c07ada56277105ad4576ad58ebc883d500580a4cfadb9a257cabf27bb58a97b4",
+    "mtime": 1779431788.685059
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/select.py": {
+    "hash": "sha256:614b8ec8cb87287cd9901482f83ddb5747a053dd8917337e0e28fcefb884dd3d",
+    "mtime": 1779431788.6858938
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/popover.py": {
+    "hash": "sha256:d4c35c82375ce0bed6cb36bb21f8304ef4bafd2db2e7b7ff7c4bd275c8adfa23",
+    "mtime": 1779431788.6856637
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/gradient_profile.py": {
+    "hash": "sha256:8cb488d9b86532fba924643e14815f163b2cd5051a2ddc168272517c7a8dff43",
+    "mtime": 1779431788.6849709
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/navigation_menu.py": {
+    "hash": "sha256:f6a8d9dbb4e327d8e6f3815f0e58f386e30ce9b26c920a939cacfd95dfc69d99",
+    "mtime": 1779431788.6854317
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/toggle_group.py": {
+    "hash": "sha256:3a263a3611caea79e378a1bcc2b025f07bdf84343f863a8499292b297cf826d0",
+    "mtime": 1779431788.6866062
+  },
+  "packages/reflex-components-internal/src/reflex_components_internal/components/base/checkbox.py": {
+    "hash": "sha256:1900cb7dd434aca59bc519ac768eb4c2225962da9cc64f110634a2766d3f2751",
+    "mtime": 1779431788.684528
+  },
+  "packages/reflex-components-gridjs/src/reflex_components_gridjs/datatable.py": {
+    "hash": "sha256:9e49d990fb91e5914df08771a214c55ed716349ba6ef78c93e4cc4ce100ad5c4",
+    "mtime": 1779431788.682477
+  },
+  "packages/reflex-components-gridjs/src/reflex_components_gridjs/__init__.py": {
+    "hash": "sha256:c49c039b5019ef42f9fadf4b2ea670194b43a628db7f52ae3180d3fa3f20de93",
+    "mtime": 1779431788.6823766
+  },
+  "packages/reflex-components-code/src/reflex_components_code/shiki_code_block.py": {
+    "hash": "sha256:fbdae1eaa4a052b660800d31e42b7c7d4d88ccf6a1ea7b862c856e196d6fa773",
+    "mtime": 1779431788.677571
+  },
+  "packages/reflex-components-code/src/reflex_components_code/code.py": {
+    "hash": "sha256:0f9a8638260d4e49ed1e26ac44c48488dd5b843b567d9bdc42a52924d01cbad2",
+    "mtime": 1779431788.6774225
+  },
+  "packages/reflex-components-code/src/reflex_components_code/__init__.py": {
+    "hash": "sha256:b441d57a293f2b68c6e95da049c096da3940f78d30544b6e84ebd161819311b1",
+    "mtime": 1779431788.6773133
+  },
+  ".github/scripts/dispatch_release/plan.py": {
+    "hash": "sha256:1f8edbfd90dc5ac766c741c83d393d4d935a0825590f8a9043e236de8d6be520",
+    "mtime": 1779431788.594437
+  },
+  "reflex/event.py": {
+    "hash": "sha256:753690aedeff3e4d7af94ee87b5ae73cce78cc975eb915aedd3965d244a679b9",
+    "mtime": 1779431788.7107239
+  },
+  "reflex/config.py": {
+    "hash": "sha256:aeaffd26fea423d8b1d0bf4e048920c6cc0df3498038c6fca413a2079e0bb2d3",
+    "mtime": 1779431788.709707
+  },
+  "reflex/style.py": {
+    "hash": "sha256:afe9e09ce01de286b216a6f10bc04dcd5367fcf4bb93e955e178b13e762dce3a",
+    "mtime": 1779431788.7138734
+  },
+  "reflex/reflex.py": {
+    "hash": "sha256:d4831087a6afa2d9359d3b82eb704c5c89624d21b78e59a41de6bcec85cd076e",
+    "mtime": 1779451193.370173
+  },
+  "reflex/route.py": {
+    "hash": "sha256:a189599604cb8985cfcac9886c2ce1a5461adf26cfe09ddcdae17e3a7bdefc39",
+    "mtime": 1779431788.7136471
+  },
+  "reflex/__init__.py": {
+    "hash": "sha256:14143608e7ee0465540fef2d9b3828a2ff98d5dd38aece9bc0ed58de2980ee7b",
+    "mtime": 1779431788.707362
+  },
+  "reflex/page.py": {
+    "hash": "sha256:c7d7d3d31c4c97c32880b5d5d5c227fc37443a3cd6b55bf52bf7fb4edefab24e",
+    "mtime": 1779431788.7129946
+  },
+  "reflex/model.py": {
+    "hash": "sha256:4540d38a69e342fd7b6b3450dfdf945345f73b93a9d671bc2019e739d1d66e32",
+    "mtime": 1779431788.7128167
+  },
+  "reflex/admin.py": {
+    "hash": "sha256:35b737f32f8cf2269106f8755ba0d0bbf0f790484ef0916fc6ba20e2ad9c07f1",
+    "mtime": 1779431788.7075362
+  },
+  "reflex/assets.py": {
+    "hash": "sha256:9f246701d93a7a6adff14d4a446e7754ffad45f43386196d0cc9463ea49643c8",
+    "mtime": 1779431788.7081087
+  },
+  "reflex/environment.py": {
+    "hash": "sha256:de5f8c9ea5f6289741d3a561d079ef6154308a8cb31e010fee8409bc3214bf10",
+    "mtime": 1779431788.7106667
+  },
+  "reflex/app.py": {
+    "hash": "sha256:6f2fefa196a0edd07565e3dc70818f68e41aa6d684b7b150a420a8e600eaec9c",
+    "mtime": 1779457505.4517136
+  },
+  "reflex/_upload.py": {
+    "hash": "sha256:7c5038343bb664eb76cd9f5752da2c19ff2227ba547f49d0fce94982e95d45eb",
+    "mtime": 1779431788.7074723
+  },
+  "reflex/testing.py": {
+    "hash": "sha256:00f577b5c3c14641b8356f1b99bb2d3e99978928d977e1eb79fd2b9ce1444570",
+    "mtime": 1779451193.370364
+  },
+  "reflex/__main__.py": {
+    "hash": "sha256:e9c56b184c93de3ded12f9445546ada5a61f6c1e4417751563eeaf73f67bfa1c",
+    "mtime": 1779431788.707419
+  },
+  "reflex/state.py": {
+    "hash": "sha256:a1822a132346404c755f065aa31ba8b420b4dbc943e7248ec9076be8b167d508",
+    "mtime": 1779431788.7138133
+  },
+  "reflex/istate/proxy.py": {
+    "hash": "sha256:46cb87e1d76faac805cc196e138a0b4d4b82f2b37b00b53ad49ab99c6143d142",
+    "mtime": 1779431788.712245
+  },
+  "reflex/istate/__init__.py": {
+    "hash": "sha256:69fabfa424b907f4440be2a5dd16da6b9dfcb968b9f71373e0835eb8435c5a79",
+    "mtime": 1779431788.7112176
+  },
+  "reflex/istate/shared.py": {
+    "hash": "sha256:a13b047f618ac97718175568200d0c2898b254a5e33fa7bb9ebd8e18fd2c76a8",
+    "mtime": 1779431788.71236
+  },
+  "reflex/istate/dynamic.py": {
+    "hash": "sha256:c4e43dba96553dfea782a70b419f477400189a85b027c91114f1f7e10e474e23",
+    "mtime": 1779431788.7113876
+  },
+  "reflex/istate/wrappers.py": {
+    "hash": "sha256:4e1dd948d9db271f5956e58782327ea90b5f18a3e251cbb644216963deb61432",
+    "mtime": 1779431788.7125196
+  },
+  "reflex/istate/storage.py": {
+    "hash": "sha256:a35e706f53814d028600f85fb16b78069d068b178a61b4e13bfd140e0ba9c20b",
+    "mtime": 1779431788.7124577
+  },
+  "reflex/istate/data.py": {
+    "hash": "sha256:2f90cea110fae7d4e07218bc0365bcac6db955af192bc0fd11293741555cdd34",
+    "mtime": 1779451193.3699148
+  },
+  "reflex/istate/manager/disk.py": {
+    "hash": "sha256:929eb48cc02b0a30cab1c0497a745839b6b8dcb6d15c373016ba7515ab6cfd29",
+    "mtime": 1779431788.7117705
+  },
+  "reflex/istate/manager/token.py": {
+    "hash": "sha256:12e18aede0a3fa2a60f1e476f7ee1aaae2eff78e253995a9da1abf82bbe9199a",
+    "mtime": 1779431788.7121246
+  },
+  "reflex/istate/manager/memory.py": {
+    "hash": "sha256:2f3425a8dd0d602c1217d568db40567190cb18691a05d9aa744187c1a8dc79b7",
+    "mtime": 1779431788.7118819
+  },
+  "reflex/istate/manager/__init__.py": {
+    "hash": "sha256:a93f65d235f0a61040337e7e74f4005a15b0e8c4a0f2ef97c0648b7aafc85bf6",
+    "mtime": 1779431788.7116613
+  },
+  "reflex/istate/manager/redis.py": {
+    "hash": "sha256:83094be9d82c3bc4f7a7a628f623f8df09b48e4e889054ef469b424431c47c81",
+    "mtime": 1779431788.7120185
+  },
+  "reflex/middleware/__init__.py": {
+    "hash": "sha256:c7bc53783b9cef71e38f8de4d49eb79da0bdc7cbf3171978b2aedc085057eec9",
+    "mtime": 1779431788.7126076
+  },
+  "reflex/middleware/middleware.py": {
+    "hash": "sha256:a132f80aafaab3dc63ba855cdcda1782ab8fed4845ce32d6d4ff7a5c31403cf7",
+    "mtime": 1779431788.7127311
+  },
+  "reflex/middleware/hydrate_middleware.py": {
+    "hash": "sha256:3a6ff8003ceef58a8096143f29a46f3f2bb287f1bbd60207edf323a0ac084dcf",
+    "mtime": 1779431788.71267
+  },
+  "reflex/vars/color.py": {
+    "hash": "sha256:1ba1ad69f15cc757475dde64cdcd2831db611451d6f2d68719373401002f2597",
+    "mtime": 1779431788.7167513
+  },
+  "reflex/vars/object.py": {
+    "hash": "sha256:f08626b081776c9b07fff88a56c1a59f1fdbae0aeb5425c38ff56063f847d68f",
+    "mtime": 1779431788.717021
+  },
+  "reflex/vars/sequence.py": {
+    "hash": "sha256:0c3bbca668a94351180883d72ca6502c5dddc462cfd3f715188e0b242a09569d",
+    "mtime": 1779431788.7170725
+  },
+  "reflex/vars/number.py": {
+    "hash": "sha256:2df1ad447353dd326ad81373753c7117737016084f8f330e2423ecb466e6ed47",
+    "mtime": 1779431788.7169688
+  },
+  "reflex/vars/__init__.py": {
+    "hash": "sha256:d13cd430ba595d44402ee44e3d777e635a60bd468a5934a151d6d010aee76fcb",
+    "mtime": 1779431788.7166457
+  },
+  "reflex/vars/datetime.py": {
+    "hash": "sha256:ee09aa1993bf8515e759259abd7aa2fd9476f846ae7fedd249edea4fad8880a4",
+    "mtime": 1779431788.7168076
+  },
+  "reflex/vars/base.py": {
+    "hash": "sha256:c4270ba2a1f6d083e797c0579fbd7e4b9351566f7e13f3d0b4ee74149ba03de2",
+    "mtime": 1779431788.716699
+  },
+  "reflex/vars/function.py": {
+    "hash": "sha256:54f0d3972be1d39027d8cbeb9ca1a621daf3a669d6a4f846a21190905ad381b7",
+    "mtime": 1779431788.716915
+  },
+  "reflex/vars/dep_tracking.py": {
+    "hash": "sha256:32f641a010232ae43d4564060653d88fbc10f55e1ed32286bd9938987f8e5551",
+    "mtime": 1779431788.7168593
+  },
+  "reflex/experimental/hooks.py": {
+    "hash": "sha256:9ae4cea833325eafdf69e395eafb615546ffad45d806566a1d46c374b306aa1d",
+    "mtime": 1779431788.7109962
+  },
+  "reflex/experimental/memo.py": {
+    "hash": "sha256:9c63fb71d9f5a7b49a6c3087d494ea66dabe01a08d07a691fe423267fd75f610",
+    "mtime": 1779451193.3697095
+  },
+  "reflex/experimental/__init__.py": {
+    "hash": "sha256:0290ef71c2d1d3dd32c2c4c36fcb9d32eedf33ec906c4bb174098805a41da838",
+    "mtime": 1779431788.7108352
+  },
+  "reflex/experimental/client_state.py": {
+    "hash": "sha256:bd79fdec114308a7bfc0230585fd0808e4f2b1252545be4fa3cde40da904d283",
+    "mtime": 1779431788.7109327
+  },
+  "reflex/plugins/sitemap.py": {
+    "hash": "sha256:643c1dba3391cffc5f8cd933903143a5dbcd0f279a7a63fd3baf1d5dabbac488",
+    "mtime": 1779431788.7133129
+  },
+  "reflex/plugins/__init__.py": {
+    "hash": "sha256:5fd9962b96441cd5ba20ec2079315b2963d6808efbe6b02b9431f5e0dcef551a",
+    "mtime": 1779451193.370033
+  },
+  "reflex/plugins/tailwind_v4.py": {
+    "hash": "sha256:4e6781cc8101a8511de54419d4eee7ef8911a35c68413776a0bdb27335b5c2ac",
+    "mtime": 1779431788.7134185
+  },
+  "reflex/plugins/shared_tailwind.py": {
+    "hash": "sha256:a14e3d875cd174f6d0aec6bc9134d768f0a8e2e6b1b00c99c838aff88cb92aca",
+    "mtime": 1779431788.7132554
+  },
+  "reflex/plugins/tailwind_v3.py": {
+    "hash": "sha256:fb149b22e2cd15609008379a09770f25c24e0e212ee7e7099a61fdeb5e008004",
+    "mtime": 1779431788.7133663
+  },
+  "reflex/plugins/_screenshot.py": {
+    "hash": "sha256:8ff35706f492c1ba13e225d8fb4033196e1f9521356f45aba80bb5b2ca301c31",
+    "mtime": 1779431788.7131457
+  },
+  "reflex/plugins/base.py": {
+    "hash": "sha256:fa0e589a375b71add9a7683e77998e6a736885f03d15cd925881d0410010ec09",
+    "mtime": 1779431788.7132006
+  },
+  "reflex/constants/event.py": {
+    "hash": "sha256:b6355dd48dd4e6ec254c4dd79c22e5077fd8b64fce52e56c35ead7c792505d7d",
+    "mtime": 1779431788.7101502
+  },
+  "reflex/constants/config.py": {
+    "hash": "sha256:b5d683b275ca6eaadb3abeb958d8d18ec51f48455a14c48e549a84fac68d87be",
+    "mtime": 1779431788.7100334
+  },
+  "reflex/constants/compiler.py": {
+    "hash": "sha256:90623bef453196eba3379a82749f1ec81fc192903f9542f047ec0681479a0b60",
+    "mtime": 1779431788.709977
+  },
+  "reflex/constants/route.py": {
+    "hash": "sha256:8ee20193bbf2f20f6ce098e82b9082697ea45f2b6f1a7b5de3dd2608dfd2d986",
+    "mtime": 1779431788.7102668
+  },
+  "reflex/constants/__init__.py": {
+    "hash": "sha256:e19730f173849412eba0cf2920c3021493211112d64d19369d1c6549c57bc666",
+    "mtime": 1779451193.3695288
+  },
+  "reflex/constants/installer.py": {
+    "hash": "sha256:6f2c4659fcff8669a2266f9b8664b4cd0746da1960a0509099e753b2450bc6fb",
+    "mtime": 1779431788.7102077
+  },
+  "reflex/constants/utils.py": {
+    "hash": "sha256:079e184125b9d37f6444bd72410ba9c53882bb853745ca8b8e454baac1685dfe",
+    "mtime": 1779431788.7103798
+  },
+  "reflex/constants/custom_components.py": {
+    "hash": "sha256:531c36bd331986cb55b270525a49134f9f682ee1ef5cf47b1ea828ee538e1ac2",
+    "mtime": 1779431788.71009
+  },
+  "reflex/constants/base.py": {
+    "hash": "sha256:09ce6c33f74545986dbf31aac4d6c8c641819713adc8fa9e5995aa40bcb64f4e",
+    "mtime": 1779431788.709864
+  },
+  "reflex/constants/state.py": {
+    "hash": "sha256:79b3232f624a11a605a9dae09b9fa109b1cbf2b9e377140d8c8740e74309926a",
+    "mtime": 1779431788.7103229
+  },
+  "reflex/constants/colors.py": {
+    "hash": "sha256:1e68dd4e86ac220db6649320f78c348924f785d7b02cbc33a4a5626d6dddcad9",
+    "mtime": 1779431788.7099226
+  },
+  "reflex/app_mixins/mixin.py": {
+    "hash": "sha256:47562771a96a0eb6dd3d9be92956e6ef664a99067160059fb85abd2649f34ea4",
+    "mtime": 1779431788.7080026
+  },
+  "reflex/app_mixins/__init__.py": {
+    "hash": "sha256:39e833dfe8192cff69d8e00de402cd6ec831b8d41f4ba946660400f1c73ef664",
+    "mtime": 1779431788.707802
+  },
+  "reflex/app_mixins/middleware.py": {
+    "hash": "sha256:3deee3162a501f3cb83ddb2b4bbcd5fbaa9a16dfa2550f995562a86eafc2471b",
+    "mtime": 1779431788.7079492
+  },
+  "reflex/app_mixins/lifespan.py": {
+    "hash": "sha256:1828afb136b363371e04ce029e457bd1f480516edaa679b81f4efd15cfa98e2e",
+    "mtime": 1779451193.3686948
+  },
+  "reflex/utils/build.py": {
+    "hash": "sha256:075edd8a3f1dcb995bdb0879685e6a9b0ed55d297163f2d45b78bde85d79ee6f",
+    "mtime": 1779451193.3705401
+  },
+  "reflex/utils/misc.py": {
+    "hash": "sha256:8afcd4418fcbac2f2a7de3401d7c3521659785f51408b388f269fe0ce4e66b15",
+    "mtime": 1779431788.7151263
+  },
+  "reflex/utils/console.py": {
+    "hash": "sha256:7bcb77e979e3b2da521ae79d7deb5df26f033fd69cdc6c98c1c5877f59d4bd55",
+    "mtime": 1779431788.7143855
+  },
+  "reflex/utils/js_runtimes.py": {
+    "hash": "sha256:c9bf4dc863ca441bc22f2c0053ac40831c1e486c4f9cdfa80b017d2abcee16f8",
+    "mtime": 1779451193.3711355
+  },
+  "reflex/utils/codespaces.py": {
+    "hash": "sha256:bdbd3fdc1e511c06470a6c4db5bcc4546df69c95cf187e8a88eac2344eb10ad8",
+    "mtime": 1779431788.7142773
+  },
+  "reflex/utils/tasks.py": {
+    "hash": "sha256:5a59877bf7d7fc9122442ca763a1324d59e1fa9f145e1172ba928ba249a051a8",
+    "mtime": 1779431788.7160327
+  },
+  "reflex/utils/lazy_loader.py": {
+    "hash": "sha256:8745ba8c3cc6b4684c9661239f739629432f387362cd944d59f0cd00d1131e91",
+    "mtime": 1779431788.7150304
+  },
+  "reflex/utils/compat.py": {
+    "hash": "sha256:1a396a71e95cf06140d239866aa11260b323704abe4ff1c14942865cc8c52ec9",
+    "mtime": 1779431788.7143283
+  },
+  "reflex/utils/prerequisites.py": {
+    "hash": "sha256:7c29f7a5f67c1d805a55c1b9815db9f9c036074d68f12397ea73f44bc30d7079",
+    "mtime": 1779451193.3714929
+  },
+  "reflex/utils/rename.py": {
+    "hash": "sha256:cc501f45d8fc9dd24429f3a2131dd60fd70b76c4fc0ffc486ca268a8349bea0c",
+    "mtime": 1779431788.7158816
+  },
+  "reflex/utils/token_manager.py": {
+    "hash": "sha256:11bc73b6bbd997056e001bba5c50a2c175d66ea95a5a1f3d3df33809e53440f1",
+    "mtime": 1779451193.37218
+  },
+  "reflex/utils/path_ops.py": {
+    "hash": "sha256:ae2df614458ba24920a805e35c6d870302c18473bf73589d95dc60900a5fdde8",
+    "mtime": 1779451193.371274
+  },
+  "reflex/utils/registry.py": {
+    "hash": "sha256:b19e78ab38bff3e4805f63d1cfd1085307aa6e49d50e143229e8ffb559680f37",
+    "mtime": 1779431788.715792
+  },
+  "reflex/utils/decorator.py": {
+    "hash": "sha256:58e5f76b81e3a9db899ef5488b61398b6345a94a20386d543ab7de68adaa2b22",
+    "mtime": 1779431788.71444
+  },
+  "reflex/utils/exec.py": {
+    "hash": "sha256:dde180509fe2684a56c265d5a49d62189df754e4fa62aeb7b89736b9123736e5",
+    "mtime": 1779457505.4526606
+  },
+  "reflex/utils/serializers.py": {
+    "hash": "sha256:4fec045376622fc6c8bb7f61b3f67f5d31adb88c5338ef600027a4a1406a7578",
+    "mtime": 1779431788.7159388
+  },
+  "reflex/utils/net.py": {
+    "hash": "sha256:e54108763af427c14eb0e1b7163d0a27e97ee60ce7921e8ba89d9385dc6e4fac",
+    "mtime": 1779431788.7152238
+  },
+  "reflex/utils/frontend.py": {
+    "hash": "sha256:46545267cdca80882f1463fe65e34ac6f51765e4434d11625bb153a2c5e443f9",
+    "mtime": 1779457505.4529235
+  },
+  "reflex/utils/__init__.py": {
+    "hash": "sha256:cbe0072a2450021936a0092f9fb5bc7115536552badb97dff2d4f0bd9b4eed2e",
+    "mtime": 1779431788.7140856
+  },
+  "reflex/utils/telemetry.py": {
+    "hash": "sha256:07d43a7dfc4fcfe47714fca72a40b7a297224b692d9055af3ac557d3c73d3434",
+    "mtime": 1779451193.3716798
+  },
+  "reflex/utils/format.py": {
+    "hash": "sha256:5b7f56c5fd1a8b4a6dd5207f49e7fb6a5b90f9bf6ba7bb19c97ae90db4de78d3",
+    "mtime": 1779431788.7147293
+  },
+  "reflex/utils/pyi_generator.py": {
+    "hash": "sha256:6cded4c442d95b57937ddd6f4a87fb157ea7f5aa19d4012ae341f555c24fded0",
+    "mtime": 1779431788.71567
+  },
+  "reflex/utils/types.py": {
+    "hash": "sha256:bb155f183e519c61feff0c0de1a987db6fcac37cbc88feee1aafb62162167d26",
+    "mtime": 1779431788.7165546
+  },
+  "reflex/utils/export.py": {
+    "hash": "sha256:5bfef4a9291aef3c3f0fede999146ebfd59ebc8537d6d18506b2e6a41c9c409e",
+    "mtime": 1779451193.3708618
+  },
+  "reflex/utils/imports.py": {
+    "hash": "sha256:93c2368743c0ab0a94b79dd032756b42f0aea9a698de0b3d35f68340fce57eb9",
+    "mtime": 1779431788.7148752
+  },
+  "reflex/utils/templates.py": {
+    "hash": "sha256:783cbcc0ccf3ec79552c445c9b2ed90e0c591caccd9f63924adcc3ed6f9feb38",
+    "mtime": 1779451193.3719897
+  },
+  "reflex/utils/processes.py": {
+    "hash": "sha256:9b227358ae868c63793335d94a44fc04b67cfbc7db303a36b4a4a22163e379ad",
+    "mtime": 1779431788.715608
+  },
+  "reflex/utils/frontend_skeleton.py": {
+    "hash": "sha256:f53d39f60d185ca8998e565bfe5781ce19e736e2763e348c3223385ec23a523d",
+    "mtime": 1779451193.3709865
+  },
+  "reflex/utils/redir.py": {
+    "hash": "sha256:b31466b1154ef53b0571efa5013a76d5f4895d456561de560115b7530664eed4",
+    "mtime": 1779431788.7157311
+  },
+  "reflex/utils/precompressed_staticfiles.py": {
+    "hash": "sha256:e280dae8926610d2b235231022e1caeaa77581ca67376fe08b473697e1815ba5",
+    "mtime": 1779451193.3713706
+  },
+  "reflex/utils/exceptions.py": {
+    "hash": "sha256:2aa2ad951ec936a3c1ca1d98a542a038357029f0efadadb951d9c05068f682e7",
+    "mtime": 1779431788.7144926
+  },
+  "reflex/utils/telemetry_accounting.py": {
+    "hash": "sha256:378c7bda34699b4d309d82adae67047bfd724a4ff4f55f69662182b825879ce9",
+    "mtime": 1779451193.3718054
+  },
+  "reflex/custom_components/__init__.py": {
+    "hash": "sha256:478cecbce8b875f3e61dcd7c284a61a215e740504f9d409be7470c4798522c31",
+    "mtime": 1779431788.7104747
+  },
+  "reflex/custom_components/custom_components.py": {
+    "hash": "sha256:d8d945a3c850569a487d61b889c7e8a7f719568da387ef4826033316433c1f41",
+    "mtime": 1779431788.7105973
+  },
+  "reflex/components/field.py": {
+    "hash": "sha256:1483a578780efd2fe823cc5729aa625ca9dbd559f68eae58f6b05b5a39f73e73",
+    "mtime": 1779431788.709145
+  },
+  "reflex/components/__init__.py": {
+    "hash": "sha256:03a038eeae606c24cae35b53785be651e4ccda0add6af04bba32a5d8c6552f51",
+    "mtime": 1779431788.7089465
+  },
+  "reflex/components/literals.py": {
+    "hash": "sha256:f32df0d427700541842d38ff07d56b648394eb31398a8d58012493d38f99a5a1",
+    "mtime": 1779431788.7092052
+  },
+  "reflex/components/dynamic.py": {
+    "hash": "sha256:8bdfb94f053ce99fa85a3df987aa9b2ccab1f98d65aa3edf08659a3a87b30071",
+    "mtime": 1779431788.709058
+  },
+  "reflex/components/props.py": {
+    "hash": "sha256:752ec27ebef69cf45578a3cd52732b17ab9fb033d9f3657694c4455a3f31243e",
+    "mtime": 1779431788.7092605
+  },
+  "reflex/components/component.py": {
+    "hash": "sha256:ec7848f7ab2eb1bb092883373028f91819e83c0ac514f8dc5160b9f8210ff99f",
+    "mtime": 1779431788.7090056
+  },
+  "reflex/components/tags/match_tag.py": {
+    "hash": "sha256:ea9dc768016e033c48956d38d0d1c0778aa3bc2a75da757ae6dcf6872bcdac4b",
+    "mtime": 1779431788.7095373
+  },
+  "reflex/components/tags/tagless.py": {
+    "hash": "sha256:f2f3ca8706ba326ddfa477d805bc7cf8699efac928d031ffc42058c163b787a3",
+    "mtime": 1779431788.7096455
+  },
+  "reflex/components/tags/__init__.py": {
+    "hash": "sha256:010d8e9693ab4cc32a28596c355cd0bbf5349f5f9f4ef246f30e2efaf3dda319",
+    "mtime": 1779431788.7093565
+  },
+  "reflex/components/tags/cond_tag.py": {
+    "hash": "sha256:fe71b318f6cb63c61bd0b42ebbb78e61c7e2c86e95b8cc30a043ec953ab34ad1",
+    "mtime": 1779431788.7094235
+  },
+  "reflex/components/tags/iter_tag.py": {
+    "hash": "sha256:4961fdcea2c2324c01a23d8626188a61d8d8fc34e26b622af26d29ecc58d5d03",
+    "mtime": 1779431788.7094803
+  },
+  "reflex/components/tags/tag.py": {
+    "hash": "sha256:a43c8ec336cfd315ff5dca4d4b997b271dc18461ea26437e3cc8c4dccf662d8a",
+    "mtime": 1779431788.7095895
+  },
+  "reflex/compiler/compiler.py": {
+    "hash": "sha256:2d00466d1d03595a33ddc109d98cf2859329b9593bdfa07477217751a587d277",
+    "mtime": 1779457505.4521346
+  },
+  "reflex/compiler/__init__.py": {
+    "hash": "sha256:afc8ea9834857f4f6257694794d85f73d5eb4cb8cdc5f0cdc0f625c52e1c9871",
+    "mtime": 1779431788.7081974
+  },
+  "reflex/compiler/templates.py": {
+    "hash": "sha256:cd9d5edb7573ec8ddc6bb0659b2c8724594594c99d1fa9602ac8b3b418f09bc3",
+    "mtime": 1779431788.7087023
+  },
+  "reflex/compiler/utils.py": {
+    "hash": "sha256:3cd4efe058a46dc776b651da7f2812c3e34aa6d1673f058945094d270b5e081e",
+    "mtime": 1779451193.3693912
+  },
+  "reflex/compiler/plugins/memoize.py": {
+    "hash": "sha256:b972b1b134a68970b7fb473ac9c5ab611d4a01111763f51c90e2c441d757917a",
+    "mtime": 1779431788.7086399
+  },
+  "reflex/compiler/plugins/__init__.py": {
+    "hash": "sha256:08299ef816c393cbb89deef5aa0a1b5b0c57762a8d8e745a0d465715742f6cc3",
+    "mtime": 1779431788.7084084
+  },
+  "reflex/compiler/plugins/builtin.py": {
+    "hash": "sha256:fb8cb2234df09ac825da61add72c317cde3ef9182372713eb08bb2deb927b484",
+    "mtime": 1779431788.7085161
+  }
+}
