@@ -1,0 +1,10 @@
+# Runtime-volatile files written by the daemon and MCP server.
+# These are NOT rebuild artifacts — they are ephemeral process state.
+# steward rebuild will recreate this file if it goes missing.
+daemon-state.json
+daemon.pid
+daemon.log
+trace.jsonl
+usage-feedback.jsonl
+decisions-in-flight.json
+.undo/
