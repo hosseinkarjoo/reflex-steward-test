@@ -296,8 +296,8 @@
     "mtime": 1779431788.7299626
   },
   "tests/units/test_app.py": {
-    "hash": "sha256:16a9ea215a2f29bf9b6c9ceba095ee87b03d3d63309ff2ffb97cfcf68ba70bc0",
-    "mtime": 1779807131.1723125
+    "hash": "sha256:98eabacaac74f50ab0fad8bfc1a2e4b3a27a8434ee92f2430604a46981b2f570",
+    "mtime": 1779812268.7449262
   },
   "tests/units/test_environment.py": {
     "hash": "sha256:e3a60f5aeeab6032d0814f433fdcb7774a0c052db6cb3352ff60bac1dc3330c0",
@@ -2720,8 +2720,8 @@
     "mtime": 1779431788.7138734
   },
   "reflex/reflex.py": {
-    "hash": "sha256:d4831087a6afa2d9359d3b82eb704c5c89624d21b78e59a41de6bcec85cd076e",
-    "mtime": 1779807131.1648803
+    "hash": "sha256:a9591276057c82e8a8d14144c57ce176b5eac2b33ebb430a03d961c02492c123",
+    "mtime": 1779812268.7129667
   },
   "reflex/route.py": {
     "hash": "sha256:a189599604cb8985cfcac9886c2ce1a5461adf26cfe09ddcdae17e3a7bdefc39",
@@ -3004,8 +3004,8 @@
     "mtime": 1779431788.7143283
   },
   "reflex/utils/prerequisites.py": {
-    "hash": "sha256:7c29f7a5f67c1d805a55c1b9815db9f9c036074d68f12397ea73f44bc30d7079",
-    "mtime": 1779807131.1672158
+    "hash": "sha256:039b4c64f87ba4bfbb679fb9b3bd321511b8994df055df8daed6e8283fa7a35f",
+    "mtime": 1779812268.7145386
   },
   "reflex/utils/rename.py": {
     "hash": "sha256:cc501f45d8fc9dd24429f3a2131dd60fd70b76c4fc0ffc486ca268a8349bea0c",

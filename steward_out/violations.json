@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T14:52:50.584622+00:00",
+  "generated_at": "2026-05-26T16:17:50.211900+00:00",
   "source": "steward_out/call-graph.json",
   "violations": [
     {
@@ -122,7 +122,7 @@
     {
       "file": "reflex/reflex.py",
       "layer": "Infrastructure",
-      "line_count": 948,
+      "line_count": 1307,
       "fan_out": 11,
       "fan_in": 1,
       "violation_edges": 0,
@@ -134,7 +134,7 @@
     {
       "file": "reflex/state.py",
       "layer": "Infrastructure",
-      "line_count": 2655,
+      "line_count": 2680,
       "fan_out": 15,
       "fan_in": 14,
       "violation_edges": 0,
@@ -240,7 +240,7 @@
     {
       "file": "reflex/utils/prerequisites.py",
       "layer": "Infrastructure",
-      "line_count": 711,
+      "line_count": 715,
       "fan_out": 11,
       "fan_in": 16,
       "violation_edges": 0,

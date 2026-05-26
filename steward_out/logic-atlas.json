@@ -1869,11 +1869,11 @@
       "classes": {}
     },
     "reflex/reflex.py": {
-      "line_count": 948,
+      "line_count": 1307,
       "functions": {
         "set_loglevel": {
-          "lineno": 23,
-          "end_lineno": 33,
+          "lineno": 25,
+          "end_lineno": 35,
           "line_count": 11,
           "complexity": 2,
           "patterns": [],
@@ -1885,8 +1885,8 @@
           ]
         },
         "cli": {
-          "lineno": 38,
-          "end_lineno": 39,
+          "lineno": 40,
+          "end_lineno": 41,
           "line_count": 2,
           "complexity": 1,
           "patterns": [],
@@ -1895,8 +1895,8 @@
           "external_calls": []
         },
         "_init": {
-          "lineno": 57,
-          "end_lineno": 106,
+          "lineno": 59,
+          "end_lineno": 108,
           "line_count": 50,
           "complexity": 3,
           "patterns": [],
@@ -1919,8 +1919,8 @@
           ]
         },
         "init": {
-          "lineno": 125,
-          "end_lineno": 131,
+          "lineno": 127,
+          "end_lineno": 133,
           "line_count": 7,
           "complexity": 1,
           "patterns": [],
@@ -1929,8 +1929,8 @@
           "external_calls": []
         },
         "_compile_app": {
-          "lineno": 134,
-          "end_lineno": 156,
+          "lineno": 136,
+          "end_lineno": 158,
           "line_count": 23,
           "complexity": 5,
           "patterns": [
@@ -1945,8 +1945,8 @@
           ]
         },
         "_run_dev": {
-          "lineno": 159,
-          "end_lineno": 213,
+          "lineno": 161,
+          "end_lineno": 215,
           "line_count": 55,
           "complexity": 10,
           "patterns": [],
@@ -1964,8 +1964,8 @@
           ]
         },
         "_run_prod": {
-          "lineno": 216,
-          "end_lineno": 248,
+          "lineno": 218,
+          "end_lineno": 250,
           "line_count": 33,
           "complexity": 3,
           "patterns": [],
@@ -1984,8 +1984,8 @@
           ]
         },
         "_run": {
-          "lineno": 251,
-          "end_lineno": 365,
+          "lineno": 253,
+          "end_lineno": 367,
           "line_count": 115,
           "complexity": 33,
           "patterns": [],
@@ -2005,8 +2005,8 @@
           ]
         },
         "run": {
-          "lineno": 412,
-          "end_lineno": 461,
+          "lineno": 414,
+          "end_lineno": 463,
           "line_count": 50,
           "complexity": 14,
           "patterns": [],
@@ -2022,8 +2022,8 @@
           ]
         },
         "compile": {
-          "lineno": 478,
-          "end_lineno": 491,
+          "lineno": 480,
+          "end_lineno": 493,
           "line_count": 14,
           "complexity": 2,
           "patterns": [],
@@ -2038,8 +2038,8 @@
           ]
         },
         "export": {
-          "lineno": 549,
-          "end_lineno": 589,
+          "lineno": 551,
+          "end_lineno": 591,
           "line_count": 41,
           "complexity": 6,
           "patterns": [],
@@ -2058,8 +2058,8 @@
           ]
         },
         "login": {
-          "lineno": 594,
-          "end_lineno": 607,
+          "lineno": 596,
+          "end_lineno": 609,
           "line_count": 14,
           "complexity": 3,
           "patterns": [],
@@ -2072,8 +2072,8 @@
           ]
         },
         "logout": {
-          "lineno": 612,
-          "end_lineno": 619,
+          "lineno": 614,
+          "end_lineno": 621,
           "line_count": 8,
           "complexity": 1,
           "patterns": [],
@@ -2086,8 +2086,8 @@
           ]
         },
         "db_cli": {
-          "lineno": 623,
-          "end_lineno": 624,
+          "lineno": 625,
+          "end_lineno": 626,
           "line_count": 2,
           "complexity": 1,
           "patterns": [],
@@ -2096,8 +2096,8 @@
           "external_calls": []
         },
         "script_cli": {
-          "lineno": 628,
-          "end_lineno": 629,
+          "lineno": 630,
+          "end_lineno": 631,
           "line_count": 2,
           "complexity": 1,
           "patterns": [],
@@ -2106,8 +2106,8 @@
           "external_calls": []
         },
         "_skip_compile": {
-          "lineno": 632,
-          "end_lineno": 634,
+          "lineno": 634,
+          "end_lineno": 636,
           "line_count": 3,
           "complexity": 1,
           "patterns": [],
@@ -2118,8 +2118,8 @@
           ]
         },
         "db_init": {
-          "lineno": 638,
-          "end_lineno": 664,
+          "lineno": 640,
+          "end_lineno": 666,
           "line_count": 27,
           "complexity": 3,
           "patterns": [],
@@ -2135,8 +2135,8 @@
           ]
         },
         "migrate": {
-          "lineno": 668,
-          "end_lineno": 677,
+          "lineno": 670,
+          "end_lineno": 679,
           "line_count": 10,
           "complexity": 2,
           "patterns": [],
@@ -2150,8 +2150,8 @@
           ]
         },
         "status": {
-          "lineno": 681,
-          "end_lineno": 710,
+          "lineno": 683,
+          "end_lineno": 712,
           "line_count": 30,
           "complexity": 5,
           "patterns": [],
@@ -2168,8 +2168,8 @@
           ]
         },
         "makemigrations": {
-          "lineno": 718,
-          "end_lineno": 738,
+          "lineno": 720,
+          "end_lineno": 740,
           "line_count": 21,
           "complexity": 5,
           "patterns": [],
@@ -2184,8 +2184,8 @@
           ]
         },
         "deploy": {
-          "lineno": 812,
-          "end_lineno": 891,
+          "lineno": 814,
+          "end_lineno": 893,
           "line_count": 80,
           "complexity": 6,
           "patterns": [],
@@ -2207,8 +2207,8 @@
           ]
         },
         "rename": {
-          "lineno": 897,
-          "end_lineno": 903,
+          "lineno": 899,
+          "end_lineno": 905,
           "line_count": 7,
           "complexity": 1,
           "patterns": [],
@@ -2220,18 +2220,190 @@
             "rename_app"
           ]
         },
+        "minify": {
+          "lineno": 910,
+          "end_lineno": 911,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "_load_app_for_minify": {
+          "lineno": 914,
+          "end_lineno": 918,
+          "line_count": 5,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "prerequisites.get_compiled_app"
+          ]
+        },
+        "_count_events": {
+          "lineno": 921,
+          "end_lineno": 930,
+          "line_count": 10,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "_open_minify_session": {
+          "lineno": 939,
+          "end_lineno": 976,
+          "line_count": 38,
+          "complexity": 5,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "_get_minify_json_path",
+            "_load_minify_config_uncached",
+            "console.error"
+          ]
+        },
+        "minify_init": {
+          "lineno": 981,
+          "end_lineno": 1004,
+          "line_count": 24,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "_get_minify_json_path",
+            "console.error",
+            "console.log",
+            "generate_minify_config",
+            "save_minify_config"
+          ]
+        },
+        "minify_sync": {
+          "lineno": 1019,
+          "end_lineno": 1038,
+          "line_count": 20,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "console.log",
+            "save_minify_config",
+            "sync_minify_config"
+          ]
+        },
+        "minify_validate": {
+          "lineno": 1043,
+          "end_lineno": 1070,
+          "line_count": 28,
+          "complexity": 9,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "console.error",
+            "console.log",
+            "console.warn",
+            "validate_minify_config"
+          ]
+        },
+        "minify_list": {
+          "lineno": 1081,
+          "end_lineno": 1199,
+          "line_count": 119,
+          "complexity": 10,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "console.log",
+            "get_state_full_path",
+            "json.dumps"
+          ]
+        },
+        "minify_lookup": {
+          "lineno": 1211,
+          "end_lineno": 1262,
+          "line_count": 52,
+          "complexity": 7,
+          "patterns": [
+            "two_pass_batch",
+            "collection_accumulate"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "click.echo",
+            "collect_all_states",
+            "console.error",
+            "console.log",
+            "get_state_full_path",
+            "json.dumps"
+          ]
+        },
         "_convert_reflex_loglevel_to_reflex_cli_loglevel": {
-          "lineno": 906,
-          "end_lineno": 929,
+          "lineno": 1265,
+          "end_lineno": 1288,
           "line_count": 24,
           "complexity": 6,
           "patterns": [],
           "mutations": [],
           "io_type": "none",
           "external_calls": []
+        },
+        "build_state_tree": {
+          "lineno": 1108,
+          "end_lineno": 1138,
+          "line_count": 31,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "get_state_full_path"
+          ]
+        },
+        "print_state_tree": {
+          "lineno": 1140,
+          "end_lineno": 1186,
+          "line_count": 47,
+          "complexity": 6,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "console.log"
+          ]
         }
       },
-      "classes": {}
+      "classes": {
+        "EventHandlerData": {
+          "lineno": 1088,
+          "end_lineno": 1092,
+          "line_count": 5,
+          "extends": [
+            "TypedDict"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "StateTreeData": {
+          "lineno": 1094,
+          "end_lineno": 1101,
+          "line_count": 8,
+          "extends": [
+            "TypedDict"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        }
+      }
     },
     "reflex/state.py": {
       "line_count": 2655,
@@ -4386,7 +4558,7 @@
       }
     },
     "reflex/utils/prerequisites.py": {
-      "line_count": 711,
+      "line_count": 715,
       "functions": {
         "get_web_dir": {
           "lineno": 46,
@@ -4498,14 +4670,15 @@
         },
         "get_app": {
           "lineno": 174,
-          "end_lineno": 217,
-          "line_count": 44,
+          "end_lineno": 221,
+          "line_count": 48,
           "complexity": 4,
           "patterns": [],
           "mutations": [],
           "io_type": "none",
           "external_calls": [
             "DECORATED_PAGES.clear",
+            "ensure_minify_resolver_for_active_context",
             "get_config",
             "getcwd",
             "importlib.reload",
@@ -4515,8 +4688,8 @@
           ]
         },
         "get_and_validate_app": {
-          "lineno": 220,
-          "end_lineno": 246,
+          "lineno": 224,
+          "end_lineno": 250,
           "line_count": 27,
           "complexity": 3,
           "patterns": [],
@@ -4525,8 +4698,8 @@
           "external_calls": []
         },
         "get_compiled_app": {
-          "lineno": 249,
-          "end_lineno": 279,
+          "lineno": 253,
+          "end_lineno": 283,
           "line_count": 31,
           "complexity": 1,
           "patterns": [],
@@ -4535,8 +4708,8 @@
           "external_calls": []
         },
         "_can_colorize": {
-          "lineno": 282,
-          "end_lineno": 339,
+          "lineno": 286,
+          "end_lineno": 343,
           "line_count": 58,
           "complexity": 14,
           "patterns": [
@@ -4551,8 +4724,8 @@
           ]
         },
         "compile_or_validate_app": {
-          "lineno": 342,
-          "end_lineno": 378,
+          "lineno": 346,
+          "end_lineno": 382,
           "line_count": 37,
           "complexity": 4,
           "patterns": [
@@ -4565,8 +4738,8 @@
           ]
         },
         "get_redis": {
-          "lineno": 381,
-          "end_lineno": 398,
+          "lineno": 385,
+          "end_lineno": 402,
           "line_count": 18,
           "complexity": 3,
           "patterns": [],
@@ -4578,8 +4751,8 @@
           ]
         },
         "get_redis_sync": {
-          "lineno": 401,
-          "end_lineno": 418,
+          "lineno": 405,
+          "end_lineno": 422,
           "line_count": 18,
           "complexity": 3,
           "patterns": [],
@@ -4591,8 +4764,8 @@
           ]
         },
         "parse_redis_url": {
-          "lineno": 421,
-          "end_lineno": 436,
+          "lineno": 425,
+          "end_lineno": 440,
           "line_count": 16,
           "complexity": 3,
           "patterns": [],
@@ -4603,8 +4776,8 @@
           ]
         },
         "get_redis_status": {
-          "lineno": 439,
-          "end_lineno": 463,
+          "lineno": 443,
+          "end_lineno": 467,
           "line_count": 25,
           "complexity": 4,
           "patterns": [
@@ -4619,8 +4792,8 @@
           ]
         },
         "validate_app_name": {
-          "lineno": 466,
-          "end_lineno": 495,
+          "lineno": 470,
+          "end_lineno": 499,
           "line_count": 30,
           "complexity": 4,
           "patterns": [],
@@ -4633,8 +4806,8 @@
           ]
         },
         "get_project_hash": {
-          "lineno": 498,
-          "end_lineno": 511,
+          "lineno": 502,
+          "end_lineno": 515,
           "line_count": 14,
           "complexity": 3,
           "patterns": [
@@ -4647,8 +4820,8 @@
           ]
         },
         "check_running_mode": {
-          "lineno": 514,
-          "end_lineno": 530,
+          "lineno": 518,
+          "end_lineno": 534,
           "line_count": 17,
           "complexity": 7,
           "patterns": [],
@@ -4657,8 +4830,8 @@
           "external_calls": []
         },
         "assert_in_reflex_dir": {
-          "lineno": 533,
-          "end_lineno": 543,
+          "lineno": 537,
+          "end_lineno": 547,
           "line_count": 11,
           "complexity": 2,
           "patterns": [],
@@ -4670,8 +4843,8 @@
           ]
         },
         "needs_reinit": {
-          "lineno": 546,
-          "end_lineno": 573,
+          "lineno": 550,
+          "end_lineno": 577,
           "line_count": 28,
           "complexity": 6,
           "patterns": [],
@@ -4683,8 +4856,8 @@
           ]
         },
         "_is_app_compiled_with_same_reflex_version": {
-          "lineno": 576,
-          "end_lineno": 581,
+          "lineno": 580,
+          "end_lineno": 585,
           "line_count": 6,
           "complexity": 2,
           "patterns": [
@@ -4697,8 +4870,8 @@
           ]
         },
         "ensure_reflex_installation_id": {
-          "lineno": 584,
-          "end_lineno": 613,
+          "lineno": 588,
+          "end_lineno": 617,
           "line_count": 30,
           "complexity": 5,
           "patterns": [
@@ -4715,8 +4888,8 @@
           ]
         },
         "initialize_reflex_user_directory": {
-          "lineno": 616,
-          "end_lineno": 620,
+          "lineno": 620,
+          "end_lineno": 624,
           "line_count": 5,
           "complexity": 1,
           "patterns": [],
@@ -4729,8 +4902,8 @@
           ]
         },
         "initialize_frontend_dependencies": {
-          "lineno": 623,
-          "end_lineno": 635,
+          "lineno": 627,
+          "end_lineno": 639,
           "line_count": 13,
           "complexity": 1,
           "patterns": [],
@@ -4744,8 +4917,8 @@
           ]
         },
         "check_db_used": {
-          "lineno": 638,
-          "end_lineno": 644,
+          "lineno": 642,
+          "end_lineno": 648,
           "line_count": 7,
           "complexity": 1,
           "patterns": [],
@@ -4756,8 +4929,8 @@
           ]
         },
         "check_redis_used": {
-          "lineno": 647,
-          "end_lineno": 653,
+          "lineno": 651,
+          "end_lineno": 657,
           "line_count": 7,
           "complexity": 1,
           "patterns": [],
@@ -4768,8 +4941,8 @@
           ]
         },
         "check_db_initialized": {
-          "lineno": 656,
-          "end_lineno": 671,
+          "lineno": 660,
+          "end_lineno": 675,
           "line_count": 16,
           "complexity": 3,
           "patterns": [],
@@ -4782,8 +4955,8 @@
           ]
         },
         "check_schema_up_to_date": {
-          "lineno": 674,
-          "end_lineno": 694,
+          "lineno": 678,
+          "end_lineno": 698,
           "line_count": 21,
           "complexity": 7,
           "patterns": [],
@@ -4798,8 +4971,8 @@
           ]
         },
         "get_user_tier": {
-          "lineno": 698,
-          "end_lineno": 711,
+          "lineno": 702,
+          "end_lineno": 715,
           "line_count": 14,
           "complexity": 1,
           "patterns": [],
@@ -4810,8 +4983,8 @@
           ]
         },
         "_safe_getenv": {
-          "lineno": 295,
-          "end_lineno": 308,
+          "lineno": 299,
+          "end_lineno": 312,
           "line_count": 14,
           "complexity": 2,
           "patterns": [
@@ -11637,7 +11810,9 @@
       "classes": {}
     },
     "tests/units/test_app.py": {
+      "layer": null,
       "line_count": 3228,
+      "hash": "98eabacaac74f50ab0fad8bfc1a2e4b3a27a8434ee92f2430604a46981b2f570",
       "functions": {
         "index_page": {
           "lineno": 71,
@@ -12384,7 +12559,6 @@
             "OnLoadInternalState.get_full_name",
             "RouterData.from_router_data",
             "State.get_full_name",
-            "constants.CompileVars.ON_LOAD_INTERNAL.rpartition",
             "environment.REFLEX_OPLOCK_ENABLED.get",
             "format.format_event_handler"
           ]
@@ -21033,5 +21207,5 @@
       "classes": {}
     }
   },
-  "generated_at": "2026-05-26T14:52:15.649256+00:00"
+  "generated_at": "2026-05-26T16:17:50.126637+00:00"
 }
