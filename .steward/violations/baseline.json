@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-05-26T14:53:43Z",
+  "count": 2,
+  "violations": [
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 1.0,
+      "known": false,
+      "from_file": "reflex/middleware/hydrate_middleware.py",
+      "from_layer": "Middleware",
+      "from_func": "",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "",
+      "lineno": 15,
+      "edge_type": "import",
+      "message": "Middleware \u2192 Entry: forbidden direction (reflex/middleware/hydrate_middleware.py \u2192 reflex/app.py)",
+      "id": "V-001"
+    },
+    {
+      "type": "layer_violation",
+      "severity": "high",
+      "confidence": 1.0,
+      "known": false,
+      "from_file": "reflex/middleware/middleware.py",
+      "from_layer": "Middleware",
+      "from_func": "",
+      "to_file": "reflex/app.py",
+      "to_layer": "Entry",
+      "to_func": "",
+      "lineno": 13,
+      "edge_type": "import",
+      "message": "Middleware \u2192 Entry: forbidden direction (reflex/middleware/middleware.py \u2192 reflex/app.py)",
+      "id": "V-002"
+    }
+  ],
+  "keys": [
+    "reflex/middleware/hydrate_middleware.py::reflex/app.py",
+    "reflex/middleware/middleware.py::reflex/app.py"
+  ]
+}

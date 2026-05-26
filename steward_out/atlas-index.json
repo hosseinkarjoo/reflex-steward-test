@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-05-26T14:52:30.260118+00:00",
+  "project_name": "reflex",
+  "health_score": 93,
+  "natural_path": null,
+  "chaos": false,
+  "test_layout": "unknown",
+  "layers": {},
+  "modules": {
+    "reflex": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/app_mixins": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/compiler": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/compiler/plugins": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/components": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/components/tags": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/constants": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/custom_components": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/experimental": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/istate": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/istate/manager": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/middleware": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/plugins": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/utils": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    },
+    "reflex/vars": {
+      "layer": "Unknown",
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "coverage_level": "untested"
+    }
+  },
+  "alerts": []
+}

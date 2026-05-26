@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-05-26T14:52:50.513410+00:00",
+  "layer_count": 9,
+  "scores": {
+    "layered": {
+      "score": 0.0,
+      "cost": 8,
+      "gap_edges": [
+        [
+          "Core",
+          "Infrastructure"
+        ],
+        [
+          "Entry",
+          "Infrastructure"
+        ],
+        [
+          "Entry",
+          "Middleware"
+        ],
+        [
+          "Entry",
+          "Models"
+        ],
+        [
+          "Entry",
+          "Routes"
+        ],
+        [
+          "Infrastructure",
+          "Entry"
+        ],
+        [
+          "Infrastructure",
+          "Models"
+        ],
+        [
+          "Infrastructure",
+          "Plugins"
+        ],
+        [
+          "Infrastructure",
+          "Routes"
+        ],
+        [
+          "Infrastructure",
+          "Unknown"
+        ],
+        [
+          "Middleware",
+          "Infrastructure"
+        ],
+        [
+          "Middleware",
+          "Unknown"
+        ],
+        [
+          "Models",
+          "Unknown"
+        ],
+        [
+          "Plugins",
+          "Infrastructure"
+        ],
+        [
+          "Unknown",
+          "Infrastructure"
+        ]
+      ]
+    },
+    "clean": {
+      "score": 0.211,
+      "cost": 7,
+      "gap_edges": [
+        [
+          "Core",
+          "Infrastructure"
+        ],
+        [
+          "Infrastructure",
+          "Entry"
+        ],
+        [
+          "Middleware",
+          "Infrastructure"
+        ],
+        [
+          "Middleware",
+          "Unknown"
+        ],
+        [
+          "Models",
+          "Unknown"
+        ],
+        [
+          "Plugins",
+          "Infrastructure"
+        ],
+        [
+          "Unknown",
+          "Infrastructure"
+        ]
+      ]
+    },
+    "hexagonal": {
+      "score": 0.2137,
+      "cost": 0,
+      "gap_edges": []
+    },
+    "mvc": {
+      "score": 0.2879,
+      "cost": 2,
+      "gap_edges": [
+        [
+          "Infrastructure",
+          "Entry"
+        ]
+      ]
+    }
+  },
+  "natural_path": "mvc",
+  "chaos": true,
+  "stabilization_plan": [
+    {
+      "from_layer": "Entry",
+      "to_layer": "Infrastructure",
+      "call_volume": 54
+    },
+    {
+      "from_layer": "Core",
+      "to_layer": "Infrastructure",
+      "call_volume": 49
+    },
+    {
+      "from_layer": "Infrastructure",
+      "to_layer": "Entry",
+      "call_volume": 18
+    },
+    {
+      "from_layer": "Infrastructure",
+      "to_layer": "Unknown",
+      "call_volume": 17
+    },
+    {
+      "from_layer": "Infrastructure",
+      "to_layer": "Models",
+      "call_volume": 12
+    }
+  ],
+  "hybrid_signals": []
+}

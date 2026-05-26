@@ -1,0 +1,15 @@
+{
+  "file-inventory.json": "sha256:031919e414adcbebfac289d6d16fdb7cdcd7b028ea9813d3265110c93b5cf8bf",
+  "ast-core.json": "sha256:39caf8ddc30e9e1165f6eb3c84b77aabeb0d2937c54c11f197efc22ba9f6af1f",
+  "call-graph.json": "sha256:80ffdf966a98926c34f9fbb7e5521922e2f6f4ff83a53080bcac93275d7d53c9",
+  "opacity-manifest.json": "sha256:9e4b0de946f86a8dc30631b2d6938ffec421c7a717be99cbd73f9d865fe4cce1",
+  "violations.json": "sha256:a9afc71cc9a09dd10e4897c0444b0ed21998c8429e2f5b9a9a85899b93d9e515",
+  "health.json": "sha256:2f08e7ed97c4293fc717bb594fd215bc2b532c6a099d5f674c456882d072ef32",
+  "atlas-index.json": "sha256:88c89a843f30fa49cf94766700a05e2de5ce8965b99528b8828c3d5942ac61fd",
+  "dense-map.json": "sha256:4e1b825e757c294a1904f07a19c9a50271f114da5ae773027b1a6a7e41ac3b15",
+  "search.db": "sha256:2f03c20d946582330beb5873433cbb8d772b8d902bfd2863888396d0e708581f",
+  "simplicial-complex.json": "sha256:5a53f1c6cf7934fe310385b58e499ab8a3f9059a43ab1836c2684f9ea419caee",
+  "cluster-map.json": "sha256:d147d3a66ee3d70d3427bbdd920ccf8bdce69aa209517b0b9cc6aa61a58035e2",
+  "context-curvature.json": "sha256:ab0dba2f9d43058fb2dbcf40abda0f98ce597f5f2f3fb84cefb38226a6da835d",
+  "hyperbolic-coords.json": "sha256:5c4b0428df1dabab3e4761e781280f7169551652d94efa05e7ac5e10b99101c1"
+}

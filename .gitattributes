@@ -1,0 +1,4 @@
+
+# steward_out/ — generated artifacts; resolve merge conflicts with: steward rebuild
+steward_out/ merge=union
+steward_out/ -diff

@@ -1,0 +1,5428 @@
+{
+  "generated_at": "2026-05-26T14:52:51.161065Z",
+  "simplices": {
+    "2": [
+      {
+        "id": "s0",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.utils._compile_client_storage_recursive",
+          "reflex.compiler.utils._compile_client_storage_recursive",
+          "reflex.state.get_substates"
+        ],
+        "caller": "reflex.compiler.utils._compile_client_storage_recursive",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s1",
+        "order": 2,
+        "vertices": [
+          "reflex.custom_components.custom_components._pip_install_on_demand",
+          "reflex.custom_components.custom_components._run_commands_in_subprocess",
+          "reflex.utils.console.debug"
+        ],
+        "caller": "reflex.custom_components.custom_components._pip_install_on_demand",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s2",
+        "order": 2,
+        "vertices": [
+          "reflex.model.create_all",
+          "reflex.model.create_all",
+          "reflex.model.get_engine"
+        ],
+        "caller": "reflex.model.create_all",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s3",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex.logout",
+          "reflex.reflex._convert_reflex_loglevel_to_reflex_cli_loglevel",
+          "reflex.reflex.logout"
+        ],
+        "caller": "reflex.reflex.logout",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s4",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.output_system_info",
+          "reflex.utils.js_runtimes.get_node_version",
+          "reflex.utils.path_ops.get_node_path"
+        ],
+        "caller": "reflex.utils.exec.output_system_info",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s5",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.output_system_info",
+          "reflex.utils.js_runtimes.get_bun_version",
+          "reflex.utils.path_ops.get_bun_path"
+        ],
+        "caller": "reflex.utils.exec.output_system_info",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s6",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes._get_version_of_executable",
+          "reflex.utils.console.error",
+          "reflex.utils.processes.new_process"
+        ],
+        "caller": "reflex.utils.js_runtimes._get_version_of_executable",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s7",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.needs_reinit",
+          "reflex.utils.prerequisites._is_app_compiled_with_same_reflex_version",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.prerequisites.needs_reinit",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s8",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.ensure_reflex_installation_id",
+          "reflex.utils.console.debug",
+          "reflex.utils.prerequisites.initialize_reflex_user_directory"
+        ],
+        "caller": "reflex.utils.prerequisites.ensure_reflex_installation_id",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s9",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.processes.handle_port",
+          "reflex.utils.console.debug",
+          "reflex.utils.processes._can_bind_at_any_port"
+        ],
+        "caller": "reflex.utils.processes.handle_port",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s10",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.processes.run_process_with_fallbacks",
+          "reflex.utils.console.warn",
+          "reflex.utils.processes.run_process_with_fallbacks"
+        ],
+        "caller": "reflex.utils.processes.run_process_with_fallbacks",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s11",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.registry.average_latency",
+          "reflex.utils.console.debug",
+          "reflex.utils.registry.latency"
+        ],
+        "caller": "reflex.utils.registry.average_latency",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s12",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.telemetry.get_cpu_info",
+          "reflex.utils.telemetry.CpuInfo",
+          "reflex.utils.telemetry._retrieve_cpu_info"
+        ],
+        "caller": "reflex.utils.telemetry.get_cpu_info",
+        "volume": 1.0,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s15",
+        "order": 2,
+        "vertices": [
+          "reflex.app.default_overlay_components",
+          "reflex.utils.codespaces.codespaces_auto_redirect",
+          "reflex.utils.exec.get_compile_context"
+        ],
+        "caller": "reflex.app.default_overlay_components",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s16",
+        "order": 2,
+        "vertices": [
+          "reflex.app.App.__post_init__",
+          "reflex.state.__subclasses__",
+          "reflex.utils.exec.is_testing_env"
+        ],
+        "caller": "reflex.app.App.__post_init__",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s17",
+        "order": 2,
+        "vertices": [
+          "reflex.app.App.add_page",
+          "reflex.route.get_route_args",
+          "reflex.state.setup_dynamic_args"
+        ],
+        "caller": "reflex.app.App.add_page",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s18",
+        "order": 2,
+        "vertices": [
+          "reflex.app.App._validate_var_dependencies",
+          "reflex.state.get_substates",
+          "reflex.utils.exceptions.VarDependencyError"
+        ],
+        "caller": "reflex.app.App._validate_var_dependencies",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s19",
+        "order": 2,
+        "vertices": [
+          "reflex.app.App.modify_state",
+          "reflex.state.StateUpdate",
+          "reflex.state._get_resolved_delta"
+        ],
+        "caller": "reflex.app.App.modify_state",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s20",
+        "order": 2,
+        "vertices": [
+          "reflex.app.EventNamespace.__init__",
+          "reflex.app.__init__",
+          "reflex.utils.token_manager.create"
+        ],
+        "caller": "reflex.app.EventNamespace.__init__",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s21",
+        "order": 2,
+        "vertices": [
+          "reflex.app.EventNamespace.link_token_to_sid",
+          "reflex.istate.data.from_router_data",
+          "reflex.istate.manager.token.BaseStateToken"
+        ],
+        "caller": "reflex.app.EventNamespace.link_token_to_sid",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s22",
+        "order": 2,
+        "vertices": [
+          "reflex.app_mixins.lifespan.LifespanMixin.register_lifespan_task",
+          "reflex.app_mixins.lifespan._get_task_name",
+          "reflex.experimental.memo.partial"
+        ],
+        "caller": "reflex.app_mixins.lifespan.LifespanMixin.register_lifespan_task",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s23",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_root_stylesheet",
+          "reflex.compiler.compiler._compile_root_stylesheet",
+          "reflex.compiler.utils.get_root_stylesheet_path"
+        ],
+        "caller": "reflex.compiler.compiler.compile_root_stylesheet",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s24",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler._compile_root_stylesheet",
+          "reflex.utils.path_ops.cp",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.compiler.compiler._compile_root_stylesheet",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s25",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler._compile_root_stylesheet",
+          "reflex.compiler.templates.styles_template",
+          "reflex.utils.console.error"
+        ],
+        "caller": "reflex.compiler.compiler._compile_root_stylesheet",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s26",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler._compile_memo_components",
+          "reflex.compiler.compiler._compile_single_memo_function",
+          "reflex.compiler.utils.compile_experimental_function_memo"
+        ],
+        "caller": "reflex.compiler.compiler._compile_memo_components",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s27",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler._compile_memo_components",
+          "reflex.compiler.templates.memo_index_template",
+          "reflex.compiler.utils.get_components_path"
+        ],
+        "caller": "reflex.compiler.compiler._compile_memo_components",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s28",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_document_root",
+          "reflex.compiler.utils.create_document_root",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.compiler.compiler.compile_document_root",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s29",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app_root",
+          "reflex.compiler.compiler._compile_app",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app_root",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s30",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_theme",
+          "reflex.compiler.utils.create_theme",
+          "reflex.compiler.utils.get_theme_path"
+        ],
+        "caller": "reflex.compiler.compiler.compile_theme",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s31",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_contexts",
+          "reflex.compiler.compiler._compile_contexts",
+          "reflex.compiler.utils.get_context_path"
+        ],
+        "caller": "reflex.compiler.compiler.compile_contexts",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s32",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_page",
+          "reflex.compiler.compiler._compile_page",
+          "reflex.compiler.utils.get_page_path"
+        ],
+        "caller": "reflex.compiler.compiler.compile_page",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s33",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.purge_web_pages_dir",
+          "reflex.compiler.utils.empty_dir",
+          "reflex.utils.exec.is_prod_mode"
+        ],
+        "caller": "reflex.compiler.compiler.purge_web_pages_dir",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s34",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.app._write_stateful_pages_marker",
+          "reflex.utils.console.timing"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s35",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.compiler.compiler._resolve_radix_themes_plugin",
+          "reflex.utils.console.PoorProgress"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s36",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.app._setup_sticky_badge",
+          "reflex.utils.exec.is_prod_mode"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s37",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.utils.path_ops.update_directory_tree",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s38",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.compiler.compiler._set_progress_total",
+          "reflex.compiler.compiler.compile_root_stylesheet"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s39",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.compiler.compiler.compile_app_root",
+          "reflex.compiler.compiler.compile_contexts"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s40",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.app._get_frontend_packages",
+          "reflex.utils.frontend_skeleton.update_react_router_config"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s41",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.compiler.utils.resolve_path_of_web_dir",
+          "reflex.utils.frontend_skeleton.update_entry_client"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s42",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.utils.compile_state",
+          "reflex.compiler.utils._sorted_keys",
+          "reflex.state._resolve_delta"
+        ],
+        "caller": "reflex.compiler.utils.compile_state",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s43",
+        "order": 2,
+        "vertices": [
+          "reflex.compiler.utils.get_page_path",
+          "reflex.compiler.utils._path_to_file_stem",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.compiler.utils.get_page_path",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s44",
+        "order": 2,
+        "vertices": [
+          "reflex.custom_components.custom_components._populate_demo_app",
+          "reflex.custom_components.custom_components.set_directory",
+          "reflex.utils.console.info"
+        ],
+        "caller": "reflex.custom_components.custom_components._populate_demo_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s45",
+        "order": 2,
+        "vertices": [
+          "reflex.custom_components.custom_components._populate_demo_app",
+          "reflex.custom_components.custom_components._demo_app_template",
+          "reflex.reflex._init"
+        ],
+        "caller": "reflex.custom_components.custom_components._populate_demo_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s46",
+        "order": 2,
+        "vertices": [
+          "reflex.custom_components.custom_components._populate_custom_component_project",
+          "reflex.custom_components.custom_components._create_package_config",
+          "reflex.utils.console.info"
+        ],
+        "caller": "reflex.custom_components.custom_components._populate_custom_component_project",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s47",
+        "order": 2,
+        "vertices": [
+          "reflex.custom_components.custom_components._populate_custom_component_project",
+          "reflex.custom_components.custom_components._write_source_and_init_py",
+          "reflex.custom_components.custom_components.set_directory"
+        ],
+        "caller": "reflex.custom_components.custom_components._populate_custom_component_project",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s48",
+        "order": 2,
+        "vertices": [
+          "reflex.custom_components.custom_components.init",
+          "reflex.utils.console.error",
+          "reflex.utils.exec.output_system_info"
+        ],
+        "caller": "reflex.custom_components.custom_components.init",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s49",
+        "order": 2,
+        "vertices": [
+          "reflex.custom_components.custom_components.init",
+          "reflex.custom_components.custom_components._populate_demo_app",
+          "reflex.utils.frontend_skeleton.initialize_gitignore"
+        ],
+        "caller": "reflex.custom_components.custom_components.init",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s50",
+        "order": 2,
+        "vertices": [
+          "reflex.custom_components.custom_components._run_commands_in_subprocess",
+          "reflex.utils.console.debug",
+          "reflex.utils.console.error"
+        ],
+        "caller": "reflex.custom_components.custom_components._run_commands_in_subprocess",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s51",
+        "order": 2,
+        "vertices": [
+          "reflex.custom_components.custom_components.install",
+          "reflex.custom_components.custom_components._pip_install_on_demand",
+          "reflex.utils.console.info"
+        ],
+        "caller": "reflex.custom_components.custom_components.install",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s52",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.client_state.ClientStateVar.create",
+          "reflex.experimental.client_state._client_state_ref",
+          "reflex.experimental.client_state._client_state_ref_dict"
+        ],
+        "caller": "reflex.experimental.client_state.ClientStateVar.create",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s53",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.hooks.useState",
+          "reflex.experimental.hooks._compose_react_imports",
+          "reflex.experimental.hooks.const"
+        ],
+        "caller": "reflex.experimental.hooks.useState",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s54",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.memo._register_memo_definition",
+          "reflex.experimental.memo._is_memo_reregistration",
+          "reflex.experimental.memo._memo_registry_key"
+        ],
+        "caller": "reflex.experimental.memo._register_memo_definition",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s55",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.memo._children_annotation_is_valid",
+          "reflex.experimental.memo._annotation_inner_type",
+          "reflex.experimental.memo._is_var_annotation"
+        ],
+        "caller": "reflex.experimental.memo._children_annotation_is_valid",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s56",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.memo._placeholder_for_param",
+          "reflex.experimental.memo._rest_placeholder",
+          "reflex.experimental.memo._var_placeholder"
+        ],
+        "caller": "reflex.experimental.memo._placeholder_for_param",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s57",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.memo._analyze_params",
+          "reflex.experimental.memo._children_annotation_is_valid",
+          "reflex.experimental.memo._is_rest_annotation"
+        ],
+        "caller": "reflex.experimental.memo._analyze_params",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s58",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.memo._create_function_definition",
+          "reflex.experimental.memo.ExperimentalMemoFunctionDefinition",
+          "reflex.experimental.memo._imported_function_var"
+        ],
+        "caller": "reflex.experimental.memo._create_function_definition",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s59",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.memo._create_component_definition",
+          "reflex.experimental.memo.ExperimentalMemoComponentDefinition",
+          "reflex.experimental.memo._lift_rest_props"
+        ],
+        "caller": "reflex.experimental.memo._create_component_definition",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s60",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.memo._bind_function_runtime_args",
+          "reflex.experimental.memo._get_children_param",
+          "reflex.experimental.memo._get_rest_param"
+        ],
+        "caller": "reflex.experimental.memo._bind_function_runtime_args",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s61",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.memo._ExperimentalMemoComponentWrapper.__init__",
+          "reflex.experimental.memo._get_children_param",
+          "reflex.experimental.memo._get_rest_param"
+        ],
+        "caller": "reflex.experimental.memo._ExperimentalMemoComponentWrapper.__init__",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s62",
+        "order": 2,
+        "vertices": [
+          "reflex.experimental.memo.memo",
+          "reflex.experimental.memo._create_function_definition",
+          "reflex.experimental.memo._create_function_wrapper"
+        ],
+        "caller": "reflex.experimental.memo.memo",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s63",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.manager.__init__.StateManager.create",
+          "reflex.istate.manager.disk.StateManagerDisk",
+          "reflex.istate.manager.memory.StateManagerMemory"
+        ],
+        "caller": "reflex.istate.manager.__init__.StateManager.create",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s64",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.manager.__init__.StateManager.create",
+          "reflex.istate.manager.redis.StateManagerRedis",
+          "reflex.utils.prerequisites.get_redis"
+        ],
+        "caller": "reflex.istate.manager.__init__.StateManager.create",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s65",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.manager.__init__.reset_disk_state_manager",
+          "reflex.utils.console.debug",
+          "reflex.utils.prerequisites.get_states_dir"
+        ],
+        "caller": "reflex.istate.manager.__init__.reset_disk_state_manager",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s66",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.manager.redis.StateManagerRedis.set_state",
+          "reflex.state._get_was_touched",
+          "reflex.state.get_full_name"
+        ],
+        "caller": "reflex.istate.manager.redis.StateManagerRedis.set_state",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s67",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.manager.token.BaseStateToken.from_legacy_token",
+          "reflex.state._split_substate_key",
+          "reflex.state.get_class_substate"
+        ],
+        "caller": "reflex.istate.manager.token.BaseStateToken.from_legacy_token",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s68",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.proxy.StateProxy.__aenter__",
+          "reflex.istate.proxy.__setattr__",
+          "reflex.state.get_class_substate"
+        ],
+        "caller": "reflex.istate.proxy.StateProxy.__aenter__",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s69",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.proxy.StateProxy.__getattr__",
+          "reflex.istate.proxy.ImmutableMutableProxy",
+          "reflex.istate.proxy.__getattr__"
+        ],
+        "caller": "reflex.istate.proxy.StateProxy.__getattr__",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s70",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.proxy.MutableProxy.__getattr__",
+          "reflex.experimental.memo.partial",
+          "reflex.istate.proxy.is_mutable_type"
+        ],
+        "caller": "reflex.istate.proxy.MutableProxy.__getattr__",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s71",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.shared._patch_state",
+          "reflex.state._get_resolved_delta",
+          "reflex.state._get_root_state"
+        ],
+        "caller": "reflex.istate.shared._patch_state",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s72",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.shared.SharedStateBaseInternal._resolve_linked_state",
+          "reflex.state._get_state_from_redis",
+          "reflex.state.get_full_name"
+        ],
+        "caller": "reflex.istate.shared.SharedStateBaseInternal._resolve_linked_state",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s73",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.shared.SharedStateBaseInternal._unlink",
+          "reflex.istate.manager.__init__.get_state_manager",
+          "reflex.istate.manager.token.BaseStateToken"
+        ],
+        "caller": "reflex.istate.shared.SharedStateBaseInternal._unlink",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s74",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.shared.SharedStateBaseInternal._internal_patch_linked_state",
+          "reflex.istate.manager.__init__.get_state_manager",
+          "reflex.istate.manager.token.BaseStateToken"
+        ],
+        "caller": "reflex.istate.shared.SharedStateBaseInternal._internal_patch_linked_state",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s75",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.shared.SharedStateBaseInternal._modify_linked_states",
+          "reflex.state._get_was_touched",
+          "reflex.state.get_full_name"
+        ],
+        "caller": "reflex.istate.shared.SharedStateBaseInternal._modify_linked_states",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s76",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.shared.SharedStateBaseInternal._collect_shared_token_updates",
+          "reflex.state._get_was_touched",
+          "reflex.state.get_full_name"
+        ],
+        "caller": "reflex.istate.shared.SharedStateBaseInternal._collect_shared_token_updates",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s77",
+        "order": 2,
+        "vertices": [
+          "reflex.istate.wrappers.get_state",
+          "reflex.istate.proxy.ReadOnlyStateProxy",
+          "reflex.state.get_class_substate"
+        ],
+        "caller": "reflex.istate.wrappers.get_state",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s78",
+        "order": 2,
+        "vertices": [
+          "reflex.model.get_migration_history",
+          "reflex.model._alembic_config",
+          "reflex.model.get_engine"
+        ],
+        "caller": "reflex.model.get_migration_history",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s79",
+        "order": 2,
+        "vertices": [
+          "reflex.model.Model.__init_subclass__",
+          "reflex.model.__init_subclass__",
+          "reflex.model._warn_about_model_deprecation"
+        ],
+        "caller": "reflex.model.Model.__init_subclass__",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s80",
+        "order": 2,
+        "vertices": [
+          "reflex.model.Model.create_all",
+          "reflex.model._warn_about_model_deprecation",
+          "reflex.model.create_all"
+        ],
+        "caller": "reflex.model.Model.create_all",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s81",
+        "order": 2,
+        "vertices": [
+          "reflex.model.Model.get_db_engine",
+          "reflex.model._warn_about_model_deprecation",
+          "reflex.model.get_engine"
+        ],
+        "caller": "reflex.model.Model.get_db_engine",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s82",
+        "order": 2,
+        "vertices": [
+          "reflex.model.Model.alembic_init",
+          "reflex.model._warn_about_model_deprecation",
+          "reflex.model.alembic_init"
+        ],
+        "caller": "reflex.model.Model.alembic_init",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s83",
+        "order": 2,
+        "vertices": [
+          "reflex.model.Model.get_migration_history",
+          "reflex.model._warn_about_model_deprecation",
+          "reflex.model.get_migration_history"
+        ],
+        "caller": "reflex.model.Model.get_migration_history",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s84",
+        "order": 2,
+        "vertices": [
+          "reflex.model.Model.alembic_autogenerate",
+          "reflex.model._warn_about_model_deprecation",
+          "reflex.model.alembic_autogenerate"
+        ],
+        "caller": "reflex.model.Model.alembic_autogenerate",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s85",
+        "order": 2,
+        "vertices": [
+          "reflex.model.Model.migrate",
+          "reflex.model._warn_about_model_deprecation",
+          "reflex.model.migrate"
+        ],
+        "caller": "reflex.model.Model.migrate",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s86",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex._init",
+          "reflex.utils.exec.output_system_info",
+          "reflex.utils.redir.reflex_build_redirect"
+        ],
+        "caller": "reflex.reflex._init",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s87",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex._init",
+          "reflex.utils.prerequisites.ensure_reflex_installation_id",
+          "reflex.utils.prerequisites.initialize_frontend_dependencies"
+        ],
+        "caller": "reflex.reflex._init",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s88",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex._init",
+          "reflex.utils.frontend_skeleton.initialize_gitignore",
+          "reflex.utils.templates.initialize_app"
+        ],
+        "caller": "reflex.reflex._init",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s89",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex._compile_app",
+          "reflex.utils.exec.should_prerender_routes",
+          "reflex.utils.exec.should_use_granian"
+        ],
+        "caller": "reflex.reflex._compile_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s90",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex._run_dev",
+          "reflex.reflex._compile_app",
+          "reflex.utils.telemetry.send"
+        ],
+        "caller": "reflex.reflex._run_dev",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s91",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex._run_dev",
+          "reflex.utils.exec.run_backend",
+          "reflex.utils.processes.run_concurrently_context"
+        ],
+        "caller": "reflex.reflex._run_dev",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s92",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex._run_prod",
+          "reflex.utils.exec.notify_frontend",
+          "reflex.utils.exec.run_backend_prod"
+        ],
+        "caller": "reflex.reflex._run_prod",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s93",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex.run",
+          "reflex.reflex._run",
+          "reflex.utils.prerequisites.check_running_mode"
+        ],
+        "caller": "reflex.reflex.run",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s94",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex.export",
+          "reflex.utils.prerequisites.assert_in_reflex_dir",
+          "reflex.utils.prerequisites.check_running_mode"
+        ],
+        "caller": "reflex.reflex.export",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s95",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex.export",
+          "reflex.reflex._init",
+          "reflex.utils.prerequisites.needs_reinit"
+        ],
+        "caller": "reflex.reflex.export",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s96",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex.login",
+          "reflex.reflex._skip_compile",
+          "reflex.utils.telemetry.send"
+        ],
+        "caller": "reflex.reflex.login",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s97",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex.status",
+          "reflex.utils.prerequisites.check_db_initialized",
+          "reflex.utils.prerequisites.get_app"
+        ],
+        "caller": "reflex.reflex.status",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s98",
+        "order": 2,
+        "vertices": [
+          "reflex.reflex.rename",
+          "reflex.utils.prerequisites.validate_app_name",
+          "reflex.utils.rename.rename_app"
+        ],
+        "caller": "reflex.reflex.rename",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s99",
+        "order": 2,
+        "vertices": [
+          "reflex.route.get_router",
+          "reflex.route.replace_brackets_with_keywords",
+          "reflex.route.route_specificity"
+        ],
+        "caller": "reflex.route.get_router",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s100",
+        "order": 2,
+        "vertices": [
+          "reflex.state.BaseState.setup_dynamic_args",
+          "reflex.state.arglist_factory",
+          "reflex.state.argsingle_factory"
+        ],
+        "caller": "reflex.state.BaseState.setup_dynamic_args",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s101",
+        "order": 2,
+        "vertices": [
+          "reflex.state.BaseState._get_attribute",
+          "reflex.experimental.memo.partial",
+          "reflex.state._no_chain_background_task"
+        ],
+        "caller": "reflex.state.BaseState._get_attribute",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s102",
+        "order": 2,
+        "vertices": [
+          "reflex.state.BaseState._get_attribute",
+          "reflex.istate.proxy.MutableProxy",
+          "reflex.istate.proxy.is_mutable_type"
+        ],
+        "caller": "reflex.state.BaseState._get_attribute",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s103",
+        "order": 2,
+        "vertices": [
+          "reflex.state._field_tuple",
+          "reflex.state._serialize_type",
+          "reflex.state.is_serializable"
+        ],
+        "caller": "reflex.state._field_tuple",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s104",
+        "order": 2,
+        "vertices": [
+          "reflex.state.State._get_state_from_redis",
+          "reflex.istate.shared._resolve_linked_state",
+          "reflex.state._get_state_from_redis"
+        ],
+        "caller": "reflex.state.State._get_state_from_redis",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s105",
+        "order": 2,
+        "vertices": [
+          "reflex.testing.AppHarness._start_frontend",
+          "reflex.testing.chdir",
+          "reflex.utils.format.format"
+        ],
+        "caller": "reflex.testing.AppHarness._start_frontend",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s106",
+        "order": 2,
+        "vertices": [
+          "reflex.testing.AppHarnessProd._start_frontend",
+          "reflex.testing.chdir",
+          "reflex.utils.format.format"
+        ],
+        "caller": "reflex.testing.AppHarnessProd._start_frontend",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s107",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.build.set_env_json",
+          "reflex.utils.path_ops.update_json_file",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.build.set_env_json",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s108",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.build.zip_app",
+          "reflex.utils.build._zip",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.build.zip_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s109",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.build.build",
+          "reflex.utils.path_ops.rm",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.build.build",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s110",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.build.build",
+          "reflex.utils.js_runtimes.get_js_package_executor",
+          "reflex.utils.processes.new_process"
+        ],
+        "caller": "reflex.utils.build.build",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s111",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.build.build",
+          "reflex.utils.console.error",
+          "reflex.utils.processes.show_progress"
+        ],
+        "caller": "reflex.utils.build.build",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s112",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.build.build",
+          "reflex.utils.build._compress_static_output",
+          "reflex.utils.path_ops.cp"
+        ],
+        "caller": "reflex.utils.build.build",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s113",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.build.setup_frontend",
+          "reflex.utils.build.set_env_json",
+          "reflex.utils.prerequisites.set_last_reflex_run_time"
+        ],
+        "caller": "reflex.utils.build.setup_frontend",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s114",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.build.setup_frontend_prod",
+          "reflex.utils.build.build",
+          "reflex.utils.build.setup_frontend"
+        ],
+        "caller": "reflex.utils.build.setup_frontend_prod",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s115",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.codespaces.codespaces_auto_redirect",
+          "reflex.utils.codespaces.is_running_in_codespaces",
+          "reflex.utils.codespaces.redirect_script"
+        ],
+        "caller": "reflex.utils.codespaces.codespaces_auto_redirect",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s116",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.run_process_and_launch_url",
+          "reflex.utils.exec.get_package_json_and_hash",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.exec.run_process_and_launch_url",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s117",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.run_process_and_launch_url",
+          "reflex.utils.exec.get_different_packages",
+          "reflex.utils.processes.stream_logs"
+        ],
+        "caller": "reflex.utils.exec.run_process_and_launch_url",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s118",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.run_process_and_launch_url",
+          "reflex.utils.exec.notify_backend",
+          "reflex.utils.exec.notify_frontend"
+        ],
+        "caller": "reflex.utils.exec.run_process_and_launch_url",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s119",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.run_frontend",
+          "reflex.utils.exec.run_process_and_launch_url",
+          "reflex.utils.js_runtimes.validate_frontend_dependencies"
+        ],
+        "caller": "reflex.utils.exec.run_frontend",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s120",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.get_app_file",
+          "reflex.utils.exec.get_app_module",
+          "reflex.utils.misc.get_module_path"
+        ],
+        "caller": "reflex.utils.exec.get_app_file",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s121",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.run_backend",
+          "reflex.utils.exec.notify_backend",
+          "reflex.utils.exec.should_use_granian"
+        ],
+        "caller": "reflex.utils.exec.run_backend",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s122",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.run_backend",
+          "reflex.utils.exec.run_granian_backend",
+          "reflex.utils.exec.run_uvicorn_backend"
+        ],
+        "caller": "reflex.utils.exec.run_backend",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s123",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.get_reload_paths",
+          "reflex.utils.exec._has_child_file",
+          "reflex.utils.misc.get_module_path"
+        ],
+        "caller": "reflex.utils.exec.get_reload_paths",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s124",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.run_uvicorn_backend",
+          "reflex.utils.exec.get_app_instance",
+          "reflex.utils.exec.reset_dev_backend_reload_marker"
+        ],
+        "caller": "reflex.utils.exec.run_uvicorn_backend",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s125",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.run_granian_backend",
+          "reflex.utils.exec.get_app_instance_from_file",
+          "reflex.utils.exec.reset_dev_backend_reload_marker"
+        ],
+        "caller": "reflex.utils.exec.run_granian_backend",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s126",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.exec.output_system_info",
+          "reflex.utils.js_runtimes.get_js_package_executor",
+          "reflex.utils.js_runtimes.get_nodejs_compatible_package_managers"
+        ],
+        "caller": "reflex.utils.exec.output_system_info",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s127",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.export.export",
+          "reflex.utils.export._time_phase",
+          "reflex.utils.prerequisites.get_compiled_app"
+        ],
+        "caller": "reflex.utils.export.export",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s128",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton._copy_if_exists",
+          "reflex.utils.console.debug",
+          "reflex.utils.path_ops.rm"
+        ],
+        "caller": "reflex.utils.frontend_skeleton._copy_if_exists",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s129",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton._copy_if_exists",
+          "reflex.utils.path_ops.cp",
+          "reflex.utils.path_ops.mkdir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton._copy_if_exists",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s130",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.sync_web_package_json_to_root",
+          "reflex.utils.console.debug",
+          "reflex.utils.path_ops.cp"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.sync_web_package_json_to_root",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s131",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.initialize_web_directory",
+          "reflex.utils.frontend_skeleton.sync_root_lockfiles_to_web",
+          "reflex.utils.path_ops.copy_tree"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.initialize_web_directory",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s132",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.initialize_web_directory",
+          "reflex.utils.frontend_skeleton.initialize_bun_config",
+          "reflex.utils.frontend_skeleton.initialize_package_json"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.initialize_web_directory",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s133",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.initialize_web_directory",
+          "reflex.utils.frontend_skeleton.initialize_npmrc",
+          "reflex.utils.path_ops.mkdir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.initialize_web_directory",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s134",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.initialize_web_directory",
+          "reflex.utils.frontend_skeleton.initialize_vite_config",
+          "reflex.utils.frontend_skeleton.update_react_router_config"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.initialize_web_directory",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s135",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.update_entry_client",
+          "reflex.compiler.utils.write_file",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.update_entry_client",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s136",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.initialize_package_json",
+          "reflex.utils.frontend_skeleton._compile_package_json",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.initialize_package_json",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s137",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.initialize_vite_config",
+          "reflex.utils.frontend_skeleton._compile_vite_config",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.initialize_vite_config",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s138",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.initialize_bun_config",
+          "reflex.utils.console.info",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.initialize_bun_config",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s139",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.initialize_npmrc",
+          "reflex.utils.console.info",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.initialize_npmrc",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s140",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.init_reflex_json",
+          "reflex.utils.path_ops.update_json_file",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.init_reflex_json",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s141",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.get_node_version",
+          "reflex.utils.js_runtimes._get_version_of_executable",
+          "reflex.utils.path_ops.get_node_path"
+        ],
+        "caller": "reflex.utils.js_runtimes.get_node_version",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s142",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.get_bun_version",
+          "reflex.utils.js_runtimes._get_version_of_executable",
+          "reflex.utils.path_ops.get_bun_path"
+        ],
+        "caller": "reflex.utils.js_runtimes.get_bun_version",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s143",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.prefer_npm_over_bun",
+          "reflex.utils.js_runtimes._persisted_lockfile_implies_npm",
+          "reflex.utils.prerequisites.windows_check_onedrive_in_path"
+        ],
+        "caller": "reflex.utils.js_runtimes.prefer_npm_over_bun",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s144",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.get_nodejs_compatible_package_managers",
+          "reflex.utils.path_ops.get_bun_path",
+          "reflex.utils.path_ops.get_npm_path"
+        ],
+        "caller": "reflex.utils.js_runtimes.get_nodejs_compatible_package_managers",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s145",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.is_outdated_nodejs_installed",
+          "reflex.utils.console.warn",
+          "reflex.utils.js_runtimes.get_node_version"
+        ],
+        "caller": "reflex.utils.js_runtimes.is_outdated_nodejs_installed",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s146",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.get_js_package_executor",
+          "reflex.utils.js_runtimes.is_outdated_nodejs_installed",
+          "reflex.utils.path_ops.get_bun_path"
+        ],
+        "caller": "reflex.utils.js_runtimes.get_js_package_executor",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s147",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.get_js_package_executor",
+          "reflex.utils.js_runtimes.prefer_npm_over_bun",
+          "reflex.utils.path_ops.get_npm_path"
+        ],
+        "caller": "reflex.utils.js_runtimes.get_js_package_executor",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s148",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.install_bun",
+          "reflex.utils.console.error",
+          "reflex.utils.path_ops.get_bun_path"
+        ],
+        "caller": "reflex.utils.js_runtimes.install_bun",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s149",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.install_bun",
+          "reflex.utils.console.debug",
+          "reflex.utils.js_runtimes.get_bun_version"
+        ],
+        "caller": "reflex.utils.js_runtimes.install_bun",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s150",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.install_bun",
+          "reflex.utils.console.is_debug",
+          "reflex.utils.path_ops.which"
+        ],
+        "caller": "reflex.utils.js_runtimes.install_bun",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s151",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.validate_bun",
+          "reflex.utils.path_ops.get_bun_path",
+          "reflex.utils.path_ops.samefile"
+        ],
+        "caller": "reflex.utils.js_runtimes.validate_bun",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s152",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes.remove_existing_bun_installation",
+          "reflex.utils.console.debug",
+          "reflex.utils.path_ops.rm"
+        ],
+        "caller": "reflex.utils.js_runtimes.remove_existing_bun_installation",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s153",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes._run_initial_install",
+          "reflex.utils.prerequisites.get_web_dir",
+          "reflex.utils.processes.show_status"
+        ],
+        "caller": "reflex.utils.js_runtimes._run_initial_install",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s154",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.js_runtimes._install_frontend_packages",
+          "reflex.experimental.memo.partial",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.js_runtimes._install_frontend_packages",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s155",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.net._should_use_ipv6",
+          "reflex.utils.net._is_ipv4_supported",
+          "reflex.utils.net._is_ipv6_supported"
+        ],
+        "caller": "reflex.utils.net._should_use_ipv6",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s156",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.net._httpx_client",
+          "reflex.utils.net._httpx_local_address_kwarg",
+          "reflex.utils.net._httpx_verify_kwarg"
+        ],
+        "caller": "reflex.utils.net._httpx_client",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s157",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.path_ops.get_bun_path",
+          "reflex.utils.path_ops.use_system_bun",
+          "reflex.utils.path_ops.which"
+        ],
+        "caller": "reflex.utils.path_ops.get_bun_path",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s158",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.check_latest_package_version",
+          "reflex.utils.console.debug",
+          "reflex.utils.net.get"
+        ],
+        "caller": "reflex.utils.prerequisites.check_latest_package_version",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s159",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.check_latest_package_version",
+          "reflex.utils.console.warn",
+          "reflex.utils.prerequisites.get_or_set_last_reflex_version_check_datetime"
+        ],
+        "caller": "reflex.utils.prerequisites.check_latest_package_version",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s160",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.set_last_reflex_run_time",
+          "reflex.utils.path_ops.update_json_file",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.prerequisites.set_last_reflex_run_time",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s161",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites._check_app_name",
+          "reflex.utils.misc.get_module_path",
+          "reflex.utils.misc.with_cwd_in_syspath"
+        ],
+        "caller": "reflex.utils.prerequisites._check_app_name",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s162",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.get_app",
+          "reflex.page.clear",
+          "reflex.state.reload_state_module"
+        ],
+        "caller": "reflex.utils.prerequisites.get_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s163",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.get_and_validate_app",
+          "reflex.utils.prerequisites.AppInfo",
+          "reflex.utils.prerequisites.check_schema_up_to_date"
+        ],
+        "caller": "reflex.utils.prerequisites.get_and_validate_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s164",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.get_compiled_app",
+          "reflex.app._compile",
+          "reflex.utils.prerequisites.get_and_validate_app"
+        ],
+        "caller": "reflex.utils.prerequisites.get_compiled_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s165",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.compile_or_validate_app",
+          "reflex.utils.prerequisites._can_colorize",
+          "reflex.utils.prerequisites.get_and_validate_app"
+        ],
+        "caller": "reflex.utils.prerequisites.compile_or_validate_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s166",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.get_redis",
+          "reflex.utils.console.debug",
+          "reflex.utils.prerequisites.parse_redis_url"
+        ],
+        "caller": "reflex.utils.prerequisites.get_redis",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s167",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.get_redis_sync",
+          "reflex.utils.console.debug",
+          "reflex.utils.prerequisites.parse_redis_url"
+        ],
+        "caller": "reflex.utils.prerequisites.get_redis_sync",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s168",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.needs_reinit",
+          "reflex.utils.console.warn",
+          "reflex.utils.prerequisites.windows_check_onedrive_in_path"
+        ],
+        "caller": "reflex.utils.prerequisites.needs_reinit",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s169",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.initialize_reflex_user_directory",
+          "reflex.utils.console.debug",
+          "reflex.utils.path_ops.mkdir"
+        ],
+        "caller": "reflex.utils.prerequisites.initialize_reflex_user_directory",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s171",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.prerequisites.check_schema_up_to_date",
+          "reflex.model.alembic_autogenerate",
+          "reflex.model.get_engine"
+        ],
+        "caller": "reflex.utils.prerequisites.check_schema_up_to_date",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s172",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.processes.stream_logs",
+          "reflex.utils.console.error",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.processes.stream_logs",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s173",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.processes.show_status",
+          "reflex.utils.console.status",
+          "reflex.utils.processes.stream_logs"
+        ],
+        "caller": "reflex.utils.processes.show_status",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s174",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.processes.show_progress",
+          "reflex.utils.console.progress",
+          "reflex.utils.processes.stream_logs"
+        ],
+        "caller": "reflex.utils.processes.show_progress",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s175",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.telemetry._retrieve_cpu_info",
+          "reflex.utils.console.error",
+          "reflex.utils.telemetry.CpuInfo"
+        ],
+        "caller": "reflex.utils.telemetry._retrieve_cpu_info",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s177",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.telemetry._get_event_defaults",
+          "reflex.utils.prerequisites.get_project_hash",
+          "reflex.utils.telemetry._raise_on_missing_project_hash"
+        ],
+        "caller": "reflex.utils.telemetry._get_event_defaults",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s178",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.telemetry._send",
+          "reflex.utils.telemetry._prepare_event",
+          "reflex.utils.telemetry._send_event"
+        ],
+        "caller": "reflex.utils.telemetry._send",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s179",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.telemetry_accounting.record_compile",
+          "reflex.utils.telemetry.send",
+          "reflex.utils.telemetry_accounting._collect_compile_event_payload"
+        ],
+        "caller": "reflex.utils.telemetry_accounting.record_compile",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s180",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.telemetry_accounting._collect_compile_event_payload",
+          "reflex.utils.telemetry_accounting._count_components",
+          "reflex.utils.telemetry_accounting._walk_states"
+        ],
+        "caller": "reflex.utils.telemetry_accounting._collect_compile_event_payload",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s181",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.telemetry_accounting._walk_app_features",
+          "reflex.app_mixins.lifespan.get_lifespan_tasks",
+          "reflex.route.get_route_args"
+        ],
+        "caller": "reflex.utils.telemetry_accounting._walk_app_features",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "cross_layer_triad"
+      },
+      {
+        "id": "s182",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.templates.create_config",
+          "reflex.compiler.templates.rxconfig_template",
+          "reflex.utils.console.debug"
+        ],
+        "caller": "reflex.utils.templates.create_config",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s183",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.templates.initialize_app_directory",
+          "reflex.utils.console.error",
+          "reflex.utils.console.log"
+        ],
+        "caller": "reflex.utils.templates.initialize_app_directory",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s184",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.templates.initialize_app_directory",
+          "reflex.utils.path_ops.cp",
+          "reflex.utils.path_ops.mv"
+        ],
+        "caller": "reflex.utils.templates.initialize_app_directory",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s185",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.templates.initialize_default_app",
+          "reflex.utils.templates.create_config",
+          "reflex.utils.templates.initialize_app_directory"
+        ],
+        "caller": "reflex.utils.templates.initialize_default_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s186",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.templates.create_config_init_app_from_remote_template",
+          "reflex.utils.console.debug",
+          "reflex.utils.net.get"
+        ],
+        "caller": "reflex.utils.templates.create_config_init_app_from_remote_template",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s187",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.templates.create_config_init_app_from_remote_template",
+          "reflex.utils.rename.rename_imports_and_app_name",
+          "reflex.utils.templates.initialize_app_directory"
+        ],
+        "caller": "reflex.utils.templates.create_config_init_app_from_remote_template",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s188",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.templates.fetch_app_templates",
+          "reflex.utils.console.warn",
+          "reflex.utils.templates.get_release_by_tag"
+        ],
+        "caller": "reflex.utils.templates.fetch_app_templates",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s190",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.templates.initialize_app",
+          "reflex.utils.telemetry.get_init_environment",
+          "reflex.utils.telemetry.send"
+        ],
+        "caller": "reflex.utils.templates.initialize_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s191",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.templates.initialize_app",
+          "reflex.utils.redir.reflex_build_redirect",
+          "reflex.utils.redir.reflex_templates"
+        ],
+        "caller": "reflex.utils.templates.initialize_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s192",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.templates.initialize_app",
+          "reflex.utils.templates.initialize_default_app",
+          "reflex.utils.templates.validate_and_create_app_using_remote_template"
+        ],
+        "caller": "reflex.utils.templates.initialize_app",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "peer_collaboration"
+      },
+      {
+        "id": "s193",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.token_manager.LocalTokenManager.link_token_to_sid",
+          "reflex.utils.token_manager.SocketRecord",
+          "reflex.utils.token_manager._get_new_token"
+        ],
+        "caller": "reflex.utils.token_manager.LocalTokenManager.link_token_to_sid",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s194",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.token_manager.RedisTokenManager._subscribe_socket_record_updates",
+          "reflex.istate.manager.redis.StateManagerRedis",
+          "reflex.istate.manager.redis._enable_keyspace_notifications"
+        ],
+        "caller": "reflex.utils.token_manager.RedisTokenManager._subscribe_socket_record_updates",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s195",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.token_manager.RedisTokenManager.link_token_to_sid",
+          "reflex.utils.console.error",
+          "reflex.utils.token_manager.link_token_to_sid"
+        ],
+        "caller": "reflex.utils.token_manager.RedisTokenManager.link_token_to_sid",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s196",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.token_manager.RedisTokenManager.link_token_to_sid",
+          "reflex.utils.token_manager.SocketRecord",
+          "reflex.utils.token_manager._get_new_token"
+        ],
+        "caller": "reflex.utils.token_manager.RedisTokenManager.link_token_to_sid",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      },
+      {
+        "id": "s197",
+        "order": 2,
+        "vertices": [
+          "reflex.utils.token_manager.RedisTokenManager.disconnect_token",
+          "reflex.utils.console.error",
+          "reflex.utils.token_manager.disconnect_token"
+        ],
+        "caller": "reflex.utils.token_manager.RedisTokenManager.disconnect_token",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "auth_triad"
+      }
+    ],
+    "3": [
+      {
+        "id": "s13",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.build._duplicate_index_html_to_parent_directory",
+          "reflex.utils.build._duplicate_index_html_to_parent_directory",
+          "reflex.utils.console.debug",
+          "reflex.utils.path_ops.cp"
+        ],
+        "caller": "reflex.utils.build._duplicate_index_html_to_parent_directory",
+        "volume": 0.8333,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s14",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.telemetry_accounting._walk_states",
+          "reflex.state.get_substates",
+          "reflex.state.is_user_defined",
+          "reflex.utils.telemetry_accounting._walk_states"
+        ],
+        "caller": "reflex.utils.telemetry_accounting._walk_states",
+        "volume": 0.8333,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s170",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.prerequisites.initialize_frontend_dependencies",
+          "reflex.utils.console.debug",
+          "reflex.utils.js_runtimes.install_bun",
+          "reflex.utils.js_runtimes.validate_frontend_dependencies"
+        ],
+        "caller": "reflex.utils.prerequisites.initialize_frontend_dependencies",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s176",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.telemetry._get_event_defaults",
+          "reflex.utils.console.debug",
+          "reflex.utils.prerequisites.ensure_reflex_installation_id",
+          "reflex.utils.telemetry.get_cpu_info"
+        ],
+        "caller": "reflex.utils.telemetry._get_event_defaults",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s189",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.templates.fetch_remote_templates",
+          "reflex.utils.console.debug",
+          "reflex.utils.console.warn",
+          "reflex.utils.templates.fetch_app_templates"
+        ],
+        "caller": "reflex.utils.templates.fetch_remote_templates",
+        "volume": 0.6667,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s198",
+        "order": 3,
+        "vertices": [
+          "reflex.app.App.__call__",
+          "reflex.assets.remove_stale_external_asset_symlinks",
+          "reflex.utils.exec.get_backend_compile_trigger",
+          "reflex.utils.exec.should_prerender_routes"
+        ],
+        "caller": "reflex.app.App.__call__",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s199",
+        "order": 3,
+        "vertices": [
+          "reflex.app.App.add_page",
+          "reflex.utils.exceptions.RouteValueError",
+          "reflex.utils.format.format_route",
+          "reflex.utils.format.to_kebab_case"
+        ],
+        "caller": "reflex.app.App.add_page",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s200",
+        "order": 3,
+        "vertices": [
+          "reflex.app.App.add_page",
+          "reflex.app.UnevaluatedPage",
+          "reflex.route.verify_route_validity",
+          "reflex.utils.exceptions.PageValueError"
+        ],
+        "caller": "reflex.app.App.add_page",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s201",
+        "order": 3,
+        "vertices": [
+          "reflex.app.App._validate_var_dependencies",
+          "reflex.state.get_class_substate",
+          "reflex.state.get_full_name",
+          "reflex.state.get_root_state"
+        ],
+        "caller": "reflex.app.App._validate_var_dependencies",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s202",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler._compile_document_root",
+          "reflex.compiler.compiler._apply_common_imports",
+          "reflex.compiler.templates.document_root_template",
+          "reflex.compiler.utils.compile_imports"
+        ],
+        "caller": "reflex.compiler.compiler._compile_document_root",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s203",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler._compile_app",
+          "reflex.compiler.compiler._apply_common_imports",
+          "reflex.compiler.templates.app_root_template",
+          "reflex.compiler.utils.compile_imports"
+        ],
+        "caller": "reflex.compiler.compiler._compile_app",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s204",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler._compile_page",
+          "reflex.compiler.compiler._apply_common_imports",
+          "reflex.compiler.templates.page_template",
+          "reflex.compiler.utils.compile_imports"
+        ],
+        "caller": "reflex.compiler.compiler._compile_page",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s205",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler._compile_memo_components",
+          "reflex.compiler.compiler._compile_single_memo_component",
+          "reflex.compiler.utils.compile_custom_component",
+          "reflex.compiler.utils.get_memo_components_dir"
+        ],
+        "caller": "reflex.compiler.compiler._compile_memo_components",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s206",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler._compile_memo_components",
+          "reflex.compiler.compiler._extend_imports_in_place",
+          "reflex.compiler.compiler._memo_component_file_path",
+          "reflex.compiler.compiler._memo_component_index_specifier"
+        ],
+        "caller": "reflex.compiler.compiler._compile_memo_components",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s207",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler._compile_single_memo_component",
+          "reflex.compiler.compiler._apply_common_imports",
+          "reflex.compiler.templates.memo_single_component_template",
+          "reflex.compiler.utils.compile_imports"
+        ],
+        "caller": "reflex.compiler.compiler._compile_single_memo_component",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s208",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler._compile_single_memo_function",
+          "reflex.compiler.templates.memo_single_function_template",
+          "reflex.compiler.utils.compile_imports",
+          "reflex.compiler.utils.merge_imports"
+        ],
+        "caller": "reflex.compiler.compiler._compile_single_memo_function",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s209",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler.compile_page_from_context",
+          "reflex.compiler.compiler._apply_common_imports",
+          "reflex.compiler.templates.page_template",
+          "reflex.compiler.utils.compile_imports"
+        ],
+        "caller": "reflex.compiler.compiler.compile_page_from_context",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s210",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.app._apply_decorated_pages",
+          "reflex.app._should_compile",
+          "reflex.utils.prerequisites.get_backend_dir"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s211",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.app._add_optional_endpoints",
+          "reflex.app._compile_page",
+          "reflex.utils.console.debug"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s212",
+        "order": 3,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.app._validate_var_dependencies",
+          "reflex.utils.exec.get_compile_context",
+          "reflex.utils.prerequisites.get_user_tier"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s213",
+        "order": 3,
+        "vertices": [
+          "reflex.custom_components.custom_components.init",
+          "reflex.custom_components.custom_components._populate_custom_component_project",
+          "reflex.custom_components.custom_components._validate_library_name",
+          "reflex.utils.console.rule"
+        ],
+        "caller": "reflex.custom_components.custom_components.init",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s214",
+        "order": 3,
+        "vertices": [
+          "reflex.custom_components.custom_components.init",
+          "reflex.custom_components.custom_components._pip_install_on_demand",
+          "reflex.utils.console.info",
+          "reflex.utils.console.print"
+        ],
+        "caller": "reflex.custom_components.custom_components.init",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s215",
+        "order": 3,
+        "vertices": [
+          "reflex.custom_components.custom_components._run_build",
+          "reflex.custom_components.custom_components._make_pyi_files",
+          "reflex.custom_components.custom_components._run_commands_in_subprocess",
+          "reflex.utils.console.print"
+        ],
+        "caller": "reflex.custom_components.custom_components._run_build",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s216",
+        "order": 3,
+        "vertices": [
+          "reflex.custom_components.custom_components._collect_details_for_gallery",
+          "reflex.utils.console.error",
+          "reflex.utils.console.print",
+          "reflex.utils.console.rule"
+        ],
+        "caller": "reflex.custom_components.custom_components._collect_details_for_gallery",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s217",
+        "order": 3,
+        "vertices": [
+          "reflex.experimental.memo._create_component_definition",
+          "reflex.experimental.memo._analyze_params",
+          "reflex.experimental.memo._evaluate_memo_function",
+          "reflex.experimental.memo._normalize_component_return"
+        ],
+        "caller": "reflex.experimental.memo._create_component_definition",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s218",
+        "order": 3,
+        "vertices": [
+          "reflex.experimental.memo.create_passthrough_component_memo",
+          "reflex.experimental.memo._analyze_params",
+          "reflex.experimental.memo._evaluate_memo_function",
+          "reflex.experimental.memo._normalize_component_return"
+        ],
+        "caller": "reflex.experimental.memo.create_passthrough_component_memo",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s219",
+        "order": 3,
+        "vertices": [
+          "reflex.istate.proxy.StateProxy.__init__",
+          "reflex.istate.manager.token.BaseStateToken",
+          "reflex.istate.proxy.__init__",
+          "reflex.state.get_full_name"
+        ],
+        "caller": "reflex.istate.proxy.StateProxy.__init__",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s220",
+        "order": 3,
+        "vertices": [
+          "reflex.istate.wrappers.get_state",
+          "reflex.istate.manager.__init__.get_state_manager",
+          "reflex.istate.manager.token.BaseStateToken",
+          "reflex.state._split_substate_key"
+        ],
+        "caller": "reflex.istate.wrappers.get_state",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s221",
+        "order": 3,
+        "vertices": [
+          "reflex.middleware.hydrate_middleware.HydrateMiddleware.preprocess",
+          "reflex.state.StateUpdate",
+          "reflex.state._resolve_delta",
+          "reflex.state.dict"
+        ],
+        "caller": "reflex.middleware.hydrate_middleware.HydrateMiddleware.preprocess",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s222",
+        "order": 3,
+        "vertices": [
+          "reflex.model.migrate",
+          "reflex.model._alembic_upgrade",
+          "reflex.model.alembic_autogenerate",
+          "reflex.model.get_engine"
+        ],
+        "caller": "reflex.model.migrate",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s223",
+        "order": 3,
+        "vertices": [
+          "reflex.reflex._init",
+          "reflex.utils.prerequisites.check_latest_package_version",
+          "reflex.utils.prerequisites.initialize_reflex_user_directory",
+          "reflex.utils.prerequisites.validate_app_name"
+        ],
+        "caller": "reflex.reflex._init",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s224",
+        "order": 3,
+        "vertices": [
+          "reflex.reflex._run_prod",
+          "reflex.reflex._compile_app",
+          "reflex.reflex._skip_compile",
+          "reflex.utils.build.setup_frontend_prod"
+        ],
+        "caller": "reflex.reflex._run_prod",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s225",
+        "order": 3,
+        "vertices": [
+          "reflex.reflex._run_prod",
+          "reflex.model.register",
+          "reflex.utils.exec.notify_app_running",
+          "reflex.utils.telemetry.send"
+        ],
+        "caller": "reflex.reflex._run_prod",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s226",
+        "order": 3,
+        "vertices": [
+          "reflex.reflex._run",
+          "reflex.reflex._skip_compile",
+          "reflex.utils.exec.output_system_info",
+          "reflex.utils.prerequisites.assert_in_reflex_dir"
+        ],
+        "caller": "reflex.reflex._run",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s227",
+        "order": 3,
+        "vertices": [
+          "reflex.reflex._run",
+          "reflex.istate.manager.__init__.reset_disk_state_manager",
+          "reflex.reflex._init",
+          "reflex.utils.prerequisites.needs_reinit"
+        ],
+        "caller": "reflex.reflex._run",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "fan_out_orchestration"
+      },
+      {
+        "id": "s228",
+        "order": 3,
+        "vertices": [
+          "reflex.reflex.compile",
+          "reflex.reflex._init",
+          "reflex.utils.prerequisites.get_compiled_app",
+          "reflex.utils.prerequisites.needs_reinit"
+        ],
+        "caller": "reflex.reflex.compile",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s230",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.exec.run_frontend_prod",
+          "reflex.utils.exec.run_granian_backend_prod",
+          "reflex.utils.exec.run_uvicorn_backend_prod",
+          "reflex.utils.exec.should_use_granian"
+        ],
+        "caller": "reflex.utils.exec.run_frontend_prod",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s231",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.exec.run_backend_prod",
+          "reflex.utils.exec.run_granian_backend_prod",
+          "reflex.utils.exec.run_uvicorn_backend_prod",
+          "reflex.utils.exec.should_use_granian"
+        ],
+        "caller": "reflex.utils.exec.run_backend_prod",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s232",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.export.export",
+          "reflex.utils.build.build",
+          "reflex.utils.build.setup_frontend",
+          "reflex.utils.build.zip_app"
+        ],
+        "caller": "reflex.utils.export.export",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s233",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.initialize_requirements_txt",
+          "reflex.utils.console.debug",
+          "reflex.utils.frontend_skeleton._has_reflex_requirement_line",
+          "reflex.utils.frontend_skeleton._read_dependency_file"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.initialize_requirements_txt",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s234",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.sync_root_lockfile_to_web",
+          "reflex.utils.frontend_skeleton._copy_if_exists",
+          "reflex.utils.frontend_skeleton.get_root_lockfile_path",
+          "reflex.utils.frontend_skeleton.get_web_lockfile_path"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.sync_root_lockfile_to_web",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s235",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.sync_web_package_json_to_root",
+          "reflex.utils.frontend_skeleton.get_root_package_json_path",
+          "reflex.utils.frontend_skeleton.get_web_package_json_path",
+          "reflex.utils.path_ops.mkdir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.sync_web_package_json_to_root",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s237",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.update_react_router_config",
+          "reflex.compiler.utils.write_file",
+          "reflex.utils.frontend_skeleton._update_react_router_config",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.update_react_router_config",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s238",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.js_runtimes.download_and_run",
+          "reflex.utils.console.debug",
+          "reflex.utils.console.error",
+          "reflex.utils.net.get"
+        ],
+        "caller": "reflex.utils.js_runtimes.download_and_run",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s239",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.js_runtimes.install_bun",
+          "reflex.utils.console.info",
+          "reflex.utils.js_runtimes.get_node_version",
+          "reflex.utils.js_runtimes.npm_escape_hatch"
+        ],
+        "caller": "reflex.utils.js_runtimes.install_bun",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s240",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.js_runtimes.install_bun",
+          "reflex.utils.js_runtimes.validate_bun",
+          "reflex.utils.path_ops.use_system_bun",
+          "reflex.utils.processes.new_process"
+        ],
+        "caller": "reflex.utils.js_runtimes.install_bun",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s241",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.js_runtimes.validate_bun",
+          "reflex.utils.console.error",
+          "reflex.utils.console.info",
+          "reflex.utils.js_runtimes.get_bun_version"
+        ],
+        "caller": "reflex.utils.js_runtimes.validate_bun",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s243",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.js_runtimes._sync_root_lockfiles_for_frontend_install",
+          "reflex.utils.frontend_skeleton.sync_root_lockfiles_to_web",
+          "reflex.utils.js_runtimes._frontend_packages_cache_path",
+          "reflex.utils.path_ops.rm"
+        ],
+        "caller": "reflex.utils.js_runtimes._sync_root_lockfiles_for_frontend_install",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s244",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.js_runtimes._run_initial_install",
+          "reflex.utils.js_runtimes._is_bun_package_manager",
+          "reflex.utils.processes.get_command_with_loglevel",
+          "reflex.utils.processes.new_process"
+        ],
+        "caller": "reflex.utils.js_runtimes._run_initial_install",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s245",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.js_runtimes._install_frontend_packages",
+          "reflex.utils.frontend_skeleton.get_web_lockfile_path",
+          "reflex.utils.js_runtimes._run_initial_install",
+          "reflex.utils.js_runtimes._split_by_version_specifier"
+        ],
+        "caller": "reflex.utils.js_runtimes._install_frontend_packages",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s246",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.processes.run_process_with_fallbacks",
+          "reflex.utils.processes.get_command_with_loglevel",
+          "reflex.utils.processes.new_process",
+          "reflex.utils.processes.show_status"
+        ],
+        "caller": "reflex.utils.processes.run_process_with_fallbacks",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s247",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.registry.latency",
+          "reflex.utils.console.debug",
+          "reflex.utils.console.info",
+          "reflex.utils.net.get"
+        ],
+        "caller": "reflex.utils.registry.latency",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s248",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.telemetry._get_event_defaults",
+          "reflex.utils.js_runtimes.get_bun_version",
+          "reflex.utils.telemetry.get_cpu_count",
+          "reflex.utils.telemetry.get_reflex_enterprise_version"
+        ],
+        "caller": "reflex.utils.telemetry._get_event_defaults",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s249",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.telemetry_accounting._collect_compile_event_payload",
+          "reflex.utils.telemetry_accounting._collect_features_used",
+          "reflex.utils.telemetry_accounting._collect_state_stats",
+          "reflex.utils.telemetry_accounting._sanitize_exception"
+        ],
+        "caller": "reflex.utils.telemetry_accounting._collect_compile_event_payload",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      },
+      {
+        "id": "s250",
+        "order": 3,
+        "vertices": [
+          "reflex.utils.templates.initialize_app",
+          "reflex.utils.templates.fetch_remote_templates",
+          "reflex.utils.templates.get_init_cli_prompt_options",
+          "reflex.utils.templates.prompt_for_template_options"
+        ],
+        "caller": "reflex.utils.templates.initialize_app",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "quad_coupling"
+      }
+    ],
+    "4": [
+      {
+        "id": "s229",
+        "order": 4,
+        "vertices": [
+          "reflex.reflex.deploy",
+          "reflex.reflex._init",
+          "reflex.utils.prerequisites.assert_in_reflex_dir",
+          "reflex.utils.prerequisites.check_latest_package_version",
+          "reflex.utils.prerequisites.needs_reinit"
+        ],
+        "caller": "reflex.reflex.deploy",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s236",
+        "order": 4,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.initialize_web_directory",
+          "reflex.utils.console.debug",
+          "reflex.utils.console.log",
+          "reflex.utils.prerequisites.get_project_hash",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.initialize_web_directory",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s242",
+        "order": 4,
+        "vertices": [
+          "reflex.utils.js_runtimes.validate_frontend_dependencies",
+          "reflex.utils.console.error",
+          "reflex.utils.js_runtimes.check_node_version",
+          "reflex.utils.js_runtimes.get_js_package_executor",
+          "reflex.utils.js_runtimes.prefer_npm_over_bun"
+        ],
+        "caller": "reflex.utils.js_runtimes.validate_frontend_dependencies",
+        "volume": 0.5,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s251",
+        "order": 4,
+        "vertices": [
+          "reflex.app.health",
+          "reflex.utils.misc.run_in_thread",
+          "reflex.utils.prerequisites.check_db_used",
+          "reflex.utils.prerequisites.check_redis_used",
+          "reflex.utils.prerequisites.get_redis_status"
+        ],
+        "caller": "reflex.app.health",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s252",
+        "order": 4,
+        "vertices": [
+          "reflex.compiler.compiler.compile_app",
+          "reflex.app._app_root",
+          "reflex.compiler.compiler._resolve_app_wrap_components",
+          "reflex.compiler.compiler.compile_memo_components",
+          "reflex.compiler.utils.merge_imports"
+        ],
+        "caller": "reflex.compiler.compiler.compile_app",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s253",
+        "order": 4,
+        "vertices": [
+          "reflex.compiler.plugins.builtin.default_page_plugins",
+          "reflex.compiler.plugins.builtin.ApplyStylePlugin",
+          "reflex.compiler.plugins.builtin.DefaultCollectorPlugin",
+          "reflex.compiler.plugins.builtin.DefaultPagePlugin",
+          "reflex.compiler.plugins.memoize.MemoizeStatefulPlugin"
+        ],
+        "caller": "reflex.compiler.plugins.builtin.default_page_plugins",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s254",
+        "order": 4,
+        "vertices": [
+          "reflex.compiler.utils.compile_experimental_component_memo",
+          "reflex.compiler.utils._apply_root_style",
+          "reflex.compiler.utils._root_only_custom_code",
+          "reflex.compiler.utils._root_only_dynamic_imports",
+          "reflex.compiler.utils._root_only_hooks"
+        ],
+        "caller": "reflex.compiler.utils.compile_experimental_component_memo",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s255",
+        "order": 4,
+        "vertices": [
+          "reflex.reflex.db_init",
+          "reflex.model.alembic_init",
+          "reflex.model.migrate",
+          "reflex.reflex._skip_compile",
+          "reflex.utils.prerequisites.get_compiled_app"
+        ],
+        "caller": "reflex.reflex.db_init",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s256",
+        "order": 4,
+        "vertices": [
+          "reflex.reflex.migrate",
+          "reflex.model.migrate",
+          "reflex.utils.prerequisites.check_db_initialized",
+          "reflex.utils.prerequisites.check_schema_up_to_date",
+          "reflex.utils.prerequisites.get_app"
+        ],
+        "caller": "reflex.reflex.migrate",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s257",
+        "order": 4,
+        "vertices": [
+          "reflex.reflex.makemigrations",
+          "reflex.model.get_engine",
+          "reflex.reflex._skip_compile",
+          "reflex.utils.prerequisites.check_db_initialized",
+          "reflex.utils.prerequisites.get_compiled_app"
+        ],
+        "caller": "reflex.reflex.makemigrations",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s258",
+        "order": 4,
+        "vertices": [
+          "reflex.utils.build._compress_static_output",
+          "reflex.utils.console.error",
+          "reflex.utils.path_ops.get_bun_path",
+          "reflex.utils.path_ops.get_node_path",
+          "reflex.utils.prerequisites.get_web_dir"
+        ],
+        "caller": "reflex.utils.build._compress_static_output",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s259",
+        "order": 4,
+        "vertices": [
+          "reflex.utils.frontend_skeleton.sync_web_lockfile_to_root",
+          "reflex.utils.console.debug",
+          "reflex.utils.frontend_skeleton.get_root_lockfile_path",
+          "reflex.utils.frontend_skeleton.get_web_lockfile_path",
+          "reflex.utils.path_ops.mkdir"
+        ],
+        "caller": "reflex.utils.frontend_skeleton.sync_web_lockfile_to_root",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s260",
+        "order": 4,
+        "vertices": [
+          "reflex.utils.telemetry_accounting._collect_features_used",
+          "reflex.model.get_models",
+          "reflex.utils.telemetry_accounting._record_config_attestations",
+          "reflex.utils.telemetry_accounting._walk_app_features",
+          "reflex.utils.telemetry_accounting._walk_state_features"
+        ],
+        "caller": "reflex.utils.telemetry_accounting._collect_features_used",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      },
+      {
+        "id": "s261",
+        "order": 4,
+        "vertices": [
+          "reflex.utils.token_manager.TokenManager.create",
+          "reflex.utils.prerequisites.check_redis_used",
+          "reflex.utils.prerequisites.get_redis",
+          "reflex.utils.token_manager.LocalTokenManager",
+          "reflex.utils.token_manager.RedisTokenManager"
+        ],
+        "caller": "reflex.utils.token_manager.TokenManager.create",
+        "volume": 0.4,
+        "shape": "elongated",
+        "pattern": "5_way_coupling"
+      }
+    ],
+    "5": [
+      {
+        "id": "s262",
+        "order": 5,
+        "vertices": [
+          "reflex.compiler.compiler._compile_contexts",
+          "reflex.compiler.templates.context_template",
+          "reflex.compiler.utils.compile_client_storage",
+          "reflex.compiler.utils.compile_state",
+          "reflex.state.get_name",
+          "reflex.utils.exec.is_prod_mode"
+        ],
+        "caller": "reflex.compiler.compiler._compile_contexts",
+        "volume": 0.3333,
+        "shape": "elongated",
+        "pattern": "6_way_coupling"
+      },
+      {
+        "id": "s263",
+        "order": 5,
+        "vertices": [
+          "reflex.experimental.memo._create_function_definition",
+          "reflex.experimental.memo._analyze_params",
+          "reflex.experimental.memo._evaluate_memo_function",
+          "reflex.experimental.memo._get_children_param",
+          "reflex.experimental.memo._get_rest_param",
+          "reflex.experimental.memo._validate_var_return_expr"
+        ],
+        "caller": "reflex.experimental.memo._create_function_definition",
+        "volume": 0.3333,
+        "shape": "elongated",
+        "pattern": "6_way_coupling"
+      },
+      {
+        "id": "s264",
+        "order": 5,
+        "vertices": [
+          "reflex.experimental.memo.memo",
+          "reflex.experimental.memo._create_component_definition",
+          "reflex.experimental.memo._create_component_wrapper",
+          "reflex.experimental.memo._is_component_annotation",
+          "reflex.experimental.memo._is_var_annotation",
+          "reflex.experimental.memo._register_memo_definition"
+        ],
+        "caller": "reflex.experimental.memo.memo",
+        "volume": 0.3333,
+        "shape": "elongated",
+        "pattern": "6_way_coupling"
+      },
+      {
+        "id": "s265",
+        "order": 5,
+        "vertices": [
+          "reflex.utils.js_runtimes.install_frontend_packages",
+          "reflex.utils.frontend_skeleton.sync_web_lockfiles_to_root",
+          "reflex.utils.frontend_skeleton.sync_web_package_json_to_root",
+          "reflex.utils.js_runtimes._install_frontend_packages",
+          "reflex.utils.js_runtimes._sync_root_lockfiles_for_frontend_install",
+          "reflex.utils.js_runtimes.get_nodejs_compatible_package_managers"
+        ],
+        "caller": "reflex.utils.js_runtimes.install_frontend_packages",
+        "volume": 0.3333,
+        "shape": "elongated",
+        "pattern": "6_way_coupling"
+      },
+      {
+        "id": "s266",
+        "order": 5,
+        "vertices": [
+          "reflex.utils.telemetry._get_event_defaults",
+          "reflex.utils.js_runtimes.get_node_version",
+          "reflex.utils.telemetry.get_detailed_platform_str",
+          "reflex.utils.telemetry.get_os",
+          "reflex.utils.telemetry.get_python_version",
+          "reflex.utils.telemetry.get_reflex_version"
+        ],
+        "caller": "reflex.utils.telemetry._get_event_defaults",
+        "volume": 0.3333,
+        "shape": "elongated",
+        "pattern": "6_way_coupling"
+      }
+    ]
+  },
+  "node_to_simplices": {
+    "reflex.compiler.utils._compile_client_storage_recursive": [
+      "s0",
+      "s0"
+    ],
+    "reflex.state.get_substates": [
+      "s0",
+      "s14",
+      "s18"
+    ],
+    "reflex.custom_components.custom_components._pip_install_on_demand": [
+      "s1",
+      "s51",
+      "s214"
+    ],
+    "reflex.custom_components.custom_components._run_commands_in_subprocess": [
+      "s1",
+      "s50",
+      "s215"
+    ],
+    "reflex.utils.console.debug": [
+      "s1",
+      "s8",
+      "s9",
+      "s11",
+      "s13",
+      "s50",
+      "s65",
+      "s128",
+      "s130",
+      "s149",
+      "s152",
+      "s158",
+      "s166",
+      "s167",
+      "s169",
+      "s170",
+      "s176",
+      "s182",
+      "s186",
+      "s189",
+      "s211",
+      "s233",
+      "s236",
+      "s238",
+      "s247",
+      "s259"
+    ],
+    "reflex.model.create_all": [
+      "s2",
+      "s2",
+      "s80"
+    ],
+    "reflex.model.get_engine": [
+      "s2",
+      "s78",
+      "s81",
+      "s171",
+      "s222",
+      "s257"
+    ],
+    "reflex.reflex.logout": [
+      "s3",
+      "s3"
+    ],
+    "reflex.reflex._convert_reflex_loglevel_to_reflex_cli_loglevel": [
+      "s3"
+    ],
+    "reflex.utils.exec.output_system_info": [
+      "s4",
+      "s5",
+      "s48",
+      "s86",
+      "s126",
+      "s226"
+    ],
+    "reflex.utils.js_runtimes.get_node_version": [
+      "s4",
+      "s141",
+      "s145",
+      "s239",
+      "s266"
+    ],
+    "reflex.utils.path_ops.get_node_path": [
+      "s4",
+      "s141",
+      "s258"
+    ],
+    "reflex.utils.js_runtimes.get_bun_version": [
+      "s5",
+      "s142",
+      "s149",
+      "s241",
+      "s248"
+    ],
+    "reflex.utils.path_ops.get_bun_path": [
+      "s5",
+      "s142",
+      "s144",
+      "s146",
+      "s148",
+      "s151",
+      "s157",
+      "s258"
+    ],
+    "reflex.utils.js_runtimes._get_version_of_executable": [
+      "s6",
+      "s141",
+      "s142"
+    ],
+    "reflex.utils.console.error": [
+      "s6",
+      "s25",
+      "s48",
+      "s50",
+      "s111",
+      "s148",
+      "s172",
+      "s175",
+      "s183",
+      "s195",
+      "s197",
+      "s216",
+      "s238",
+      "s241",
+      "s242",
+      "s258"
+    ],
+    "reflex.utils.processes.new_process": [
+      "s6",
+      "s110",
+      "s240",
+      "s244",
+      "s246"
+    ],
+    "reflex.utils.prerequisites.needs_reinit": [
+      "s7",
+      "s95",
+      "s168",
+      "s227",
+      "s228",
+      "s229"
+    ],
+    "reflex.utils.prerequisites._is_app_compiled_with_same_reflex_version": [
+      "s7"
+    ],
+    "reflex.utils.prerequisites.get_web_dir": [
+      "s7",
+      "s24",
+      "s28",
+      "s29",
+      "s37",
+      "s43",
+      "s107",
+      "s108",
+      "s109",
+      "s116",
+      "s135",
+      "s136",
+      "s137",
+      "s138",
+      "s139",
+      "s140",
+      "s153",
+      "s154",
+      "s160",
+      "s172",
+      "s236",
+      "s237",
+      "s258"
+    ],
+    "reflex.utils.prerequisites.ensure_reflex_installation_id": [
+      "s8",
+      "s87",
+      "s176"
+    ],
+    "reflex.utils.prerequisites.initialize_reflex_user_directory": [
+      "s8",
+      "s169",
+      "s223"
+    ],
+    "reflex.utils.processes.handle_port": [
+      "s9"
+    ],
+    "reflex.utils.processes._can_bind_at_any_port": [
+      "s9"
+    ],
+    "reflex.utils.processes.run_process_with_fallbacks": [
+      "s10",
+      "s10",
+      "s246"
+    ],
+    "reflex.utils.console.warn": [
+      "s10",
+      "s145",
+      "s159",
+      "s168",
+      "s188",
+      "s189"
+    ],
+    "reflex.utils.registry.average_latency": [
+      "s11"
+    ],
+    "reflex.utils.registry.latency": [
+      "s11",
+      "s247"
+    ],
+    "reflex.utils.telemetry.get_cpu_info": [
+      "s12",
+      "s176"
+    ],
+    "reflex.utils.telemetry.CpuInfo": [
+      "s12",
+      "s175"
+    ],
+    "reflex.utils.telemetry._retrieve_cpu_info": [
+      "s12",
+      "s175"
+    ],
+    "reflex.utils.build._duplicate_index_html_to_parent_directory": [
+      "s13",
+      "s13"
+    ],
+    "reflex.utils.path_ops.cp": [
+      "s13",
+      "s24",
+      "s112",
+      "s129",
+      "s130",
+      "s184"
+    ],
+    "reflex.utils.telemetry_accounting._walk_states": [
+      "s14",
+      "s14",
+      "s180"
+    ],
+    "reflex.state.is_user_defined": [
+      "s14"
+    ],
+    "reflex.app.default_overlay_components": [
+      "s15"
+    ],
+    "reflex.utils.codespaces.codespaces_auto_redirect": [
+      "s15",
+      "s115"
+    ],
+    "reflex.utils.exec.get_compile_context": [
+      "s15",
+      "s212"
+    ],
+    "reflex.app.App.__post_init__": [
+      "s16"
+    ],
+    "reflex.state.__subclasses__": [
+      "s16"
+    ],
+    "reflex.utils.exec.is_testing_env": [
+      "s16"
+    ],
+    "reflex.app.App.add_page": [
+      "s17",
+      "s199",
+      "s200"
+    ],
+    "reflex.route.get_route_args": [
+      "s17",
+      "s181"
+    ],
+    "reflex.state.setup_dynamic_args": [
+      "s17"
+    ],
+    "reflex.app.App._validate_var_dependencies": [
+      "s18",
+      "s201"
+    ],
+    "reflex.utils.exceptions.VarDependencyError": [
+      "s18"
+    ],
+    "reflex.app.App.modify_state": [
+      "s19"
+    ],
+    "reflex.state.StateUpdate": [
+      "s19",
+      "s221"
+    ],
+    "reflex.state._get_resolved_delta": [
+      "s19",
+      "s71"
+    ],
+    "reflex.app.EventNamespace.__init__": [
+      "s20"
+    ],
+    "reflex.app.__init__": [
+      "s20"
+    ],
+    "reflex.utils.token_manager.create": [
+      "s20"
+    ],
+    "reflex.app.EventNamespace.link_token_to_sid": [
+      "s21"
+    ],
+    "reflex.istate.data.from_router_data": [
+      "s21"
+    ],
+    "reflex.istate.manager.token.BaseStateToken": [
+      "s21",
+      "s73",
+      "s74",
+      "s219",
+      "s220"
+    ],
+    "reflex.app_mixins.lifespan.LifespanMixin.register_lifespan_task": [
+      "s22"
+    ],
+    "reflex.app_mixins.lifespan._get_task_name": [
+      "s22"
+    ],
+    "reflex.experimental.memo.partial": [
+      "s22",
+      "s70",
+      "s101",
+      "s154"
+    ],
+    "reflex.compiler.compiler.compile_root_stylesheet": [
+      "s23",
+      "s38"
+    ],
+    "reflex.compiler.compiler._compile_root_stylesheet": [
+      "s23",
+      "s24",
+      "s25"
+    ],
+    "reflex.compiler.utils.get_root_stylesheet_path": [
+      "s23"
+    ],
+    "reflex.compiler.templates.styles_template": [
+      "s25"
+    ],
+    "reflex.compiler.compiler._compile_memo_components": [
+      "s26",
+      "s27",
+      "s205",
+      "s206"
+    ],
+    "reflex.compiler.compiler._compile_single_memo_function": [
+      "s26",
+      "s208"
+    ],
+    "reflex.compiler.utils.compile_experimental_function_memo": [
+      "s26"
+    ],
+    "reflex.compiler.templates.memo_index_template": [
+      "s27"
+    ],
+    "reflex.compiler.utils.get_components_path": [
+      "s27"
+    ],
+    "reflex.compiler.compiler.compile_document_root": [
+      "s28"
+    ],
+    "reflex.compiler.utils.create_document_root": [
+      "s28"
+    ],
+    "reflex.compiler.compiler.compile_app_root": [
+      "s29",
+      "s39"
+    ],
+    "reflex.compiler.compiler._compile_app": [
+      "s29",
+      "s203"
+    ],
+    "reflex.compiler.compiler.compile_theme": [
+      "s30"
+    ],
+    "reflex.compiler.utils.create_theme": [
+      "s30"
+    ],
+    "reflex.compiler.utils.get_theme_path": [
+      "s30"
+    ],
+    "reflex.compiler.compiler.compile_contexts": [
+      "s31",
+      "s39"
+    ],
+    "reflex.compiler.compiler._compile_contexts": [
+      "s31",
+      "s262"
+    ],
+    "reflex.compiler.utils.get_context_path": [
+      "s31"
+    ],
+    "reflex.compiler.compiler.compile_page": [
+      "s32"
+    ],
+    "reflex.compiler.compiler._compile_page": [
+      "s32",
+      "s204"
+    ],
+    "reflex.compiler.utils.get_page_path": [
+      "s32",
+      "s43"
+    ],
+    "reflex.compiler.compiler.purge_web_pages_dir": [
+      "s33"
+    ],
+    "reflex.compiler.utils.empty_dir": [
+      "s33"
+    ],
+    "reflex.utils.exec.is_prod_mode": [
+      "s33",
+      "s36",
+      "s262"
+    ],
+    "reflex.compiler.compiler.compile_app": [
+      "s34",
+      "s35",
+      "s36",
+      "s37",
+      "s38",
+      "s39",
+      "s40",
+      "s41",
+      "s210",
+      "s211",
+      "s212",
+      "s252"
+    ],
+    "reflex.app._write_stateful_pages_marker": [
+      "s34"
+    ],
+    "reflex.utils.console.timing": [
+      "s34"
+    ],
+    "reflex.compiler.compiler._resolve_radix_themes_plugin": [
+      "s35"
+    ],
+    "reflex.utils.console.PoorProgress": [
+      "s35"
+    ],
+    "reflex.app._setup_sticky_badge": [
+      "s36"
+    ],
+    "reflex.utils.path_ops.update_directory_tree": [
+      "s37"
+    ],
+    "reflex.compiler.compiler._set_progress_total": [
+      "s38"
+    ],
+    "reflex.app._get_frontend_packages": [
+      "s40"
+    ],
+    "reflex.utils.frontend_skeleton.update_react_router_config": [
+      "s40",
+      "s134",
+      "s237"
+    ],
+    "reflex.compiler.utils.resolve_path_of_web_dir": [
+      "s41"
+    ],
+    "reflex.utils.frontend_skeleton.update_entry_client": [
+      "s41",
+      "s135"
+    ],
+    "reflex.compiler.utils.compile_state": [
+      "s42",
+      "s262"
+    ],
+    "reflex.compiler.utils._sorted_keys": [
+      "s42"
+    ],
+    "reflex.state._resolve_delta": [
+      "s42",
+      "s221"
+    ],
+    "reflex.compiler.utils._path_to_file_stem": [
+      "s43"
+    ],
+    "reflex.custom_components.custom_components._populate_demo_app": [
+      "s44",
+      "s45",
+      "s49"
+    ],
+    "reflex.custom_components.custom_components.set_directory": [
+      "s44",
+      "s47"
+    ],
+    "reflex.utils.console.info": [
+      "s44",
+      "s46",
+      "s51",
+      "s138",
+      "s139",
+      "s214",
+      "s239",
+      "s241",
+      "s247"
+    ],
+    "reflex.custom_components.custom_components._demo_app_template": [
+      "s45"
+    ],
+    "reflex.reflex._init": [
+      "s45",
+      "s86",
+      "s87",
+      "s88",
+      "s95",
+      "s223",
+      "s227",
+      "s228",
+      "s229"
+    ],
+    "reflex.custom_components.custom_components._populate_custom_component_project": [
+      "s46",
+      "s47",
+      "s213"
+    ],
+    "reflex.custom_components.custom_components._create_package_config": [
+      "s46"
+    ],
+    "reflex.custom_components.custom_components._write_source_and_init_py": [
+      "s47"
+    ],
+    "reflex.custom_components.custom_components.init": [
+      "s48",
+      "s49",
+      "s213",
+      "s214"
+    ],
+    "reflex.utils.frontend_skeleton.initialize_gitignore": [
+      "s49",
+      "s88"
+    ],
+    "reflex.custom_components.custom_components.install": [
+      "s51"
+    ],
+    "reflex.experimental.client_state.ClientStateVar.create": [
+      "s52"
+    ],
+    "reflex.experimental.client_state._client_state_ref": [
+      "s52"
+    ],
+    "reflex.experimental.client_state._client_state_ref_dict": [
+      "s52"
+    ],
+    "reflex.experimental.hooks.useState": [
+      "s53"
+    ],
+    "reflex.experimental.hooks._compose_react_imports": [
+      "s53"
+    ],
+    "reflex.experimental.hooks.const": [
+      "s53"
+    ],
+    "reflex.experimental.memo._register_memo_definition": [
+      "s54",
+      "s264"
+    ],
+    "reflex.experimental.memo._is_memo_reregistration": [
+      "s54"
+    ],
+    "reflex.experimental.memo._memo_registry_key": [
+      "s54"
+    ],
+    "reflex.experimental.memo._children_annotation_is_valid": [
+      "s55",
+      "s57"
+    ],
+    "reflex.experimental.memo._annotation_inner_type": [
+      "s55"
+    ],
+    "reflex.experimental.memo._is_var_annotation": [
+      "s55",
+      "s264"
+    ],
+    "reflex.experimental.memo._placeholder_for_param": [
+      "s56"
+    ],
+    "reflex.experimental.memo._rest_placeholder": [
+      "s56"
+    ],
+    "reflex.experimental.memo._var_placeholder": [
+      "s56"
+    ],
+    "reflex.experimental.memo._analyze_params": [
+      "s57",
+      "s217",
+      "s218",
+      "s263"
+    ],
+    "reflex.experimental.memo._is_rest_annotation": [
+      "s57"
+    ],
+    "reflex.experimental.memo._create_function_definition": [
+      "s58",
+      "s62",
+      "s263"
+    ],
+    "reflex.experimental.memo.ExperimentalMemoFunctionDefinition": [
+      "s58"
+    ],
+    "reflex.experimental.memo._imported_function_var": [
+      "s58"
+    ],
+    "reflex.experimental.memo._create_component_definition": [
+      "s59",
+      "s217",
+      "s264"
+    ],
+    "reflex.experimental.memo.ExperimentalMemoComponentDefinition": [
+      "s59"
+    ],
+    "reflex.experimental.memo._lift_rest_props": [
+      "s59"
+    ],
+    "reflex.experimental.memo._bind_function_runtime_args": [
+      "s60"
+    ],
+    "reflex.experimental.memo._get_children_param": [
+      "s60",
+      "s61",
+      "s263"
+    ],
+    "reflex.experimental.memo._get_rest_param": [
+      "s60",
+      "s61",
+      "s263"
+    ],
+    "reflex.experimental.memo._ExperimentalMemoComponentWrapper.__init__": [
+      "s61"
+    ],
+    "reflex.experimental.memo.memo": [
+      "s62",
+      "s264"
+    ],
+    "reflex.experimental.memo._create_function_wrapper": [
+      "s62"
+    ],
+    "reflex.istate.manager.__init__.StateManager.create": [
+      "s63",
+      "s64"
+    ],
+    "reflex.istate.manager.disk.StateManagerDisk": [
+      "s63"
+    ],
+    "reflex.istate.manager.memory.StateManagerMemory": [
+      "s63"
+    ],
+    "reflex.istate.manager.redis.StateManagerRedis": [
+      "s64",
+      "s194"
+    ],
+    "reflex.utils.prerequisites.get_redis": [
+      "s64",
+      "s166",
+      "s261"
+    ],
+    "reflex.istate.manager.__init__.reset_disk_state_manager": [
+      "s65",
+      "s227"
+    ],
+    "reflex.utils.prerequisites.get_states_dir": [
+      "s65"
+    ],
+    "reflex.istate.manager.redis.StateManagerRedis.set_state": [
+      "s66"
+    ],
+    "reflex.state._get_was_touched": [
+      "s66",
+      "s75",
+      "s76"
+    ],
+    "reflex.state.get_full_name": [
+      "s66",
+      "s72",
+      "s75",
+      "s76",
+      "s201",
+      "s219"
+    ],
+    "reflex.istate.manager.token.BaseStateToken.from_legacy_token": [
+      "s67"
+    ],
+    "reflex.state._split_substate_key": [
+      "s67",
+      "s220"
+    ],
+    "reflex.state.get_class_substate": [
+      "s67",
+      "s68",
+      "s77",
+      "s201"
+    ],
+    "reflex.istate.proxy.StateProxy.__aenter__": [
+      "s68"
+    ],
+    "reflex.istate.proxy.__setattr__": [
+      "s68"
+    ],
+    "reflex.istate.proxy.StateProxy.__getattr__": [
+      "s69"
+    ],
+    "reflex.istate.proxy.ImmutableMutableProxy": [
+      "s69"
+    ],
+    "reflex.istate.proxy.__getattr__": [
+      "s69"
+    ],
+    "reflex.istate.proxy.MutableProxy.__getattr__": [
+      "s70"
+    ],
+    "reflex.istate.proxy.is_mutable_type": [
+      "s70",
+      "s102"
+    ],
+    "reflex.istate.shared._patch_state": [
+      "s71"
+    ],
+    "reflex.state._get_root_state": [
+      "s71"
+    ],
+    "reflex.istate.shared.SharedStateBaseInternal._resolve_linked_state": [
+      "s72"
+    ],
+    "reflex.state._get_state_from_redis": [
+      "s72",
+      "s104"
+    ],
+    "reflex.istate.shared.SharedStateBaseInternal._unlink": [
+      "s73"
+    ],
+    "reflex.istate.manager.__init__.get_state_manager": [
+      "s73",
+      "s74",
+      "s220"
+    ],
+    "reflex.istate.shared.SharedStateBaseInternal._internal_patch_linked_state": [
+      "s74"
+    ],
+    "reflex.istate.shared.SharedStateBaseInternal._modify_linked_states": [
+      "s75"
+    ],
+    "reflex.istate.shared.SharedStateBaseInternal._collect_shared_token_updates": [
+      "s76"
+    ],
+    "reflex.istate.wrappers.get_state": [
+      "s77",
+      "s220"
+    ],
+    "reflex.istate.proxy.ReadOnlyStateProxy": [
+      "s77"
+    ],
+    "reflex.model.get_migration_history": [
+      "s78",
+      "s83"
+    ],
+    "reflex.model._alembic_config": [
+      "s78"
+    ],
+    "reflex.model.Model.__init_subclass__": [
+      "s79"
+    ],
+    "reflex.model.__init_subclass__": [
+      "s79"
+    ],
+    "reflex.model._warn_about_model_deprecation": [
+      "s79",
+      "s80",
+      "s81",
+      "s82",
+      "s83",
+      "s84",
+      "s85"
+    ],
+    "reflex.model.Model.create_all": [
+      "s80"
+    ],
+    "reflex.model.Model.get_db_engine": [
+      "s81"
+    ],
+    "reflex.model.Model.alembic_init": [
+      "s82"
+    ],
+    "reflex.model.alembic_init": [
+      "s82",
+      "s255"
+    ],
+    "reflex.model.Model.get_migration_history": [
+      "s83"
+    ],
+    "reflex.model.Model.alembic_autogenerate": [
+      "s84"
+    ],
+    "reflex.model.alembic_autogenerate": [
+      "s84",
+      "s171",
+      "s222"
+    ],
+    "reflex.model.Model.migrate": [
+      "s85"
+    ],
+    "reflex.model.migrate": [
+      "s85",
+      "s222",
+      "s255",
+      "s256"
+    ],
+    "reflex.utils.redir.reflex_build_redirect": [
+      "s86",
+      "s191"
+    ],
+    "reflex.utils.prerequisites.initialize_frontend_dependencies": [
+      "s87",
+      "s170"
+    ],
+    "reflex.utils.templates.initialize_app": [
+      "s88",
+      "s190",
+      "s191",
+      "s192",
+      "s250"
+    ],
+    "reflex.reflex._compile_app": [
+      "s89",
+      "s90",
+      "s224"
+    ],
+    "reflex.utils.exec.should_prerender_routes": [
+      "s89",
+      "s198"
+    ],
+    "reflex.utils.exec.should_use_granian": [
+      "s89",
+      "s121",
+      "s230",
+      "s231"
+    ],
+    "reflex.reflex._run_dev": [
+      "s90",
+      "s91"
+    ],
+    "reflex.utils.telemetry.send": [
+      "s90",
+      "s96",
+      "s179",
+      "s190",
+      "s225"
+    ],
+    "reflex.utils.exec.run_backend": [
+      "s91",
+      "s121",
+      "s122"
+    ],
+    "reflex.utils.processes.run_concurrently_context": [
+      "s91"
+    ],
+    "reflex.reflex._run_prod": [
+      "s92",
+      "s224",
+      "s225"
+    ],
+    "reflex.utils.exec.notify_frontend": [
+      "s92",
+      "s118"
+    ],
+    "reflex.utils.exec.run_backend_prod": [
+      "s92",
+      "s231"
+    ],
+    "reflex.reflex.run": [
+      "s93"
+    ],
+    "reflex.reflex._run": [
+      "s93",
+      "s226",
+      "s227"
+    ],
+    "reflex.utils.prerequisites.check_running_mode": [
+      "s93",
+      "s94"
+    ],
+    "reflex.reflex.export": [
+      "s94",
+      "s95"
+    ],
+    "reflex.utils.prerequisites.assert_in_reflex_dir": [
+      "s94",
+      "s226",
+      "s229"
+    ],
+    "reflex.reflex.login": [
+      "s96"
+    ],
+    "reflex.reflex._skip_compile": [
+      "s96",
+      "s224",
+      "s226",
+      "s255",
+      "s257"
+    ],
+    "reflex.reflex.status": [
+      "s97"
+    ],
+    "reflex.utils.prerequisites.check_db_initialized": [
+      "s97",
+      "s256",
+      "s257"
+    ],
+    "reflex.utils.prerequisites.get_app": [
+      "s97",
+      "s162",
+      "s256"
+    ],
+    "reflex.reflex.rename": [
+      "s98"
+    ],
+    "reflex.utils.prerequisites.validate_app_name": [
+      "s98",
+      "s223"
+    ],
+    "reflex.utils.rename.rename_app": [
+      "s98"
+    ],
+    "reflex.route.get_router": [
+      "s99"
+    ],
+    "reflex.route.replace_brackets_with_keywords": [
+      "s99"
+    ],
+    "reflex.route.route_specificity": [
+      "s99"
+    ],
+    "reflex.state.BaseState.setup_dynamic_args": [
+      "s100"
+    ],
+    "reflex.state.arglist_factory": [
+      "s100"
+    ],
+    "reflex.state.argsingle_factory": [
+      "s100"
+    ],
+    "reflex.state.BaseState._get_attribute": [
+      "s101",
+      "s102"
+    ],
+    "reflex.state._no_chain_background_task": [
+      "s101"
+    ],
+    "reflex.istate.proxy.MutableProxy": [
+      "s102"
+    ],
+    "reflex.state._field_tuple": [
+      "s103"
+    ],
+    "reflex.state._serialize_type": [
+      "s103"
+    ],
+    "reflex.state.is_serializable": [
+      "s103"
+    ],
+    "reflex.state.State._get_state_from_redis": [
+      "s104"
+    ],
+    "reflex.istate.shared._resolve_linked_state": [
+      "s104"
+    ],
+    "reflex.testing.AppHarness._start_frontend": [
+      "s105"
+    ],
+    "reflex.testing.chdir": [
+      "s105",
+      "s106"
+    ],
+    "reflex.utils.format.format": [
+      "s105",
+      "s106"
+    ],
+    "reflex.testing.AppHarnessProd._start_frontend": [
+      "s106"
+    ],
+    "reflex.utils.build.set_env_json": [
+      "s107",
+      "s113"
+    ],
+    "reflex.utils.path_ops.update_json_file": [
+      "s107",
+      "s140",
+      "s160"
+    ],
+    "reflex.utils.build.zip_app": [
+      "s108",
+      "s232"
+    ],
+    "reflex.utils.build._zip": [
+      "s108"
+    ],
+    "reflex.utils.build.build": [
+      "s109",
+      "s110",
+      "s111",
+      "s112",
+      "s114",
+      "s232"
+    ],
+    "reflex.utils.path_ops.rm": [
+      "s109",
+      "s128",
+      "s152",
+      "s243"
+    ],
+    "reflex.utils.js_runtimes.get_js_package_executor": [
+      "s110",
+      "s126",
+      "s146",
+      "s147",
+      "s242"
+    ],
+    "reflex.utils.processes.show_progress": [
+      "s111",
+      "s174"
+    ],
+    "reflex.utils.build._compress_static_output": [
+      "s112",
+      "s258"
+    ],
+    "reflex.utils.build.setup_frontend": [
+      "s113",
+      "s114",
+      "s232"
+    ],
+    "reflex.utils.prerequisites.set_last_reflex_run_time": [
+      "s113",
+      "s160"
+    ],
+    "reflex.utils.build.setup_frontend_prod": [
+      "s114",
+      "s224"
+    ],
+    "reflex.utils.codespaces.is_running_in_codespaces": [
+      "s115"
+    ],
+    "reflex.utils.codespaces.redirect_script": [
+      "s115"
+    ],
+    "reflex.utils.exec.run_process_and_launch_url": [
+      "s116",
+      "s117",
+      "s118",
+      "s119"
+    ],
+    "reflex.utils.exec.get_package_json_and_hash": [
+      "s116"
+    ],
+    "reflex.utils.exec.get_different_packages": [
+      "s117"
+    ],
+    "reflex.utils.processes.stream_logs": [
+      "s117",
+      "s172",
+      "s173",
+      "s174"
+    ],
+    "reflex.utils.exec.notify_backend": [
+      "s118",
+      "s121"
+    ],
+    "reflex.utils.exec.run_frontend": [
+      "s119"
+    ],
+    "reflex.utils.js_runtimes.validate_frontend_dependencies": [
+      "s119",
+      "s170",
+      "s242"
+    ],
+    "reflex.utils.exec.get_app_file": [
+      "s120"
+    ],
+    "reflex.utils.exec.get_app_module": [
+      "s120"
+    ],
+    "reflex.utils.misc.get_module_path": [
+      "s120",
+      "s123",
+      "s161"
+    ],
+    "reflex.utils.exec.run_granian_backend": [
+      "s122",
+      "s125"
+    ],
+    "reflex.utils.exec.run_uvicorn_backend": [
+      "s122",
+      "s124"
+    ],
+    "reflex.utils.exec.get_reload_paths": [
+      "s123"
+    ],
+    "reflex.utils.exec._has_child_file": [
+      "s123"
+    ],
+    "reflex.utils.exec.get_app_instance": [
+      "s124"
+    ],
+    "reflex.utils.exec.reset_dev_backend_reload_marker": [
+      "s124",
+      "s125"
+    ],
+    "reflex.utils.exec.get_app_instance_from_file": [
+      "s125"
+    ],
+    "reflex.utils.js_runtimes.get_nodejs_compatible_package_managers": [
+      "s126",
+      "s144",
+      "s265"
+    ],
+    "reflex.utils.export.export": [
+      "s127",
+      "s232"
+    ],
+    "reflex.utils.export._time_phase": [
+      "s127"
+    ],
+    "reflex.utils.prerequisites.get_compiled_app": [
+      "s127",
+      "s164",
+      "s228",
+      "s255",
+      "s257"
+    ],
+    "reflex.utils.frontend_skeleton._copy_if_exists": [
+      "s128",
+      "s129",
+      "s234"
+    ],
+    "reflex.utils.path_ops.mkdir": [
+      "s129",
+      "s133",
+      "s169",
+      "s235",
+      "s259"
+    ],
+    "reflex.utils.frontend_skeleton.sync_web_package_json_to_root": [
+      "s130",
+      "s235",
+      "s265"
+    ],
+    "reflex.utils.frontend_skeleton.initialize_web_directory": [
+      "s131",
+      "s132",
+      "s133",
+      "s134",
+      "s236"
+    ],
+    "reflex.utils.frontend_skeleton.sync_root_lockfiles_to_web": [
+      "s131",
+      "s243"
+    ],
+    "reflex.utils.path_ops.copy_tree": [
+      "s131"
+    ],
+    "reflex.utils.frontend_skeleton.initialize_bun_config": [
+      "s132",
+      "s138"
+    ],
+    "reflex.utils.frontend_skeleton.initialize_package_json": [
+      "s132",
+      "s136"
+    ],
+    "reflex.utils.frontend_skeleton.initialize_npmrc": [
+      "s133",
+      "s139"
+    ],
+    "reflex.utils.frontend_skeleton.initialize_vite_config": [
+      "s134",
+      "s137"
+    ],
+    "reflex.compiler.utils.write_file": [
+      "s135",
+      "s237"
+    ],
+    "reflex.utils.frontend_skeleton._compile_package_json": [
+      "s136"
+    ],
+    "reflex.utils.frontend_skeleton._compile_vite_config": [
+      "s137"
+    ],
+    "reflex.utils.frontend_skeleton.init_reflex_json": [
+      "s140"
+    ],
+    "reflex.utils.js_runtimes.prefer_npm_over_bun": [
+      "s143",
+      "s147",
+      "s242"
+    ],
+    "reflex.utils.js_runtimes._persisted_lockfile_implies_npm": [
+      "s143"
+    ],
+    "reflex.utils.prerequisites.windows_check_onedrive_in_path": [
+      "s143",
+      "s168"
+    ],
+    "reflex.utils.path_ops.get_npm_path": [
+      "s144",
+      "s147"
+    ],
+    "reflex.utils.js_runtimes.is_outdated_nodejs_installed": [
+      "s145",
+      "s146"
+    ],
+    "reflex.utils.js_runtimes.install_bun": [
+      "s148",
+      "s149",
+      "s150",
+      "s170",
+      "s239",
+      "s240"
+    ],
+    "reflex.utils.console.is_debug": [
+      "s150"
+    ],
+    "reflex.utils.path_ops.which": [
+      "s150",
+      "s157"
+    ],
+    "reflex.utils.js_runtimes.validate_bun": [
+      "s151",
+      "s240",
+      "s241"
+    ],
+    "reflex.utils.path_ops.samefile": [
+      "s151"
+    ],
+    "reflex.utils.js_runtimes.remove_existing_bun_installation": [
+      "s152"
+    ],
+    "reflex.utils.js_runtimes._run_initial_install": [
+      "s153",
+      "s244",
+      "s245"
+    ],
+    "reflex.utils.processes.show_status": [
+      "s153",
+      "s173",
+      "s246"
+    ],
+    "reflex.utils.js_runtimes._install_frontend_packages": [
+      "s154",
+      "s245",
+      "s265"
+    ],
+    "reflex.utils.net._should_use_ipv6": [
+      "s155"
+    ],
+    "reflex.utils.net._is_ipv4_supported": [
+      "s155"
+    ],
+    "reflex.utils.net._is_ipv6_supported": [
+      "s155"
+    ],
+    "reflex.utils.net._httpx_client": [
+      "s156"
+    ],
+    "reflex.utils.net._httpx_local_address_kwarg": [
+      "s156"
+    ],
+    "reflex.utils.net._httpx_verify_kwarg": [
+      "s156"
+    ],
+    "reflex.utils.path_ops.use_system_bun": [
+      "s157",
+      "s240"
+    ],
+    "reflex.utils.prerequisites.check_latest_package_version": [
+      "s158",
+      "s159",
+      "s223",
+      "s229"
+    ],
+    "reflex.utils.net.get": [
+      "s158",
+      "s186",
+      "s238",
+      "s247"
+    ],
+    "reflex.utils.prerequisites.get_or_set_last_reflex_version_check_datetime": [
+      "s159"
+    ],
+    "reflex.utils.prerequisites._check_app_name": [
+      "s161"
+    ],
+    "reflex.utils.misc.with_cwd_in_syspath": [
+      "s161"
+    ],
+    "reflex.page.clear": [
+      "s162"
+    ],
+    "reflex.state.reload_state_module": [
+      "s162"
+    ],
+    "reflex.utils.prerequisites.get_and_validate_app": [
+      "s163",
+      "s164",
+      "s165"
+    ],
+    "reflex.utils.prerequisites.AppInfo": [
+      "s163"
+    ],
+    "reflex.utils.prerequisites.check_schema_up_to_date": [
+      "s163",
+      "s171",
+      "s256"
+    ],
+    "reflex.app._compile": [
+      "s164"
+    ],
+    "reflex.utils.prerequisites.compile_or_validate_app": [
+      "s165"
+    ],
+    "reflex.utils.prerequisites._can_colorize": [
+      "s165"
+    ],
+    "reflex.utils.prerequisites.parse_redis_url": [
+      "s166",
+      "s167"
+    ],
+    "reflex.utils.prerequisites.get_redis_sync": [
+      "s167"
+    ],
+    "reflex.utils.console.status": [
+      "s173"
+    ],
+    "reflex.utils.console.progress": [
+      "s174"
+    ],
+    "reflex.utils.telemetry._get_event_defaults": [
+      "s176",
+      "s177",
+      "s248",
+      "s266"
+    ],
+    "reflex.utils.prerequisites.get_project_hash": [
+      "s177",
+      "s236"
+    ],
+    "reflex.utils.telemetry._raise_on_missing_project_hash": [
+      "s177"
+    ],
+    "reflex.utils.telemetry._send": [
+      "s178"
+    ],
+    "reflex.utils.telemetry._prepare_event": [
+      "s178"
+    ],
+    "reflex.utils.telemetry._send_event": [
+      "s178"
+    ],
+    "reflex.utils.telemetry_accounting.record_compile": [
+      "s179"
+    ],
+    "reflex.utils.telemetry_accounting._collect_compile_event_payload": [
+      "s179",
+      "s180",
+      "s249"
+    ],
+    "reflex.utils.telemetry_accounting._count_components": [
+      "s180"
+    ],
+    "reflex.utils.telemetry_accounting._walk_app_features": [
+      "s181",
+      "s260"
+    ],
+    "reflex.app_mixins.lifespan.get_lifespan_tasks": [
+      "s181"
+    ],
+    "reflex.utils.templates.create_config": [
+      "s182",
+      "s185"
+    ],
+    "reflex.compiler.templates.rxconfig_template": [
+      "s182"
+    ],
+    "reflex.utils.templates.initialize_app_directory": [
+      "s183",
+      "s184",
+      "s185",
+      "s187"
+    ],
+    "reflex.utils.console.log": [
+      "s183",
+      "s236"
+    ],
+    "reflex.utils.path_ops.mv": [
+      "s184"
+    ],
+    "reflex.utils.templates.initialize_default_app": [
+      "s185",
+      "s192"
+    ],
+    "reflex.utils.templates.create_config_init_app_from_remote_template": [
+      "s186",
+      "s187"
+    ],
+    "reflex.utils.rename.rename_imports_and_app_name": [
+      "s187"
+    ],
+    "reflex.utils.templates.fetch_app_templates": [
+      "s188",
+      "s189"
+    ],
+    "reflex.utils.templates.get_release_by_tag": [
+      "s188"
+    ],
+    "reflex.utils.templates.fetch_remote_templates": [
+      "s189",
+      "s250"
+    ],
+    "reflex.utils.telemetry.get_init_environment": [
+      "s190"
+    ],
+    "reflex.utils.redir.reflex_templates": [
+      "s191"
+    ],
+    "reflex.utils.templates.validate_and_create_app_using_remote_template": [
+      "s192"
+    ],
+    "reflex.utils.token_manager.LocalTokenManager.link_token_to_sid": [
+      "s193"
+    ],
+    "reflex.utils.token_manager.SocketRecord": [
+      "s193",
+      "s196"
+    ],
+    "reflex.utils.token_manager._get_new_token": [
+      "s193",
+      "s196"
+    ],
+    "reflex.utils.token_manager.RedisTokenManager._subscribe_socket_record_updates": [
+      "s194"
+    ],
+    "reflex.istate.manager.redis._enable_keyspace_notifications": [
+      "s194"
+    ],
+    "reflex.utils.token_manager.RedisTokenManager.link_token_to_sid": [
+      "s195",
+      "s196"
+    ],
+    "reflex.utils.token_manager.link_token_to_sid": [
+      "s195"
+    ],
+    "reflex.utils.token_manager.RedisTokenManager.disconnect_token": [
+      "s197"
+    ],
+    "reflex.utils.token_manager.disconnect_token": [
+      "s197"
+    ],
+    "reflex.app.App.__call__": [
+      "s198"
+    ],
+    "reflex.assets.remove_stale_external_asset_symlinks": [
+      "s198"
+    ],
+    "reflex.utils.exec.get_backend_compile_trigger": [
+      "s198"
+    ],
+    "reflex.utils.exceptions.RouteValueError": [
+      "s199"
+    ],
+    "reflex.utils.format.format_route": [
+      "s199"
+    ],
+    "reflex.utils.format.to_kebab_case": [
+      "s199"
+    ],
+    "reflex.app.UnevaluatedPage": [
+      "s200"
+    ],
+    "reflex.route.verify_route_validity": [
+      "s200"
+    ],
+    "reflex.utils.exceptions.PageValueError": [
+      "s200"
+    ],
+    "reflex.state.get_root_state": [
+      "s201"
+    ],
+    "reflex.compiler.compiler._compile_document_root": [
+      "s202"
+    ],
+    "reflex.compiler.compiler._apply_common_imports": [
+      "s202",
+      "s203",
+      "s204",
+      "s207",
+      "s209"
+    ],
+    "reflex.compiler.templates.document_root_template": [
+      "s202"
+    ],
+    "reflex.compiler.utils.compile_imports": [
+      "s202",
+      "s203",
+      "s204",
+      "s207",
+      "s208",
+      "s209"
+    ],
+    "reflex.compiler.templates.app_root_template": [
+      "s203"
+    ],
+    "reflex.compiler.templates.page_template": [
+      "s204",
+      "s209"
+    ],
+    "reflex.compiler.compiler._compile_single_memo_component": [
+      "s205",
+      "s207"
+    ],
+    "reflex.compiler.utils.compile_custom_component": [
+      "s205"
+    ],
+    "reflex.compiler.utils.get_memo_components_dir": [
+      "s205"
+    ],
+    "reflex.compiler.compiler._extend_imports_in_place": [
+      "s206"
+    ],
+    "reflex.compiler.compiler._memo_component_file_path": [
+      "s206"
+    ],
+    "reflex.compiler.compiler._memo_component_index_specifier": [
+      "s206"
+    ],
+    "reflex.compiler.templates.memo_single_component_template": [
+      "s207"
+    ],
+    "reflex.compiler.templates.memo_single_function_template": [
+      "s208"
+    ],
+    "reflex.compiler.utils.merge_imports": [
+      "s208",
+      "s252"
+    ],
+    "reflex.compiler.compiler.compile_page_from_context": [
+      "s209"
+    ],
+    "reflex.app._apply_decorated_pages": [
+      "s210"
+    ],
+    "reflex.app._should_compile": [
+      "s210"
+    ],
+    "reflex.utils.prerequisites.get_backend_dir": [
+      "s210"
+    ],
+    "reflex.app._add_optional_endpoints": [
+      "s211"
+    ],
+    "reflex.app._compile_page": [
+      "s211"
+    ],
+    "reflex.app._validate_var_dependencies": [
+      "s212"
+    ],
+    "reflex.utils.prerequisites.get_user_tier": [
+      "s212"
+    ],
+    "reflex.custom_components.custom_components._validate_library_name": [
+      "s213"
+    ],
+    "reflex.utils.console.rule": [
+      "s213",
+      "s216"
+    ],
+    "reflex.utils.console.print": [
+      "s214",
+      "s215",
+      "s216"
+    ],
+    "reflex.custom_components.custom_components._run_build": [
+      "s215"
+    ],
+    "reflex.custom_components.custom_components._make_pyi_files": [
+      "s215"
+    ],
+    "reflex.custom_components.custom_components._collect_details_for_gallery": [
+      "s216"
+    ],
+    "reflex.experimental.memo._evaluate_memo_function": [
+      "s217",
+      "s218",
+      "s263"
+    ],
+    "reflex.experimental.memo._normalize_component_return": [
+      "s217",
+      "s218"
+    ],
+    "reflex.experimental.memo.create_passthrough_component_memo": [
+      "s218"
+    ],
+    "reflex.istate.proxy.StateProxy.__init__": [
+      "s219"
+    ],
+    "reflex.istate.proxy.__init__": [
+      "s219"
+    ],
+    "reflex.middleware.hydrate_middleware.HydrateMiddleware.preprocess": [
+      "s221"
+    ],
+    "reflex.state.dict": [
+      "s221"
+    ],
+    "reflex.model._alembic_upgrade": [
+      "s222"
+    ],
+    "reflex.model.register": [
+      "s225"
+    ],
+    "reflex.utils.exec.notify_app_running": [
+      "s225"
+    ],
+    "reflex.reflex.compile": [
+      "s228"
+    ],
+    "reflex.reflex.deploy": [
+      "s229"
+    ],
+    "reflex.utils.exec.run_frontend_prod": [
+      "s230"
+    ],
+    "reflex.utils.exec.run_granian_backend_prod": [
+      "s230",
+      "s231"
+    ],
+    "reflex.utils.exec.run_uvicorn_backend_prod": [
+      "s230",
+      "s231"
+    ],
+    "reflex.utils.frontend_skeleton.initialize_requirements_txt": [
+      "s233"
+    ],
+    "reflex.utils.frontend_skeleton._has_reflex_requirement_line": [
+      "s233"
+    ],
+    "reflex.utils.frontend_skeleton._read_dependency_file": [
+      "s233"
+    ],
+    "reflex.utils.frontend_skeleton.sync_root_lockfile_to_web": [
+      "s234"
+    ],
+    "reflex.utils.frontend_skeleton.get_root_lockfile_path": [
+      "s234",
+      "s259"
+    ],
+    "reflex.utils.frontend_skeleton.get_web_lockfile_path": [
+      "s234",
+      "s245",
+      "s259"
+    ],
+    "reflex.utils.frontend_skeleton.get_root_package_json_path": [
+      "s235"
+    ],
+    "reflex.utils.frontend_skeleton.get_web_package_json_path": [
+      "s235"
+    ],
+    "reflex.utils.frontend_skeleton._update_react_router_config": [
+      "s237"
+    ],
+    "reflex.utils.js_runtimes.download_and_run": [
+      "s238"
+    ],
+    "reflex.utils.js_runtimes.npm_escape_hatch": [
+      "s239"
+    ],
+    "reflex.utils.js_runtimes.check_node_version": [
+      "s242"
+    ],
+    "reflex.utils.js_runtimes._sync_root_lockfiles_for_frontend_install": [
+      "s243",
+      "s265"
+    ],
+    "reflex.utils.js_runtimes._frontend_packages_cache_path": [
+      "s243"
+    ],
+    "reflex.utils.js_runtimes._is_bun_package_manager": [
+      "s244"
+    ],
+    "reflex.utils.processes.get_command_with_loglevel": [
+      "s244",
+      "s246"
+    ],
+    "reflex.utils.js_runtimes._split_by_version_specifier": [
+      "s245"
+    ],
+    "reflex.utils.telemetry.get_cpu_count": [
+      "s248"
+    ],
+    "reflex.utils.telemetry.get_reflex_enterprise_version": [
+      "s248"
+    ],
+    "reflex.utils.telemetry_accounting._collect_features_used": [
+      "s249",
+      "s260"
+    ],
+    "reflex.utils.telemetry_accounting._collect_state_stats": [
+      "s249"
+    ],
+    "reflex.utils.telemetry_accounting._sanitize_exception": [
+      "s249"
+    ],
+    "reflex.utils.templates.get_init_cli_prompt_options": [
+      "s250"
+    ],
+    "reflex.utils.templates.prompt_for_template_options": [
+      "s250"
+    ],
+    "reflex.app.health": [
+      "s251"
+    ],
+    "reflex.utils.misc.run_in_thread": [
+      "s251"
+    ],
+    "reflex.utils.prerequisites.check_db_used": [
+      "s251"
+    ],
+    "reflex.utils.prerequisites.check_redis_used": [
+      "s251",
+      "s261"
+    ],
+    "reflex.utils.prerequisites.get_redis_status": [
+      "s251"
+    ],
+    "reflex.app._app_root": [
+      "s252"
+    ],
+    "reflex.compiler.compiler._resolve_app_wrap_components": [
+      "s252"
+    ],
+    "reflex.compiler.compiler.compile_memo_components": [
+      "s252"
+    ],
+    "reflex.compiler.plugins.builtin.default_page_plugins": [
+      "s253"
+    ],
+    "reflex.compiler.plugins.builtin.ApplyStylePlugin": [
+      "s253"
+    ],
+    "reflex.compiler.plugins.builtin.DefaultCollectorPlugin": [
+      "s253"
+    ],
+    "reflex.compiler.plugins.builtin.DefaultPagePlugin": [
+      "s253"
+    ],
+    "reflex.compiler.plugins.memoize.MemoizeStatefulPlugin": [
+      "s253"
+    ],
+    "reflex.compiler.utils.compile_experimental_component_memo": [
+      "s254"
+    ],
+    "reflex.compiler.utils._apply_root_style": [
+      "s254"
+    ],
+    "reflex.compiler.utils._root_only_custom_code": [
+      "s254"
+    ],
+    "reflex.compiler.utils._root_only_dynamic_imports": [
+      "s254"
+    ],
+    "reflex.compiler.utils._root_only_hooks": [
+      "s254"
+    ],
+    "reflex.reflex.db_init": [
+      "s255"
+    ],
+    "reflex.reflex.migrate": [
+      "s256"
+    ],
+    "reflex.reflex.makemigrations": [
+      "s257"
+    ],
+    "reflex.utils.frontend_skeleton.sync_web_lockfile_to_root": [
+      "s259"
+    ],
+    "reflex.model.get_models": [
+      "s260"
+    ],
+    "reflex.utils.telemetry_accounting._record_config_attestations": [
+      "s260"
+    ],
+    "reflex.utils.telemetry_accounting._walk_state_features": [
+      "s260"
+    ],
+    "reflex.utils.token_manager.TokenManager.create": [
+      "s261"
+    ],
+    "reflex.utils.token_manager.LocalTokenManager": [
+      "s261"
+    ],
+    "reflex.utils.token_manager.RedisTokenManager": [
+      "s261"
+    ],
+    "reflex.compiler.templates.context_template": [
+      "s262"
+    ],
+    "reflex.compiler.utils.compile_client_storage": [
+      "s262"
+    ],
+    "reflex.state.get_name": [
+      "s262"
+    ],
+    "reflex.experimental.memo._validate_var_return_expr": [
+      "s263"
+    ],
+    "reflex.experimental.memo._create_component_wrapper": [
+      "s264"
+    ],
+    "reflex.experimental.memo._is_component_annotation": [
+      "s264"
+    ],
+    "reflex.utils.js_runtimes.install_frontend_packages": [
+      "s265"
+    ],
+    "reflex.utils.frontend_skeleton.sync_web_lockfiles_to_root": [
+      "s265"
+    ],
+    "reflex.utils.telemetry.get_detailed_platform_str": [
+      "s266"
+    ],
+    "reflex.utils.telemetry.get_os": [
+      "s266"
+    ],
+    "reflex.utils.telemetry.get_python_version": [
+      "s266"
+    ],
+    "reflex.utils.telemetry.get_reflex_version": [
+      "s266"
+    ]
+  },
+  "stats": {
+    "total": 267,
+    "by_order": {
+      "2": 193,
+      "3": 55,
+      "4": 14,
+      "5": 5
+    },
+    "triangles": 193,
+    "tetrahedra": 55
+  }
+}

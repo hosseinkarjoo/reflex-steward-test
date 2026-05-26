@@ -1,0 +1,15 @@
+{
+  "status": "running",
+  "pid": 70112,
+  "started_at": "2026-05-26T14:22:36.558060+00:00",
+  "last_heartbeat": "2026-05-26T14:55:37.687405+00:00",
+  "last_file_event": "2026-05-26T14:52:15.660960+00:00",
+  "last_file_path": "tests/units/utils/test_telemetry_context.py",
+  "last_full_rebuild": "2026-05-26T14:52:21.182242+00:00",
+  "events_processed": 191,
+  "errors": [],
+  "stale_hint": null,
+  "geometry_stale": false,
+  "coverage_stale": true,
+  "events_skipped_hash_match": 35
+}

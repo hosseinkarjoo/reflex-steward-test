@@ -513,3 +513,4 @@ geometry: N clusters · M simplices · sep=X.XX · Y ctx-sensitive · Z isolated
 - `isolated` — nodes with `architectural_isolation=true` (Phase E); any non-zero is worth noting
 <!-- steward:end -->
 
+
