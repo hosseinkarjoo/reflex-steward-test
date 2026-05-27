@@ -2406,11 +2406,13 @@
       }
     },
     "reflex/state.py": {
-      "line_count": 2655,
+      "layer": "Infrastructure",
+      "line_count": 2680,
+      "hash": "d4db586bb212b0ccfc7ad6f8d4dc6c3370e501c179a44a7c86d392b3088ce846",
       "functions": {
         "_no_chain_background_task": {
-          "lineno": 100,
-          "end_lineno": 134,
+          "lineno": 101,
+          "end_lineno": 135,
           "line_count": 35,
           "complexity": 3,
           "patterns": [],
@@ -2422,8 +2424,8 @@
           ]
         },
         "_substate_key": {
-          "lineno": 137,
-          "end_lineno": 156,
+          "lineno": 138,
+          "end_lineno": 157,
           "line_count": 20,
           "complexity": 5,
           "patterns": [],
@@ -2432,8 +2434,8 @@
           "external_calls": []
         },
         "_split_substate_key": {
-          "lineno": 159,
-          "end_lineno": 169,
+          "lineno": 160,
+          "end_lineno": 170,
           "line_count": 11,
           "complexity": 1,
           "patterns": [],
@@ -2442,8 +2444,8 @@
           "external_calls": []
         },
         "get_var_for_field": {
-          "lineno": 246,
-          "end_lineno": 265,
+          "lineno": 247,
+          "end_lineno": 266,
           "line_count": 20,
           "complexity": 1,
           "patterns": [],
@@ -2456,8 +2458,8 @@
           ]
         },
         "_resolve_delta": {
-          "lineno": 268,
-          "end_lineno": 287,
+          "lineno": 269,
+          "end_lineno": 288,
           "line_count": 20,
           "complexity": 5,
           "patterns": [
@@ -2469,7 +2471,7 @@
           "mutations": [
             {
               "param": "delta",
-              "line": 286,
+              "line": 287,
               "pattern": "subscript_assign"
             }
           ],
@@ -2481,8 +2483,8 @@
           ]
         },
         "_override_base_method": {
-          "lineno": 294,
-          "end_lineno": 304,
+          "lineno": 295,
+          "end_lineno": 305,
           "line_count": 11,
           "complexity": 1,
           "patterns": [],
@@ -2491,8 +2493,8 @@
           "external_calls": []
         },
         "_is_user_descriptor": {
-          "lineno": 307,
-          "end_lineno": 336,
+          "lineno": 308,
+          "end_lineno": 337,
           "line_count": 30,
           "complexity": 3,
           "patterns": [],
@@ -2503,8 +2505,8 @@
           ]
         },
         "_serialize_type": {
-          "lineno": 2196,
-          "end_lineno": 2207,
+          "lineno": 2219,
+          "end_lineno": 2230,
           "line_count": 12,
           "complexity": 2,
           "patterns": [],
@@ -2513,8 +2515,8 @@
           "external_calls": []
         },
         "is_serializable": {
-          "lineno": 2210,
-          "end_lineno": 2222,
+          "lineno": 2233,
+          "end_lineno": 2245,
           "line_count": 13,
           "complexity": 2,
           "patterns": [
@@ -2527,8 +2529,8 @@
           ]
         },
         "dynamic": {
-          "lineno": 2293,
-          "end_lineno": 2329,
+          "lineno": 2316,
+          "end_lineno": 2352,
           "line_count": 37,
           "complexity": 4,
           "patterns": [],
@@ -2542,8 +2544,8 @@
           ]
         },
         "serialize_state_update": {
-          "lineno": 2595,
-          "end_lineno": 2606,
+          "lineno": 2620,
+          "end_lineno": 2631,
           "line_count": 12,
           "complexity": 2,
           "patterns": [],
@@ -2554,8 +2556,8 @@
           ]
         },
         "code_uses_state_contexts": {
-          "lineno": 2609,
-          "end_lineno": 2618,
+          "lineno": 2634,
+          "end_lineno": 2643,
           "line_count": 10,
           "complexity": 1,
           "patterns": [],
@@ -2564,8 +2566,8 @@
           "external_calls": []
         },
         "reload_state_module": {
-          "lineno": 2621,
-          "end_lineno": 2655,
+          "lineno": 2646,
+          "end_lineno": 2680,
           "line_count": 35,
           "complexity": 9,
           "patterns": [],
@@ -2577,8 +2579,8 @@
           ]
         },
         "wrapper": {
-          "lineno": 2324,
-          "end_lineno": 2327,
+          "lineno": 2347,
+          "end_lineno": 2350,
           "line_count": 4,
           "complexity": 1,
           "patterns": [],
@@ -2589,8 +2591,8 @@
           ]
         },
         "_no_chain_background_task_co": {
-          "lineno": 121,
-          "end_lineno": 122,
+          "lineno": 122,
+          "end_lineno": 123,
           "line_count": 2,
           "complexity": 1,
           "patterns": [
@@ -2601,8 +2603,8 @@
           "external_calls": []
         },
         "_no_chain_background_task_gen": {
-          "lineno": 127,
-          "end_lineno": 129,
+          "lineno": 128,
+          "end_lineno": 130,
           "line_count": 3,
           "complexity": 1,
           "patterns": [
@@ -2613,8 +2615,8 @@
           "external_calls": []
         },
         "computed_var_func": {
-          "lineno": 793,
-          "end_lineno": 802,
+          "lineno": 798,
+          "end_lineno": 807,
           "line_count": 10,
           "complexity": 2,
           "patterns": [],
@@ -2627,8 +2629,8 @@
           ]
         },
         "argsingle_factory": {
-          "lineno": 1351,
-          "end_lineno": 1357,
+          "lineno": 1371,
+          "end_lineno": 1377,
           "line_count": 7,
           "complexity": 1,
           "patterns": [],
@@ -2637,8 +2639,8 @@
           "external_calls": []
         },
         "arglist_factory": {
-          "lineno": 1359,
-          "end_lineno": 1365,
+          "lineno": 1379,
+          "end_lineno": 1385,
           "line_count": 7,
           "complexity": 1,
           "patterns": [],
@@ -2647,8 +2649,8 @@
           "external_calls": []
         },
         "_field_tuple": {
-          "lineno": 2098,
-          "end_lineno": 2106,
+          "lineno": 2121,
+          "end_lineno": 2129,
           "line_count": 9,
           "complexity": 1,
           "patterns": [],
@@ -2657,8 +2659,8 @@
           "external_calls": []
         },
         "inner_func": {
-          "lineno": 1360,
-          "end_lineno": 1361,
+          "lineno": 1380,
+          "end_lineno": 1381,
           "line_count": 2,
           "complexity": 1,
           "patterns": [],
@@ -2669,8 +2671,8 @@
       },
       "classes": {
         "EventHandlerSetVar": {
-          "lineno": 173,
-          "end_lineno": 243,
+          "lineno": 174,
+          "end_lineno": 244,
           "line_count": 71,
           "extends": [
             "EventHandler"
@@ -2680,9 +2682,9 @@
           ]
         },
         "BaseState": {
-          "lineno": 356,
-          "end_lineno": 2193,
-          "line_count": 1838,
+          "lineno": 357,
+          "end_lineno": 2216,
+          "line_count": 1860,
           "extends": [
             "EvenMoreBasicBaseState"
           ],
@@ -2691,8 +2693,8 @@
           ]
         },
         "State": {
-          "lineno": 2228,
-          "end_lineno": 2287,
+          "lineno": 2251,
+          "end_lineno": 2310,
           "line_count": 60,
           "extends": [
             "BaseState"
@@ -2700,8 +2702,8 @@
           "patterns": []
         },
         "FrontendEventExceptionState": {
-          "lineno": 2336,
-          "end_lineno": 2386,
+          "lineno": 2359,
+          "end_lineno": 2409,
           "line_count": 51,
           "extends": [
             "State"
@@ -2709,26 +2711,26 @@
           "patterns": []
         },
         "UpdateVarsInternalState": {
-          "lineno": 2389,
-          "end_lineno": 2410,
-          "line_count": 22,
+          "lineno": 2412,
+          "end_lineno": 2434,
+          "line_count": 23,
           "extends": [
             "State"
           ],
           "patterns": []
         },
         "OnLoadInternalState": {
-          "lineno": 2413,
-          "end_lineno": 2453,
-          "line_count": 41,
+          "lineno": 2437,
+          "end_lineno": 2478,
+          "line_count": 42,
           "extends": [
             "State"
           ],
           "patterns": []
         },
         "ComponentState": {
-          "lineno": 2456,
-          "end_lineno": 2565,
+          "lineno": 2481,
+          "end_lineno": 2590,
           "line_count": 110,
           "extends": [
             "State"
@@ -2736,8 +2738,8 @@
           "patterns": []
         },
         "StateUpdate": {
-          "lineno": 2571,
-          "end_lineno": 2591,
+          "lineno": 2596,
+          "end_lineno": 2616,
           "line_count": 21,
           "extends": [],
           "patterns": []
@@ -21205,7 +21207,822 @@
         }
       },
       "classes": {}
+    },
+    "reflex/minify.py": {
+      "line_count": 679,
+      "functions": {
+        "_get_minify_json_path": {
+          "lineno": 37,
+          "end_lineno": 39,
+          "line_count": 3,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "Path.cwd"
+          ]
+        },
+        "_load_minify_config_uncached": {
+          "lineno": 42,
+          "end_lineno": 98,
+          "line_count": 57,
+          "complexity": 15,
+          "patterns": [
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "file",
+          "external_calls": [
+            "json.load"
+          ]
+        },
+        "get_minify_config": {
+          "lineno": 102,
+          "end_lineno": 108,
+          "line_count": 7,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "is_mode_enabled": {
+          "lineno": 112,
+          "end_lineno": 125,
+          "line_count": 14,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "is_minify_enabled": {
+          "lineno": 128,
+          "end_lineno": 137,
+          "line_count": 10,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "save_minify_config": {
+          "lineno": 140,
+          "end_lineno": 149,
+          "line_count": 10,
+          "complexity": 2,
+          "patterns": [
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "file",
+          "external_calls": [
+            "json.dump"
+          ]
+        },
+        "_is_framework_state": {
+          "lineno": 252,
+          "end_lineno": 262,
+          "line_count": 11,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "install_minify_resolver": {
+          "lineno": 265,
+          "end_lineno": 275,
+          "line_count": 11,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "RegistrationContext.ensure_context"
+          ]
+        },
+        "ensure_minify_resolver_for_active_context": {
+          "lineno": 278,
+          "end_lineno": 293,
+          "line_count": 16,
+          "complexity": 4,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "RegistrationContext.ensure_context"
+          ]
+        },
+        "clear_config_cache": {
+          "lineno": 296,
+          "end_lineno": 304,
+          "line_count": 9,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "int_to_minified_name": {
+          "lineno": 313,
+          "end_lineno": 335,
+          "line_count": 23,
+          "complexity": 4,
+          "patterns": [
+            "collection_accumulate"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "minified_name_to_int": {
+          "lineno": 338,
+          "end_lineno": 357,
+          "line_count": 20,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "get_state_full_path": {
+          "lineno": 360,
+          "end_lineno": 379,
+          "line_count": 20,
+          "complexity": 3,
+          "patterns": [
+            "collection_accumulate"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "collect_all_states": {
+          "lineno": 382,
+          "end_lineno": 413,
+          "line_count": 32,
+          "complexity": 5,
+          "patterns": [
+            "collection_accumulate"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "RegistrationContext.get"
+          ]
+        },
+        "generate_minify_config": {
+          "lineno": 416,
+          "end_lineno": 454,
+          "line_count": 39,
+          "complexity": 4,
+          "patterns": [
+            "collection_accumulate"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "_find_duplicate_ids": {
+          "lineno": 457,
+          "end_lineno": 469,
+          "line_count": 13,
+          "complexity": 3,
+          "patterns": [
+            "collection_accumulate"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "_assign_next_ids": {
+          "lineno": 472,
+          "end_lineno": 500,
+          "line_count": 29,
+          "complexity": 3,
+          "patterns": [
+            "collection_accumulate"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "validate_minify_config": {
+          "lineno": 503,
+          "end_lineno": 587,
+          "line_count": 85,
+          "complexity": 16,
+          "patterns": [
+            "two_pass_batch",
+            "collection_accumulate"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "sync_minify_config": {
+          "lineno": 590,
+          "end_lineno": 679,
+          "line_count": 90,
+          "complexity": 18,
+          "patterns": [
+            "two_pass_batch",
+            "collection_accumulate"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        }
+      },
+      "classes": {
+        "MinifyConfig": {
+          "lineno": 29,
+          "end_lineno": 34,
+          "line_count": 6,
+          "extends": [
+            "TypedDict"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "MinifyNameResolver": {
+          "lineno": 153,
+          "end_lineno": 238,
+          "line_count": 86,
+          "extends": [],
+          "patterns": []
+        }
+      }
+    },
+    "tests/integration/test_minification.py": {
+      "line_count": 204,
+      "functions": {
+        "MinificationApp": {
+          "lineno": 20,
+          "end_lineno": 72,
+          "line_count": 53,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "format.format_event_handler",
+            "rx.App",
+            "rx.button",
+            "rx.input",
+            "rx.text",
+            "rx.vstack"
+          ]
+        },
+        "minify_app": {
+          "lineno": 93,
+          "end_lineno": 123,
+          "line_count": 31,
+          "complexity": 4,
+          "patterns": [
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "file",
+          "external_calls": [
+            "clear_config_cache",
+            "json.dumps"
+          ]
+        },
+        "driver": {
+          "lineno": 127,
+          "end_lineno": 141,
+          "line_count": 15,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "_text_after_colon": {
+          "lineno": 144,
+          "end_lineno": 153,
+          "line_count": 10,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_minification": {
+          "lineno": 156,
+          "end_lineno": 204,
+          "line_count": 49,
+          "complexity": 19,
+          "patterns": [
+            "response_body_unconditional"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "AppHarness._poll_for",
+            "AppHarness.poll_for_or_raise_timeout",
+            "int_to_minified_name"
+          ]
+        },
+        "index": {
+          "lineno": 49,
+          "end_lineno": 69,
+          "line_count": 21,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.button",
+            "rx.input",
+            "rx.text",
+            "rx.vstack"
+          ]
+        }
+      },
+      "classes": {
+        "RootState": {
+          "lineno": 25,
+          "end_lineno": 30,
+          "line_count": 6,
+          "extends": [
+            "rx.State"
+          ],
+          "patterns": []
+        },
+        "SubState": {
+          "lineno": 32,
+          "end_lineno": 40,
+          "line_count": 9,
+          "extends": [
+            "RootState"
+          ],
+          "patterns": []
+        }
+      }
+    },
+    "tests/units/test_minification.py": {
+      "line_count": 1092,
+      "functions": {
+        "_resolved_event_id": {
+          "lineno": 35,
+          "end_lineno": 47,
+          "line_count": 13,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "RegistrationContext.get"
+          ]
+        },
+        "_set_minify_modes": {
+          "lineno": 50,
+          "end_lineno": 66,
+          "line_count": 17,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "_install_config": {
+          "lineno": 69,
+          "end_lineno": 100,
+          "line_count": 32,
+          "complexity": 4,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "clear_config_cache",
+            "save_minify_config"
+          ]
+        },
+        "_temporary_resolver": {
+          "lineno": 104,
+          "end_lineno": 119,
+          "line_count": 16,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "RegistrationContext.get"
+          ]
+        },
+        "cli_runner": {
+          "lineno": 123,
+          "end_lineno": 132,
+          "line_count": 10,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "CliRunner",
+            "mock.Mock"
+          ]
+        },
+        "_stub_resolver": {
+          "lineno": 135,
+          "end_lineno": 159,
+          "line_count": 25,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "temp_minify_json": {
+          "lineno": 243,
+          "end_lineno": 257,
+          "line_count": 15,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "clear_config_cache"
+          ]
+        },
+        "_mock_get_config": {
+          "lineno": 632,
+          "end_lineno": 635,
+          "line_count": 4,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "dynamic_handler": {
+          "lineno": 677,
+          "end_lineno": 678,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        }
+      },
+      "classes": {
+        "TestIntToMinifiedName": {
+          "lineno": 162,
+          "end_lineno": 196,
+          "line_count": 35,
+          "extends": [],
+          "patterns": []
+        },
+        "TestMinifiedNameToInt": {
+          "lineno": 199,
+          "end_lineno": 220,
+          "line_count": 22,
+          "extends": [],
+          "patterns": []
+        },
+        "TestGetStateFullPath": {
+          "lineno": 223,
+          "end_lineno": 239,
+          "line_count": 17,
+          "extends": [],
+          "patterns": []
+        },
+        "TestMinifyConfig": {
+          "lineno": 260,
+          "end_lineno": 308,
+          "line_count": 49,
+          "extends": [],
+          "patterns": []
+        },
+        "TestGenerateMinifyConfig": {
+          "lineno": 311,
+          "end_lineno": 348,
+          "line_count": 38,
+          "extends": [],
+          "patterns": []
+        },
+        "TestValidateMinifyConfig": {
+          "lineno": 351,
+          "end_lineno": 380,
+          "line_count": 30,
+          "extends": [],
+          "patterns": []
+        },
+        "TestSyncMinifyConfig": {
+          "lineno": 383,
+          "end_lineno": 511,
+          "line_count": 129,
+          "extends": [],
+          "patterns": []
+        },
+        "TestStateMinification": {
+          "lineno": 514,
+          "end_lineno": 537,
+          "line_count": 24,
+          "extends": [],
+          "patterns": []
+        },
+        "TestEventMinification": {
+          "lineno": 540,
+          "end_lineno": 602,
+          "line_count": 63,
+          "extends": [],
+          "patterns": []
+        },
+        "TestDynamicHandlerMinification": {
+          "lineno": 605,
+          "end_lineno": 756,
+          "line_count": 152,
+          "extends": [],
+          "patterns": []
+        },
+        "TestMinifyModeEnvVars": {
+          "lineno": 759,
+          "end_lineno": 790,
+          "line_count": 32,
+          "extends": [],
+          "patterns": []
+        },
+        "TestMinifiedNameCollision": {
+          "lineno": 793,
+          "end_lineno": 857,
+          "line_count": 65,
+          "extends": [],
+          "patterns": []
+        },
+        "TestMinifyLookupCLI": {
+          "lineno": 860,
+          "end_lineno": 928,
+          "line_count": 69,
+          "extends": [],
+          "patterns": []
+        },
+        "TestNameResolverProtocol": {
+          "lineno": 931,
+          "end_lineno": 1018,
+          "line_count": 88,
+          "extends": [],
+          "patterns": []
+        },
+        "TestMinifyNameResolver": {
+          "lineno": 1021,
+          "end_lineno": 1092,
+          "line_count": 72,
+          "extends": [],
+          "patterns": []
+        },
+        "_Stub": {
+          "lineno": 152,
+          "end_lineno": 157,
+          "line_count": 6,
+          "extends": [],
+          "patterns": []
+        },
+        "TestState": {
+          "lineno": 548,
+          "end_lineno": 551,
+          "line_count": 4,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "ParentState": {
+          "lineno": 484,
+          "end_lineno": 485,
+          "line_count": 2,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "ChildA": {
+          "lineno": 487,
+          "end_lineno": 488,
+          "line_count": 2,
+          "extends": [
+            "ParentState"
+          ],
+          "patterns": []
+        },
+        "ChildB": {
+          "lineno": 490,
+          "end_lineno": 491,
+          "line_count": 2,
+          "extends": [
+            "ParentState"
+          ],
+          "patterns": []
+        },
+        "Parent": {
+          "lineno": 375,
+          "end_lineno": 376,
+          "line_count": 2,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "TestStateMinifiedEvent": {
+          "lineno": 569,
+          "end_lineno": 572,
+          "line_count": 4,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "TestStateMinifiedEventOff": {
+          "lineno": 594,
+          "end_lineno": 597,
+          "line_count": 4,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "TestStateWithSetvar": {
+          "lineno": 618,
+          "end_lineno": 619,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "TestStateWithAutoSetter": {
+          "lineno": 645,
+          "end_lineno": 646,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "TestStateNoConfig": {
+          "lineno": 653,
+          "end_lineno": 654,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "TestStateWithDynamicHandler": {
+          "lineno": 673,
+          "end_lineno": 674,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "ComponentStateMinifyExample": {
+          "lineno": 714,
+          "end_lineno": 723,
+          "line_count": 10,
+          "extends": [
+            "rx.ComponentState"
+          ],
+          "patterns": []
+        },
+        "LateBornState": {
+          "lineno": 750,
+          "end_lineno": 751,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "ParentClassSubstateCollision": {
+          "lineno": 807,
+          "end_lineno": 808,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "ChildClassSubstateCollision": {
+          "lineno": 810,
+          "end_lineno": 811,
+          "line_count": 2,
+          "extends": [
+            "ParentClassSubstateCollision"
+          ],
+          "patterns": []
+        },
+        "ParentInstanceSubstateCollision": {
+          "lineno": 839,
+          "end_lineno": 840,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "ChildInstanceSubstateCollision": {
+          "lineno": 842,
+          "end_lineno": 845,
+          "line_count": 4,
+          "extends": [
+            "ParentInstanceSubstateCollision"
+          ],
+          "patterns": []
+        },
+        "AppState": {
+          "lineno": 867,
+          "end_lineno": 868,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "ChildState": {
+          "lineno": 870,
+          "end_lineno": 871,
+          "line_count": 2,
+          "extends": [
+            "AppState"
+          ],
+          "patterns": []
+        },
+        "JsonTestState": {
+          "lineno": 912,
+          "end_lineno": 913,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "Chain": {
+          "lineno": 996,
+          "end_lineno": 1014,
+          "line_count": 19,
+          "extends": [],
+          "patterns": []
+        },
+        "UserStateResolverCacheTest": {
+          "lineno": 1046,
+          "end_lineno": 1047,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "UserStateEventCacheTest": {
+          "lineno": 1065,
+          "end_lineno": 1066,
+          "line_count": 2,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        }
+      }
     }
   },
-  "generated_at": "2026-05-26T16:17:50.126637+00:00"
+  "generated_at": "2026-05-26T16:22:17.072809+00:00"
 }

@@ -1,3 +1,8 @@
+# cache/ — daemon index refreshes (two-tier cache architecture).
+# Daemon writes here; committed tier (steward_out/*.json) is only
+# updated by explicit commands (rebuild, sync) and CI.
+cache/
+
 # Runtime-volatile files written by the daemon and MCP server.
 # These are NOT rebuild artifacts — they are ephemeral process state.
 # steward rebuild will recreate this file if it goes missing.

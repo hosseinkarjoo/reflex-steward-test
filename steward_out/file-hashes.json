@@ -2768,8 +2768,8 @@
     "mtime": 1779431788.707419
   },
   "reflex/state.py": {
-    "hash": "sha256:a1822a132346404c755f065aa31ba8b420b4dbc943e7248ec9076be8b167d508",
-    "mtime": 1779807131.1651185
+    "hash": "sha256:d4db586bb212b0ccfc7ad6f8d4dc6c3370e501c179a44a7c86d392b3088ce846",
+    "mtime": 1779812535.487761
   },
   "reflex/istate/proxy.py": {
     "hash": "sha256:46cb87e1d76faac805cc196e138a0b4d4b82f2b37b00b53ad49ab99c6143d142",
@@ -3178,5 +3178,17 @@
   "reflex/compiler/plugins/builtin.py": {
     "hash": "sha256:fb8cb2234df09ac825da61add72c317cde3ef9182372713eb08bb2deb927b484",
     "mtime": 1779431788.7085161
+  },
+  "reflex/minify.py": {
+    "hash": "sha256:9ac3603017274c0a847b0638061997d9580d603012a5864e26608754f8b19d76",
+    "mtime": 1779812535.4853973
+  },
+  "tests/integration/test_minification.py": {
+    "hash": "sha256:580028560a505ce31a2aa048617be40c356bf3b377eb521491afb49b764f9bda",
+    "mtime": 1779812535.4965189
+  },
+  "tests/units/test_minification.py": {
+    "hash": "sha256:bb67d804750f6622b326f57068610af9028cb4c5d379903ba60e61b0db8ab9c4",
+    "mtime": 1779812535.4977267
   }
 }
