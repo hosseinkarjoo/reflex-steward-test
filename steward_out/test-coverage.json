@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-26T14:52:50.986478+00:00",
-  "layout_mode": "separated",
+  "generated_at": "2026-05-27T06:49:10.393080+00:00",
+  "layout_mode": "configured",
   "test_dirs": [
     "tests"
   ],
@@ -414,15 +414,17 @@
           "test_app.py",
           "test_config.py",
           "test_connection_banner.py",
+          "test_minification.py",
           "test_state.py",
           "test_utils.py",
           "test_var.py"
         ],
-        "test_count": 6,
+        "test_count": 7,
         "coverage_level": "well_tested",
         "imported_as": [],
         "functions_referenced": [
           "EnvVar",
+          "MinifyMode",
           "PerformanceMode",
           "env_var",
           "environment",
@@ -679,6 +681,32 @@
         "imported_as": [],
         "functions_referenced": []
       },
+      "reflex/minify.py": {
+        "layer": "Unknown",
+        "test_files": [
+          "test_minification.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
+        "imported_as": [],
+        "functions_referenced": [
+          "MINIFY_JSON",
+          "MinifyConfig",
+          "MinifyNameResolver",
+          "SCHEMA_VERSION",
+          "clear_config_cache",
+          "generate_minify_config",
+          "get_minify_config",
+          "get_state_full_path",
+          "int_to_minified_name",
+          "is_minify_enabled",
+          "is_mode_enabled",
+          "minified_name_to_int",
+          "save_minify_config",
+          "sync_minify_config",
+          "validate_minify_config"
+        ]
+      },
       "reflex/model.py": {
         "layer": "Models",
         "test_files": [
@@ -773,11 +801,12 @@
       "reflex/reflex.py": {
         "layer": "Infrastructure",
         "test_files": [
+          "test_minification.py",
           "test_prerequisites.py",
           "test_testing.py",
           "in_docker_test_script.sh (smoke)"
         ],
-        "test_count": 2,
+        "test_count": 3,
         "coverage_level": "well_tested",
         "imported_as": [],
         "functions_referenced": [
@@ -819,6 +848,7 @@
           "test_hydrate_middleware.py",
           "test_match.py",
           "test_memoize_plugin.py",
+          "test_minification.py",
           "test_model.py",
           "test_props.py",
           "test_redis.py",
@@ -833,7 +863,7 @@
           "test_utils.py",
           "test_var.py"
         ],
-        "test_count": 32,
+        "test_count": 33,
         "coverage_level": "well_tested",
         "imported_as": [],
         "functions_referenced": [
@@ -895,6 +925,7 @@
           "test_memo.py",
           "test_memoize_edge_cases.py",
           "test_memory_state_manager_expiration.py",
+          "test_minification.py",
           "test_mount_target.py",
           "test_navigation.py",
           "test_node_version.py",
@@ -915,7 +946,7 @@
           "test_upload.py",
           "test_var_operations.py"
         ],
-        "test_count": 51,
+        "test_count": 52,
         "coverage_level": "well_tested",
         "imported_as": [],
         "functions_referenced": [
@@ -1002,11 +1033,16 @@
       },
       "reflex/utils/format.py": {
         "layer": "Infrastructure",
-        "test_files": [],
-        "test_count": 0,
-        "coverage_level": "untested",
+        "test_files": [
+          "test_minification.py"
+        ],
+        "test_count": 1,
+        "coverage_level": "lightly_tested",
         "imported_as": [],
-        "functions_referenced": []
+        "functions_referenced": [
+          "format_event_handler",
+          "get_event_handler_parts"
+        ]
       },
       "reflex/utils/frontend_skeleton.py": {
         "layer": "Infrastructure",
@@ -1680,12 +1716,6 @@
         "note": "no dedicated test file"
       },
       {
-        "module": "reflex/utils/format.py",
-        "layer": "Infrastructure",
-        "level": "untested",
-        "note": "no dedicated test file"
-      },
-      {
         "module": "reflex/utils/imports.py",
         "layer": "Internal",
         "level": "untested",
@@ -1809,10 +1839,10 @@
     "high_risk_low_test": []
   },
   "summary": {
-    "modules_total": 118,
+    "modules_total": 119,
     "well_tested": 20,
-    "lightly_tested": 16,
-    "untested": 82,
+    "lightly_tested": 18,
+    "untested": 81,
     "checks_tested_pct": "None%",
     "high_risk_low_test": 0,
     "by_layer": {
@@ -1831,8 +1861,8 @@
       "Infrastructure": {
         "total": 46,
         "well_tested": 15,
-        "lightly_tested": 12,
-        "untested": 19
+        "lightly_tested": 13,
+        "untested": 18
       },
       "Internal": {
         "total": 23,
@@ -1865,9 +1895,9 @@
         "untested": 0
       },
       "Unknown": {
-        "total": 15,
+        "total": 16,
         "well_tested": 0,
-        "lightly_tested": 0,
+        "lightly_tested": 1,
         "untested": 15
       }
     }

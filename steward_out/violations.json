@@ -1,314 +1,278 @@
 {
-  "generated_at": "2026-05-27T06:07:50.706697+00:00",
-  "source": "steward_out/call-graph.json",
-  "violations": [
-    {
-      "type": "layer_violation",
-      "severity": "high",
-      "confidence": 1.0,
-      "known": false,
-      "from_file": "reflex/middleware/hydrate_middleware.py",
-      "from_layer": "Middleware",
-      "from_func": "",
-      "to_file": "reflex/app.py",
-      "to_layer": "Entry",
-      "to_func": "",
-      "lineno": 15,
-      "edge_type": "import",
-      "message": "Middleware \u2192 Entry: forbidden direction (reflex/middleware/hydrate_middleware.py \u2192 reflex/app.py)",
-      "id": "V-001"
-    },
-    {
-      "type": "layer_violation",
-      "severity": "high",
-      "confidence": 1.0,
-      "known": false,
-      "from_file": "reflex/middleware/middleware.py",
-      "from_layer": "Middleware",
-      "from_func": "",
-      "to_file": "reflex/app.py",
-      "to_layer": "Entry",
-      "to_func": "",
-      "lineno": 13,
-      "edge_type": "import",
-      "message": "Middleware \u2192 Entry: forbidden direction (reflex/middleware/middleware.py \u2192 reflex/app.py)",
-      "id": "V-002"
-    }
-  ],
-  "known_bad_paths": {},
   "coupling_hotspots": [
     {
+      "fan_in": 4,
+      "fan_out": 21,
       "file": "reflex/app.py",
+      "flags": [
+        "high_fan_out",
+        "god_file"
+      ],
       "layer": "Entry",
       "line_count": 1729,
-      "fan_out": 21,
-      "fan_in": 4,
-      "violation_edges": 0,
+      "violation_edges": 0
+    },
+    {
+      "fan_in": 3,
+      "fan_out": 12,
+      "file": "reflex/compiler/compiler.py",
       "flags": [
         "high_fan_out",
         "god_file"
-      ]
-    },
-    {
-      "file": "reflex/compiler/compiler.py",
+      ],
       "layer": "Infrastructure",
       "line_count": 1286,
-      "fan_out": 12,
-      "fan_in": 3,
-      "violation_edges": 0,
+      "violation_edges": 0
+    },
+    {
+      "fan_in": 4,
+      "fan_out": 6,
+      "file": "reflex/compiler/utils.py",
       "flags": [
         "high_fan_out",
         "god_file"
-      ]
-    },
-    {
-      "file": "reflex/compiler/utils.py",
+      ],
       "layer": "Infrastructure",
       "line_count": 909,
-      "fan_out": 6,
-      "fan_in": 4,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_out",
-        "god_file"
-      ]
+      "violation_edges": 0
     },
     {
+      "fan_in": 9,
+      "fan_out": 0,
       "file": "reflex/experimental/memo.py",
+      "flags": [
+        "high_fan_in",
+        "god_file"
+      ],
       "layer": "Infrastructure",
       "line_count": 1160,
-      "fan_out": 0,
-      "fan_in": 9,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_in",
-        "god_file"
-      ]
+      "violation_edges": 0
     },
     {
+      "fan_in": 5,
+      "fan_out": 7,
       "file": "reflex/istate/manager/__init__.py",
+      "flags": [
+        "high_fan_out",
+        "high_fan_in"
+      ],
       "layer": "Unknown",
       "line_count": 274,
-      "fan_out": 7,
-      "fan_in": 5,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_out",
-        "high_fan_in"
-      ]
+      "violation_edges": 0
     },
     {
+      "fan_in": 1,
+      "fan_out": 5,
       "file": "reflex/istate/manager/disk.py",
+      "flags": [
+        "high_fan_out"
+      ],
       "layer": "Infrastructure",
       "line_count": 387,
-      "fan_out": 5,
-      "fan_in": 1,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_out"
-      ]
+      "violation_edges": 0
     },
     {
+      "fan_in": 6,
+      "fan_out": 2,
       "file": "reflex/istate/manager/token.py",
+      "flags": [
+        "high_fan_in"
+      ],
       "layer": "Infrastructure",
       "line_count": 244,
-      "fan_out": 2,
-      "fan_in": 6,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_in"
-      ]
+      "violation_edges": 0
     },
     {
-      "file": "reflex/reflex.py",
-      "layer": "Infrastructure",
-      "line_count": 948,
-      "fan_out": 11,
       "fan_in": 1,
-      "violation_edges": 0,
+      "fan_out": 13,
+      "file": "reflex/reflex.py",
       "flags": [
         "high_fan_out",
         "god_file"
-      ]
+      ],
+      "layer": "Infrastructure",
+      "line_count": 1307,
+      "violation_edges": 0
     },
     {
+      "fan_in": 16,
+      "fan_out": 16,
       "file": "reflex/state.py",
-      "layer": "Infrastructure",
-      "line_count": 2655,
-      "fan_out": 15,
-      "fan_in": 14,
-      "violation_edges": 0,
       "flags": [
         "high_fan_out",
         "high_fan_in",
         "god_file"
-      ]
+      ],
+      "layer": "Infrastructure",
+      "line_count": 2680,
+      "violation_edges": 0
     },
     {
+      "fan_in": 2,
+      "fan_out": 7,
       "file": "reflex/testing.py",
+      "flags": [
+        "high_fan_out",
+        "god_file"
+      ],
       "layer": "Infrastructure",
       "line_count": 918,
-      "fan_out": 7,
-      "fan_in": 1,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_out",
-        "god_file"
-      ]
+      "violation_edges": 0
     },
     {
-      "file": "reflex/utils/build.py",
-      "layer": "Infrastructure",
-      "line_count": 334,
-      "fan_out": 6,
       "fan_in": 2,
-      "violation_edges": 0,
+      "fan_out": 6,
+      "file": "reflex/utils/build.py",
       "flags": [
         "high_fan_out"
-      ]
+      ],
+      "layer": "Infrastructure",
+      "line_count": 334,
+      "violation_edges": 0
     },
     {
-      "file": "reflex/utils/console.py",
-      "layer": "Infrastructure",
-      "line_count": 4,
+      "fan_in": 17,
       "fan_out": 0,
-      "fan_in": 16,
-      "violation_edges": 0,
+      "file": "reflex/utils/console.py",
       "flags": [
         "high_fan_in"
-      ]
+      ],
+      "layer": "Infrastructure",
+      "line_count": 4,
+      "violation_edges": 0
     },
     {
-      "file": "reflex/utils/exec.py",
-      "layer": "Infrastructure",
-      "line_count": 875,
-      "fan_out": 6,
       "fan_in": 7,
-      "violation_edges": 0,
+      "fan_out": 6,
+      "file": "reflex/utils/exec.py",
       "flags": [
         "high_fan_out",
         "high_fan_in",
         "god_file"
-      ]
+      ],
+      "layer": "Infrastructure",
+      "line_count": 875,
+      "violation_edges": 0
     },
     {
+      "fan_in": 5,
+      "fan_out": 6,
       "file": "reflex/utils/frontend_skeleton.py",
+      "flags": [
+        "high_fan_out",
+        "high_fan_in"
+      ],
       "layer": "Infrastructure",
       "line_count": 510,
-      "fan_out": 6,
-      "fan_in": 5,
-      "violation_edges": 0,
+      "violation_edges": 0
+    },
+    {
+      "fan_in": 6,
+      "fan_out": 7,
+      "file": "reflex/utils/js_runtimes.py",
       "flags": [
         "high_fan_out",
         "high_fan_in"
-      ]
-    },
-    {
-      "file": "reflex/utils/js_runtimes.py",
+      ],
       "layer": "Infrastructure",
       "line_count": 760,
-      "fan_out": 7,
-      "fan_in": 6,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_out",
-        "high_fan_in"
-      ]
+      "violation_edges": 0
     },
     {
+      "fan_in": 6,
+      "fan_out": 0,
       "file": "reflex/utils/misc.py",
+      "flags": [
+        "high_fan_in"
+      ],
       "layer": "Infrastructure",
       "line_count": 133,
-      "fan_out": 0,
-      "fan_in": 6,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_in"
-      ]
+      "violation_edges": 0
     },
     {
+      "fan_in": 10,
+      "fan_out": 0,
       "file": "reflex/utils/path_ops.py",
+      "flags": [
+        "high_fan_in"
+      ],
       "layer": "Infrastructure",
       "line_count": 320,
-      "fan_out": 0,
-      "fan_in": 10,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_in"
-      ]
+      "violation_edges": 0
     },
     {
-      "file": "reflex/utils/prerequisites.py",
-      "layer": "Infrastructure",
-      "line_count": 711,
-      "fan_out": 11,
       "fan_in": 16,
-      "violation_edges": 0,
+      "fan_out": 12,
+      "file": "reflex/utils/prerequisites.py",
       "flags": [
         "high_fan_out",
         "high_fan_in"
-      ]
+      ],
+      "layer": "Infrastructure",
+      "line_count": 715,
+      "violation_edges": 0
     },
     {
+      "fan_in": 5,
+      "fan_out": 5,
       "file": "reflex/utils/processes.py",
+      "flags": [
+        "high_fan_out",
+        "high_fan_in"
+      ],
       "layer": "Infrastructure",
       "line_count": 556,
-      "fan_out": 5,
-      "fan_in": 5,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_out",
-        "high_fan_in"
-      ]
+      "violation_edges": 0
     },
     {
+      "fan_in": 6,
+      "fan_out": 4,
       "file": "reflex/utils/telemetry.py",
+      "flags": [
+        "high_fan_in"
+      ],
       "layer": "Infrastructure",
       "line_count": 453,
-      "fan_out": 4,
-      "fan_in": 6,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_in"
-      ]
+      "violation_edges": 0
     },
     {
+      "fan_in": 1,
+      "fan_out": 5,
       "file": "reflex/utils/telemetry_accounting.py",
+      "flags": [
+        "high_fan_out"
+      ],
       "layer": "Infrastructure",
       "line_count": 331,
-      "fan_out": 5,
-      "fan_in": 1,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_out"
-      ]
+      "violation_edges": 0
     },
     {
+      "fan_in": 1,
+      "fan_out": 7,
       "file": "reflex/utils/templates.py",
+      "flags": [
+        "high_fan_out"
+      ],
       "layer": "Infrastructure",
       "line_count": 445,
-      "fan_out": 7,
-      "fan_in": 1,
-      "violation_edges": 0,
-      "flags": [
-        "high_fan_out"
-      ]
+      "violation_edges": 0
     },
     {
-      "file": "reflex/utils/token_manager.py",
-      "layer": "Infrastructure",
-      "line_count": 463,
-      "fan_out": 5,
       "fan_in": 1,
-      "violation_edges": 0,
+      "fan_out": 5,
+      "file": "reflex/utils/token_manager.py",
       "flags": [
         "high_fan_out"
-      ]
+      ],
+      "layer": "Infrastructure",
+      "line_count": 463,
+      "violation_edges": 0
     }
   ],
+  "generated_at": "2026-05-27T10:55:05.263535+00:00",
+  "known_bad_paths": {},
+  "source": "steward_out/call-graph.json",
   "summary": {
-    "total_violations": 2,
-    "unique_boundaries_violated": 2,
     "by_severity": {
       "high": 2
     },
@@ -316,8 +280,44 @@
       "layer_violation": 2
     },
     "hotspots": 23,
-    "open_intentional_overrides": 0,
+    "opacity_downgraded": 0,
     "opacity_suppressed": 0,
-    "opacity_downgraded": 0
-  }
+    "open_intentional_overrides": 0,
+    "total_violations": 2,
+    "unique_boundaries_violated": 2
+  },
+  "violations": [
+    {
+      "confidence": 1.0,
+      "edge_type": "import",
+      "from_file": "reflex/middleware/hydrate_middleware.py",
+      "from_func": "",
+      "from_layer": "Middleware",
+      "id": "V-001",
+      "known": false,
+      "lineno": 15,
+      "message": "Middleware \u2192 Entry: forbidden direction (reflex/middleware/hydrate_middleware.py \u2192 reflex/app.py)",
+      "severity": "high",
+      "to_file": "reflex/app.py",
+      "to_func": "",
+      "to_layer": "Entry",
+      "type": "layer_violation"
+    },
+    {
+      "confidence": 1.0,
+      "edge_type": "import",
+      "from_file": "reflex/middleware/middleware.py",
+      "from_func": "",
+      "from_layer": "Middleware",
+      "id": "V-002",
+      "known": false,
+      "lineno": 13,
+      "message": "Middleware \u2192 Entry: forbidden direction (reflex/middleware/middleware.py \u2192 reflex/app.py)",
+      "severity": "high",
+      "to_file": "reflex/app.py",
+      "to_func": "",
+      "to_layer": "Entry",
+      "type": "layer_violation"
+    }
+  ]
 }

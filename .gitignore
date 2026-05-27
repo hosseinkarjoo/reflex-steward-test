@@ -22,4 +22,4 @@ node_modules
 package-lock.json
 *.pyi
 .pre-commit-config.yaml
-steward_out/daemon-state.json
+uploaded_files/*

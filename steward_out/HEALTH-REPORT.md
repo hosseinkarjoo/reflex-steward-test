@@ -1,5 +1,5 @@
 # reflex Architecture Health Report
-Generated: 2026-05-26 14:52:51 UTC | Version: unknown | Status: DEGRADED | Score: 43/100
+Generated: 2026-05-27 06:49:10 UTC | Version: unknown | Status: DEGRADED | Score: 50/100
 
 ## Summary
 
@@ -8,7 +8,7 @@ Generated: 2026-05-26 14:52:51 UTC | Version: unknown | Status: DEGRADED | Score
 | Architecture | FAIL | 2 violations (0 critical) |
 | Documentation | OK | all sources current |
 | Test Coverage | OK | N/A checks covered, 0 untested |
-| AST Parse | OK | 118 files, 0 errors |
+| AST Parse | OK | 119 files, 0 errors |
 
 ## Architecture Violations
 
@@ -27,17 +27,17 @@ Generated: 2026-05-26 14:52:51 UTC | Version: unknown | Status: DEGRADED | Score
 | `reflex/istate/manager/__init__.py` | 274 | 7 | 5 | high_fan_out, high_fan_in |
 | `reflex/istate/manager/disk.py` | 387 | 5 | 1 | high_fan_out |
 | `reflex/istate/manager/token.py` | 244 | 2 | 6 | high_fan_in |
-| `reflex/reflex.py` | 948 | 11 | 1 | high_fan_out, god_file |
-| `reflex/state.py` | 2655 | 15 | 14 | high_fan_out, high_fan_in, god_file |
-| `reflex/testing.py` | 918 | 7 | 1 | high_fan_out, god_file |
+| `reflex/reflex.py` | 1307 | 13 | 1 | high_fan_out, god_file |
+| `reflex/state.py` | 2680 | 16 | 16 | high_fan_out, high_fan_in, god_file |
+| `reflex/testing.py` | 918 | 7 | 2 | high_fan_out, god_file |
 | `reflex/utils/build.py` | 334 | 6 | 2 | high_fan_out |
-| `reflex/utils/console.py` | 4 | 0 | 16 | high_fan_in |
+| `reflex/utils/console.py` | 4 | 0 | 17 | high_fan_in |
 | `reflex/utils/exec.py` | 875 | 6 | 7 | high_fan_out, high_fan_in, god_file |
 | `reflex/utils/frontend_skeleton.py` | 510 | 6 | 5 | high_fan_out, high_fan_in |
 | `reflex/utils/js_runtimes.py` | 760 | 7 | 6 | high_fan_out, high_fan_in |
 | `reflex/utils/misc.py` | 133 | 0 | 6 | high_fan_in |
 | `reflex/utils/path_ops.py` | 320 | 0 | 10 | high_fan_in |
-| `reflex/utils/prerequisites.py` | 711 | 11 | 16 | high_fan_out, high_fan_in |
+| `reflex/utils/prerequisites.py` | 715 | 12 | 16 | high_fan_out, high_fan_in |
 | `reflex/utils/processes.py` | 556 | 5 | 5 | high_fan_out, high_fan_in |
 | `reflex/utils/telemetry.py` | 453 | 4 | 6 | high_fan_in |
 | `reflex/utils/telemetry_accounting.py` | 331 | 5 | 1 | high_fan_out |
@@ -64,7 +64,7 @@ cp steward_out/skills-patch.json <skills-file>  # after review
 | `compiler.py` | Infrastructure | 2 | well_tested |
 | `memoize.py` | Plugins | 3 | well_tested |
 | `utils.py` | Infrastructure | 3 | well_tested |
-| `environment.py` | Core | 6 | well_tested |
+| `environment.py` | Core | 7 | well_tested |
 | `event.py` | Core | 4 | well_tested |
 | `memo.py` | Infrastructure | 3 | well_tested |
 | `data.py` | Infrastructure | 4 | well_tested |
@@ -75,9 +75,9 @@ cp steward_out/skills-patch.json <skills-file>  # after review
 | `proxy.py` | Infrastructure | 2 | well_tested |
 | `storage.py` | Infrastructure | 3 | well_tested |
 | `model.py` | Models | 4 | well_tested |
-| `reflex.py` | Infrastructure | 2 | well_tested |
-| `state.py` | Infrastructure | 32 | well_tested |
-| `testing.py` | Infrastructure | 51 | well_tested |
+| `reflex.py` | Infrastructure | 3 | well_tested |
+| `state.py` | Infrastructure | 33 | well_tested |
+| `testing.py` | Infrastructure | 52 | well_tested |
 | `prerequisites.py` | Infrastructure | 6 | well_tested |
 | `token_manager.py` | Infrastructure | 2 | well_tested |
 | `lifespan.py` | Infrastructure | 1 | lightly_tested |
@@ -86,8 +86,10 @@ cp steward_out/skills-patch.json <skills-file>  # after review
 | `state.py` | Internal | 1 | lightly_tested |
 | `client_state.py` | Infrastructure | 1 | lightly_tested |
 | `hydrate_middleware.py` | Middleware | 1 | lightly_tested |
+| `minify.py` | Unknown | 1 | lightly_tested |
 | `page.py` | Infrastructure | 1 | lightly_tested |
 | `route.py` | Routes | 1 | lightly_tested |
+| `format.py` | Infrastructure | 1 | lightly_tested |
 | `frontend_skeleton.py` | Infrastructure | 1 | lightly_tested |
 | `js_runtimes.py` | Infrastructure | 1 | lightly_tested |
 | `precompressed_staticfiles.py` | Infrastructure | 1 | lightly_tested |
@@ -143,7 +145,6 @@ cp steward_out/skills-patch.json <skills-file>  # after review
 | `exceptions.py` | Infrastructure | 0 | **UNTESTED** |
 | `exec.py` | Infrastructure | 0 | **UNTESTED** |
 | `export.py` | Infrastructure | 0 | **UNTESTED** |
-| `format.py` | Infrastructure | 0 | **UNTESTED** |
 | `imports.py` | Internal | 0 | **UNTESTED** |
 | `lazy_loader.py` | Internal | 0 | **UNTESTED** |
 | `misc.py` | Infrastructure | 0 | **UNTESTED** |
@@ -175,13 +176,13 @@ _No intentional overrides registered._
 
 ## Architectural Alignment
 
-Natural path: **Mvc** | Current: 29% | **CHAOS DETECTED**
+Natural path: **Mvc** | Current: 31%
 
 | Pattern | Score | Cost to 100% |
 |---------|-------|--------------|
-| Mvc ✓ | 29% | — |
+| Mvc ✓ | 31% | — |
 | Hexagonal | 21% | — |
-| Clean | 21% | — |
+| Clean | 15% | — |
 | Layered | 0% | — |
 
 ## Recommendations

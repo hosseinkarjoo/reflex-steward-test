@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-05-26T14:52:30.034570+00:00",
+  "generated_at": "2026-05-27T06:49:09.199001+00:00",
   "phase": "B0",
   "summary": {
-    "total": 118,
-    "solid": 108,
+    "total": 119,
+    "solid": 109,
     "parse_failed": 0,
-    "graph_opaque": 1,
-    "inferred": 0,
-    "enriched": 9
+    "graph_opaque": 10,
+    "inferred": 0
   },
   "files": {
     "reflex/__init__.py": {
@@ -181,7 +180,7 @@
       }
     },
     "reflex/components/__init__.py": {
-      "visibility": "enriched",
+      "visibility": "graph_opaque",
       "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.88",
       "signals": {
         "unresolved_edge_ratio": 0.875,
@@ -511,7 +510,7 @@
       }
     },
     "reflex/istate/data.py": {
-      "visibility": "enriched",
+      "visibility": "graph_opaque",
       "reason": "high decorator fan-out (6) \u00b7 unresolved_edge_ratio=0.95",
       "signals": {
         "unresolved_edge_ratio": 0.9457,
@@ -581,7 +580,7 @@
       }
     },
     "reflex/istate/proxy.py": {
-      "visibility": "enriched",
+      "visibility": "graph_opaque",
       "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.83",
       "signals": {
         "unresolved_edge_ratio": 0.8321,
@@ -650,8 +649,18 @@
         "di_framework_detected": false
       }
     },
+    "reflex/minify.py": {
+      "visibility": "solid",
+      "reason": "",
+      "signals": {
+        "unresolved_edge_ratio": 0.7037,
+        "dynamic_import_detected": false,
+        "decorator_fan_out": 2,
+        "di_framework_detected": false
+      }
+    },
     "reflex/model.py": {
-      "visibility": "enriched",
+      "visibility": "graph_opaque",
       "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.73",
       "signals": {
         "unresolved_edge_ratio": 0.7323,
@@ -741,12 +750,12 @@
       }
     },
     "reflex/reflex.py": {
-      "visibility": "enriched",
-      "reason": "dynamic imports \u00b7 high decorator fan-out (60) \u00b7 unresolved_edge_ratio=0.68",
+      "visibility": "graph_opaque",
+      "reason": "dynamic imports \u00b7 high decorator fan-out (78) \u00b7 unresolved_edge_ratio=0.69",
       "signals": {
-        "unresolved_edge_ratio": 0.6842,
+        "unresolved_edge_ratio": 0.687,
         "dynamic_import_detected": true,
-        "decorator_fan_out": 60,
+        "decorator_fan_out": 78,
         "di_framework_detected": false
       }
     },
@@ -764,7 +773,7 @@
       "visibility": "solid",
       "reason": "",
       "signals": {
-        "unresolved_edge_ratio": 0.8865,
+        "unresolved_edge_ratio": 0.8867,
         "dynamic_import_detected": false,
         "decorator_fan_out": 1,
         "di_framework_detected": false
@@ -781,7 +790,7 @@
       }
     },
     "reflex/testing.py": {
-      "visibility": "enriched",
+      "visibility": "graph_opaque",
       "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.92",
       "signals": {
         "unresolved_edge_ratio": 0.9182,
@@ -861,7 +870,7 @@
       }
     },
     "reflex/utils/exec.py": {
-      "visibility": "enriched",
+      "visibility": "graph_opaque",
       "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.68",
       "signals": {
         "unresolved_edge_ratio": 0.6768,
@@ -974,7 +983,7 @@
       "visibility": "solid",
       "reason": "",
       "signals": {
-        "unresolved_edge_ratio": 0.5933,
+        "unresolved_edge_ratio": 0.5894,
         "dynamic_import_detected": true,
         "decorator_fan_out": 2,
         "di_framework_detected": false
@@ -1051,7 +1060,7 @@
       }
     },
     "reflex/utils/telemetry.py": {
-      "visibility": "enriched",
+      "visibility": "graph_opaque",
       "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.64",
       "signals": {
         "unresolved_edge_ratio": 0.6364,
@@ -1061,7 +1070,7 @@
       }
     },
     "reflex/utils/telemetry_accounting.py": {
-      "visibility": "enriched",
+      "visibility": "graph_opaque",
       "reason": "dynamic imports \u00b7 unresolved_edge_ratio=0.65",
       "signals": {
         "unresolved_edge_ratio": 0.6481,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T14:52:50.644782+00:00",
+  "generated_at": "2026-05-27T06:49:10.458003+00:00",
   "version": "unknown",
   "project": {
     "name": "reflex",
@@ -184,6 +184,6 @@
     "Routes -> Models": "violation",
     "Routes -> Plugins": "violation"
   },
-  "module_count": 118,
+  "module_count": 119,
   "phase_functions": []
 }

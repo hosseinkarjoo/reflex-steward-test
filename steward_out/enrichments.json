@@ -796,7 +796,7 @@
     "file_hash": "sha256:d4831087a6afa2d9359d3b82eb704c5c89624d21b78e59a41de6bcec85cd076e",
     "enriched_at": "2026-05-26T14:54:01.940156+00:00",
     "model": "claude-haiku-4-5-20251001",
-    "stale": false,
+    "stale": true,
     "symbols": {
       "set_loglevel": {
         "inferred_layer": "config",

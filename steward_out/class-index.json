@@ -553,6 +553,28 @@
       "fields": []
     }
   },
+  "reflex/minify.py": {
+    "MinifyConfig": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "version",
+        "states",
+        "events"
+      ]
+    },
+    "MinifyNameResolver": {
+      "bases": [],
+      "fields": [
+        "config",
+        "states_enabled",
+        "events_enabled",
+        "_state_cache",
+        "_event_cache"
+      ]
+    }
+  },
   "reflex/model.py": {
     "_ClassThatErrorsOnInit": {
       "bases": [],
@@ -578,6 +600,29 @@
     "PageNamespace": {
       "bases": [],
       "fields": []
+    }
+  },
+  "reflex/reflex.py": {
+    "EventHandlerData": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "name",
+        "event_id"
+      ]
+    },
+    "StateTreeData": {
+      "bases": [
+        "TypedDict"
+      ],
+      "fields": [
+        "name",
+        "full_path",
+        "state_id",
+        "event_handlers",
+        "substates"
+      ]
     }
   },
   "reflex/state.py": {
