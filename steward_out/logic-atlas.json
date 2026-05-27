@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T06:49:09.819685+00:00",
+  "generated_at": "2026-05-27T07:06:16.039954+00:00",
   "files": {
     "reflex/__init__.py": {
       "layer": "Unknown",
@@ -8250,9 +8250,7 @@
       "classes": {}
     },
     "reflex/utils/telemetry.py": {
-      "layer": "Infrastructure",
       "line_count": 453,
-      "hash": "07d43a7dfc4fcfe47714fca72a40b7a297224b692d9055af3ac557d3c73d3434",
       "functions": {
         "format_address_width": {
           "lineno": 41,
