@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T06:49:11.720564Z",
+  "generated_at": "2026-05-27T10:55:06.032982Z",
   "nodes": {
     "reflex._upload.UploadedFilesHeadersMiddleware": {
       "sensitive": false,
@@ -4106,79 +4106,7 @@
       "curvature": 0.0,
       "contexts": []
     },
-    "reflex.app.App._compile": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._get_frontend_packages": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App.modify_state": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App.add_page": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._compile_page": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._write_stateful_pages_marker": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._setup_admin_dash": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App.router": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.health": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._should_compile": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.default_backend_exception_handler": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App.__post_init__": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._setup_sticky_badge": {
+    "reflex.app.App._validate_var_dependencies": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -4190,37 +4118,13 @@
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.App._setup_state": {
+    "reflex.app.App.modify_state": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.default_overlay_components": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._validate_var_dependencies": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.EventNamespace.__init__": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.EventNamespace.on_event": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.default_overlay_component": {
+    "reflex.app.App._setup_admin_dash": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -4232,13 +4136,49 @@
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.App._check_routes_conflict": {
+    "reflex.app.App.router": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.App._get_frontend_package_name": {
+    "reflex.app.default_overlay_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.EventNamespace.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._write_stateful_pages_marker": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.__post_init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_backend_exception_handler": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.extra_overlay_function": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._setup_sticky_badge": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -4250,7 +4190,19 @@
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.EventNamespace.link_token_to_sid": {
+    "reflex.app.App._check_routes_conflict": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._compile_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._get_frontend_packages": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -4262,13 +4214,61 @@
       "contexts": [],
       "is_entry": true
     },
+    "reflex.app.App._compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
     "reflex.app.App._app_root": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.extra_overlay_function": {
+    "reflex.app.EventNamespace.on_event": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_overlay_components": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._setup_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.health": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.add_page": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.EventNamespace.link_token_to_sid": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._should_compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._get_frontend_package_name": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
