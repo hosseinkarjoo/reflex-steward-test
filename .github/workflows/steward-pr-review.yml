@@ -41,7 +41,7 @@ jobs:
         env:
           steward_token: ${{ secrets.steward_token }}
         run: |
-          pip install steward[ai]
+          pip install "steward[ai] @ git+https://${steward_token}@github.com/karjoo-devs/steward.git"
 
       - name: Set pending status
         env:
