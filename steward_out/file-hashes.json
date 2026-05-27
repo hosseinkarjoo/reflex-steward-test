@@ -3056,8 +3056,8 @@
     "mtime": 1779431788.7140856
   },
   "reflex/utils/telemetry.py": {
-    "hash": "sha256:c4f6f80588cb3ed87f5c6054a231e6b71629f0018bdb9a25a10fc668c14464c4",
-    "mtime": 1779872719.742094
+    "hash": "sha256:07d43a7dfc4fcfe47714fca72a40b7a297224b692d9055af3ac557d3c73d3434",
+    "mtime": 1779873478.6026094
   },
   "reflex/utils/format.py": {
     "hash": "sha256:5b7f56c5fd1a8b4a6dd5207f49e7fb6a5b90f9bf6ba7bb19c97ae90db4de78d3",
