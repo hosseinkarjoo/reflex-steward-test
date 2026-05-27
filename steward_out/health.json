@@ -1,10 +1,10 @@
 {
-  "score": 73,
+  "score": 70,
   "status": "warn",
   "breakdown": {
     "violation_penalty": 20,
     "coverage_penalty": 0,
-    "pattern_penalty": 7,
+    "pattern_penalty": 10,
     "geometry_penalty": 0,
     "violation_counts": {
       "critical": 0,
@@ -13,5 +13,5 @@
       "low": 0
     }
   },
-  "generated_at": "2026-05-26T16:22:17.171827+00:00Z"
+  "generated_at": "2026-05-27T06:57:38.484985+00:00Z"
 }

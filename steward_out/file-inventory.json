@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-26T14:52:29.601092+00:00",
+  "generated_at": "2026-05-27T06:49:08.876286+00:00",
   "roots": [
     "reflex"
   ],
-  "count": 118,
+  "count": 119,
   "files": [
     {
       "path": "__init__.py",
       "size": 8159,
-      "mtime": 1779431788.707362,
+      "mtime": 1779864145.530466,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -36,7 +36,7 @@
     {
       "path": "app.py",
       "size": 62587,
-      "mtime": 1779807131.1629543,
+      "mtime": 1779812268.7102625,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -50,7 +50,7 @@
     {
       "path": "app_mixins/lifespan.py",
       "size": 7804,
-      "mtime": 1779807131.1634047,
+      "mtime": 1779812268.7105997,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -85,7 +85,7 @@
     {
       "path": "compiler/compiler.py",
       "size": 42282,
-      "mtime": 1779807131.1635728,
+      "mtime": 1779812268.7107651,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -120,7 +120,7 @@
     {
       "path": "compiler/utils.py",
       "size": 29019,
-      "mtime": 1779807131.1637287,
+      "mtime": 1779812268.7109308,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -218,7 +218,7 @@
     {
       "path": "constants/__init__.py",
       "size": 2216,
-      "mtime": 1779807131.1641958,
+      "mtime": 1779812268.711066,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -344,7 +344,7 @@
     {
       "path": "experimental/memo.py",
       "size": 38746,
-      "mtime": 1779807131.1644375,
+      "mtime": 1779812268.7112281,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -358,7 +358,7 @@
     {
       "path": "istate/data.py",
       "size": 14908,
-      "mtime": 1779807131.1646247,
+      "mtime": 1779812268.7114534,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -454,6 +454,13 @@
       "transparency_hint": "full"
     },
     {
+      "path": "minify.py",
+      "size": 23767,
+      "mtime": 1779863948.1573145,
+      "extension": ".py",
+      "transparency_hint": "full"
+    },
+    {
       "path": "model.py",
       "size": 24689,
       "mtime": 1779431788.7128167,
@@ -470,7 +477,7 @@
     {
       "path": "plugins/__init__.py",
       "size": 842,
-      "mtime": 1779807131.164739,
+      "mtime": 1779812268.7115705,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -518,8 +525,8 @@
     },
     {
       "path": "reflex.py",
-      "size": 28248,
-      "mtime": 1779807131.1648803,
+      "size": 39470,
+      "mtime": 1779863948.157743,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -532,8 +539,8 @@
     },
     {
       "path": "state.py",
-      "size": 91752,
-      "mtime": 1779807131.1651185,
+      "size": 92803,
+      "mtime": 1779863948.1583471,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -547,7 +554,7 @@
     {
       "path": "testing.py",
       "size": 33785,
-      "mtime": 1779807131.1655123,
+      "mtime": 1779812268.7131925,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -561,7 +568,7 @@
     {
       "path": "utils/build.py",
       "size": 11354,
-      "mtime": 1779807131.1656635,
+      "mtime": 1779812268.7133434,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -603,14 +610,14 @@
     {
       "path": "utils/exec.py",
       "size": 25754,
-      "mtime": 1779807131.1658003,
+      "mtime": 1779812268.7134864,
       "extension": ".py",
       "transparency_hint": "full"
     },
     {
       "path": "utils/export.py",
       "size": 4144,
-      "mtime": 1779807131.1659584,
+      "mtime": 1779812268.713675,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -624,7 +631,7 @@
     {
       "path": "utils/frontend_skeleton.py",
       "size": 16692,
-      "mtime": 1779807131.1660903,
+      "mtime": 1779812268.7138002,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -638,7 +645,7 @@
     {
       "path": "utils/js_runtimes.py",
       "size": 26712,
-      "mtime": 1779807131.1662486,
+      "mtime": 1779812268.7139487,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -666,21 +673,21 @@
     {
       "path": "utils/path_ops.py",
       "size": 8161,
-      "mtime": 1779807131.166508,
+      "mtime": 1779812268.714127,
       "extension": ".py",
       "transparency_hint": "full"
     },
     {
       "path": "utils/precompressed_staticfiles.py",
       "size": 6456,
-      "mtime": 1779807131.1666157,
+      "mtime": 1779812268.7142482,
       "extension": ".py",
       "transparency_hint": "full"
     },
     {
       "path": "utils/prerequisites.py",
-      "size": 22110,
-      "mtime": 1779807131.1672158,
+      "size": 22372,
+      "mtime": 1779863948.1588562,
       "extension": ".py",
       "transparency_hint": "full"
     },
@@ -736,28 +743,28 @@
     {
       "path": "utils/telemetry.py",
       "size": 13102,
-      "mtime": 1779807131.167739,
+      "mtime": 1779812268.714747,
       "extension": ".py",
       "transparency_hint": "full"
     },
     {
       "path": "utils/telemetry_accounting.py",
       "size": 10852,
-      "mtime": 1779807131.1678157,
+      "mtime": 1779812268.714829,
       "extension": ".py",
       "transparency_hint": "full"
     },
     {
       "path": "utils/templates.py",
       "size": 14604,
-      "mtime": 1779807131.1679735,
+      "mtime": 1779812268.715012,
       "extension": ".py",
       "transparency_hint": "full"
     },
     {
       "path": "utils/token_manager.py",
       "size": 15904,
-      "mtime": 1779807131.1681302,
+      "mtime": 1779812268.7151964,
       "extension": ".py",
       "transparency_hint": "full"
     },

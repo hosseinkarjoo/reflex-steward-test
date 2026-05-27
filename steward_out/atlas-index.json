@@ -1,102 +1,182 @@
 {
-  "generated_at": "2026-05-26T14:52:30.260118+00:00",
+  "generated_at": "2026-05-27T06:49:10.610668+00:00",
   "project_name": "reflex",
-  "health_score": 93,
-  "natural_path": null,
+  "health_score": 50,
+  "natural_path": "mvc",
   "chaos": false,
-  "test_layout": "unknown",
-  "layers": {},
+  "test_layout": "configured",
+  "layers": {
+    "Core": {
+      "file_count": 23,
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "untested_module_count": 20
+    },
+    "Entry": {
+      "file_count": 3,
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "untested_module_count": 2
+    },
+    "Infrastructure": {
+      "file_count": 46,
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "untested_module_count": 18
+    },
+    "Internal": {
+      "file_count": 23,
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "untested_module_count": 22
+    },
+    "Middleware": {
+      "file_count": 4,
+      "violation_count": 2,
+      "high_risk_count": 0,
+      "untested_module_count": 3
+    },
+    "Models": {
+      "file_count": 1,
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "untested_module_count": 0
+    },
+    "Plugins": {
+      "file_count": 2,
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "untested_module_count": 1
+    },
+    "Routes": {
+      "file_count": 1,
+      "violation_count": 0,
+      "high_risk_count": 0,
+      "untested_module_count": 0
+    }
+  },
   "modules": {
     "reflex": {
-      "layer": "Unknown",
-      "violation_count": 0,
+      "layer": "Entry",
+      "violation_count": 2,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/app_mixins": {
-      "layer": "Unknown",
+      "layer": "Infrastructure",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/compiler": {
-      "layer": "Unknown",
+      "layer": "Infrastructure",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/compiler/plugins": {
-      "layer": "Unknown",
+      "layer": "Plugins",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/components": {
-      "layer": "Unknown",
+      "layer": "Core",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/components/tags": {
-      "layer": "Unknown",
+      "layer": "Core",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/constants": {
-      "layer": "Unknown",
+      "layer": "Internal",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/custom_components": {
-      "layer": "Unknown",
+      "layer": "Core",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/experimental": {
-      "layer": "Unknown",
+      "layer": "Infrastructure",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/istate": {
-      "layer": "Unknown",
+      "layer": "Infrastructure",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/istate/manager": {
-      "layer": "Unknown",
+      "layer": "Infrastructure",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/middleware": {
-      "layer": "Unknown",
-      "violation_count": 0,
+      "layer": "Middleware",
+      "violation_count": 2,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/plugins": {
-      "layer": "Unknown",
+      "layer": "Internal",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/utils": {
-      "layer": "Unknown",
+      "layer": "Infrastructure",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     },
     "reflex/vars": {
-      "layer": "Unknown",
+      "layer": "Core",
       "violation_count": 0,
       "high_risk_count": 0,
       "coverage_level": "untested"
     }
   },
-  "alerts": []
+  "alerts": [
+    {
+      "type": "coverage_gap",
+      "severity": "high",
+      "message": "reflex/components (Core) is untested"
+    },
+    {
+      "type": "coverage_gap",
+      "severity": "high",
+      "message": "reflex/components/tags (Core) is untested"
+    },
+    {
+      "type": "coverage_gap",
+      "severity": "high",
+      "message": "reflex/constants (Internal) is untested"
+    },
+    {
+      "type": "coverage_gap",
+      "severity": "high",
+      "message": "reflex/custom_components (Core) is untested"
+    },
+    {
+      "type": "coverage_gap",
+      "severity": "high",
+      "message": "reflex/plugins (Internal) is untested"
+    },
+    {
+      "type": "coverage_gap",
+      "severity": "high",
+      "message": "reflex/vars (Core) is untested"
+    }
+  ]
 }

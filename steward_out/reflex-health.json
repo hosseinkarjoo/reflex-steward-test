@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-26T14:52:51.045560+00:00",
+  "generated_at": "2026-05-27T06:49:10.518568+00:00",
   "version": "unknown",
   "overall_status": "fail",
-  "health_score": 43,
+  "health_score": 50,
   "intentional_overrides": [],
   "phases": {
     "ast_core": {
@@ -66,29 +66,29 @@
     "critical_mismatches": []
   },
   "test_coverage": {
-    "modules_total": 118,
-    "modules_untested": 82,
+    "modules_total": 119,
+    "modules_untested": 81,
     "checks_untested": 0,
     "checks_coverage_pct": "N/A",
     "high_risk_low_test": []
   },
   "codebase": {
-    "module_count": 118,
+    "module_count": 119,
     "check_count": 0,
     "command_count": 0,
-    "resolution_rate": "67%",
+    "resolution_rate": "68%",
     "largest_file": {
       "file": "reflex/utils/token_manager.py",
       "lines": 463
     }
   },
   "graph_quality": {
-    "resolved": 1296,
-    "candidates": 1923,
-    "external_ignored": 3394,
-    "unknown_internal": 627,
+    "resolved": 1375,
+    "candidates": 2009,
+    "external_ignored": 3570,
+    "unknown_internal": 634,
     "confidence": "medium",
-    "resolution_rate": 0.67
+    "resolution_rate": 0.68
   },
   "parse_error_count": 0,
   "recommendations": [
@@ -135,16 +135,16 @@
   ],
   "architectural_alignment": {
     "natural_path": "mvc",
-    "current_score": 0.2879,
-    "chaos": true,
+    "current_score": 0.3112,
+    "chaos": false,
     "scores": {
       "layered": 0.0,
-      "clean": 0.211,
-      "hexagonal": 0.2137,
-      "mvc": 0.2879
+      "clean": 0.1456,
+      "hexagonal": 0.2121,
+      "mvc": 0.3112
     },
     "hybrid_signals": [],
     "alignment_drift": null,
-    "score_bonus": -20
+    "score_bonus": -10
   }
 }

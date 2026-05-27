@@ -1,5 +1,15 @@
 {
-  "generated_at": "2026-05-26T14:52:50.645467+00:00",
-  "pending_count": 0,
-  "items": []
+  "generated_at": "2026-05-27T06:49:10.458949+00:00",
+  "pending_count": 1,
+  "items": [
+    {
+      "id": "layer:reflex/minify.py",
+      "type": "layer_assignment",
+      "status": "pending_review",
+      "file": "reflex/minify.py",
+      "suggested_layer": null,
+      "confidence": 0.0,
+      "reasoning": "No layer assignment found in steward-arch.toml"
+    }
+  ]
 }

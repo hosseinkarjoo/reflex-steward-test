@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T14:52:51.893548Z",
+  "generated_at": "2026-05-27T06:49:11.720564Z",
   "nodes": {
     "reflex._upload.UploadedFilesHeadersMiddleware": {
       "sensitive": false,
@@ -792,6 +792,16 @@
       "contexts": []
     },
     "reflex.custom_components.custom_components.share_more_detail": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.environment.REFLEX_MINIFY_EVENTS.get": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.environment.REFLEX_MINIFY_STATES.get": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -1646,6 +1656,126 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.minify.MinifyConfig": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.MinifyNameResolver._is_minify_allowed": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.MinifyNameResolver.from_disk": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.MinifyNameResolver.resolve_handler_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.MinifyNameResolver.resolve_state_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify._assign_next_ids": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify._find_duplicate_ids": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify._get_minify_json_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify._is_framework_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify._load_minify_config_uncached": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.clear_config_cache": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.collect_all_states": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.ensure_minify_resolver_for_active_context": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.generate_minify_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.get_minify_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.get_state_full_path": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.install_minify_resolver": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.int_to_minified_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.is_minify_enabled": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.is_mode_enabled": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.minified_name_to_int": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.save_minify_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.sync_minify_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.minify.validate_minify_config": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.model.Model.__init_subclass__": {
       "sensitive": false,
       "curvature": 0.0,
@@ -1821,7 +1951,22 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.reflex._count_events": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.reflex._init": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex._load_app_for_minify": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex._open_minify_session": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -1842,6 +1987,11 @@
       "contexts": []
     },
     "reflex.reflex._skip_compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.build_state_tree": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -1887,6 +2037,36 @@
       "contexts": []
     },
     "reflex.reflex.migrate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.minify_init": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.minify_list": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.minify_lookup": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.minify_sync": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.minify_validate": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
+    "reflex.reflex.print_state_tree": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -2396,6 +2576,11 @@
       "curvature": 0.0,
       "contexts": []
     },
+    "reflex.testing.get_state_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": []
+    },
     "reflex.testing.start": {
       "sensitive": false,
       "curvature": 0.0,
@@ -2802,11 +2987,6 @@
       "contexts": []
     },
     "reflex.utils.format.to_kebab_case": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": []
-    },
-    "reflex.utils.format.to_snake_case": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": []
@@ -3932,31 +4112,7 @@
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.App.__post_init__": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.extra_overlay_function": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._setup_sticky_badge": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._should_compile": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._setup_state": {
+    "reflex.app.App._get_frontend_packages": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -3968,55 +4124,13 @@
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.default_backend_exception_handler": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
     "reflex.app.App.add_page": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.default_overlay_component": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._app_root": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App.__call__": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.EventNamespace.__init__": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._add_cors": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._get_frontend_packages": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.default_overlay_components": {
+    "reflex.app.App._compile_page": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -4028,19 +4142,85 @@
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.App._generate_component": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._get_frontend_package_name": {
+    "reflex.app.App._setup_admin_dash": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
       "is_entry": true
     },
     "reflex.app.App.router": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.health": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._should_compile": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_backend_exception_handler": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.__post_init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._setup_sticky_badge": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._generate_component": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._setup_state": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_overlay_components": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App._validate_var_dependencies": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.EventNamespace.__init__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.EventNamespace.on_event": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.default_overlay_component": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -4058,37 +4238,37 @@
       "contexts": [],
       "is_entry": true
     },
+    "reflex.app.App._get_frontend_package_name": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
+    "reflex.app.App.__call__": {
+      "sensitive": false,
+      "curvature": 0.0,
+      "contexts": [],
+      "is_entry": true
+    },
     "reflex.app.EventNamespace.link_token_to_sid": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.EventNamespace.on_event": {
+    "reflex.app.App._add_cors": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.health": {
+    "reflex.app.App._app_root": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
       "is_entry": true
     },
-    "reflex.app.App._validate_var_dependencies": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._compile_page": {
-      "sensitive": false,
-      "curvature": 0.0,
-      "contexts": [],
-      "is_entry": true
-    },
-    "reflex.app.App._setup_admin_dash": {
+    "reflex.app.extra_overlay_function": {
       "sensitive": false,
       "curvature": 0.0,
       "contexts": [],
@@ -4096,7 +4276,7 @@
     }
   },
   "stats": {
-    "total": 813,
+    "total": 849,
     "sensitive": 0,
     "high_curvature": 0,
     "entry_nodes": 28

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T16:22:17.157762+00:00",
+  "generated_at": "2026-05-27T06:57:38.474481+00:00",
   "source": "steward_out/call-graph.json",
   "violations": [
     {
@@ -123,7 +123,7 @@
       "file": "reflex/reflex.py",
       "layer": "Infrastructure",
       "line_count": 1307,
-      "fan_out": 11,
+      "fan_out": 13,
       "fan_in": 1,
       "violation_edges": 0,
       "flags": [
@@ -135,8 +135,8 @@
       "file": "reflex/state.py",
       "layer": "Infrastructure",
       "line_count": 2680,
-      "fan_out": 15,
-      "fan_in": 14,
+      "fan_out": 16,
+      "fan_in": 16,
       "violation_edges": 0,
       "flags": [
         "high_fan_out",
@@ -149,7 +149,7 @@
       "layer": "Infrastructure",
       "line_count": 918,
       "fan_out": 7,
-      "fan_in": 1,
+      "fan_in": 2,
       "violation_edges": 0,
       "flags": [
         "high_fan_out",
@@ -172,7 +172,7 @@
       "layer": "Infrastructure",
       "line_count": 4,
       "fan_out": 0,
-      "fan_in": 16,
+      "fan_in": 17,
       "violation_edges": 0,
       "flags": [
         "high_fan_in"
@@ -241,7 +241,7 @@
       "file": "reflex/utils/prerequisites.py",
       "layer": "Infrastructure",
       "line_count": 715,
-      "fan_out": 11,
+      "fan_out": 12,
       "fan_in": 16,
       "violation_edges": 0,
       "flags": [

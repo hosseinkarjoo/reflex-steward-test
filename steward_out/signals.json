@@ -19,7 +19,7 @@
         "medium": 0,
         "low": 0
       },
-      "health_score": 43
+      "health_score": 50
     }
   },
   {
@@ -29,17 +29,17 @@
     "confidence": "medium",
     "scope": "project",
     "title": "Graph Quality",
-    "evidence": "medium confidence  67% internal",
-    "consequence": "627 unresolvable call(s) \u2014 some cross-layer flows may be invisible",
+    "evidence": "medium confidence  68% internal",
+    "consequence": "634 unresolvable call(s) \u2014 some cross-layer flows may be invisible",
     "suggested_action": "add type annotations to dynamic calls to improve resolution",
     "source": "call-graph.json",
     "location": "",
-    "count": 627,
+    "count": 634,
     "metadata": {
-      "resolution_rate": 0.67,
-      "resolved": 1296,
-      "candidates": 1923,
-      "unresolvable": 627
+      "resolution_rate": 0.68,
+      "resolved": 1375,
+      "candidates": 2009,
+      "unresolvable": 634
     }
   },
   {
@@ -49,19 +49,38 @@
     "confidence": "high",
     "scope": "project",
     "title": "Coverage",
-    "evidence": "30% modules referenced by tests  (20 well \u00b7 16 lightly \u00b7 82 untested)",
-    "consequence": "82/118 modules untested \u2014 high-risk functions may be unverified",
+    "evidence": "31% modules referenced by tests  (20 well \u00b7 18 lightly \u00b7 81 untested)",
+    "consequence": "81/119 modules untested \u2014 high-risk functions may be unverified",
     "suggested_action": "add tests for Core layer (steward check --show-gaps)",
     "source": "test-coverage.json",
     "location": "",
-    "count": 82,
+    "count": 81,
     "metadata": {
-      "total": 118,
+      "total": 119,
       "well": 20,
-      "lightly": 16,
-      "untested": 82,
-      "pct": 30,
+      "lightly": 18,
+      "untested": 81,
+      "pct": 31,
       "core_untested": 20
+    }
+  },
+  {
+    "id": "geometry",
+    "category": "geometry",
+    "severity": "ok",
+    "confidence": "high",
+    "scope": "project",
+    "title": "Layer Geometry",
+    "evidence": "sep=2.97  51 drifted",
+    "consequence": "layer boundaries are geometrically clean",
+    "suggested_action": "",
+    "source": "hyperbolic-coords.json",
+    "location": "",
+    "count": 51,
+    "metadata": {
+      "separation_ratio": 2.9688,
+      "drift_flagged": 51,
+      "isolated_nodes": 0
     }
   },
   {
@@ -71,7 +90,7 @@
     "confidence": "high",
     "scope": "project",
     "title": "Analysis Coverage",
-    "evidence": "10 graph_opaque  108 solid",
+    "evidence": "10 graph_opaque  109 solid",
     "consequence": "10 file(s) use DI/decorators \u2014 call graph may miss some edges. Violations through these files are downgraded to 'warn'.",
     "suggested_action": "steward enrich --opaque  (optional \u2014 improves call graph accuracy)",
     "source": "opacity-manifest.json",
@@ -80,9 +99,9 @@
     "metadata": {
       "parse_failed": 0,
       "graph_opaque": 10,
-      "solid": 108,
-      "total": 118,
-      "enriched": 0
+      "solid": 109,
+      "total": 119,
+      "enriched": 9
     }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T14:52:50.513410+00:00",
+  "generated_at": "2026-05-27T06:49:09.896399+00:00",
   "layer_count": 9,
   "scores": {
     "layered": {
@@ -64,12 +64,16 @@
         ],
         [
           "Unknown",
+          "Core"
+        ],
+        [
+          "Unknown",
           "Infrastructure"
         ]
       ]
     },
     "clean": {
-      "score": 0.211,
+      "score": 0.1456,
       "cost": 7,
       "gap_edges": [
         [
@@ -77,8 +81,8 @@
           "Infrastructure"
         ],
         [
-          "Infrastructure",
-          "Entry"
+          "Entry",
+          "Infrastructure"
         ],
         [
           "Middleware",
@@ -98,54 +102,27 @@
         ],
         [
           "Unknown",
+          "Core"
+        ],
+        [
+          "Unknown",
           "Infrastructure"
         ]
       ]
     },
     "hexagonal": {
-      "score": 0.2137,
+      "score": 0.2121,
       "cost": 0,
       "gap_edges": []
     },
     "mvc": {
-      "score": 0.2879,
-      "cost": 2,
-      "gap_edges": [
-        [
-          "Infrastructure",
-          "Entry"
-        ]
-      ]
+      "score": 0.3112,
+      "cost": 0,
+      "gap_edges": []
     }
   },
   "natural_path": "mvc",
-  "chaos": true,
-  "stabilization_plan": [
-    {
-      "from_layer": "Entry",
-      "to_layer": "Infrastructure",
-      "call_volume": 54
-    },
-    {
-      "from_layer": "Core",
-      "to_layer": "Infrastructure",
-      "call_volume": 49
-    },
-    {
-      "from_layer": "Infrastructure",
-      "to_layer": "Entry",
-      "call_volume": 18
-    },
-    {
-      "from_layer": "Infrastructure",
-      "to_layer": "Unknown",
-      "call_volume": 17
-    },
-    {
-      "from_layer": "Infrastructure",
-      "to_layer": "Models",
-      "call_volume": 12
-    }
-  ],
+  "chaos": false,
+  "stabilization_plan": [],
   "hybrid_signals": []
 }
