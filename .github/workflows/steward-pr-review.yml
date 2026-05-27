@@ -41,7 +41,7 @@ jobs:
         env:
           steward_token: ${{ secrets.steward_token }}
         run: |
-          pip install -e .
+          pip install steward[ai]
 
       - name: Set pending status
         env:
