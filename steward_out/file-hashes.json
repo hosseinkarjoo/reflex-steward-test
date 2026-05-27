@@ -1,7 +1,7 @@
 {
   "tests/__init__.py": {
     "hash": "sha256:d2c0cba28fa70561eb8d0e26f85386ba3fa15c46977148654479568378156f1a",
-    "mtime": 1779864203.3715522
+    "mtime": 1779879299.1087592
   },
   "tests/test_node_version.py": {
     "hash": "sha256:e03eab21df3373ce68a69275297b499e85e1d3b34c4f4162271773e4b2388aad",
@@ -305,7 +305,7 @@
   },
   "tests/units/test_app.py": {
     "hash": "sha256:98eabacaac74f50ab0fad8bfc1a2e4b3a27a8434ee92f2430604a46981b2f570",
-    "mtime": 1779863948.1657732
+    "mtime": 1779879299.1094913
   },
   "tests/units/test_environment.py": {
     "hash": "sha256:e3a60f5aeeab6032d0814f433fdcb7774a0c052db6cb3352ff60bac1dc3330c0",
@@ -2729,7 +2729,7 @@
   },
   "reflex/reflex.py": {
     "hash": "sha256:a9591276057c82e8a8d14144c57ce176b5eac2b33ebb430a03d961c02492c123",
-    "mtime": 1779863948.157743
+    "mtime": 1779879299.0745854
   },
   "reflex/minify.py": {
     "hash": "sha256:9ac3603017274c0a847b0638061997d9580d603012a5864e26608754f8b19d76",
@@ -2761,7 +2761,7 @@
   },
   "reflex/environment.py": {
     "hash": "sha256:de5f8c9ea5f6289741d3a561d079ef6154308a8cb31e010fee8409bc3214bf10",
-    "mtime": 1779431788.7106667
+    "mtime": 1779879299.0739188
   },
   "reflex/app.py": {
     "hash": "sha256:18ec9c2c898bc296cf31cf969731c2edd7836d6ac90aaed0c7a60279d4f23564",
@@ -2781,7 +2781,7 @@
   },
   "reflex/state.py": {
     "hash": "sha256:d4db586bb212b0ccfc7ad6f8d4dc6c3370e501c179a44a7c86d392b3088ce846",
-    "mtime": 1779863948.1583471
+    "mtime": 1779879299.0751886
   },
   "reflex/istate/proxy.py": {
     "hash": "sha256:46cb87e1d76faac805cc196e138a0b4d4b82f2b37b00b53ad49ab99c6143d142",
@@ -2869,7 +2869,7 @@
   },
   "reflex/vars/base.py": {
     "hash": "sha256:c4270ba2a1f6d083e797c0579fbd7e4b9351566f7e13f3d0b4ee74149ba03de2",
-    "mtime": 1779431788.716699
+    "mtime": 1779879299.0757146
   },
   "reflex/vars/function.py": {
     "hash": "sha256:54f0d3972be1d39027d8cbeb9ca1a621daf3a669d6a4f846a21190905ad381b7",
@@ -3017,7 +3017,7 @@
   },
   "reflex/utils/prerequisites.py": {
     "hash": "sha256:039b4c64f87ba4bfbb679fb9b3bd321511b8994df055df8daed6e8283fa7a35f",
-    "mtime": 1779863948.1588562
+    "mtime": 1779879299.0755587
   },
   "reflex/utils/rename.py": {
     "hash": "sha256:cc501f45d8fc9dd24429f3a2131dd60fd70b76c4fc0ffc486ca268a8349bea0c",
@@ -3190,5 +3190,13 @@
   "reflex/compiler/plugins/builtin.py": {
     "hash": "sha256:fb8cb2234df09ac825da61add72c317cde3ef9182372713eb08bb2deb927b484",
     "mtime": 1779431788.7085161
+  },
+  "tests/integration/test_state_minification.py": {
+    "hash": "sha256:457e2a6ce4a22f5048f96af83e7cb9399a0403a0bc65cd098ec94c4bb379733d",
+    "mtime": 1779879249.6210058
+  },
+  "tests/units/test_state_minification.py": {
+    "hash": "sha256:c1a18a1d29d40526e63323c3f60b891edee1c626a4daf3c4e9ce60c1764e2377",
+    "mtime": 1779879249.6211407
   }
 }

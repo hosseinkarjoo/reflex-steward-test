@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T09:17:59.617587+00:00",
+  "generated_at": "2026-05-27T10:55:01.103639+00:00",
   "files": {
     "reflex/__init__.py": {
       "layer": "Unknown",
@@ -2136,9 +2136,7 @@
       "classes": {}
     },
     "reflex/environment.py": {
-      "layer": "Core",
       "line_count": 4,
-      "hash": "de5f8c9ea5f6289741d3a561d079ef6154308a8cb31e010fee8409bc3214bf10",
       "functions": {},
       "classes": {}
     },
@@ -4153,9 +4151,7 @@
       "classes": {}
     },
     "reflex/reflex.py": {
-      "layer": "Infrastructure",
       "line_count": 1307,
-      "hash": "a9591276057c82e8a8d14144c57ce176b5eac2b33ebb430a03d961c02492c123",
       "functions": {
         "set_loglevel": {
           "lineno": 25,
@@ -4796,9 +4792,7 @@
       "classes": {}
     },
     "reflex/state.py": {
-      "layer": "Infrastructure",
       "line_count": 2680,
-      "hash": "d4db586bb212b0ccfc7ad6f8d4dc6c3370e501c179a44a7c86d392b3088ce846",
       "functions": {
         "_no_chain_background_task": {
           "lineno": 101,
@@ -7286,9 +7280,7 @@
       }
     },
     "reflex/utils/prerequisites.py": {
-      "layer": "Infrastructure",
       "line_count": 715,
-      "hash": "039b4c64f87ba4bfbb679fb9b3bd321511b8994df055df8daed6e8283fa7a35f",
       "functions": {
         "get_web_dir": {
           "lineno": 46,
@@ -9036,9 +9028,7 @@
       "classes": {}
     },
     "reflex/vars/base.py": {
-      "layer": "Core",
       "line_count": 4,
-      "hash": "c4270ba2a1f6d083e797c0579fbd7e4b9351566f7e13f3d0b4ee74149ba03de2",
       "functions": {},
       "classes": {}
     },
@@ -9090,6 +9080,2102 @@
       "hash": "0c3bbca668a94351180883d72ca6502c5dddc462cfd3f715188e0b242a09569d",
       "functions": {},
       "classes": {}
+    },
+    "tests/__init__.py": {
+      "line_count": 5,
+      "functions": {},
+      "classes": {}
+    },
+    "tests/integration/test_state_minification.py": {
+      "line_count": 290,
+      "functions": {
+        "StateMinificationApp": {
+          "lineno": 21,
+          "end_lineno": 73,
+          "line_count": 53,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.App",
+            "rx.button",
+            "rx.input",
+            "rx.text",
+            "rx.vstack"
+          ]
+        },
+        "reset_state_registry": {
+          "lineno": 77,
+          "end_lineno": 81,
+          "line_count": 5,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "_state_id_registry.clear"
+          ]
+        },
+        "minify_disabled_app": {
+          "lineno": 85,
+          "end_lineno": 110,
+          "line_count": 26,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "environment.REFLEX_MINIFY_STATES.set",
+            "os.environ.pop",
+            "partial"
+          ]
+        },
+        "minify_enabled_app": {
+          "lineno": 114,
+          "end_lineno": 139,
+          "line_count": 26,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "environment.REFLEX_MINIFY_STATES.set",
+            "os.environ.pop",
+            "partial"
+          ]
+        },
+        "driver_disabled": {
+          "lineno": 143,
+          "end_lineno": 159,
+          "line_count": 17,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "driver_enabled": {
+          "lineno": 163,
+          "end_lineno": 179,
+          "line_count": 17,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_state_minification_disabled": {
+          "lineno": 182,
+          "end_lineno": 232,
+          "line_count": 51,
+          "complexity": 10,
+          "patterns": [
+            "response_body_unconditional"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "AppHarness._poll_for",
+            "AppHarness.poll_for_or_raise_timeout"
+          ]
+        },
+        "test_state_minification_enabled": {
+          "lineno": 235,
+          "end_lineno": 290,
+          "line_count": 56,
+          "complexity": 10,
+          "patterns": [
+            "response_body_unconditional"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "AppHarness._poll_for",
+            "AppHarness.poll_for_or_raise_timeout",
+            "_int_to_minified_name"
+          ]
+        },
+        "index": {
+          "lineno": 53,
+          "end_lineno": 70,
+          "line_count": 18,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.button",
+            "rx.input",
+            "rx.text",
+            "rx.vstack"
+          ]
+        }
+      },
+      "classes": {
+        "RootState": {
+          "lineno": 30,
+          "end_lineno": 38,
+          "line_count": 9,
+          "extends": [
+            "rx.State"
+          ],
+          "patterns": []
+        },
+        "SubState": {
+          "lineno": 40,
+          "end_lineno": 51,
+          "line_count": 12,
+          "extends": [
+            "RootState"
+          ],
+          "patterns": []
+        }
+      }
+    },
+    "tests/units/test_app.py": {
+      "line_count": 3228,
+      "functions": {
+        "index_page": {
+          "lineno": 71,
+          "end_lineno": 81,
+          "line_count": 11,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.box"
+          ]
+        },
+        "about_page": {
+          "lineno": 3100,
+          "end_lineno": 3101,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.box",
+            "rx.text"
+          ]
+        },
+        "test_state": {
+          "lineno": 105,
+          "end_lineno": 111,
+          "line_count": 7,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "redundant_test_state": {
+          "lineno": 115,
+          "end_lineno": 125,
+          "line_count": 11,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_model": {
+          "lineno": 129,
+          "end_lineno": 139,
+          "line_count": 11,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_model_auth": {
+          "lineno": 143,
+          "end_lineno": 153,
+          "line_count": 11,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_get_engine": {
+          "lineno": 157,
+          "end_lineno": 171,
+          "line_count": 15,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "sqlmodel.create_engine"
+          ]
+        },
+        "test_custom_auth_admin": {
+          "lineno": 179,
+          "end_lineno": 205,
+          "line_count": 27,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_default_app": {
+          "lineno": 208,
+          "end_lineno": 216,
+          "line_count": 9,
+          "complexity": 4,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "Style"
+          ]
+        },
+        "test_multiple_states_error": {
+          "lineno": 219,
+          "end_lineno": 233,
+          "line_count": 15,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "pytest.raises"
+          ]
+        },
+        "test_add_page_default_route": {
+          "lineno": 236,
+          "end_lineno": 253,
+          "line_count": 18,
+          "complexity": 5,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_add_page_set_route": {
+          "lineno": 256,
+          "end_lineno": 267,
+          "line_count": 12,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_add_page_set_route_dynamic": {
+          "lineno": 270,
+          "end_lineno": 287,
+          "line_count": 18,
+          "complexity": 7,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App"
+          ]
+        },
+        "test_add_page_set_route_nested": {
+          "lineno": 290,
+          "end_lineno": 300,
+          "line_count": 11,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_add_page_invalid_api_route": {
+          "lineno": 303,
+          "end_lineno": 317,
+          "line_count": 15,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "page1": {
+          "lineno": 320,
+          "end_lineno": 321,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.fragment"
+          ]
+        },
+        "page2": {
+          "lineno": 2531,
+          "end_lineno": 2532,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.text"
+          ]
+        },
+        "index": {
+          "lineno": 2528,
+          "end_lineno": 2529,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.text"
+          ]
+        },
+        "test_add_the_same_page": {
+          "lineno": 339,
+          "end_lineno": 350,
+          "line_count": 12,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_add_duplicate_page_route_error": {
+          "lineno": 366,
+          "end_lineno": 369,
+          "line_count": 4,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "pytest.raises"
+          ]
+        },
+        "test_initialize_with_admin_dashboard": {
+          "lineno": 378,
+          "end_lineno": 392,
+          "line_count": 15,
+          "complexity": 6,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "AdminDash",
+            "App",
+            "rx.Config"
+          ]
+        },
+        "test_initialize_with_custom_admin_dashboard": {
+          "lineno": 401,
+          "end_lineno": 422,
+          "line_count": 22,
+          "complexity": 8,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "Admin",
+            "AdminDash",
+            "App"
+          ]
+        },
+        "test_initialize_admin_dashboard_with_view_overrides": {
+          "lineno": 431,
+          "end_lineno": 455,
+          "line_count": 25,
+          "complexity": 6,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "AdminDash",
+            "App",
+            "rx.Config"
+          ]
+        },
+        "test_initialize_with_state": {
+          "lineno": 459,
+          "end_lineno": 476,
+          "line_count": 18,
+          "complexity": 4,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "BaseStateToken"
+          ]
+        },
+        "test_set_and_get_state": {
+          "lineno": 480,
+          "end_lineno": 514,
+          "line_count": 35,
+          "complexity": 9,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "BaseStateToken",
+            "uuid.uuid4"
+          ]
+        },
+        "test_dynamic_var_event": {
+          "lineno": 518,
+          "end_lineno": 553,
+          "line_count": 36,
+          "complexity": 2,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "Event"
+          ]
+        },
+        "list_mutation_state": {
+          "lineno": 557,
+          "end_lineno": 629,
+          "line_count": 73,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_list_mutation_detection__plain_list": {
+          "lineno": 724,
+          "end_lineno": 753,
+          "line_count": 30,
+          "complexity": 3,
+          "patterns": [
+            "async_awaitable",
+            "shared_ref_mutation"
+          ],
+          "mutations": [
+            {
+              "param": "emitted_deltas",
+              "line": 753,
+              "pattern": "method_call"
+            }
+          ],
+          "io_type": "none",
+          "external_calls": [
+            "Event"
+          ]
+        },
+        "dict_mutation_state": {
+          "lineno": 757,
+          "end_lineno": 820,
+          "line_count": 64,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_dict_mutation_detection__plain_list": {
+          "lineno": 921,
+          "end_lineno": 950,
+          "line_count": 30,
+          "complexity": 3,
+          "patterns": [
+            "async_awaitable",
+            "shared_ref_mutation"
+          ],
+          "mutations": [
+            {
+              "param": "emitted_deltas",
+              "line": 950,
+              "pattern": "method_call"
+            }
+          ],
+          "io_type": "none",
+          "external_calls": [
+            "Event"
+          ]
+        },
+        "test_upload_file": {
+          "lineno": 983,
+          "end_lineno": 1046,
+          "line_count": 64,
+          "complexity": 4,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "BaseStateToken",
+            "FormData",
+            "Mock",
+            "UploadFile",
+            "io.BytesIO",
+            "json.loads",
+            "unittest.mock.Mock",
+            "upload"
+          ]
+        },
+        "test_upload_file_keeps_form_open_until_stream_completes": {
+          "lineno": 1050,
+          "end_lineno": 1133,
+          "line_count": 84,
+          "complexity": 12,
+          "patterns": [
+            "async_awaitable",
+            "external_io_network",
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "AsyncMock",
+            "BaseStateToken",
+            "FileUploadState.get_full_name",
+            "FormData",
+            "Mock",
+            "UploadFile",
+            "asyncio.Event",
+            "io.BytesIO",
+            "unittest.mock.Mock",
+            "upload"
+          ]
+        },
+        "test_upload_empty_buffered_request_dispatches_alias_handler": {
+          "lineno": 1137,
+          "end_lineno": 1182,
+          "line_count": 46,
+          "complexity": 7,
+          "patterns": [
+            "async_awaitable",
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "BaseStateToken",
+            "FileUploadState.get_full_name",
+            "FormData",
+            "Mock",
+            "environment.REFLEX_OPLOCK_ENABLED.get",
+            "json.loads",
+            "unittest.mock.Mock",
+            "upload"
+          ]
+        },
+        "test_upload_file_closes_form_on_form_error": {
+          "lineno": 1186,
+          "end_lineno": 1217,
+          "line_count": 32,
+          "complexity": 4,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "AsyncMock",
+            "FileUploadState.get_full_name",
+            "FormData",
+            "Mock",
+            "UploadFile",
+            "asyncio.sleep",
+            "io.BytesIO",
+            "pytest.raises",
+            "unittest.mock.Mock",
+            "upload"
+          ]
+        },
+        "test_upload_file_closes_form_on_event_creation_cancellation": {
+          "lineno": 1221,
+          "end_lineno": 1257,
+          "line_count": 37,
+          "complexity": 4,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "AsyncMock",
+            "FileUploadState.get_full_name",
+            "FormData",
+            "Mock",
+            "UploadFile",
+            "io.BytesIO",
+            "pytest.raises",
+            "unittest.mock.Mock",
+            "upload"
+          ]
+        },
+        "test_upload_file_closes_form_if_response_cancelled_before_stream_starts": {
+          "lineno": 1261,
+          "end_lineno": 1317,
+          "line_count": 57,
+          "complexity": 7,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "AsyncMock",
+            "BaseStateToken",
+            "FileUploadState.get_full_name",
+            "FormData",
+            "Mock",
+            "UploadFile",
+            "asyncio.sleep",
+            "io.BytesIO",
+            "pytest.raises",
+            "unittest.mock.Mock",
+            "upload"
+          ]
+        },
+        "test_upload_file_raises_client_disconnect_when_stream_send_fails": {
+          "lineno": 1321,
+          "end_lineno": 1385,
+          "line_count": 65,
+          "complexity": 6,
+          "patterns": [
+            "async_awaitable",
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "AsyncMock",
+            "FileUploadState.get_full_name",
+            "FormData",
+            "Mock",
+            "UploadFile",
+            "asyncio.Event",
+            "asyncio.sleep",
+            "asyncio.wait_for",
+            "io.BytesIO",
+            "pytest.raises",
+            "unittest.mock.Mock",
+            "upload"
+          ]
+        },
+        "test_upload_file_without_annotation": {
+          "lineno": 1393,
+          "end_lineno": 1428,
+          "line_count": 36,
+          "complexity": 3,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "FormData",
+            "UploadFile",
+            "io.BytesIO",
+            "pytest.raises",
+            "unittest.mock.Mock",
+            "upload"
+          ]
+        },
+        "test_upload_file_background": {
+          "lineno": 1436,
+          "end_lineno": 1471,
+          "line_count": 36,
+          "complexity": 3,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "FormData",
+            "UploadFile",
+            "io.BytesIO",
+            "pytest.raises",
+            "unittest.mock.Mock",
+            "upload"
+          ]
+        },
+        "_build_chunk_upload_multipart_body": {
+          "lineno": 1474,
+          "end_lineno": 1500,
+          "line_count": 27,
+          "complexity": 2,
+          "patterns": [
+            "collection_accumulate"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "_make_chunk_upload_request": {
+          "lineno": 1503,
+          "end_lineno": 1531,
+          "line_count": 29,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "Headers",
+            "asyncio.sleep",
+            "unittest.mock.Mock"
+          ]
+        },
+        "test_upload_dispatches_chunk_handlers_on_upload_endpoint": {
+          "lineno": 1535,
+          "end_lineno": 1622,
+          "line_count": 88,
+          "complexity": 22,
+          "patterns": [
+            "async_awaitable",
+            "external_io_network",
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "BaseStateToken",
+            "ChunkUploadState.get_full_name",
+            "Mock",
+            "environment.REFLEX_OPLOCK_ENABLED.get",
+            "json.loads",
+            "upload"
+          ]
+        },
+        "test_upload_empty_chunk_request_dispatches_alias_handler": {
+          "lineno": 1626,
+          "end_lineno": 1671,
+          "line_count": 46,
+          "complexity": 8,
+          "patterns": [
+            "async_awaitable",
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "BaseStateToken",
+            "ChunkUploadState.get_full_name",
+            "Mock",
+            "environment.REFLEX_OPLOCK_ENABLED.get",
+            "json.loads",
+            "upload"
+          ]
+        },
+        "test_upload_chunk_invalid_offset_returns_400": {
+          "lineno": 1675,
+          "end_lineno": 1718,
+          "line_count": 44,
+          "complexity": 7,
+          "patterns": [
+            "async_awaitable",
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "BaseStateToken",
+            "ChunkUploadState.get_full_name",
+            "Mock",
+            "environment.REFLEX_OPLOCK_ENABLED.get",
+            "json.loads",
+            "upload"
+          ]
+        },
+        "test_dynamic_arg_shadow": {
+          "lineno": 1759,
+          "end_lineno": 1778,
+          "line_count": 20,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "pytest.raises"
+          ]
+        },
+        "test_multiple_dynamic_args": {
+          "lineno": 1781,
+          "end_lineno": 1800,
+          "line_count": 20,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App"
+          ]
+        },
+        "cleanup_dynamic_arg": {
+          "lineno": 1804,
+          "end_lineno": 1815,
+          "line_count": 12,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "State.computed_vars.pop",
+            "State.vars.pop",
+            "contextlib.suppress",
+            "reload_state_module"
+          ]
+        },
+        "test_dynamic_route_var_route_change_completed_on_load": {
+          "lineno": 1820,
+          "end_lineno": 1973,
+          "line_count": 154,
+          "complexity": 21,
+          "patterns": [
+            "async_awaitable",
+            "external_io_network",
+            "shared_ref_mutation"
+          ],
+          "mutations": [
+            {
+              "param": "emitted_deltas",
+              "line": 1942,
+              "pattern": "method_call"
+            },
+            {
+              "param": "emitted_events",
+              "line": 1943,
+              "pattern": "method_call"
+            },
+            {
+              "param": "emitted_deltas",
+              "line": 1960,
+              "pattern": "method_call"
+            },
+            {
+              "param": "emitted_events",
+              "line": 1961,
+              "pattern": "method_call"
+            }
+          ],
+          "io_type": "network",
+          "external_calls": [
+            "App",
+            "BaseStateToken",
+            "Event",
+            "OnLoadInternalState.get_full_name",
+            "RouterData.from_router_data",
+            "State.get_full_name",
+            "environment.REFLEX_OPLOCK_ENABLED.get",
+            "format.format_event_handler"
+          ]
+        },
+        "test_process_events": {
+          "lineno": 1977,
+          "end_lineno": 2018,
+          "line_count": 42,
+          "complexity": 5,
+          "patterns": [
+            "async_awaitable",
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "BaseStateToken",
+            "Event",
+            "GenState.get_name",
+            "environment.REFLEX_OPLOCK_ENABLED.get"
+          ]
+        },
+        "compilable_app": {
+          "lineno": 2022,
+          "end_lineno": 2052,
+          "line_count": 31,
+          "complexity": 2,
+          "patterns": [
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "file",
+          "external_calls": [
+            "App",
+            "chdir",
+            "unittest.mock.Mock"
+          ]
+        },
+        "test_app_wrap_compile_theme": {
+          "lineno": 2059,
+          "end_lineno": 2106,
+          "line_count": 48,
+          "complexity": 2,
+          "patterns": [
+            "external_io_network",
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config",
+            "rx.theme"
+          ]
+        },
+        "test_compile_without_radix_components_skips_radix_plugin": {
+          "lineno": 2109,
+          "end_lineno": 2135,
+          "line_count": 27,
+          "complexity": 3,
+          "patterns": [
+            "external_io_network",
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config",
+            "rx.el.div"
+          ]
+        },
+        "test_compile_with_radix_component_auto_enables_radix_plugin": {
+          "lineno": 2138,
+          "end_lineno": 2168,
+          "line_count": 31,
+          "complexity": 4,
+          "patterns": [
+            "external_io_network",
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config",
+            "rx.box",
+            "rx.el.div"
+          ]
+        },
+        "test_compile_with_legacy_app_theme_warns_and_enables_radix_plugin": {
+          "lineno": 2171,
+          "end_lineno": 2199,
+          "line_count": 29,
+          "complexity": 4,
+          "patterns": [
+            "external_io_network",
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config",
+            "rx.el.div",
+            "rx.theme"
+          ]
+        },
+        "test_explicit_radix_plugin_wins_over_legacy_app_theme": {
+          "lineno": 2202,
+          "end_lineno": 2228,
+          "line_count": 27,
+          "complexity": 4,
+          "patterns": [
+            "external_io_network",
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config",
+            "rx.el.div",
+            "rx.plugins.RadixThemesPlugin",
+            "rx.theme"
+          ]
+        },
+        "test_compile_writes_app_wrap_memo_components": {
+          "lineno": 2231,
+          "end_lineno": 2258,
+          "line_count": 28,
+          "complexity": 7,
+          "patterns": [
+            "external_io_network",
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config",
+            "rx.box"
+          ]
+        },
+        "test_compile_writes_upload_files_provider_app_wrap": {
+          "lineno": 2261,
+          "end_lineno": 2284,
+          "line_count": 24,
+          "complexity": 2,
+          "patterns": [
+            "external_io_network",
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config",
+            "rx.button",
+            "rx.text",
+            "rx.upload.root",
+            "rx.vstack"
+          ]
+        },
+        "test_app_wrap_priority": {
+          "lineno": 2291,
+          "end_lineno": 2361,
+          "line_count": 71,
+          "complexity": 2,
+          "patterns": [
+            "external_io_network",
+            "external_io_file"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config",
+            "rx.box",
+            "rx.text"
+          ]
+        },
+        "test_get_frontend_packages_maps_subpath_imports_to_installable_package_names": {
+          "lineno": 2364,
+          "end_lineno": 2385,
+          "line_count": 22,
+          "complexity": 5,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "App",
+            "ImportVar",
+            "rx.Config"
+          ]
+        },
+        "test_get_frontend_packages_keeps_https_imports_unchanged": {
+          "lineno": 2388,
+          "end_lineno": 2405,
+          "line_count": 18,
+          "complexity": 3,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "App",
+            "ImportVar",
+            "rx.Config"
+          ]
+        },
+        "test_get_frontend_packages_maps_versioned_subpath_imports_to_pinned_base": {
+          "lineno": 2408,
+          "end_lineno": 2428,
+          "line_count": 21,
+          "complexity": 5,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "App",
+            "ImportVar",
+            "rx.Config"
+          ]
+        },
+        "test_app_state_determination": {
+          "lineno": 2431,
+          "end_lineno": 2437,
+          "line_count": 7,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App"
+          ]
+        },
+        "test_raise_on_state": {
+          "lineno": 2440,
+          "end_lineno": 2445,
+          "line_count": 6,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App"
+          ]
+        },
+        "test_call_app": {
+          "lineno": 2448,
+          "end_lineno": 2453,
+          "line_count": 6,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "unittest.mock.Mock"
+          ]
+        },
+        "upload_enabled": {
+          "lineno": 2457,
+          "end_lineno": 2463,
+          "line_count": 7,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_app_with_optional_endpoints": {
+          "lineno": 2467,
+          "end_lineno": 2489,
+          "line_count": 23,
+          "complexity": 11,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "chdir"
+          ]
+        },
+        "test_app_state_manager": {
+          "lineno": 2492,
+          "end_lineno": 2500,
+          "line_count": 9,
+          "complexity": 4,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "pytest.raises"
+          ]
+        },
+        "test_generate_component": {
+          "lineno": 2503,
+          "end_lineno": 2519,
+          "line_count": 17,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App._generate_component",
+            "pytest.raises",
+            "rx.box",
+            "rx.match"
+          ]
+        },
+        "test_add_page_component_returning_tuple": {
+          "lineno": 2522,
+          "end_lineno": 2557,
+          "line_count": 36,
+          "complexity": 12,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "rx.text"
+          ]
+        },
+        "test_app_with_valid_var_dependencies": {
+          "lineno": 2560,
+          "end_lineno": 2586,
+          "line_count": 27,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "computed_var"
+          ]
+        },
+        "test_app_with_invalid_var_dependencies": {
+          "lineno": 2589,
+          "end_lineno": 2599,
+          "line_count": 11,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "computed_var",
+            "pytest.raises"
+          ]
+        },
+        "valid_custom_handler": {
+          "lineno": 2605,
+          "end_lineno": 2607,
+          "line_count": 3,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "custom_exception_handler_with_wrong_arg_order": {
+          "lineno": 2610,
+          "end_lineno": 2615,
+          "line_count": 6,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "custom_exception_handler_with_wrong_argspec": {
+          "lineno": 2618,
+          "end_lineno": 2622,
+          "line_count": 5,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_frontend_exception_handler_validation": {
+          "lineno": 2684,
+          "end_lineno": 2693,
+          "line_count": 10,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.App"
+          ]
+        },
+        "backend_exception_handler_with_wrong_return_type": {
+          "lineno": 2696,
+          "end_lineno": 2709,
+          "line_count": 14,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_backend_exception_handler_validation": {
+          "lineno": 2752,
+          "end_lineno": 2761,
+          "line_count": 10,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.App"
+          ]
+        },
+        "test_app_modify_state_clean": {
+          "lineno": 2774,
+          "end_lineno": 2829,
+          "line_count": 56,
+          "complexity": 16,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "AsyncMock",
+            "BaseStateToken"
+          ]
+        },
+        "app_with_processor": {
+          "lineno": 2833,
+          "end_lineno": 2848,
+          "line_count": 16,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "App",
+            "AsyncMock",
+            "EventContext",
+            "Mock",
+            "StateManagerMemory"
+          ]
+        },
+        "isolated_context": {
+          "lineno": 2852,
+          "end_lineno": 2858,
+          "line_count": 7,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "contextvars.Context"
+          ]
+        },
+        "pre_set_registration_context": {
+          "lineno": 2865,
+          "end_lineno": 2882,
+          "line_count": 18,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "RegistrationContext"
+          ]
+        },
+        "pre_set_event_context": {
+          "lineno": 2888,
+          "end_lineno": 2909,
+          "line_count": 22,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "AsyncMock",
+            "EventContext",
+            "StateManagerMemory"
+          ]
+        },
+        "test_set_contexts": {
+          "lineno": 2912,
+          "end_lineno": 2953,
+          "line_count": 42,
+          "complexity": 15,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "EventContext.get",
+            "RegistrationContext.get",
+            "pytest.raises"
+          ]
+        },
+        "test_set_contexts_no_event_processor": {
+          "lineno": 2956,
+          "end_lineno": 2968,
+          "line_count": 13,
+          "complexity": 5,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "App",
+            "EventContext.get",
+            "RegistrationContext.get",
+            "pytest.raises"
+          ]
+        },
+        "test_compile_sends_telemetry_when_enabled": {
+          "lineno": 2971,
+          "end_lineno": 3002,
+          "line_count": 32,
+          "complexity": 7,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config"
+          ]
+        },
+        "test_compile_skips_telemetry_when_disabled": {
+          "lineno": 3005,
+          "end_lineno": 3020,
+          "line_count": 16,
+          "complexity": 3,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config"
+          ]
+        },
+        "test_compile_reports_exception_and_reraises": {
+          "lineno": 3023,
+          "end_lineno": 3048,
+          "line_count": 26,
+          "complexity": 5,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "pytest.raises",
+            "rx.Config"
+          ]
+        },
+        "test_compile_skips_telemetry_when_compile_app_short_circuits": {
+          "lineno": 3051,
+          "end_lineno": 3066,
+          "line_count": 16,
+          "complexity": 3,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "rx.Config"
+          ]
+        },
+        "test_compile_event_features_used_match_populated_app": {
+          "lineno": 3069,
+          "end_lineno": 3122,
+          "line_count": 54,
+          "complexity": 10,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "Cookie",
+            "LocalStorage",
+            "SessionStorage",
+            "rx.Config",
+            "rx.box",
+            "rx.event",
+            "rx.text"
+          ]
+        },
+        "test_compile_event_features_used_stable_across_hot_reload": {
+          "lineno": 3125,
+          "end_lineno": 3171,
+          "line_count": 47,
+          "complexity": 12,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "Cookie",
+            "SessionStorage",
+            "rx.Config",
+            "rx.box",
+            "rx.text"
+          ]
+        },
+        "test_call_marks_first_dev_backend_worker_as_startup": {
+          "lineno": 3174,
+          "end_lineno": 3190,
+          "line_count": 17,
+          "complexity": 3,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_call_marks_later_dev_backend_worker_as_hot_reload": {
+          "lineno": 3193,
+          "end_lineno": 3209,
+          "line_count": 17,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "test_call_ignores_stale_marker_without_dev_backend_reload": {
+          "lineno": 3212,
+          "end_lineno": 3228,
+          "line_count": 17,
+          "complexity": 2,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "about": {
+          "lineno": 92,
+          "end_lineno": 93,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.box"
+          ]
+        },
+        "set_int_val": {
+          "lineno": 539,
+          "end_lineno": 540,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": []
+        },
+        "form": {
+          "lineno": 1458,
+          "end_lineno": 1459,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "FormData"
+          ]
+        },
+        "receive": {
+          "lineno": 1365,
+          "end_lineno": 1368,
+          "line_count": 4,
+          "complexity": 1,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "asyncio.Event"
+          ]
+        },
+        "send": {
+          "lineno": 1370,
+          "end_lineno": 1374,
+          "line_count": 5,
+          "complexity": 2,
+          "patterns": [
+            "async_awaitable",
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "asyncio.sleep"
+          ]
+        },
+        "cancelled_form": {
+          "lineno": 1206,
+          "end_lineno": 1208,
+          "line_count": 3,
+          "complexity": 1,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "asyncio.sleep"
+          ]
+        },
+        "enqueue_stream_delta": {
+          "lineno": 1349,
+          "end_lineno": 1354,
+          "line_count": 6,
+          "complexity": 1,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "asyncio.Event"
+          ]
+        },
+        "stream": {
+          "lineno": 1524,
+          "end_lineno": 1528,
+          "line_count": 5,
+          "complexity": 2,
+          "patterns": [
+            "async_awaitable"
+          ],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "asyncio.sleep"
+          ]
+        },
+        "_event": {
+          "lineno": 1862,
+          "end_lineno": 1875,
+          "line_count": 14,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "Event"
+          ]
+        },
+        "_dynamic_state_event": {
+          "lineno": 1877,
+          "end_lineno": 1882,
+          "line_count": 6,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "format.format_event_handler"
+          ]
+        },
+        "page": {
+          "lineno": 3150,
+          "end_lineno": 3151,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.box",
+            "rx.text"
+          ]
+        },
+        "index_mismatch": {
+          "lineno": 2507,
+          "end_lineno": 2513,
+          "line_count": 7,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.box",
+            "rx.match"
+          ]
+        },
+        "_test": {
+          "lineno": 2959,
+          "end_lineno": 2966,
+          "line_count": 8,
+          "complexity": 5,
+          "patterns": [
+            "external_io_network"
+          ],
+          "mutations": [],
+          "io_type": "network",
+          "external_calls": [
+            "App",
+            "EventContext.get",
+            "RegistrationContext.get",
+            "pytest.raises"
+          ]
+        },
+        "item_page": {
+          "lineno": 3103,
+          "end_lineno": 3104,
+          "line_count": 2,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "rx.box",
+            "rx.text"
+          ]
+        }
+      },
+      "classes": {
+        "EmptyState": {
+          "lineno": 66,
+          "end_lineno": 67,
+          "line_count": 2,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "ATestState": {
+          "lineno": 98,
+          "end_lineno": 101,
+          "line_count": 4,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "DynamicState": {
+          "lineno": 1721,
+          "end_lineno": 1756,
+          "line_count": 36,
+          "extends": [
+            "State"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "DummyExceptionHandler": {
+          "lineno": 2625,
+          "end_lineno": 2636,
+          "line_count": 12,
+          "extends": [],
+          "patterns": []
+        },
+        "RedundantTestState": {
+          "lineno": 122,
+          "end_lineno": 123,
+          "line_count": 2,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "TestModel": {
+          "lineno": 136,
+          "end_lineno": 137,
+          "line_count": 2,
+          "extends": [
+            "Model"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "TestModelAuth": {
+          "lineno": 150,
+          "end_lineno": 151,
+          "line_count": 2,
+          "extends": [
+            "Model"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "TestAuthProvider": {
+          "lineno": 187,
+          "end_lineno": 203,
+          "line_count": 17,
+          "extends": [
+            "AuthProvider"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "TestModelView": {
+          "lineno": 442,
+          "end_lineno": 443,
+          "line_count": 2,
+          "extends": [
+            "ModelView"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "ListMutationTestState": {
+          "lineno": 564,
+          "end_lineno": 627,
+          "line_count": 64,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "class_mutable_attr",
+            "concurrent_futures_pool"
+          ]
+        },
+        "DictMutationTestState": {
+          "lineno": 764,
+          "end_lineno": 818,
+          "line_count": 55,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "class_mutable_attr",
+            "concurrent_futures_pool"
+          ]
+        },
+        "Fragment1": {
+          "lineno": 2308,
+          "end_lineno": 2312,
+          "line_count": 5,
+          "extends": [
+            "Component"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "Fragment2": {
+          "lineno": 2314,
+          "end_lineno": 2318,
+          "line_count": 5,
+          "extends": [
+            "Component"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "Fragment3": {
+          "lineno": 2320,
+          "end_lineno": 2324,
+          "line_count": 5,
+          "extends": [
+            "Component"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "ValidDepState": {
+          "lineno": 2563,
+          "end_lineno": 2573,
+          "line_count": 11,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "Child1": {
+          "lineno": 2575,
+          "end_lineno": 2578,
+          "line_count": 4,
+          "extends": [
+            "ValidDepState"
+          ],
+          "patterns": []
+        },
+        "Child2": {
+          "lineno": 2580,
+          "end_lineno": 2583,
+          "line_count": 4,
+          "extends": [
+            "ValidDepState"
+          ],
+          "patterns": []
+        },
+        "InvalidDepState": {
+          "lineno": 2592,
+          "end_lineno": 2595,
+          "line_count": 4,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "Base": {
+          "lineno": 2783,
+          "end_lineno": 2785,
+          "line_count": 3,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "Sub": {
+          "lineno": 2787,
+          "end_lineno": 2789,
+          "line_count": 3,
+          "extends": [
+            "Base"
+          ],
+          "patterns": []
+        },
+        "_BoomError": {
+          "lineno": 3033,
+          "end_lineno": 3034,
+          "line_count": 2,
+          "extends": [
+            "RuntimeError"
+          ],
+          "patterns": []
+        },
+        "_PopulatedRoot": {
+          "lineno": 3086,
+          "end_lineno": 3092,
+          "line_count": 7,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "_PopulatedChild": {
+          "lineno": 3094,
+          "end_lineno": 3096,
+          "line_count": 3,
+          "extends": [
+            "_PopulatedRoot"
+          ],
+          "patterns": []
+        },
+        "_ReloadRoot": {
+          "lineno": 3142,
+          "end_lineno": 3143,
+          "line_count": 2,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "_ReloadChild": {
+          "lineno": 3145,
+          "end_lineno": 3146,
+          "line_count": 2,
+          "extends": [
+            "_ReloadRoot"
+          ],
+          "patterns": []
+        }
+      }
+    },
+    "tests/units/test_state_minification.py": {
+      "line_count": 174,
+      "functions": {
+        "reset_state_registry": {
+          "lineno": 13,
+          "end_lineno": 17,
+          "line_count": 5,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "_state_id_registry.clear"
+          ]
+        },
+        "reset_minify_mode": {
+          "lineno": 21,
+          "end_lineno": 25,
+          "line_count": 5,
+          "complexity": 1,
+          "patterns": [],
+          "mutations": [],
+          "io_type": "none",
+          "external_calls": [
+            "environment.REFLEX_MINIFY_STATES.get",
+            "environment.REFLEX_MINIFY_STATES.set"
+          ]
+        }
+      },
+      "classes": {
+        "TestIntToMinifiedName": {
+          "lineno": 28,
+          "end_lineno": 57,
+          "line_count": 30,
+          "extends": [],
+          "patterns": []
+        },
+        "TestStateIdValidation": {
+          "lineno": 60,
+          "end_lineno": 90,
+          "line_count": 31,
+          "extends": [],
+          "patterns": []
+        },
+        "TestGetNameMinification": {
+          "lineno": 93,
+          "end_lineno": 160,
+          "line_count": 68,
+          "extends": [],
+          "patterns": []
+        },
+        "TestMixinState": {
+          "lineno": 163,
+          "end_lineno": 174,
+          "line_count": 12,
+          "extends": [],
+          "patterns": []
+        },
+        "TestState": {
+          "lineno": 146,
+          "end_lineno": 147,
+          "line_count": 2,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "FirstState": {
+          "lineno": 84,
+          "end_lineno": 85,
+          "line_count": 2,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "MixinState": {
+          "lineno": 170,
+          "end_lineno": 171,
+          "line_count": 2,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        },
+        "SecondState": {
+          "lineno": 89,
+          "end_lineno": 90,
+          "line_count": 2,
+          "extends": [
+            "BaseState"
+          ],
+          "patterns": [
+            "concurrent_futures_pool"
+          ]
+        }
+      }
     }
   }
 }
